@@ -1,5 +1,5 @@
 {
-.appVersion = "3108";
+.appVersion = "3133";
 .formatVersion = 3;
 axes = (
 {
@@ -50,171 +50,171 @@ code = "tabularoldzero tabularoldone tabularoldtwo tabularoldthree tabularoldfou
 name = Tabular_Old;
 },
 {
-code = "PairinRa.gm PairinHa.gm PairinVa.gm PairinGa.gm PairinCa.gm PairinTta.gm PairinTtha.gm PairinTa.gm PairinDa.gm PairinNa.gm PairinTha.gm PairinYa.gm Udaat.gm Yakash.gm  PairinRaVirama.gm PairinHaVirama.gm PairinVaVirama.gm PairinGaVirama.gm PairinCaVirama.gm PairinTtaVirama.gm PairinTthaVirama.gm PairinTaVirama.gm PairinDaVirama.gm PairinNaVirama.gm PairinThaVirama.gm PairinYaVirama.gm YakashVirama.gm UdaatVirama.gm PairinRaMatraU.gm PairinHaMatraU.gm PairinVaMatraU.gm PairinGaMatraU.gm PairinCaMatraU.gm PairinTtaMatraU.gm PairinTthaMatraU.gm PairinTaMatraU.gm PairinDaMatraU.gm PairinNaMatraU.gm PairinThaMatraU.gm PairinYaMatraU.gm YakashMatraU.gm UdaatMatraU.gm PairinRaMatraUu.gm PairinHaMatraUu.gm PairinVaMatraUu.gm PairinGaMatraUu.gm PairinCaMatraUu.gm PairinTtaMatraUu.gm PairinTthaMatraUu.gm PairinTaMatraUu.gm PairinDaMatraUu.gm PairinNaMatraUu.gm PairinThaMatraUu.gm PairinYaMatraUu.gm YakashMatraUu.gm UdaatMatraUu.gm";
+code = "PairinRa PairinHa PairinVa PairinGa PairinCa PairinTta PairinTtha PairinTa PairinDa PairinNa PairinTha PairinYa Udaat Yakash  PairinRaVirama PairinHaVirama PairinVaVirama PairinGaVirama PairinCaVirama PairinTtaVirama PairinTthaVirama PairinTaVirama PairinDaVirama PairinNaVirama PairinThaVirama PairinYaVirama YakashVirama UdaatVirama PairinRaMatraU PairinHaMatraU PairinVaMatraU PairinGaMatraU PairinCaMatraU PairinTtaMatraU PairinTthaMatraU PairinTaMatraU PairinDaMatraU PairinNaMatraU PairinThaMatraU PairinYaMatraU YakashMatraU UdaatMatraU PairinRaMatraUu PairinHaMatraUu PairinVaMatraUu PairinGaMatraUu PairinCaMatraUu PairinTtaMatraUu PairinTthaMatraUu PairinTaMatraUu PairinDaMatraUu PairinNaMatraUu PairinThaMatraUu PairinYaMatraUu YakashMatraUu UdaatMatraUu";
 name = bottom;
 },
 {
-code = "MatraU.gm MatraUu.gm MatraU.gm.alt MatraUu.gm.alt";
+code = "MatraU MatraUu MatraU.alt MatraUu.alt";
 name = bottom1;
 },
 {
-code = "MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm MatraEeBindi.gm MatraAiBindi.gm MatraOoBindi.gm MatraAuBindi.gm MatraAuAddak.gm MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt";
+code = "MatraEe MatraAi MatraOo MatraAu MatraEeBindi MatraAiBindi MatraOoBindi MatraAuBindi MatraAuAddak MatraEe.alt MatraAi.alt MatraOo.alt MatraAu.alt MatraEeAddak.alt MatraAiAddak.alt MatraOoAddak.alt MatraAuAddak.alt MatraEeAddakBindi.alt MatraAiAddakBindi.alt MatraOoAddakBindi.alt MatraAuAddakBindi.alt";
 name = top;
 },
 {
-code = "Tippi.gm Addak.gm AddakBindi.gm Bindi.gm";
+code = "Tippi Addak AddakBindi Bindi";
 name = top1;
 },
 {
-code = "MatraOo.gm MatraOoBindi.gm MatraOoAddak.gm MatraOoAddakBindi.gm";
+code = "MatraOo MatraOoBindi MatraOoAddak MatraOoAddakBindi";
 name = top2;
 },
 {
-code = "Addak.gm.alt AddakBindi.gm.alt";
+code = "Addak.alt AddakBindi.alt";
 name = top3;
 },
 {
-code = Bindi.gm.alt;
+code = Bindi.alt;
 name = top4;
 },
 {
-code = "Jha.gm VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm Ka.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Nya.gm Tta.gm Ttha.gm Dda.gm Ddha.gm Nna.gm Ta.gm Tha.gm Da.gm Dha.gm Na.gm Pa.gm Pha.gm Ba.gm Bha.gm Ma.gm Ya.gm Ra.gm La.gm Lla.gm Va.gm Sha.gm Sa.gm Ha.gm MatraAa.gm MatraI.gm MatraIi.gm Khha.gm Ghha.gm Za.gm Rra.gm Fa.gm Iri.gm Ura.gm Danda.gm Doubledanda.gm KaVirama.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm JhaVirama.gm NyaVirama.gm TtaVirama.gm TthaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm NaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm BhaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm LaVirama.gm LlaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm GhhaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm AddhaYa.gm AddhaMa.gm AddhaTha.gm MatraIiBindi.gm KaViramaRa.gm Rha.gm ";
+code = "Jha VowelA VowelAa VowelI VowelIi VowelU VowelUu VowelEe VowelAi VowelOo VowelAu Ka Kha Ga Gha Nga Ca Cha Ja Nya Tta Ttha Dda Ddha Nna Ta Tha Da Dha Na Pa Pha Ba Bha Ma Ya Ra La Lla Va Sha Sa Ha MatraAa MatraI MatraIi Khha Ghha Za Rra Fa Iri Ura Danda Doubledanda KaVirama KhaVirama GaVirama GhaVirama NgaVirama CaVirama ChaVirama JaVirama JhaVirama NyaVirama TtaVirama TthaVirama DdaVirama DdhaVirama NnaVirama TaVirama ThaVirama DaVirama DhaVirama NaVirama PaVirama PhaVirama BaVirama BhaVirama MaVirama YaVirama RaVirama LaVirama LlaVirama VaVirama ShaVirama SaVirama HaVirama KhhaVirama GhhaVirama ZaVirama RraVirama FaVirama AddhaYa AddhaMa AddhaTha MatraIiBindi KaViramaRa Rha ";
 name = Basic_gm;
 },
 {
-code = "Addak.gm.alt AddakBindi.gm.alt";
+code = "Addak.alt AddakBindi.alt";
 name = AboveBaseMarkAlt;
 },
 {
-code = "MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraAuBindi.gm.alt MatraOoBindi.gm.alt";
+code = "MatraEeBindi.alt MatraAiBindi.alt MatraAuBindi.alt MatraOoBindi.alt";
 name = AboveBaseMatraAlt;
 },
 {
-code = "VowelA.gm  VowelAa.gm VowelAi.gm VowelAu.gm";
+code = "VowelA  VowelAa VowelAi VowelAu";
 name = _vowelA_Left;
 },
 {
-code = "Iri.gm  VowelEe.gm VowelIi.gm";
+code = "Iri  VowelEe VowelIi";
 name = _vowelEe_Left;
 },
 {
-code = "Ura.gm  VowelU.gm VowelUu.gm VowelOo.gm";
+code = "Ura  VowelU VowelUu VowelOo";
 name = _VowelU_Left_Right;
 },
 {
-code = "Ka.gm  KaVirama.gm KaViramaRa.gm";
+code = "Ka  KaVirama KaViramaRa";
 name = _Ka_Left_Right;
 },
 {
-code = "Kha.gm  Gha.gm Tha.gm Dha.gm Pa.gm Ya.gm Khha.gm KhaVirama.gm GhaVirama.gm ThaVirama.gm DhaVirama.gm PaVirama.gm YaVirama.gm KhhaVirama.gm";
+code = "Kha  Gha Tha Dha Pa Ya Khha KhaVirama GhaVirama ThaVirama DhaVirama PaVirama YaVirama KhhaVirama";
 name = _Kha_Left;
 },
 {
-code = "Ga.gm  Ra.gm Ha.gm GaVirama.gm RaVirama.gm HaVirama.gm Ghha.gm GhhaVirama.gm";
+code = "Ga  Ra Ha GaVirama RaVirama HaVirama Ghha GhhaVirama";
 name = _Ga_Left;
 },
 {
-code = "Nga.gm  NgaVirama.gm";
+code = "Nga  NgaVirama";
 name = _Nga_Left_Right;
 },
 {
-code = "Ca.gm  CaVirama.gm Da.gm DaVirama.gm";
+code = "Ca  CaVirama Da DaVirama";
 name = _Ca_Left;
 },
 {
-code = "Cha.gm  ChaVirama.gm";
+code = "Cha  ChaVirama";
 name = _Cha_Left_Right;
 },
 {
-code = "Ja.gm  JaVirama.gm Za.gm ZaVirama.gm";
+code = "Ja  JaVirama Za ZaVirama";
 name = _Ja_Left;
 },
 {
-code = "Jha.gm  JhaVirama.gm";
+code = "Jha  JhaVirama";
 name = _Jha_Left_Right;
 },
 {
-code = "Nya.gm  Va.gm NyaVirama.gm VaVirama.gm";
+code = "Nya  Va NyaVirama VaVirama";
 name = _Nya_Left_Right;
 },
 {
-code = "Tta.gm  TtaVirama.gm Nna.gm NnaVirama.gm";
+code = "Tta  TtaVirama Nna NnaVirama";
 name = _Tta_Left;
 },
 {
-code = "Ttha.gm  TthaVirama.gm";
+code = "Ttha  TthaVirama";
 name = _Ttha_Left_Right;
 },
 {
-code = "Dda.gm  DdaVirama.gm";
+code = "Dda  DdaVirama";
 name = _Dda_Left_Right;
 },
 {
-code = "Ddha.gm  DdhaVirama.gm";
+code = "Ddha  DdhaVirama";
 name = _Ddha_Left;
 },
 {
-code = "Ta.gm  TaVirama.gm";
+code = "Ta  TaVirama";
 name = _Ta_Left_Right;
 },
 {
-code = "Na.gm  NaVirama.gm";
+code = "Na  NaVirama";
 name = _Na_Left_Right;
 },
 {
-code = "Ba.gm  BaVirama.gm";
+code = "Ba  BaVirama";
 name = _Ba_Left;
 },
 {
-code = "Bha.gm  BhaVirama.gm";
+code = "Bha  BhaVirama";
 name = _Bha_Left_Right;
 },
 {
-code = "Ma.gm  Sha.gm Sa.gm ShaVirama.gm SaVirama.gm MaVirama.gm";
+code = "Ma  Sha Sa ShaVirama SaVirama MaVirama";
 name = _Ma_Left;
 },
 {
-code = "Pha.gm  Ddha.gm DdhaVirama.gm PhaVirama.gm Fa.gm FaVirama.gm";
+code = "Pha  Ddha DdhaVirama PhaVirama Fa FaVirama";
 name = _Pha_Right;
 },
 {
-code = "Iri.gm  VowelEe.gm VowelI.gm";
+code = "Iri  VowelEe VowelI";
 name = _VowelEe_Right;
 },
 {
-code = "Tta.gm  Da.gm TtaVirama.gm DaVirama.gm";
+code = "Tta  Da TtaVirama DaVirama";
 name = _Tta_Right;
 },
 {
-code = "MatraAa.gm  VowelAa.gm";
+code = "MatraAa  VowelAa";
 name = _Kana_Right;
 },
 {
-code = "Rra.gm  RraVirama.gm Rha.gm";
+code = "Rra  RraVirama Rha";
 name = _Rra_Left_Right;
 },
 {
-code = "Pha.gm PhaVirama.gm Fa.gm FaVirama.gm";
+code = "Pha PhaVirama Fa FaVirama";
 name = _Pha_Left;
 },
 {
-code = "Danda.gm  Doubledanda.gm";
+code = "Danda  Doubledanda";
 name = _Danda;
 },
 {
-code = "La.gm  Lla.gm LaVirama.gm LlaVirama.gm";
+code = "La  Lla LaVirama LlaVirama";
 name = _La_Left_Right;
 },
 {
-code = "AddhaYa.gm  AddhaTha.gm";
+code = "AddhaYa  AddhaTha";
 name = _AddhaYa_left;
 },
 {
-code = "Eight.gm  Nine.gm";
+code = "Eight  Nine";
 name = _number_leftright;
 },
 {
-code = "Ca.gm  CaVirama.gm";
+code = "Ca  CaVirama";
 name = _Ca_Right;
 },
 {
@@ -266,7 +266,7 @@ code = "colon  semicolon";
 name = _colon;
 },
 {
-code = "zero  one two three four five six seven eight nine cent sterling currency Zero.gm One.gm Two.gm Three.gm Four.gm Five.gm Six.gm Seven.gm Eight.gm Nine.gm onequarter onehalf threequarters";
+code = "zero  one two three four five six seven eight nine cent sterling currency Zero One Two Three Four Five Six Seven Eight Nine onequarter onehalf threequarters";
 name = _latingurnumbers;
 },
 {
@@ -454,42 +454,42 @@ code = "z  zcaron zacute zdotaccent";
 name = _z;
 },
 {
-code = "Jha.gm Ba.gm JhaVirama.gm BaVirama.gm";
+code = "Jha Ba JhaVirama BaVirama";
 name = Left40;
 },
 {
-code = "VowelA.gm VowelAa.gm VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm Ka.gm Kha.gm Gha.gm Nga.gm Nya.gm Tha.gm Dha.gm Pa.gm Ma.gm Ya.gm Va.gm Sha.gm Sa.gm Iri.gm Ura.gm AddhaYa.gm AddhaTha.gm KaVirama.gm KhaVirama.gm GhaVirama.gm NgaVirama.gm NyaVirama.gm ThaVirama.gm DhaVirama.gm PaVirama.gm MaVirama.gm YaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm Khha.gm Lla.gm LlaVirama.gm Ghha.gm GhhaVirama.gm ";
+code = "VowelA VowelAa VowelIi VowelU VowelUu VowelEe VowelAi VowelOo VowelAu Ka Kha Gha Nga Nya Tha Dha Pa Ma Ya Va Sha Sa Iri Ura AddhaYa AddhaTha KaVirama KhaVirama GhaVirama NgaVirama NyaVirama ThaVirama DhaVirama PaVirama MaVirama YaVirama VaVirama ShaVirama SaVirama Khha Lla LlaVirama Ghha GhhaVirama ";
 name = Left30;
 },
 {
-code = "VowelI.gm Ga.gm Ca.gm Cha.gm Ja.gm Tta.gm Dda.gm Ddha.gm Nna.gm Ta.gm Da.gm Pha.gm Bha.gm Ra.gm Ha.gm MatraAa.gm MatraI.gm Za.gm Rra.gm Fa.gm Rha.gm GaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm TtaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm DaVirama.gm PhaVirama.gm BhaVirama.gm RaVirama.gm HaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm Ttha.gm Na.gm La.gm TthaVirama.gm NaVirama.gm LaVirama.gm ";
+code = "VowelI Ga Ca Cha Ja Tta Dda Ddha Nna Ta Da Pha Bha Ra Ha MatraAa MatraI Za Rra Fa Rha GaVirama CaVirama ChaVirama JaVirama TtaVirama DdaVirama DdhaVirama NnaVirama TaVirama DaVirama PhaVirama BhaVirama RaVirama HaVirama ZaVirama RraVirama FaVirama Ttha Na La TthaVirama NaVirama LaVirama ";
 name = Left20;
 },
 {
-code = "VowelU.gm VowelUu.gm VowelOo.gm Ura.gm";
+code = "VowelU VowelUu VowelOo Ura";
 name = Right60;
 },
 {
-code = "Ka.gm Jha.gm Dda.gm Ta.gm Bha.gm Rra.gm Rha.gm KaVirama.gm JhaVirama.gm DdaVirama.gm TaVirama.gm BhaVirama.gm RraVirama.gm";
+code = "Ka Jha Dda Ta Bha Rra Rha KaVirama JhaVirama DdaVirama TaVirama BhaVirama RraVirama";
 name = Right30;
 },
 {
-code = "VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelEe.gm VowelAi.gm VowelAu.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Nya.gm Tta.gm Ddha.gm Nna.gm Tha.gm Da.gm Dha.gm Pa.gm Pha.gm Ba.gm Ma.gm Ya.gm Ra.gm Va.gm Sha.gm Sa.gm Ha.gm MatraAa.gm MatraIi.gm Khha.gm Ghha.gm Za.gm Fa.gm Iri.gm AddhaYa.gm AddhaMa.gm AddhaTha.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm NyaVirama.gm TtaVirama.gm DdhaVirama.gm NnaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm GhhaVirama.gm ZaVirama.gm FaVirama.gm Ttha.gm Na.gm La.gm Lla.gm TthaVirama.gm NaVirama.gm LaVirama.gm LlaVirama.gm MatraIiBindi.gm MatraIiAddak.gm MatraIiAddakBindi.gm";
+code = "VowelA VowelAa VowelI VowelIi VowelEe VowelAi VowelAu Kha Ga Gha Nga Ca Cha Ja Nya Tta Ddha Nna Tha Da Dha Pa Pha Ba Ma Ya Ra Va Sha Sa Ha MatraAa MatraIi Khha Ghha Za Fa Iri AddhaYa AddhaMa AddhaTha KhaVirama GaVirama GhaVirama NgaVirama CaVirama ChaVirama JaVirama NyaVirama TtaVirama DdhaVirama NnaVirama ThaVirama DaVirama DhaVirama PaVirama PhaVirama BaVirama MaVirama YaVirama RaVirama VaVirama ShaVirama SaVirama HaVirama KhhaVirama GhhaVirama ZaVirama FaVirama Ttha Na La Lla TthaVirama NaVirama LaVirama LlaVirama MatraIiBindi MatraIiAddak MatraIiAddakBindi";
 name = Right20;
 },
 {
-code = "AddakBindi.gm Bindi.gm Visarga.gm VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm Ka.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Jha.gm Nya.gm Tta.gm Ttha.gm Dda.gm Ddha.gm Nna.gm Ta.gm Tha.gm Da.gm Dha.gm Na.gm Pa.gm Pha.gm Ba.gm Bha.gm Ma.gm Ya.gm Ra.gm La.gm Lla.gm Va.gm Sha.gm Sa.gm Ha.gm Nukta.gm MatraAa.gm MatraI.gm MatraIi.gm MatraU.gm MatraUu.gm MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm Virama.gm Udaat.gm Khha.gm Ghha.gm Za.gm Rra.gm Fa.gm Zero.gm One.gm Two.gm Three.gm Four.gm Five.gm Six.gm Seven.gm Eight.gm Nine.gm Tippi.gm Addak.gm Iri.gm Ura.gm EkOnkar.gm Yakash.gm PairinHa.gm PairinRa.gm PairinVa.gm PairinGa.gm PairinCa.gm PairinTta.gm PairinTtha.gm PairinTa.gm PairinDa.gm PairinNa.gm PairinTha.gm PairinYa.gm AddhaYa.gm AddhaMa.gm AddhaTha.gm Rha.gm KaViramaRa.gm KaVirama.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm JhaVirama.gm NyaVirama.gm TtaVirama.gm TthaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm NaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm BhaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm LaVirama.gm LlaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm GhhaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm Danda.gm Doubledanda.gm Khanda.gm MatraEeBindi.gm MatraAiBindi.gm MatraOoBindi.gm MatraAuBindi.gm MatraIiBindi.gm MatraU.gm.alt MatraUu.gm.alt MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraOoBindi.gm.alt MatraAuBindi.gm.alt Virama.gm.alt Bindi.gm.alt Addak.gm.alt AddakBindi.gm.alt MatraEeAddak.gm MatraAiAddak.gm MatraOoAddak.gm MatraAuAddak.gm MatraIiAddak.gm MatraEeAddakBindi.gm MatraAiAddakBindi.gm MatraOoAddakBindi.gm MatraAuAddakBindi.gm MatraIiAddakBindi.gm MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt PairinRaVirama.gm PairinHaVirama.gm PairinVaVirama.gm PairinGaVirama.gm PairinCaVirama.gm PairinTtaVirama.gm PairinTthaVirama.gm PairinTaVirama.gm PairinDaVirama.gm PairinNaVirama.gm PairinThaVirama.gm PairinYaVirama.gm YakashVirama.gm UdaatVirama.gm PairinRaMatraU.gm PairinHaMatraU.gm PairinVaMatraU.gm PairinGaMatraU.gm PairinCaMatraU.gm PairinTtaMatraU.gm PairinTthaMatraU.gm PairinTaMatraU.gm PairinDaMatraU.gm PairinNaMatraU.gm PairinThaMatraU.gm PairinYaMatraU.gm YakashMatraU.gm UdaatMatraU.gm PairinRaMatraUu.gm PairinHaMatraUu.gm PairinVaMatraUu.gm PairinGaMatraUu.gm PairinCaMatraUu.gm PairinTtaMatraUu.gm PairinTthaMatraUu.gm PairinTaMatraUu.gm PairinDaMatraUu.gm PairinNaMatraUu.gm PairinThaMatraUu.gm PairinYaMatraUu.gm YakashMatraUu.gm UdaatMatraUu.gm OneQuarter.gm OneHalf.gm ThreeQuarters.gm OneSixteenth.gm OneEigth.gm ThreeSixteenths.gm QuarterMark.gm PlaceholderMark.gm NorthIndicRupeeMark.gm QuantityMark.gm";
+code = "AddakBindi Bindi Visarga VowelA VowelAa VowelI VowelIi VowelU VowelUu VowelEe VowelAi VowelOo VowelAu Ka Kha Ga Gha Nga Ca Cha Ja Jha Nya Tta Ttha Dda Ddha Nna Ta Tha Da Dha Na Pa Pha Ba Bha Ma Ya Ra La Lla Va Sha Sa Ha Nukta MatraAa MatraI MatraIi MatraU MatraUu MatraEe MatraAi MatraOo MatraAu Virama Udaat Khha Ghha Za Rra Fa Zero One Two Three Four Five Six Seven Eight Nine Tippi Addak Iri Ura EkOnkar Yakash PairinHa PairinRa PairinVa PairinGa PairinCa PairinTta PairinTtha PairinTa PairinDa PairinNa PairinTha PairinYa AddhaYa AddhaMa AddhaTha Rha KaViramaRa KaVirama KhaVirama GaVirama GhaVirama NgaVirama CaVirama ChaVirama JaVirama JhaVirama NyaVirama TtaVirama TthaVirama DdaVirama DdhaVirama NnaVirama TaVirama ThaVirama DaVirama DhaVirama NaVirama PaVirama PhaVirama BaVirama BhaVirama MaVirama YaVirama RaVirama LaVirama LlaVirama VaVirama ShaVirama SaVirama HaVirama KhhaVirama GhhaVirama ZaVirama RraVirama FaVirama Danda Doubledanda Khanda MatraEeBindi MatraAiBindi MatraOoBindi MatraAuBindi MatraIiBindi MatraU.alt MatraUu.alt MatraEe.alt MatraAi.alt MatraOo.alt MatraAu.alt MatraEeBindi.alt MatraAiBindi.alt MatraOoBindi.alt MatraAuBindi.alt Virama.alt Bindi.alt Addak.alt AddakBindi.alt MatraEeAddak MatraAiAddak MatraOoAddak MatraAuAddak MatraIiAddak MatraEeAddakBindi MatraAiAddakBindi MatraOoAddakBindi MatraAuAddakBindi MatraIiAddakBindi MatraEeAddak.alt MatraAiAddak.alt MatraOoAddak.alt MatraAuAddak.alt MatraEeAddakBindi.alt MatraAiAddakBindi.alt MatraOoAddakBindi.alt MatraAuAddakBindi.alt PairinRaVirama PairinHaVirama PairinVaVirama PairinGaVirama PairinCaVirama PairinTtaVirama PairinTthaVirama PairinTaVirama PairinDaVirama PairinNaVirama PairinThaVirama PairinYaVirama YakashVirama UdaatVirama PairinRaMatraU PairinHaMatraU PairinVaMatraU PairinGaMatraU PairinCaMatraU PairinTtaMatraU PairinTthaMatraU PairinTaMatraU PairinDaMatraU PairinNaMatraU PairinThaMatraU PairinYaMatraU YakashMatraU UdaatMatraU PairinRaMatraUu PairinHaMatraUu PairinVaMatraUu PairinGaMatraUu PairinCaMatraUu PairinTtaMatraUu PairinTthaMatraUu PairinTaMatraUu PairinDaMatraUu PairinNaMatraUu PairinThaMatraUu PairinYaMatraUu YakashMatraUu UdaatMatraUu OneQuarter OneHalf ThreeQuarters OneSixteenth OneEigth ThreeSixteenths QuarterMark PlaceholderMark NorthIndicRupeeMark QuantityMark";
 name = _allcharacters;
 },
 {
 code = "space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon less equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde Euro quotesinglbase florin quotedblbase ellipsis dagger daggerdbl circumflex perthousand Scaron guilsinglleft OE Zcaron quoteleft quoteright quotedblleft quotedblright bullet endash emdash tilde trademark scaron guilsinglright oe zcaron Ydieresis exclamdown cent sterling currency yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot registered macron degree plusminus acute paragraph periodcentered cedilla ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis minus breve caron dotaccent hungarumlaut ogonek ring Abreve Amacron Aogonek AEacute Cacute Ccaron Ccircumflex Cdotaccent Dcaron Dcroat Ebreve Ecaron Edotaccent Emacron Eogonek Gbreve Gcircumflex Gcommaaccent Gdotaccent Hbar Hcircumflex Ibreve Idotaccent Imacron Iogonek Itilde IJ Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Obreve Ohungarumlaut Omacron Oslashacute Racute Rcaron R.alt Rcommaaccent Sacute Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcommaaccent Ubreve Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Ycircumflex Ygrave Zacute Zdotaccent Asmall Bsmall Csmall Dsmall Esmall Fsmall Gsmall Hsmall Ismall Jsmall Ksmall Lsmall Msmall Nsmall Osmall Psmall Qsmall Rsmall Ssmall Tsmall Usmall Vsmall Wsmall Xsmall Ysmall Zsmall abreve amacron aogonek aeacute cacute ccaron ccircumflex cdotaccent dcaron lessequal greaterequal dcroat ebreve ecaron edotaccent emacron eogonek  gbreve gcircumflex gcommaaccent gdotaccent hbar hcircumflex ibreve imacron iogonek itilde ij jcircumflex kcommaaccent lacute lcaron lcommaaccent ldot lslash nacute napostrophe ncaron ncommaaccent obreve ohungarumlaut omacron oslashacute racute rcaron rcommaaccent sacute scedilla scircumflex scommaaccent  tbar tcaron tcommaaccent ubreve uhungarumlaut umacron uogonek uring utilde wacute wcircumflex wdieresis w.alt wgrave ycircumflex ygrave zacute zdotaccent  Eng eng uni20B9 oneoldstyle zerooldstyle twooldstyle threeoldstyle fouroldstyle fiveoldstyle sixoldstyle sevenoldstyle eightoldstyle nineoldstyle fraction g.alt a.alt zero.superior onesuperior twosuperior threesuperior four.superior five.superior six.superior seven.superior eight.superior nine.superior parenleft.superior parenright.superior zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior parenleft.inferior parenright.inferior
 exclam.lat numbersign.lat percent.lat parenleft.lat parenright.lat plus.lat slash.lat zero.lat one.lat two.lat three.lat four.lat five.lat six.lat seven.lat eight.lat nine.lat equal.lat question.lat bracketleft.lat bracketright.lat bar.lat divide.lat minus.lat dollar.lat Euro.lat perthousand.lat sterling.lat yen.lat plusminus.lat uni20A8.lat uni20B9.lat onehalf.lat onequarter.lat threequarters.lat
 
-Visarga.gm VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm Ka.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Jha.gm Nya.gm Tta.gm Ttha.gm Dda.gm Ddha.gm Nna.gm Ta.gm Tha.gm Da.gm Dha.gm Na.gm Pa.gm Pha.gm Ba.gm Bha.gm Ma.gm Ya.gm Ra.gm La.gm Lla.gm Va.gm Sha.gm Sa.gm Ha.gm MatraAa.gm MatraI.gm MatraIi.gm Khha.gm Ghha.gm Za.gm Rra.gm Fa.gm Zero.gm One.gm Two.gm Three.gm Four.gm Five.gm Six.gm Seven.gm Eight.gm Nine.gm Iri.gm Ura.gm EkOnkar.gm Danda.gm Doubledanda.gm KaVirama.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm JhaVirama.gm NyaVirama.gm TtaVirama.gm TthaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm NaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm BhaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm LaVirama.gm LlaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm GhhaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm AddhaYa.gm AddhaMa.gm AddhaTha.gm MatraIiBindi.gm KaViramaRa.gm Rha.gm";
+Visarga VowelA VowelAa VowelI VowelIi VowelU VowelUu VowelEe VowelAi VowelOo VowelAu Ka Kha Ga Gha Nga Ca Cha Ja Jha Nya Tta Ttha Dda Ddha Nna Ta Tha Da Dha Na Pa Pha Ba Bha Ma Ya Ra La Lla Va Sha Sa Ha MatraAa MatraI MatraIi Khha Ghha Za Rra Fa Zero One Two Three Four Five Six Seven Eight Nine Iri Ura EkOnkar Danda Doubledanda KaVirama KhaVirama GaVirama GhaVirama NgaVirama CaVirama ChaVirama JaVirama JhaVirama NyaVirama TtaVirama TthaVirama DdaVirama DdhaVirama NnaVirama TaVirama ThaVirama DaVirama DhaVirama NaVirama PaVirama PhaVirama BaVirama BhaVirama MaVirama YaVirama RaVirama LaVirama LlaVirama VaVirama ShaVirama SaVirama HaVirama KhhaVirama GhhaVirama ZaVirama RraVirama FaVirama AddhaYa AddhaMa AddhaTha MatraIiBindi KaViramaRa Rha";
 name = GDEF_simple;
 },
 {
-code = "AddakBindi.gm Bindi.gm Nukta.gm MatraU.gm MatraUu.gm MatraU.gm.alt MatraUu.gm.alt MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm Virama.gm Virama.gm.alt Tippi.gm Addak.gm PairinRa.gm PairinVa.gm PairinHa.gm PairinGa.gm PairinCa.gm PairinTta.gm PairinTtha.gm PairinTa.gm PairinDa.gm PairinNa.gm PairinTha.gm PairinYa.gm MatraOoBindi.gm MatraEeBindi.gm MatraAiBindi.gm MatraAuBindi.gm MatraAuAddak.gm MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraOoBindi.gm.alt MatraAuBindi.gm.alt Udaat.gm Yakash.gm MatraEeAddak.gm MatraOoAddak.gm MatraAiAddak.gm MatraEeAddakBindi.gm MatraAiAddakBindi.gm MatraOoAddakBindi.gm MatraAuAddakBindi.gm MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt PairinRaVirama.gm PairinHaVirama.gm PairinVaVirama.gm PairinGaVirama.gm PairinCaVirama.gm PairinTtaVirama.gm PairinTthaVirama.gm PairinTaVirama.gm PairinDaVirama.gm PairinNaVirama.gm PairinThaVirama.gm PairinYaVirama.gm PairinRaMatraU.gm PairinHaMatraU.gm PairinVaMatraU.gm PairinGaMatraU.gm PairinCaMatraU.gm PairinTtaMatraU.gm PairinTthaMatraU.gm PairinTaMatraU.gm PairinDaMatraU.gm PairinNaMatraU.gm PairinThaMatraU.gm PairinYaMatraU.gm PairinRaMatraUu.gm PairinHaMatraUu.gm PairinVaMatraUu.gm PairinGaMatraUu.gm PairinCaMatraUu.gm PairinTtaMatraUu.gm PairinTthaMatraUu.gm PairinTaMatraUu.gm PairinDaMatraUu.gm PairinNaMatraUu.gm PairinThaMatraUu.gm PairinYaMatraUu.gm YakashVirama.gm YakashMatraU.gm YakashMatraUu.gm UdaatVirama.gm UdaatMatraU.gm UdaatMatraUu.gm Bindi.gm.alt Addak.gm.alt AddakBindi.gm.alt";
+code = "AddakBindi Bindi Nukta MatraU MatraUu MatraU.alt MatraUu.alt MatraEe MatraAi MatraOo MatraAu Virama Virama.alt Tippi Addak PairinRa PairinVa PairinHa PairinGa PairinCa PairinTta PairinTtha PairinTa PairinDa PairinNa PairinTha PairinYa MatraOoBindi MatraEeBindi MatraAiBindi MatraAuBindi MatraAuAddak MatraEe.alt MatraAi.alt MatraOo.alt MatraAu.alt MatraEeBindi.alt MatraAiBindi.alt MatraOoBindi.alt MatraAuBindi.alt Udaat Yakash MatraEeAddak MatraOoAddak MatraAiAddak MatraEeAddakBindi MatraAiAddakBindi MatraOoAddakBindi MatraAuAddakBindi MatraEeAddak.alt MatraAiAddak.alt MatraOoAddak.alt MatraAuAddak.alt MatraEeAddakBindi.alt MatraAiAddakBindi.alt MatraOoAddakBindi.alt MatraAuAddakBindi.alt PairinRaVirama PairinHaVirama PairinVaVirama PairinGaVirama PairinCaVirama PairinTtaVirama PairinTthaVirama PairinTaVirama PairinDaVirama PairinNaVirama PairinThaVirama PairinYaVirama PairinRaMatraU PairinHaMatraU PairinVaMatraU PairinGaMatraU PairinCaMatraU PairinTtaMatraU PairinTthaMatraU PairinTaMatraU PairinDaMatraU PairinNaMatraU PairinThaMatraU PairinYaMatraU PairinRaMatraUu PairinHaMatraUu PairinVaMatraUu PairinGaMatraUu PairinCaMatraUu PairinTtaMatraUu PairinTthaMatraUu PairinTaMatraUu PairinDaMatraUu PairinNaMatraUu PairinThaMatraUu PairinYaMatraUu YakashVirama YakashMatraU YakashMatraUu UdaatVirama UdaatMatraU UdaatMatraUu Bindi.alt Addak.alt AddakBindi.alt";
 name = GDEF_mark;
 },
 {
@@ -1065,232 +1065,232 @@ uni20B9.lat,
 onehalf.lat,
 onequarter.lat,
 threequarters.lat,
-AddakBindi.gm,
-Bindi.gm,
-Visarga.gm,
-VowelA.gm,
-VowelAa.gm,
-VowelI.gm,
-VowelIi.gm,
-VowelU.gm,
-VowelUu.gm,
-VowelEe.gm,
-VowelAi.gm,
-VowelOo.gm,
-VowelAu.gm,
-Ka.gm,
-Kha.gm,
-Ga.gm,
-Gha.gm,
-Nga.gm,
-Ca.gm,
-Cha.gm,
-Ja.gm,
-Jha.gm,
-Nya.gm,
-Tta.gm,
-Ttha.gm,
-Dda.gm,
-Ddha.gm,
-Nna.gm,
-Ta.gm,
-Tha.gm,
-Da.gm,
-Dha.gm,
-Na.gm,
-Pa.gm,
-Pha.gm,
-Ba.gm,
-Bha.gm,
-Ma.gm,
-Ya.gm,
-Ra.gm,
-La.gm,
-Lla.gm,
-Va.gm,
-Sha.gm,
-Sa.gm,
-Ha.gm,
-Nukta.gm,
-MatraAa.gm,
-MatraI.gm,
-MatraIi.gm,
-MatraU.gm,
-MatraUu.gm,
-MatraEe.gm,
-MatraAi.gm,
-MatraOo.gm,
-MatraAu.gm,
-Virama.gm,
-Udaat.gm,
-Khha.gm,
-Ghha.gm,
-Za.gm,
-Rra.gm,
-Fa.gm,
-Zero.gm,
-One.gm,
-Two.gm,
-Three.gm,
-Four.gm,
-Five.gm,
-Six.gm,
-Seven.gm,
-Eight.gm,
-Nine.gm,
-Tippi.gm,
-Addak.gm,
-Iri.gm,
-Ura.gm,
-EkOnkar.gm,
-Yakash.gm,
-PairinHa.gm,
-PairinRa.gm,
-PairinVa.gm,
-PairinGa.gm,
-PairinCa.gm,
-PairinTta.gm,
-PairinTtha.gm,
-PairinTa.gm,
-PairinDa.gm,
-PairinNa.gm,
-PairinTha.gm,
-PairinYa.gm,
-AddhaYa.gm,
-AddhaMa.gm,
-AddhaTha.gm,
-Rha.gm,
-KaViramaRa.gm,
-KaVirama.gm,
-KhaVirama.gm,
-GaVirama.gm,
-GhaVirama.gm,
-NgaVirama.gm,
-CaVirama.gm,
-ChaVirama.gm,
-JaVirama.gm,
-JhaVirama.gm,
-NyaVirama.gm,
-TtaVirama.gm,
-TthaVirama.gm,
-DdaVirama.gm,
-DdhaVirama.gm,
-NnaVirama.gm,
-TaVirama.gm,
-ThaVirama.gm,
-DaVirama.gm,
-DhaVirama.gm,
-NaVirama.gm,
-PaVirama.gm,
-PhaVirama.gm,
-BaVirama.gm,
-BhaVirama.gm,
-MaVirama.gm,
-YaVirama.gm,
-RaVirama.gm,
-LaVirama.gm,
-LlaVirama.gm,
-VaVirama.gm,
-ShaVirama.gm,
-SaVirama.gm,
-HaVirama.gm,
-KhhaVirama.gm,
-GhhaVirama.gm,
-ZaVirama.gm,
-RraVirama.gm,
-FaVirama.gm,
-Danda.gm,
-Doubledanda.gm,
-Khanda.gm,
-MatraEeBindi.gm,
-MatraAiBindi.gm,
-MatraOoBindi.gm,
-MatraAuBindi.gm,
-MatraIiBindi.gm,
-MatraU.gm.alt,
-MatraUu.gm.alt,
-MatraEe.gm.alt,
-MatraAi.gm.alt,
-MatraOo.gm.alt,
-MatraAu.gm.alt,
-MatraEeBindi.gm.alt,
-MatraAiBindi.gm.alt,
-MatraOoBindi.gm.alt,
-MatraAuBindi.gm.alt,
-Virama.gm.alt,
-Bindi.gm.alt,
-Addak.gm.alt,
-AddakBindi.gm.alt,
-MatraEeAddak.gm,
-MatraAiAddak.gm,
-MatraOoAddak.gm,
-MatraAuAddak.gm,
-MatraIiAddak.gm,
-MatraEeAddakBindi.gm,
-MatraAiAddakBindi.gm,
-MatraOoAddakBindi.gm,
-MatraAuAddakBindi.gm,
-MatraIiAddakBindi.gm,
-MatraEeAddak.gm.alt,
-MatraAiAddak.gm.alt,
-MatraOoAddak.gm.alt,
-MatraAuAddak.gm.alt,
-MatraEeAddakBindi.gm.alt,
-MatraAiAddakBindi.gm.alt,
-MatraOoAddakBindi.gm.alt,
-MatraAuAddakBindi.gm.alt,
-PairinRaVirama.gm,
-PairinHaVirama.gm,
-PairinVaVirama.gm,
-PairinGaVirama.gm,
-PairinCaVirama.gm,
-PairinTtaVirama.gm,
-PairinTthaVirama.gm,
-PairinTaVirama.gm,
-PairinDaVirama.gm,
-PairinNaVirama.gm,
-PairinThaVirama.gm,
-PairinYaVirama.gm,
-YakashVirama.gm,
-UdaatVirama.gm,
-PairinRaMatraU.gm,
-PairinHaMatraU.gm,
-PairinVaMatraU.gm,
-PairinGaMatraU.gm,
-PairinCaMatraU.gm,
-PairinTtaMatraU.gm,
-PairinTthaMatraU.gm,
-PairinTaMatraU.gm,
-PairinDaMatraU.gm,
-PairinNaMatraU.gm,
-PairinThaMatraU.gm,
-PairinYaMatraU.gm,
-YakashMatraU.gm,
-UdaatMatraU.gm,
-PairinRaMatraUu.gm,
-PairinHaMatraUu.gm,
-PairinVaMatraUu.gm,
-PairinGaMatraUu.gm,
-PairinCaMatraUu.gm,
-PairinTtaMatraUu.gm,
-PairinTthaMatraUu.gm,
-PairinTaMatraUu.gm,
-PairinDaMatraUu.gm,
-PairinNaMatraUu.gm,
-PairinThaMatraUu.gm,
-PairinYaMatraUu.gm,
-YakashMatraUu.gm,
-UdaatMatraUu.gm,
-OneQuarter.gm,
-OneHalf.gm,
-ThreeQuarters.gm,
-OneSixteenth.gm,
-OneEigth.gm,
-ThreeSixteenths.gm,
-QuarterMark.gm,
-PlaceholderMark.gm,
-NorthIndicRupeeMark.gm,
-QuantityMark.gm,
+AddakBindi,
+Bindi,
+Visarga,
+VowelA,
+VowelAa,
+VowelI,
+VowelIi,
+VowelU,
+VowelUu,
+VowelEe,
+VowelAi,
+VowelOo,
+VowelAu,
+Ka,
+Kha,
+Ga,
+Gha,
+Nga,
+Ca,
+Cha,
+Ja,
+Jha,
+Nya,
+Tta,
+Ttha,
+Dda,
+Ddha,
+Nna,
+Ta,
+Tha,
+Da,
+Dha,
+Na,
+Pa,
+Pha,
+Ba,
+Bha,
+Ma,
+Ya,
+Ra,
+La,
+Lla,
+Va,
+Sha,
+Sa,
+Ha,
+Nukta,
+MatraAa,
+MatraI,
+MatraIi,
+MatraU,
+MatraUu,
+MatraEe,
+MatraAi,
+MatraOo,
+MatraAu,
+Virama,
+Udaat,
+Khha,
+Ghha,
+Za,
+Rra,
+Fa,
+Zero,
+One,
+Two,
+Three,
+Four,
+Five,
+Six,
+Seven,
+Eight,
+Nine,
+Tippi,
+Addak,
+Iri,
+Ura,
+EkOnkar,
+Yakash,
+PairinHa,
+PairinRa,
+PairinVa,
+PairinGa,
+PairinCa,
+PairinTta,
+PairinTtha,
+PairinTa,
+PairinDa,
+PairinNa,
+PairinTha,
+PairinYa,
+AddhaYa,
+AddhaMa,
+AddhaTha,
+Rha,
+KaViramaRa,
+KaVirama,
+KhaVirama,
+GaVirama,
+GhaVirama,
+NgaVirama,
+CaVirama,
+ChaVirama,
+JaVirama,
+JhaVirama,
+NyaVirama,
+TtaVirama,
+TthaVirama,
+DdaVirama,
+DdhaVirama,
+NnaVirama,
+TaVirama,
+ThaVirama,
+DaVirama,
+DhaVirama,
+NaVirama,
+PaVirama,
+PhaVirama,
+BaVirama,
+BhaVirama,
+MaVirama,
+YaVirama,
+RaVirama,
+LaVirama,
+LlaVirama,
+VaVirama,
+ShaVirama,
+SaVirama,
+HaVirama,
+KhhaVirama,
+GhhaVirama,
+ZaVirama,
+RraVirama,
+FaVirama,
+Danda,
+Doubledanda,
+Khanda,
+MatraEeBindi,
+MatraAiBindi,
+MatraOoBindi,
+MatraAuBindi,
+MatraIiBindi,
+MatraU.alt,
+MatraUu.alt,
+MatraEe.alt,
+MatraAi.alt,
+MatraOo.alt,
+MatraAu.alt,
+MatraEeBindi.alt,
+MatraAiBindi.alt,
+MatraOoBindi.alt,
+MatraAuBindi.alt,
+Virama.alt,
+Bindi.alt,
+Addak.alt,
+AddakBindi.alt,
+MatraEeAddak,
+MatraAiAddak,
+MatraOoAddak,
+MatraAuAddak,
+MatraIiAddak,
+MatraEeAddakBindi,
+MatraAiAddakBindi,
+MatraOoAddakBindi,
+MatraAuAddakBindi,
+MatraIiAddakBindi,
+MatraEeAddak.alt,
+MatraAiAddak.alt,
+MatraOoAddak.alt,
+MatraAuAddak.alt,
+MatraEeAddakBindi.alt,
+MatraAiAddakBindi.alt,
+MatraOoAddakBindi.alt,
+MatraAuAddakBindi.alt,
+PairinRaVirama,
+PairinHaVirama,
+PairinVaVirama,
+PairinGaVirama,
+PairinCaVirama,
+PairinTtaVirama,
+PairinTthaVirama,
+PairinTaVirama,
+PairinDaVirama,
+PairinNaVirama,
+PairinThaVirama,
+PairinYaVirama,
+YakashVirama,
+UdaatVirama,
+PairinRaMatraU,
+PairinHaMatraU,
+PairinVaMatraU,
+PairinGaMatraU,
+PairinCaMatraU,
+PairinTtaMatraU,
+PairinTthaMatraU,
+PairinTaMatraU,
+PairinDaMatraU,
+PairinNaMatraU,
+PairinThaMatraU,
+PairinYaMatraU,
+YakashMatraU,
+UdaatMatraU,
+PairinRaMatraUu,
+PairinHaMatraUu,
+PairinVaMatraUu,
+PairinGaMatraUu,
+PairinCaMatraUu,
+PairinTtaMatraUu,
+PairinTthaMatraUu,
+PairinTaMatraUu,
+PairinDaMatraUu,
+PairinNaMatraUu,
+PairinThaMatraUu,
+PairinYaMatraUu,
+YakashMatraUu,
+UdaatMatraUu,
+OneQuarter,
+OneHalf,
+ThreeQuarters,
+OneSixteenth,
+OneEigth,
+ThreeSixteenths,
+QuarterMark,
+PlaceholderMark,
+NorthIndicRupeeMark,
+QuantityMark,
 Dottedcircle,
 ZWJ,
 ZWNJ
@@ -1456,6 +1456,10 @@ value = 0;
 {
 name = year;
 value = 2016;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2016-03-23 02:25:57 +0000";
@@ -1471,190 +1475,57 @@ languagesystem gur2 dflt;
 name = Languagesystems;
 },
 {
-code = "#------------
-# GROUPS
-#------------
-
-#--------------------
-# For Latin
-#--------------------
-
-#--------------------
-# For Gurmukhi
-#--------------------
-
-#------------------------------------------------------------------------
-# kern classes for Gurmukhi
-#------------------------------------------------------------------------
-
-# kern classes for latin
-
-#------------------------------------------------------------------------
-#------------------------------------------------------------------------
-# for Gurmukhi kerning with latin punctuations
-#--------------------------------------------------------------------
-
-#--------------------------------------------------------------------
-
-#--------------------------------------------------------------------
-
-###-------L A T I N-------###
-
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-
-###-------G U R M U K H I-------###
-
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-
-#--------------------------------------------------------------------
-
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-
-#--------------------------------------------------------------------
-#--------------------------------------------------------------------
-
- table GDEF {
-GlyphClassDef @GDEF_simple,@GDEF_ligature, @GDEF_mark,;
+code = "table GDEF {
+  GlyphClassDef @GDEF_simple,@GDEF_ligature, @GDEF_mark,;
 } GDEF;
 
-
-table hhea {
-	Ascender 1130;
-	Descender -532;
-	LineGap 0;
-} hhea;
-#------------------------------------------------------------------
-
-table OS/2 {
-	FSType 0;
-	Panose 2 11 0 0 0 0 0 0 0 0;
-	UnicodeRange
-	0	# Basic Latin
-	1	# Latin-1 Supplement
-	2	# Latin Extended-A
-	3	# Latin Extended-B
-	5	# Spacing Modifier Letters
-	17 	# Gurmukhi
-	29	# Latin Extended Additional
-	31	# General Punctuation
-	32	# Superscripts And Subscripts
-	33	# Currency Symbol
-	35	# Letterlike Symbols
-	38	# Mathematical Operators
-	45	# Geometric Shapes
-	62	# Alphabetic Presentation Forms
-;
-	TypoAscender 1130;
-	TypoDescender -532;
-	TypoLineGap 0;
-	winAscent 1130;
-	winDescent 532;
-
-	WidthClass 5;
-
-} OS/2;
-
-#Latin Kerning-
-#--------------------------------------------------------------------
 feature blwm{
 
-lookup blwm1{ #BottomMark=HalfCharacters,Virama,Udaat&Yakash
+  lookup blwm1{ #BottomMark=HalfCharacters,Virama,Udaat&Yakash
+  } blwm1;
 
+  lookup blwm2{ #BottomMatra=MatraU,MatraUu
+  } blwm2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-} blwm1;
-
-lookup blwm2{ #BottomMatra=MatraU,MatraUu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-} blwm2;
-
-} blwm;
-
-#--------------------------------------------------------------------";
+} blwm;";
 name = Prefix;
+},
+{
+code = "";
+name = hhea;
 }
 );
 features = (
+{
+automatic = 1;
+code = "feature onum;
+feature smcp;
+feature subs;
+feature sups;
+feature dnom;
+feature numr;
+feature tnum;
+feature frac;
+feature ss01;
+feature ss03;
+feature nukt;
+feature akhn;
+feature blwf;
+feature pstf;
+feature abvs;
+feature blws;
+feature haln;
+feature ss02;
+feature salt;
+feature locl;
+feature ordn;
+";
+tag = aalt;
+},
+{
+code = "sub MatraIi Tippi by MatraIi_Tippi.hlig;";
+tag = hlig;
+},
 {
 code = " # Oldstyle figures
 	sub @Numbers by @Oldstyle;
@@ -1669,7 +1540,9 @@ code = " # Standard Ligatures
 	sub f f by ff;
 	sub f i by fi;
 	sub f j by f_j;
-	sub f l by fl;";
+	sub f l by fl;
+
+";
 tag = liga;
 },
 {
@@ -1727,12 +1600,24 @@ tag = frac;
 },
 {
 code = "sub [a g] by [a.alt g.alt];";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 tag = ss01;
 },
 {
 code = " # numbers and punctuations for latin
 sub [exclam numbersign percent parenleft parenright plus slash zero one two three four five six seven eight nine equal question bracketleft bracketright bar divide minus dollar Euro perthousand sterling yen plusminus uni20A8 uni20B9 onehalf onequarter threequarters] by
 [exclam.lat numbersign.lat percent.lat parenleft.lat parenright.lat plus.lat slash.lat zero.lat one.lat two.lat three.lat four.lat five.lat six.lat seven.lat eight.lat nine.lat equal.lat question.lat bracketleft.lat bracketright.lat bar.lat divide.lat minus.lat dollar.lat Euro.lat perthousand.lat sterling.lat yen.lat plusminus.lat uni20A8.lat uni20B9.lat onehalf.lat onequarter.lat threequarters.lat];";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 tag = ss03;
 },
 {
@@ -1740,13 +1625,13 @@ code = " # Nukta consonants
 
 script guru; #Gurmukhi
 lookup lookup1 {
-    sub Kha.gm Nukta.gm by Khha.gm;
-    sub Ga.gm Nukta.gm by Ghha.gm;
-    sub Sa.gm Nukta.gm by Sha.gm;
-    sub La.gm Nukta.gm by Lla.gm;
-    sub Ja.gm Nukta.gm by Za.gm;
-    sub Pha.gm Nukta.gm by Fa.gm;
-    sub Dda.gm Nukta.gm by Rra.gm;
+    sub Kha Nukta by Khha;
+    sub Ga Nukta by Ghha;
+    sub Sa Nukta by Sha;
+    sub La Nukta by Lla;
+    sub Ja Nukta by Za;
+    sub Pha Nukta by Fa;
+    sub Dda Nukta by Rra;
 } lookup1;
 
 script gur2; #Gurmukhi v.2
@@ -1757,11 +1642,11 @@ tag = nukt;
 code = " #Akhanda Forms
 
 script guru;
-  sub Ka.gm RaVirama.gm by KaViramaRa.gm;
-  sub Rra.gm HaVirama.gm by Rha.gm;
+  sub Ka RaVirama by KaViramaRa;
+  sub Rra HaVirama by Rha;
 script gur2;
-  sub Ka.gm RaVirama.gm by KaViramaRa.gm;
-  sub Rra.gm HaVirama.gm by Rha.gm;";
+  sub Ka RaVirama by KaViramaRa;
+  sub Rra HaVirama by Rha;";
 tag = akhn;
 },
 {
@@ -1772,33 +1657,33 @@ code = " #Below Base Form
 
 script gur2;
 lookup lookup2 {
-  sub Virama.gm Ra.gm by PairinRa.gm;
-  sub Virama.gm Ha.gm by PairinHa.gm;
-  sub Virama.gm Va.gm by PairinVa.gm;
-  sub Virama.gm Ga.gm by PairinGa.gm;
-  sub Virama.gm Ca.gm by PairinCa.gm;
-  sub Virama.gm Tta.gm by PairinTta.gm;
-  sub Virama.gm Ttha.gm by PairinTtha.gm;
-  sub Virama.gm Ta.gm by PairinTa.gm;
-  sub Virama.gm Da.gm by PairinDa.gm;
-  sub Virama.gm Na.gm by PairinNa.gm;
-  sub Virama.gm Tha.gm by PairinTha.gm;
+  sub Virama Ra by PairinRa;
+  sub Virama Ha by PairinHa;
+  sub Virama Va by PairinVa;
+  sub Virama Ga by PairinGa;
+  sub Virama Ca by PairinCa;
+  sub Virama Tta by PairinTta;
+  sub Virama Ttha by PairinTtha;
+  sub Virama Ta by PairinTa;
+  sub Virama Da by PairinDa;
+  sub Virama Na by PairinNa;
+  sub Virama Tha by PairinTha;
 
 
 } lookup2;
 
 script guru;
-  sub Ra.gm Virama.gm by PairinRa.gm;
-  sub Ha.gm Virama.gm by PairinHa.gm;
-  sub Va.gm Virama.gm by PairinVa.gm;
-  sub Ga.gm Virama.gm by PairinGa.gm;
-  sub Ca.gm Virama.gm by PairinCa.gm;
-  sub Tta.gm Virama.gm by PairinTta.gm;
-  sub Ttha.gm Virama.gm by PairinTtha.gm;
-  sub Ta.gm Virama.gm by PairinTa.gm;
-  sub Da.gm Virama.gm by PairinDa.gm;
-  sub Na.gm Virama.gm by PairinNa.gm;
-  sub Tha.gm Virama.gm by PairinTha.gm;";
+  sub Ra Virama by PairinRa;
+  sub Ha Virama by PairinHa;
+  sub Va Virama by PairinVa;
+  sub Ga Virama by PairinGa;
+  sub Ca Virama by PairinCa;
+  sub Tta Virama by PairinTta;
+  sub Ttha Virama by PairinTtha;
+  sub Ta Virama by PairinTa;
+  sub Da Virama by PairinDa;
+  sub Na Virama by PairinNa;
+  sub Tha Virama by PairinTha;";
 tag = blwf;
 },
 {
@@ -1807,14 +1692,14 @@ code = " # Post Base Forms
 #AddhaMa and AddhaTha forms occur in rare cases in old manuscript texts.
 
 script guru;
-  sub Ya.gm Virama.gm by AddhaYa.gm;
-  sub Ma.gm Virama.gm by AddhaMa.gm;
-  sub Tha.gm Virama.gm by AddhaTha.gm;
+  sub Ya Virama by AddhaYa;
+  sub Ma Virama by AddhaMa;
+  sub Tha Virama by AddhaTha;
 
 script gur2;
-  sub Virama.gm Ya.gm by AddhaYa.gm;
-  sub Virama.gm Ma.gm by AddhaMa.gm;
-  sub Virama.gm Tha.gm by AddhaTha.gm;
+  sub Virama Ya by AddhaYa;
+  sub Virama Ma by AddhaMa;
+  sub Virama Tha by AddhaTha;
   ";
 tag = pstf;
 },
@@ -1823,46 +1708,46 @@ code = " # Above Base Substitutions
 
 script guru;
 lookup lookup3 {
-    sub MatraEe.gm Bindi.gm by MatraEeBindi.gm;
-    sub MatraAi.gm Bindi.gm by MatraAiBindi.gm;
-    sub MatraOo.gm Bindi.gm by MatraOoBindi.gm;
-    sub MatraAu.gm Bindi.gm by MatraAuBindi.gm;
-    sub MatraIi.gm Bindi.gm by MatraIiBindi.gm;
-    sub MatraEe.gm Tippi.gm by MatraEeBindi.gm;
-    sub MatraAi.gm Tippi.gm by MatraAiBindi.gm;
-    sub MatraOo.gm Tippi.gm by MatraOoBindi.gm;
-    sub MatraAu.gm Tippi.gm by MatraAuBindi.gm;
-    sub MatraIi.gm Tippi.gm by MatraIiBindi.gm;
-    sub MatraEe.gm Addak.gm by MatraEeAddak.gm;
-    sub MatraAi.gm Addak.gm by MatraAiAddak.gm;
-    sub MatraOo.gm Addak.gm by MatraOoAddak.gm;
-    sub MatraAu.gm Addak.gm by MatraAuAddak.gm;
-    sub MatraEe.gm AddakBindi.gm by MatraEeAddakBindi.gm;
-    sub MatraAi.gm AddakBindi.gm by MatraAiAddakBindi.gm;
-    sub MatraOo.gm AddakBindi.gm by MatraOoAddakBindi.gm;
-    sub MatraAu.gm AddakBindi.gm by MatraAuAddakBindi.gm;
+    sub MatraEe Bindi by MatraEeBindi;
+    sub MatraAi Bindi by MatraAiBindi;
+    sub MatraOo Bindi by MatraOoBindi;
+    sub MatraAu Bindi by MatraAuBindi;
+    sub MatraIi Bindi by MatraIiBindi;
+    sub MatraEe Tippi by MatraEeBindi;
+    sub MatraAi Tippi by MatraAiBindi;
+    sub MatraOo Tippi by MatraOoBindi;
+    sub MatraAu Tippi by MatraAuBindi;
+    sub MatraIi Tippi by MatraIiBindi;
+    sub MatraEe Addak by MatraEeAddak;
+    sub MatraAi Addak by MatraAiAddak;
+    sub MatraOo Addak by MatraOoAddak;
+    sub MatraAu Addak by MatraAuAddak;
+    sub MatraEe AddakBindi by MatraEeAddakBindi;
+    sub MatraAi AddakBindi by MatraAiAddakBindi;
+    sub MatraOo AddakBindi by MatraOoAddakBindi;
+    sub MatraAu AddakBindi by MatraAuAddakBindi;
 
 } lookup3;
 
 lookup lookup4 {
-  sub [Na.gm Ttha.gm] [MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm]' by [MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt];
-  sub [Na.gm Ttha.gm] [MatraEeBindi.gm MatraAiBindi.gm MatraOoBindi.gm MatraAuBindi.gm MatraEeAddak.gm MatraAiAddak.gm MatraOoAddak.gm MatraAuAddak.gm MatraEeAddakBindi.gm MatraAiAddakBindi.gm MatraOoAddakBindi.gm MatraAuAddakBindi.gm]' by [MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraOoBindi.gm.alt MatraAuBindi.gm.alt MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt];
-  sub [VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm MatraIi.gm Ura.gm] [Bindi.gm Addak.gm AddakBindi.gm]' by [Bindi.gm.alt Addak.gm.alt AddakBindi.gm.alt];
+  sub [Na Ttha] [MatraEe MatraAi MatraOo MatraAu]' by [MatraEe.alt MatraAi.alt MatraOo.alt MatraAu.alt];
+  sub [Na Ttha] [MatraEeBindi MatraAiBindi MatraOoBindi MatraAuBindi MatraEeAddak MatraAiAddak MatraOoAddak MatraAuAddak MatraEeAddakBindi MatraAiAddakBindi MatraOoAddakBindi MatraAuAddakBindi]' by [MatraEeBindi.alt MatraAiBindi.alt MatraOoBindi.alt MatraAuBindi.alt MatraEeAddak.alt MatraAiAddak.alt MatraOoAddak.alt MatraAuAddak.alt MatraEeAddakBindi.alt MatraAiAddakBindi.alt MatraOoAddakBindi.alt MatraAuAddakBindi.alt];
+  sub [VowelIi VowelU VowelUu VowelEe VowelAi VowelOo VowelAu MatraIi Ura] [Bindi Addak AddakBindi]' by [Bindi.alt Addak.alt AddakBindi.alt];
 } lookup4;
 
 lookup lookup5 {
-  sub MatraEe.gm.alt Addak.gm by MatraEeAddak.gm.alt;
-  sub MatraAi.gm.alt Addak.gm by MatraAiAddak.gm.alt;
-  sub MatraOo.gm.alt Addak.gm by MatraOoAddak.gm.alt;
-  sub MatraAu.gm.alt Addak.gm by MatraAuAddak.gm.alt;
-  sub MatraEe.gm.alt AddakBindi.gm by MatraEeAddakBindi.gm.alt;
-  sub MatraAi.gm.alt AddakBindi.gm by MatraAiAddakBindi.gm.alt;
-  sub MatraOo.gm.alt AddakBindi.gm by MatraOoAddakBindi.gm.alt;
-  sub MatraAu.gm.alt AddakBindi.gm by MatraAuAddakBindi.gm.alt;
+  sub MatraEe.alt Addak by MatraEeAddak.alt;
+  sub MatraAi.alt Addak by MatraAiAddak.alt;
+  sub MatraOo.alt Addak by MatraOoAddak.alt;
+  sub MatraAu.alt Addak by MatraAuAddak.alt;
+  sub MatraEe.alt AddakBindi by MatraEeAddakBindi.alt;
+  sub MatraAi.alt AddakBindi by MatraAiAddakBindi.alt;
+  sub MatraOo.alt AddakBindi by MatraOoAddakBindi.alt;
+  sub MatraAu.alt AddakBindi by MatraAuAddakBindi.alt;
 } lookup5;
 
 lookup lookup6 {
-  sub [VowelIi.gm VowelU.gm VowelUu.gm VowelOo.gm VowelEe.gm VowelAi.gm VowelAu.gm] Tippi.gm' by Bindi.gm.alt;
+  sub [VowelIi VowelU VowelUu VowelOo VowelEe VowelAi VowelAu] Tippi' by Bindi.alt;
 } lookup6;
 
 script gur2;
@@ -1877,54 +1762,54 @@ code = " # Below Base Substitutions
 
 script guru;
 lookup blws1 { #Half characters
-  sub PairinRa.gm Virama.gm by PairinRaVirama.gm;
-  sub PairinHa.gm Virama.gm by PairinHaVirama.gm;
-  sub PairinVa.gm Virama.gm by PairinVaVirama.gm;
-  sub PairinGa.gm Virama.gm by PairinGaVirama.gm;
-  sub PairinCa.gm Virama.gm by PairinCaVirama.gm;
-  sub PairinTta.gm Virama.gm by PairinTtaVirama.gm;
-  sub PairinTtha.gm Virama.gm by PairinTthaVirama.gm;
-  sub PairinTa.gm Virama.gm by PairinTaVirama.gm;
-  sub PairinDa.gm Virama.gm by PairinDaVirama.gm;
-  sub PairinNa.gm Virama.gm by PairinNaVirama.gm;
-  sub PairinTha.gm Virama.gm by PairinThaVirama.gm;
-  sub PairinYa.gm Virama.gm by PairinYaVirama.gm;
-  sub Yakash.gm Virama.gm by YakashVirama.gm;
+  sub PairinRa Virama by PairinRaVirama;
+  sub PairinHa Virama by PairinHaVirama;
+  sub PairinVa Virama by PairinVaVirama;
+  sub PairinGa Virama by PairinGaVirama;
+  sub PairinCa Virama by PairinCaVirama;
+  sub PairinTta Virama by PairinTtaVirama;
+  sub PairinTtha Virama by PairinTthaVirama;
+  sub PairinTa Virama by PairinTaVirama;
+  sub PairinDa Virama by PairinDaVirama;
+  sub PairinNa Virama by PairinNaVirama;
+  sub PairinTha Virama by PairinThaVirama;
+  sub PairinYa Virama by PairinYaVirama;
+  sub Yakash Virama by YakashVirama;
 
-  sub PairinRa.gm MatraU.gm by PairinRaMatraU.gm;
-  sub PairinHa.gm MatraU.gm by PairinHaMatraU.gm;
-  sub PairinVa.gm MatraU.gm by PairinVaMatraU.gm;
-  sub PairinGa.gm MatraU.gm by PairinGaMatraU.gm;
-  sub PairinCa.gm MatraU.gm by PairinCaMatraU.gm;
-  sub PairinTta.gm MatraU.gm by PairinTtaMatraU.gm;
-  sub PairinTtha.gm MatraU.gm by PairinTthaMatraU.gm;
-  sub PairinTa.gm MatraU.gm by PairinTaMatraU.gm;
-  sub PairinDa.gm MatraU.gm by PairinDaMatraU.gm;
-  sub PairinNa.gm MatraU.gm by PairinNaMatraU.gm;
-  sub PairinTha.gm MatraU.gm by PairinThaMatraU.gm;
-  sub PairinYa.gm MatraU.gm by PairinYaMatraU.gm;
-  sub Yakash.gm MatraU.gm by YakashMatraU.gm;
+  sub PairinRa MatraU by PairinRaMatraU;
+  sub PairinHa MatraU by PairinHaMatraU;
+  sub PairinVa MatraU by PairinVaMatraU;
+  sub PairinGa MatraU by PairinGaMatraU;
+  sub PairinCa MatraU by PairinCaMatraU;
+  sub PairinTta MatraU by PairinTtaMatraU;
+  sub PairinTtha MatraU by PairinTthaMatraU;
+  sub PairinTa MatraU by PairinTaMatraU;
+  sub PairinDa MatraU by PairinDaMatraU;
+  sub PairinNa MatraU by PairinNaMatraU;
+  sub PairinTha MatraU by PairinThaMatraU;
+  sub PairinYa MatraU by PairinYaMatraU;
+  sub Yakash MatraU by YakashMatraU;
 
-  sub PairinRa.gm MatraUu.gm by PairinRaMatraUu.gm;
-  sub PairinHa.gm MatraUu.gm by PairinHaMatraUu.gm;
-  sub PairinVa.gm MatraUu.gm by PairinVaMatraUu.gm;
-  sub PairinGa.gm MatraUu.gm by PairinGaMatraUu.gm;
-  sub PairinCa.gm MatraUu.gm by PairinCaMatraUu.gm;
-  sub PairinTta.gm MatraUu.gm by PairinTtaMatraUu.gm;
-  sub PairinTtha.gm MatraUu.gm by PairinTthaMatraUu.gm;
-  sub PairinTa.gm MatraUu.gm by PairinTaMatraUu.gm;
-  sub PairinDa.gm MatraUu.gm by PairinDaMatraUu.gm;
-  sub PairinNa.gm MatraUu.gm by PairinNaMatraUu.gm;
-  sub PairinTha.gm MatraUu.gm by PairinThaMatraUu.gm;
-  sub PairinYa.gm MatraUu.gm by PairinYaMatraUu.gm;
-  sub Yakash.gm MatraUu.gm by YakashMatraUu.gm;
+  sub PairinRa MatraUu by PairinRaMatraUu;
+  sub PairinHa MatraUu by PairinHaMatraUu;
+  sub PairinVa MatraUu by PairinVaMatraUu;
+  sub PairinGa MatraUu by PairinGaMatraUu;
+  sub PairinCa MatraUu by PairinCaMatraUu;
+  sub PairinTta MatraUu by PairinTtaMatraUu;
+  sub PairinTtha MatraUu by PairinTthaMatraUu;
+  sub PairinTa MatraUu by PairinTaMatraUu;
+  sub PairinDa MatraUu by PairinDaMatraUu;
+  sub PairinNa MatraUu by PairinNaMatraUu;
+  sub PairinTha MatraUu by PairinThaMatraUu;
+  sub PairinYa MatraUu by PairinYaMatraUu;
+  sub Yakash MatraUu by YakashMatraUu;
 } blws1;
 
 
 lookup blws2 {
-  sub @bottom MatraU.gm' by MatraU.gm.alt;
-  sub @bottom MatraUu.gm' by MatraUu.gm.alt;
-  sub @bottom Virama.gm' by Virama.gm.alt;
+  sub @bottom MatraU' by MatraU.alt;
+  sub @bottom MatraUu' by MatraUu.alt;
+  sub @bottom Virama' by Virama.alt;
 } blws2;
 
 
@@ -1938,44 +1823,44 @@ code = " #Halant forms
 
 script guru;
 lookup haln1 {
-  sub Ka.gm Virama.gm by KaVirama.gm;
-  sub Kha.gm Virama.gm by KhaVirama.gm;
-  sub Ga.gm Virama.gm by GaVirama.gm;
-  sub Gha.gm Virama.gm by GhaVirama.gm;
-  sub Nga.gm Virama.gm by NgaVirama.gm;
-  sub Ca.gm Virama.gm by CaVirama.gm;
-  sub Cha.gm Virama.gm by ChaVirama.gm;
-  sub Ja.gm Virama.gm by JaVirama.gm;
-  sub Jha.gm Virama.gm by JhaVirama.gm;
-  sub Nya.gm Virama.gm by NyaVirama.gm;
-  sub Tta.gm Virama.gm by TtaVirama.gm;
-  sub Ttha.gm Virama.gm by TthaVirama.gm;
-  sub Dda.gm Virama.gm by DdaVirama.gm;
-  sub Ddha.gm Virama.gm by DdhaVirama.gm;
-  sub Nna.gm Virama.gm by NnaVirama.gm;
-  sub Ta.gm Virama.gm by TaVirama.gm;
-  sub Tha.gm Virama.gm by ThaVirama.gm;
-  sub Da.gm Virama.gm by DaVirama.gm;
-  sub Dha.gm Virama.gm by DhaVirama.gm;
-  sub Na.gm Virama.gm by NaVirama.gm;
-  sub Pa.gm Virama.gm by PaVirama.gm;
-  sub Pha.gm Virama.gm by PhaVirama.gm;
-  sub Ba.gm Virama.gm by BaVirama.gm;
-  sub Bha.gm Virama.gm by BhaVirama.gm;
-  sub Ma.gm Virama.gm by MaVirama.gm;
-  sub Ya.gm Virama.gm by YaVirama.gm;
-  sub Ra.gm Virama.gm by RaVirama.gm;
-  sub La.gm Virama.gm by LaVirama.gm;
-  sub Lla.gm Virama.gm by LlaVirama.gm;
-  sub Va.gm Virama.gm by VaVirama.gm;
-  sub Sha.gm Virama.gm by ShaVirama.gm;
-  sub Sa.gm Virama.gm by SaVirama.gm;
-  sub Ha.gm Virama.gm by HaVirama.gm;
-  sub Khha.gm Virama.gm by KhhaVirama.gm;
-  sub Ghha.gm Virama.gm by GhhaVirama.gm;
-  sub Za.gm Virama.gm by ZaVirama.gm;
-  sub Rra.gm Virama.gm by RraVirama.gm;
-  sub Fa.gm Virama.gm by FaVirama.gm;
+  sub Ka Virama by KaVirama;
+  sub Kha Virama by KhaVirama;
+  sub Ga Virama by GaVirama;
+  sub Gha Virama by GhaVirama;
+  sub Nga Virama by NgaVirama;
+  sub Ca Virama by CaVirama;
+  sub Cha Virama by ChaVirama;
+  sub Ja Virama by JaVirama;
+  sub Jha Virama by JhaVirama;
+  sub Nya Virama by NyaVirama;
+  sub Tta Virama by TtaVirama;
+  sub Ttha Virama by TthaVirama;
+  sub Dda Virama by DdaVirama;
+  sub Ddha Virama by DdhaVirama;
+  sub Nna Virama by NnaVirama;
+  sub Ta Virama by TaVirama;
+  sub Tha Virama by ThaVirama;
+  sub Da Virama by DaVirama;
+  sub Dha Virama by DhaVirama;
+  sub Na Virama by NaVirama;
+  sub Pa Virama by PaVirama;
+  sub Pha Virama by PhaVirama;
+  sub Ba Virama by BaVirama;
+  sub Bha Virama by BhaVirama;
+  sub Ma Virama by MaVirama;
+  sub Ya Virama by YaVirama;
+  sub Ra Virama by RaVirama;
+  sub La Virama by LaVirama;
+  sub Lla Virama by LlaVirama;
+  sub Va Virama by VaVirama;
+  sub Sha Virama by ShaVirama;
+  sub Sa Virama by SaVirama;
+  sub Ha Virama by HaVirama;
+  sub Khha Virama by KhhaVirama;
+  sub Ghha Virama by GhhaVirama;
+  sub Za Virama by ZaVirama;
+  sub Rra Virama by RraVirama;
+  sub Fa Virama by FaVirama;
 } haln1;
 
 script gur2;
@@ -1988,16 +1873,22 @@ script guru;
 
 lookup salt1{ #Pairin Forms
 
-  sub AddhaYa.gm by PairinYa.gm;
+  sub AddhaYa by PairinYa;
 } salt1;
 
 lookup salt2{ #Addha Forms
-  sub PairinTha.gm by AddhaTha.gm;
+  sub PairinTha by AddhaTha;
 }salt2;
 
 script gur2;
 lookup salt1;
 lookup salt2;";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 tag = ss02;
 },
 {
@@ -3264,165 +3155,165 @@ code = "lookup kern1{
 
 lookup kern2{
 lookupflag IgnoreMarks;
-   pos Nna.gm AddhaMa.gm 10;
-   pos Zero.gm Five.gm 14;
-   pos Zero.gm One.gm 10;
-   pos Zero.gm Two.gm 10;
-   pos Zero.gm Six.gm 14;
-   pos Zero.gm Euro 50;
-   pos Zero.gm yen 30;
-   pos One.gm Euro 50;
-   pos One.gm yen 30;
-   pos Two.gm Five.gm 10;
-   pos Two.gm Zero.gm 10;
-   pos Two.gm Seven.gm 8;
-   pos Two.gm Euro 50;
-   pos Two.gm yen 30;
-   pos Three.gm Five.gm 8;
-   pos Three.gm Seven.gm 8;
-   pos Three.gm One.gm -4;
-   pos Three.gm Six.gm 8;
-   pos Three.gm slash 30;
-   pos Three.gm Euro 50;
-   pos Three.gm yen 30;
-   pos Four.gm Five.gm 8;
-   pos Four.gm Zero.gm -5;
-   pos Four.gm Three.gm -8;
-   pos Four.gm Six.gm 5;
-   pos Four.gm Euro 50;
-   pos Four.gm yen 30;
-   pos Five.gm Euro 50;
-   pos Five.gm yen 30;
-   pos Six.gm Five.gm -8;
-   pos Six.gm One.gm -20;
-   pos Six.gm Zero.gm -20;
-   pos Six.gm Two.gm -16;
-   pos Six.gm Three.gm -5;
-   pos Six.gm Four.gm -8;
-   pos Six.gm Seven.gm -5;
-   pos Six.gm Euro 50;
-   pos Six.gm yen 30;
-   pos Seven.gm Five.gm 10;
-   pos Seven.gm One.gm 10;
-   pos Seven.gm Two.gm 6;
-   pos Seven.gm Six.gm 8;
-   pos Seven.gm Euro 50;
-   pos Seven.gm yen 30;
-   pos Rha.gm Ghha.gm 50;
-   pos slash Zero.gm -20;
-   pos yen Zero.gm 30;
-   pos yen One.gm 30;
-   pos yen Two.gm 30;
-   pos yen Three.gm 30;
-   pos yen Four.gm 30;
-   pos yen Five.gm 30;
-   pos yen Six.gm 30;
-   pos yen Seven.gm 30;
-   enum pos @_VowelU_Left_Right AddhaMa.gm 5;
-   enum pos @_VowelU_Left_Right Va.gm 4;
+   pos Nna AddhaMa 10;
+   pos Zero Five 14;
+   pos Zero One 10;
+   pos Zero Two 10;
+   pos Zero Six 14;
+   pos Zero Euro 50;
+   pos Zero yen 30;
+   pos One Euro 50;
+   pos One yen 30;
+   pos Two Five 10;
+   pos Two Zero 10;
+   pos Two Seven 8;
+   pos Two Euro 50;
+   pos Two yen 30;
+   pos Three Five 8;
+   pos Three Seven 8;
+   pos Three One -4;
+   pos Three Six 8;
+   pos Three slash 30;
+   pos Three Euro 50;
+   pos Three yen 30;
+   pos Four Five 8;
+   pos Four Zero -5;
+   pos Four Three -8;
+   pos Four Six 5;
+   pos Four Euro 50;
+   pos Four yen 30;
+   pos Five Euro 50;
+   pos Five yen 30;
+   pos Six Five -8;
+   pos Six One -20;
+   pos Six Zero -20;
+   pos Six Two -16;
+   pos Six Three -5;
+   pos Six Four -8;
+   pos Six Seven -5;
+   pos Six Euro 50;
+   pos Six yen 30;
+   pos Seven Five 10;
+   pos Seven One 10;
+   pos Seven Two 6;
+   pos Seven Six 8;
+   pos Seven Euro 50;
+   pos Seven yen 30;
+   pos Rha Ghha 50;
+   pos slash Zero -20;
+   pos yen Zero 30;
+   pos yen One 30;
+   pos yen Two 30;
+   pos yen Three 30;
+   pos yen Four 30;
+   pos yen Five 30;
+   pos yen Six 30;
+   pos yen Seven 30;
+   enum pos @_VowelU_Left_Right AddhaMa 5;
+   enum pos @_VowelU_Left_Right Va 4;
    enum pos @_VowelU_Left_Right question 30;
-   enum pos @_Ka_Left_Right AddhaMa.gm 10;
-   enum pos @_Ka_Left_Right Lla.gm 10;
-   enum pos @_Ka_Left_Right Khha.gm 5;
-   enum pos @_Ka_Left_Right Ghha.gm 10;
-   enum pos @_Nga_Left_Right AddhaMa.gm 18;
-   enum pos @_Cha_Left_Right Nna.gm 14;
-   enum pos @_Jha_Left_Right AddhaMa.gm 10;
-   enum pos @_Nya_Left_Right Nna.gm -4;
-   enum pos @_Ttha_Left_Right MatraAa.gm -8;
-   enum pos @_Ttha_Left_Right AddhaMa.gm 10;
-   enum pos @_Ttha_Left_Right Nna.gm 8;
-   enum pos @_Dda_Left_Right AddhaMa.gm 10;
-   enum pos @_Dda_Left_Right Nna.gm 10;
-   enum pos @_Ta_Left_Right AddhaMa.gm 15;
-   enum pos @_Ta_Left_Right MatraAa.gm 4;
-   enum pos @_Na_Left_Right MatraAa.gm -8;
-   enum pos @_Na_Left_Right AddhaMa.gm 10;
-   enum pos @_Bha_Left_Right AddhaMa.gm 15;
-   enum pos @_Bha_Left_Right MatraAa.gm 3;
-   enum pos @_Tta_Right Lla.gm 5;
-   enum pos @_Kana_Right Nna.gm -8;
-   enum pos [Rra.gm RraVirama.gm] Ghha.gm 20;
-   enum pos @_Rra_Left_Right AddhaMa.gm 14;
-   enum pos @_Rra_Left_Right MatraAa.gm 4;
-   enum pos @_Rra_Left_Right Lla.gm 20;
+   enum pos @_Ka_Left_Right AddhaMa 10;
+   enum pos @_Ka_Left_Right Lla 10;
+   enum pos @_Ka_Left_Right Khha 5;
+   enum pos @_Ka_Left_Right Ghha 10;
+   enum pos @_Nga_Left_Right AddhaMa 18;
+   enum pos @_Cha_Left_Right Nna 14;
+   enum pos @_Jha_Left_Right AddhaMa 10;
+   enum pos @_Nya_Left_Right Nna -4;
+   enum pos @_Ttha_Left_Right MatraAa -8;
+   enum pos @_Ttha_Left_Right AddhaMa 10;
+   enum pos @_Ttha_Left_Right Nna 8;
+   enum pos @_Dda_Left_Right AddhaMa 10;
+   enum pos @_Dda_Left_Right Nna 10;
+   enum pos @_Ta_Left_Right AddhaMa 15;
+   enum pos @_Ta_Left_Right MatraAa 4;
+   enum pos @_Na_Left_Right MatraAa -8;
+   enum pos @_Na_Left_Right AddhaMa 10;
+   enum pos @_Bha_Left_Right AddhaMa 15;
+   enum pos @_Bha_Left_Right MatraAa 3;
+   enum pos @_Tta_Right Lla 5;
+   enum pos @_Kana_Right Nna -8;
+   enum pos [Rra RraVirama] Ghha 20;
+   enum pos @_Rra_Left_Right AddhaMa 14;
+   enum pos @_Rra_Left_Right MatraAa 4;
+   enum pos @_Rra_Left_Right Lla 20;
    enum pos @_Danda space -30;
-   enum pos @_La_Left_Right AddhaMa.gm 10;
-   enum pos @_La_Left_Right Nna.gm 10;
-   enum pos @_La_Left_Right MatraAa.gm -8;
-   enum pos @_number_leftright Zero.gm -20;
+   enum pos @_La_Left_Right AddhaMa 10;
+   enum pos @_La_Left_Right Nna 10;
+   enum pos @_La_Left_Right MatraAa -8;
+   enum pos @_number_leftright Zero -20;
    enum pos @_number_leftright Euro 50;
    enum pos @_number_leftright yen 30;
-   enum pos @_number_leftright Four.gm -5;
-   enum pos @_quoteleft One.gm 20;
-   enum pos @_quoteleft Zero.gm -20;
-   enum pos @_quoteright Seven.gm -20;
-   enum pos @_quotesingle1 One.gm 20;
-   enum pos @_quotesingle1 Zero.gm -10;
-   enum pos [asterisk trademark Euro degree] One.gm 20;
-   enum pos [asterisk trademark Euro degree] Three.gm 20;
-   enum pos @_percent Zero.gm 20;
-   enum pos @_percent Two.gm 20;
-   enum pos @_percent Five.gm 20;
-   enum pos @_percent Six.gm 20;
-   enum pos @_percent Four.gm 20;
-   enum pos @_percent Three.gm 20;
-   enum pos @_period1 Nna.gm 10;
-   enum pos @_period1 Lla.gm 40;
-   enum pos @_period1 One.gm -40;
-   enum pos @_period1 Three.gm 20;
-   enum pos @_period1 Six.gm 10;
-   enum pos @_period1 Seven.gm 30;
-   enum pos @_period1 Five.gm -5;
-   enum pos @_period1 Two.gm -10;
-   enum pos @_period1 Four.gm 8;
-   enum pos @_period1 Ghha.gm 40;
-   enum pos @_period1 Fa.gm 10;
-   enum pos @_hyphen Zero.gm 20;
-   enum pos @_hyphen Two.gm 20;
-   enum pos @_hyphen Five.gm 10;
-   enum pos @_hyphen Seven.gm 10;
-   enum pos @_hyphen AddhaMa.gm 20;
-   enum pos @_Ca_Right AddhaMa.gm 10;
+   enum pos @_number_leftright Four -5;
+   enum pos @_quoteleft One 20;
+   enum pos @_quoteleft Zero -20;
+   enum pos @_quoteright Seven -20;
+   enum pos @_quotesingle1 One 20;
+   enum pos @_quotesingle1 Zero -10;
+   enum pos [asterisk trademark Euro degree] One 20;
+   enum pos [asterisk trademark Euro degree] Three 20;
+   enum pos @_percent Zero 20;
+   enum pos @_percent Two 20;
+   enum pos @_percent Five 20;
+   enum pos @_percent Six 20;
+   enum pos @_percent Four 20;
+   enum pos @_percent Three 20;
+   enum pos @_period1 Nna 10;
+   enum pos @_period1 Lla 40;
+   enum pos @_period1 One -40;
+   enum pos @_period1 Three 20;
+   enum pos @_period1 Six 10;
+   enum pos @_period1 Seven 30;
+   enum pos @_period1 Five -5;
+   enum pos @_period1 Two -10;
+   enum pos @_period1 Four 8;
+   enum pos @_period1 Ghha 40;
+   enum pos @_period1 Fa 10;
+   enum pos @_hyphen Zero 20;
+   enum pos @_hyphen Two 20;
+   enum pos @_hyphen Five 10;
+   enum pos @_hyphen Seven 10;
+   enum pos @_hyphen AddhaMa 20;
+   enum pos @_Ca_Right AddhaMa 10;
    subtable;
-   enum pos Ddha.gm @_vowelEe_Left 3;
-   enum pos Ddha.gm @_Ttha_Left_Right 3;
-   enum pos Ddha.gm @_Na_Left_Right 3;
-   enum pos Nna.gm @_Ga_Left 4;
-   enum pos Nna.gm @_Ma_Left 8;
-   enum pos Nna.gm @_Ca_Left 4;
-   enum pos Nna.gm @_Cha_Left_Right 10;
-   enum pos Nna.gm @_Tta_Left -8;
-   enum pos Nna.gm @_Ddha_Left 4;
-   enum pos Nna.gm @_vowelA_Left 4;
-   enum pos Nna.gm @_hyphen 10;
-   enum pos Nna.gm @_Rra_Left_Right 5;
-   enum pos Da.gm @_vowelA_Left 3;
-   enum pos Ra.gm @_vowelA_Left 6;
-   enum pos Ra.gm @_period1 -6;
-   enum pos Ra.gm @_Ma_Left 4;
-   enum pos Ha.gm @_vowelA_Left 6;
-   enum pos Ha.gm @_period1 -6;
-   enum pos Ha.gm @_Ma_Left 4;
-   enum pos Zero.gm @_number_leftright 10;
-   enum pos Zero.gm @_hyphen 20;
-   enum pos Zero.gm @_quotesingle1 -10;
-   enum pos Zero.gm @_quoteright -20;
-   enum pos Two.gm @_number_leftright 14;
-   enum pos Two.gm @_period1 -10;
-   enum pos Two.gm @_hyphen 10;
-   enum pos Three.gm @_number_leftright 5;
-   enum pos Three.gm @_quotesingle1 -10;
-   enum pos Three.gm @_quoteright -20;
-   enum pos Four.gm @_number_leftright 8;
-   enum pos Four.gm @_period1 -10;
-   enum pos Six.gm @_period1 10;
-   enum pos Six.gm @_hyphen -10;
-   enum pos Six.gm @_quoteright 10;
-   enum pos Seven.gm @_number_leftright 8;
-   enum pos Seven.gm @_period1 -30;
-   enum pos Seven.gm @_hyphen 20;
-   enum pos Nine.gm @_percent 10;
+   enum pos Ddha @_vowelEe_Left 3;
+   enum pos Ddha @_Ttha_Left_Right 3;
+   enum pos Ddha @_Na_Left_Right 3;
+   enum pos Nna @_Ga_Left 4;
+   enum pos Nna @_Ma_Left 8;
+   enum pos Nna @_Ca_Left 4;
+   enum pos Nna @_Cha_Left_Right 10;
+   enum pos Nna @_Tta_Left -8;
+   enum pos Nna @_Ddha_Left 4;
+   enum pos Nna @_vowelA_Left 4;
+   enum pos Nna @_hyphen 10;
+   enum pos Nna @_Rra_Left_Right 5;
+   enum pos Da @_vowelA_Left 3;
+   enum pos Ra @_vowelA_Left 6;
+   enum pos Ra @_period1 -6;
+   enum pos Ra @_Ma_Left 4;
+   enum pos Ha @_vowelA_Left 6;
+   enum pos Ha @_period1 -6;
+   enum pos Ha @_Ma_Left 4;
+   enum pos Zero @_number_leftright 10;
+   enum pos Zero @_hyphen 20;
+   enum pos Zero @_quotesingle1 -10;
+   enum pos Zero @_quoteright -20;
+   enum pos Two @_number_leftright 14;
+   enum pos Two @_period1 -10;
+   enum pos Two @_hyphen 10;
+   enum pos Three @_number_leftright 5;
+   enum pos Three @_quotesingle1 -10;
+   enum pos Three @_quoteright -20;
+   enum pos Four @_number_leftright 8;
+   enum pos Four @_period1 -10;
+   enum pos Six @_period1 10;
+   enum pos Six @_hyphen -10;
+   enum pos Six @_quoteright 10;
+   enum pos Seven @_number_leftright 8;
+   enum pos Seven @_period1 -30;
+   enum pos Seven @_hyphen 20;
+   enum pos Nine @_percent 10;
    enum pos numbersign @_number_leftright 10;
    enum pos yen @_number_leftright 30;
    subtable;
@@ -3946,7 +3837,7 @@ lookup kern3 {
    pos dollar seven -30;
    pos dollar nine -20;
    pos dollar two -20;
-   pos Danda.gm space -30;
+   pos Danda space -30;
    enum pos @_bracketleft zero -20;
    enum pos @_bracketleft six -10;
    enum pos @_bracketleft four -20;
@@ -4122,94 +4013,135 @@ tag = dist;
 {
 code = "
 lookup abvm1{
-pos base Ka.gm <anchor 593 0> mark @top;
-pos base Nga.gm <anchor 492 0> mark @top;
-pos base Ca.gm <anchor 588 0> mark @top;
-pos base Cha.gm <anchor 574 0> mark @top;
-pos base Jha.gm <anchor 559 0> mark @top;
-pos base Nya.gm <anchor 570 0> mark @top;
-pos base Tta.gm <anchor 531 0> mark @top;
-pos base Dda.gm <anchor 563 0> mark @top;
-pos base Ddha.gm <anchor 595 0> mark @top;
-pos base Nna.gm <anchor 569 0> mark @top;
-pos base Ta.gm <anchor 537 0> mark @top;
-pos base Da.gm <anchor 571 0> mark @top;
-pos base Pha.gm <anchor 556 0> mark @top;
-pos base Bha.gm <anchor 568 0> mark @top;
-pos base Ra.gm <anchor 539 0> mark @top;
-pos base La.gm <anchor 589 0> mark @top;
-pos base Lla.gm <anchor 589 0> mark @top;
-pos base Va.gm <anchor 555 0> mark @top;
-pos base Ha.gm <anchor 538 0> mark @top;
-pos base Rra.gm <anchor 545 0> mark @top;
-pos base Fa.gm <anchor 555 0> mark @top;
-pos base Rha.gm <anchor 541 0> mark @top;
-pos base KaViramaRa.gm <anchor 593 0> mark @top;
+# pos base Ka <anchor 593 0> mark @top;
+# pos base Nga <anchor 492 0> mark @top;
+# pos base Ca <anchor 588 0> mark @top;
+# pos base Cha <anchor 574 0> mark @top;
+# pos base Jha <anchor 559 0> mark @top;
+# pos base Nya <anchor 570 0> mark @top;
+# pos base Tta <anchor 531 0> mark @top;
+# pos base Dda <anchor 563 0> mark @top;
+# pos base Ddha <anchor 595 0> mark @top;
+# pos base Nna <anchor 569 0> mark @top;
+# pos base Ta <anchor 537 0> mark @top;
+# pos base Da <anchor 571 0> mark @top;
+# pos base Pha <anchor 556 0> mark @top;
+# pos base Bha <anchor 568 0> mark @top;
+# pos base Ra <anchor 539 0> mark @top;
+# pos base La <anchor 589 0> mark @top;
+# pos base Lla <anchor 589 0> mark @top;
+# pos base Va <anchor 555 0> mark @top;
+# pos base Ha <anchor 538 0> mark @top;
+# pos base Rra <anchor 545 0> mark @top;
+# pos base Fa <anchor 555 0> mark @top;
+# pos base Rha <anchor 541 0> mark @top;
+# pos base KaViramaRa <anchor 593 0> mark @top;
 } abvm1;
 
 lookup abvm2{
-pos base Ka.gm <anchor 599 0> mark @top1;
-pos base Nga.gm <anchor 480 0> mark @top1;
-pos base Ca.gm <anchor 593 0> mark @top1;
-pos base Cha.gm <anchor 581 0> mark @top1;
-pos base Jha.gm <anchor 561 0> mark @top1;
-pos base Nya.gm <anchor 577 0> mark @top1;
-pos base Tta.gm <anchor 538 0> mark @top1;
-pos base Ttha.gm <anchor 409 0> mark @top1;
-pos base Dda.gm <anchor 571 0> mark @top1;
-pos base Ddha.gm <anchor 600 0> mark @top1;
-pos base Nna.gm <anchor 529 0> mark @top1;
-pos base Ta.gm <anchor 540 0> mark @top1;
-pos base Da.gm <anchor 576 0> mark @top1;
-pos base Na.gm <anchor 415 0> mark @top1;
-pos base Pha.gm <anchor 559 0> mark @top1;
-pos base Bha.gm <anchor 567 0> mark @top1;
-pos base Ra.gm <anchor 538 0> mark @top1;
-pos base La.gm <anchor 591 0> mark @top1;
-pos base Lla.gm <anchor 591 0> mark @top1;
-pos base Va.gm <anchor 559 0> mark @top1;
-pos base Ha.gm <anchor 543 0> mark @top1;
-pos base Rra.gm <anchor 549 0> mark @top1;
-pos base Fa.gm <anchor 561 0> mark @top1;
-pos base Rha.gm <anchor 545 0> mark @top1;
-pos base KaViramaRa.gm <anchor 598 0> mark @top1;
+# pos base Ka <anchor 599 0> mark @top1;
+# pos base Nga <anchor 480 0> mark @top1;
+# pos base Ca <anchor 593 0> mark @top1;
+# pos base Cha <anchor 581 0> mark @top1;
+# pos base Jha <anchor 561 0> mark @top1;
+# pos base Nya <anchor 577 0> mark @top1;
+# pos base Tta <anchor 538 0> mark @top1;
+# pos base Ttha <anchor 409 0> mark @top1;
+# pos base Dda <anchor 571 0> mark @top1;
+# pos base Ddha <anchor 600 0> mark @top1;
+# pos base Nna <anchor 529 0> mark @top1;
+# pos base Ta <anchor 540 0> mark @top1;
+# pos base Da <anchor 576 0> mark @top1;
+# pos base Na <anchor 415 0> mark @top1;
+# pos base Pha <anchor 559 0> mark @top1;
+# pos base Bha <anchor 567 0> mark @top1;
+# pos base Ra <anchor 538 0> mark @top1;
+# pos base La <anchor 591 0> mark @top1;
+# pos base Lla <anchor 591 0> mark @top1;
+# pos base Va <anchor 559 0> mark @top1;
+# pos base Ha <anchor 543 0> mark @top1;
+# pos base Rra <anchor 549 0> mark @top1;
+# pos base Fa <anchor 561 0> mark @top1;
+# pos base Rha <anchor 545 0> mark @top1;
+# pos base KaViramaRa <anchor 598 0> mark @top1;
 }abvm2;
 
 
 lookup abvm3{
-pos base Kha.gm <anchor 565 0> mark @top2;
-pos base Gha.gm <anchor 703 0> mark @top2;
-pos base Pa.gm <anchor 549 0> mark @top2;
-pos base Ma.gm <anchor 553 0> mark @top2;
-pos base AddhaMa.gm <anchor 427 0> mark @top2;
+# pos base Kha <anchor 565 0> mark @top2;
+# pos base Gha <anchor 703 0> mark @top2;
+# pos base Pa <anchor 549 0> mark @top2;
+# pos base Ma <anchor 553 0> mark @top2;
+# pos base AddhaMa <anchor 427 0> mark @top2;
 } abvm3;
 
 lookup abvm4{
-pos base VowelIi.gm <anchor 1098 114> mark @top3;
-pos base VowelU.gm <anchor 870 100> mark @top3;
-pos base VowelUu.gm <anchor 870 100> mark @top3;
-pos base VowelOo.gm <anchor 870 135> mark @top3;
-pos base VowelEe.gm <anchor 787 90> mark @top3;
-pos base VowelAi.gm <anchor 930 90> mark @top3;
-pos base VowelAu.gm <anchor 967 147> mark @top3;
+# pos base VowelIi <anchor 1098 114> mark @top3;
+# pos base VowelU <anchor 870 100> mark @top3;
+# pos base VowelUu <anchor 870 100> mark @top3;
+# pos base VowelOo <anchor 870 135> mark @top3;
+# pos base VowelEe <anchor 787 90> mark @top3;
+# pos base VowelAi <anchor 930 90> mark @top3;
+# pos base VowelAu <anchor 967 147> mark @top3;
 }abvm4;
 
 lookup abvm5{
-pos base VowelIi.gm <anchor 893 92> mark @top4;
-pos base VowelU.gm <anchor 730 40> mark @top4;
-pos base VowelUu.gm <anchor 730 40> mark @top4;
-pos base VowelOo.gm <anchor 740 40> mark @top4;
-pos base VowelEe.gm <anchor 584 88> mark @top4;
-pos base VowelAi.gm <anchor 731 88> mark @top4;
-pos base VowelAu.gm <anchor 839 118> mark @top4;
+# pos base VowelIi <anchor 893 92> mark @top4;
+# pos base VowelU <anchor 730 40> mark @top4;
+# pos base VowelUu <anchor 730 40> mark @top4;
+# pos base VowelOo <anchor 740 40> mark @top4;
+# pos base VowelEe <anchor 584 88> mark @top4;
+# pos base VowelAi <anchor 731 88> mark @top4;
+# pos base VowelAu <anchor 839 118> mark @top4;
 }abvm5;
 
 lookup abvm6{
-pos MatraI.gm [Ttha.gm Na.gm TthaVirama.gm NaVirama.gm] Tippi.gm' <50 0 0 0>;
-pos MatraI.gm [Ttha.gm Na.gm TthaVirama.gm NaVirama.gm] Addak.gm' <60 0 0 0>;
-pos MatraI.gm [Ttha.gm Na.gm TthaVirama.gm NaVirama.gm] AddakBindi.gm' <60 0 0 0>;
-}abvm6;";
+# pos MatraI [Ttha Na TthaVirama NaVirama] Tippi' <50 0 0 0>;
+# pos MatraI [Ttha Na TthaVirama NaVirama] Addak' <60 0 0 0>;
+# pos MatraI [Ttha Na TthaVirama NaVirama] AddakBindi' <60 0 0 0>;
+}abvm6;
+";
 tag = abvm;
+},
+{
+automatic = 1;
+code = "lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_1;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
 }
 );
 fontMaster = (
@@ -4275,11 +4207,11 @@ size = -20;
 },
 {
 name = typoAscender;
-value = 814;
+value = 1130;
 },
 {
 name = typoDescender;
-value = -390;
+value = -532;
 },
 {
 name = typoLineGap;
@@ -5567,6 +5499,7 @@ unicode = 13;
 },
 {
 glyphname = space;
+lastChange = "2022-06-30 21:29:50 +0000";
 layers = (
 {
 layerId = master01;
@@ -5586,7 +5519,7 @@ width = 210;
 {
 layerId = master04;
 vertWidth = 1130;
-width = 217;
+width = 267;
 },
 {
 layerId = master05;
@@ -181897,7 +181830,7 @@ width = 853;
 );
 },
 {
-glyphname = AddakBindi.gm;
+glyphname = AddakBindi;
 layers = (
 {
 layerId = master01;
@@ -182217,7 +182150,7 @@ width = 0;
 unicode = 2561;
 },
 {
-glyphname = Bindi.gm;
+glyphname = Bindi;
 layers = (
 {
 layerId = master01;
@@ -182390,7 +182323,7 @@ width = 0;
 unicode = 2562;
 },
 {
-glyphname = Visarga.gm;
+glyphname = Visarga;
 layers = (
 {
 layerId = master01;
@@ -182682,7 +182615,7 @@ width = 231;
 unicode = 2563;
 },
 {
-glyphname = VowelA.gm;
+glyphname = VowelA;
 lastChange = "2022-06-08 22:57:38 +0000";
 layers = (
 {
@@ -183115,7 +183048,7 @@ width = 760;
 unicode = 2565;
 },
 {
-glyphname = VowelAa.gm;
+glyphname = VowelAa;
 lastChange = "2022-06-08 22:57:46 +0000";
 layers = (
 {
@@ -183576,7 +183509,7 @@ width = 1006;
 unicode = 2566;
 },
 {
-glyphname = VowelI.gm;
+glyphname = VowelI;
 lastChange = "2022-06-08 22:59:18 +0000";
 layers = (
 {
@@ -184100,7 +184033,7 @@ width = 827;
 unicode = 2567;
 },
 {
-glyphname = VowelIi.gm;
+glyphname = VowelIi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -184624,7 +184557,7 @@ width = 827;
 unicode = 2568;
 },
 {
-glyphname = VowelU.gm;
+glyphname = VowelU;
 lastChange = "2022-06-08 23:00:50 +0000";
 layers = (
 {
@@ -185323,7 +185256,7 @@ width = 610;
 unicode = 2569;
 },
 {
-glyphname = VowelUu.gm;
+glyphname = VowelUu;
 lastChange = "2022-06-08 23:01:12 +0000";
 layers = (
 {
@@ -186155,7 +186088,7 @@ width = 610;
 unicode = 2570;
 },
 {
-glyphname = VowelEe.gm;
+glyphname = VowelEe;
 layers = (
 {
 layerId = master01;
@@ -186636,7 +186569,7 @@ width = 572;
 unicode = 2575;
 },
 {
-glyphname = VowelAi.gm;
+glyphname = VowelAi;
 lastChange = "2022-06-08 23:02:31 +0000";
 layers = (
 {
@@ -187272,7 +187205,7 @@ width = 760;
 unicode = 2576;
 },
 {
-glyphname = VowelOo.gm;
+glyphname = VowelOo;
 lastChange = "2022-06-08 23:13:42 +0000";
 layers = (
 {
@@ -187796,7 +187729,7 @@ width = 604;
 unicode = 2579;
 },
 {
-glyphname = VowelAu.gm;
+glyphname = VowelAu;
 lastChange = "2022-06-08 23:02:43 +0000";
 layers = (
 {
@@ -188544,7 +188477,7 @@ width = 760;
 unicode = 2580;
 },
 {
-glyphname = Ka.gm;
+glyphname = Ka;
 layers = (
 {
 layerId = master01;
@@ -188962,7 +188895,7 @@ width = 590;
 unicode = 2581;
 },
 {
-glyphname = Kha.gm;
+glyphname = Kha;
 lastChange = "2022-06-08 23:14:46 +0000";
 layers = (
 {
@@ -189346,7 +189279,7 @@ width = 594;
 unicode = 2582;
 },
 {
-glyphname = Ga.gm;
+glyphname = Ga;
 layers = (
 {
 layerId = master01;
@@ -189694,7 +189627,7 @@ width = 761;
 unicode = 2583;
 },
 {
-glyphname = Gha.gm;
+glyphname = Gha;
 layers = (
 {
 layerId = master01;
@@ -190175,7 +190108,7 @@ width = 748;
 unicode = 2584;
 },
 {
-glyphname = Nga.gm;
+glyphname = Nga;
 layers = (
 {
 layerId = master01;
@@ -190635,7 +190568,7 @@ width = 555;
 unicode = 2585;
 },
 {
-glyphname = Ca.gm;
+glyphname = Ca;
 layers = (
 {
 layerId = master01;
@@ -191018,7 +190951,7 @@ width = 616;
 unicode = 2586;
 },
 {
-glyphname = Cha.gm;
+glyphname = Cha;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -191570,7 +191503,7 @@ width = 590;
 unicode = 2587;
 },
 {
-glyphname = Ja.gm;
+glyphname = Ja;
 layers = (
 {
 layerId = master01;
@@ -191827,7 +191760,7 @@ width = 607;
 unicode = 2588;
 },
 {
-glyphname = Jha.gm;
+glyphname = Jha;
 lastChange = "2022-06-08 23:35:35 +0000";
 layers = (
 {
@@ -192323,7 +192256,7 @@ width = 555;
 unicode = 2589;
 },
 {
-glyphname = Nya.gm;
+glyphname = Nya;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -192798,7 +192731,7 @@ width = 572;
 unicode = 2590;
 },
 {
-glyphname = Tta.gm;
+glyphname = Tta;
 lastChange = "2022-06-08 23:28:31 +0000";
 layers = (
 {
@@ -193077,7 +193010,7 @@ width = 540;
 unicode = 2591;
 },
 {
-glyphname = Ttha.gm;
+glyphname = Ttha;
 layers = (
 {
 layerId = master01;
@@ -193418,7 +193351,7 @@ width = 596;
 unicode = 2592;
 },
 {
-glyphname = Dda.gm;
+glyphname = Dda;
 layers = (
 {
 layerId = master01;
@@ -193920,7 +193853,7 @@ width = 553;
 unicode = 2593;
 },
 {
-glyphname = Ddha.gm;
+glyphname = Ddha;
 layers = (
 {
 layerId = master01;
@@ -194366,7 +194299,7 @@ width = 605;
 unicode = 2594;
 },
 {
-glyphname = Nna.gm;
+glyphname = Nna;
 layers = (
 {
 layerId = master01;
@@ -194756,7 +194689,7 @@ width = 574;
 unicode = 2595;
 },
 {
-glyphname = Ta.gm;
+glyphname = Ta;
 layers = (
 {
 layerId = master01;
@@ -195125,7 +195058,7 @@ width = 522;
 unicode = 2596;
 },
 {
-glyphname = Tha.gm;
+glyphname = Tha;
 lastChange = "2022-06-08 23:36:54 +0000";
 layers = (
 {
@@ -195544,7 +195477,7 @@ width = 599;
 unicode = 2597;
 },
 {
-glyphname = Da.gm;
+glyphname = Da;
 layers = (
 {
 layerId = master01;
@@ -195857,7 +195790,7 @@ width = 587;
 unicode = 2598;
 },
 {
-glyphname = Dha.gm;
+glyphname = Dha;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -196220,7 +196153,7 @@ width = 581;
 unicode = 2599;
 },
 {
-glyphname = Na.gm;
+glyphname = Na;
 layers = (
 {
 layerId = master01;
@@ -196540,7 +196473,7 @@ width = 597;
 unicode = 2600;
 },
 {
-glyphname = Pa.gm;
+glyphname = Pa;
 layers = (
 {
 layerId = master01;
@@ -196867,7 +196800,7 @@ width = 579;
 unicode = 2602;
 },
 {
-glyphname = Pha.gm;
+glyphname = Pha;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -197286,7 +197219,7 @@ width = 561;
 unicode = 2603;
 },
 {
-glyphname = Ba.gm;
+glyphname = Ba;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -197705,7 +197638,7 @@ width = 601;
 unicode = 2604;
 },
 {
-glyphname = Bha.gm;
+glyphname = Bha;
 layers = (
 {
 layerId = master01;
@@ -198207,7 +198140,7 @@ width = 559;
 unicode = 2605;
 },
 {
-glyphname = Ma.gm;
+glyphname = Ma;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -198493,7 +198426,7 @@ width = 581;
 unicode = 2606;
 },
 {
-glyphname = Ya.gm;
+glyphname = Ya;
 lastChange = "2022-06-08 23:10:25 +0000";
 layers = (
 {
@@ -198863,7 +198796,7 @@ width = 724;
 unicode = 2607;
 },
 {
-glyphname = Ra.gm;
+glyphname = Ra;
 layers = (
 {
 layerId = master01;
@@ -199183,7 +199116,7 @@ width = 553;
 unicode = 2608;
 },
 {
-glyphname = La.gm;
+glyphname = La;
 layers = (
 {
 layerId = master01;
@@ -199657,7 +199590,7 @@ width = 685;
 unicode = 2610;
 },
 {
-glyphname = Lla.gm;
+glyphname = Lla;
 layers = (
 {
 layerId = master01;
@@ -200250,7 +200183,7 @@ width = 687;
 unicode = 2611;
 },
 {
-glyphname = Va.gm;
+glyphname = Va;
 layers = (
 {
 layerId = master01;
@@ -200640,7 +200573,7 @@ width = 557;
 unicode = 2613;
 },
 {
-glyphname = Sha.gm;
+glyphname = Sha;
 layers = (
 {
 layerId = master01;
@@ -201079,7 +201012,7 @@ width = 586;
 unicode = 2614;
 },
 {
-glyphname = Sa.gm;
+glyphname = Sa;
 layers = (
 {
 layerId = master01;
@@ -201399,7 +201332,7 @@ width = 581;
 unicode = 2616;
 },
 {
-glyphname = Ha.gm;
+glyphname = Ha;
 layers = (
 {
 layerId = master01;
@@ -201684,7 +201617,7 @@ width = 554;
 unicode = 2617;
 },
 {
-glyphname = Nukta.gm;
+glyphname = Nukta;
 layers = (
 {
 layerId = master01;
@@ -201857,7 +201790,7 @@ width = 0;
 unicode = 2620;
 },
 {
-glyphname = MatraAa.gm;
+glyphname = MatraAa;
 layers = (
 {
 layerId = master01;
@@ -202002,7 +201935,7 @@ width = 246;
 unicode = 2622;
 },
 {
-glyphname = MatraI.gm;
+glyphname = MatraI;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -202274,7 +202207,7 @@ width = 255;
 unicode = 2623;
 },
 {
-glyphname = MatraIi.gm;
+glyphname = MatraIi;
 layers = (
 {
 layerId = master01;
@@ -202545,7 +202478,7 @@ width = 255;
 unicode = 2624;
 },
 {
-glyphname = MatraU.gm;
+glyphname = MatraU;
 layers = (
 {
 layerId = master01;
@@ -202732,7 +202665,7 @@ width = 0;
 unicode = 2625;
 },
 {
-glyphname = MatraUu.gm;
+glyphname = MatraUu;
 layers = (
 {
 layerId = master01;
@@ -203052,7 +202985,7 @@ width = 0;
 unicode = 2626;
 },
 {
-glyphname = MatraEe.gm;
+glyphname = MatraEe;
 layers = (
 {
 layerId = master01;
@@ -203253,7 +203186,7 @@ width = 0;
 unicode = 2631;
 },
 {
-glyphname = MatraAi.gm;
+glyphname = MatraAi;
 layers = (
 {
 layerId = master01;
@@ -203559,7 +203492,7 @@ width = 0;
 unicode = 2632;
 },
 {
-glyphname = MatraOo.gm;
+glyphname = MatraOo;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -203782,7 +203715,7 @@ width = 0;
 unicode = 2635;
 },
 {
-glyphname = MatraAu.gm;
+glyphname = MatraAu;
 lastChange = "2022-06-08 23:19:44 +0000";
 layers = (
 {
@@ -204152,7 +204085,7 @@ width = 0;
 unicode = 2636;
 },
 {
-glyphname = Virama.gm;
+glyphname = Virama;
 layers = (
 {
 layerId = master01;
@@ -204269,7 +204202,7 @@ width = 0;
 unicode = 2637;
 },
 {
-glyphname = Udaat.gm;
+glyphname = Udaat;
 layers = (
 {
 layerId = master01;
@@ -204414,7 +204347,7 @@ width = 0;
 unicode = 2641;
 },
 {
-glyphname = Khha.gm;
+glyphname = Khha;
 lastChange = "2022-06-08 23:15:14 +0000";
 layers = (
 {
@@ -204917,7 +204850,7 @@ width = 594;
 unicode = 2649;
 },
 {
-glyphname = Ghha.gm;
+glyphname = Ghha;
 layers = (
 {
 layerId = master01;
@@ -205384,7 +205317,7 @@ width = 761;
 unicode = 2650;
 },
 {
-glyphname = Za.gm;
+glyphname = Za;
 layers = (
 {
 layerId = master01;
@@ -205760,7 +205693,7 @@ width = 604;
 unicode = 2651;
 },
 {
-glyphname = Rra.gm;
+glyphname = Rra;
 lastChange = "2022-06-08 23:17:24 +0000";
 layers = (
 {
@@ -206214,7 +206147,7 @@ width = 549;
 unicode = 2652;
 },
 {
-glyphname = Fa.gm;
+glyphname = Fa;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -206752,7 +206685,7 @@ width = 561;
 unicode = 2654;
 },
 {
-glyphname = Zero.gm;
+glyphname = Zero;
 layers = (
 {
 layerId = master01;
@@ -207044,7 +206977,7 @@ width = 540;
 unicode = 2662;
 },
 {
-glyphname = One.gm;
+glyphname = One;
 layers = (
 {
 layerId = master01;
@@ -207364,7 +207297,7 @@ width = 488;
 unicode = 2663;
 },
 {
-glyphname = Two.gm;
+glyphname = Two;
 layers = (
 {
 layerId = master01;
@@ -207656,7 +207589,7 @@ width = 514;
 unicode = 2664;
 },
 {
-glyphname = Three.gm;
+glyphname = Three;
 layers = (
 {
 layerId = master01;
@@ -208102,7 +208035,7 @@ width = 518;
 unicode = 2665;
 },
 {
-glyphname = Four.gm;
+glyphname = Four;
 layers = (
 {
 layerId = master01;
@@ -208576,7 +208509,7 @@ width = 572;
 unicode = 2666;
 },
 {
-glyphname = Five.gm;
+glyphname = Five;
 layers = (
 {
 layerId = master01;
@@ -208875,7 +208808,7 @@ width = 587;
 unicode = 2667;
 },
 {
-glyphname = Six.gm;
+glyphname = Six;
 lastChange = "2022-06-08 23:40:51 +0000";
 layers = (
 {
@@ -209413,7 +209346,7 @@ width = 513;
 unicode = 2668;
 },
 {
-glyphname = Seven.gm;
+glyphname = Seven;
 layers = (
 {
 layerId = master01;
@@ -209684,7 +209617,7 @@ width = 535;
 unicode = 2669;
 },
 {
-glyphname = Eight.gm;
+glyphname = Eight;
 layers = (
 {
 layerId = master01;
@@ -209969,7 +209902,7 @@ width = 588;
 unicode = 2670;
 },
 {
-glyphname = Nine.gm;
+glyphname = Nine;
 layers = (
 {
 layerId = master01;
@@ -210387,7 +210320,7 @@ width = 592;
 unicode = 2671;
 },
 {
-glyphname = Tippi.gm;
+glyphname = Tippi;
 layers = (
 {
 layerId = master01;
@@ -210658,7 +210591,7 @@ width = 0;
 unicode = 2672;
 },
 {
-glyphname = Addak.gm;
+glyphname = Addak;
 layers = (
 {
 layerId = master01;
@@ -210859,7 +210792,7 @@ width = 0;
 unicode = 2673;
 },
 {
-glyphname = Iri.gm;
+glyphname = Iri;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -211229,7 +211162,7 @@ width = 572;
 unicode = 2674;
 },
 {
-glyphname = Ura.gm;
+glyphname = Ura;
 lastChange = "2022-06-08 23:08:42 +0000";
 layers = (
 {
@@ -211795,7 +211728,7 @@ width = 610;
 unicode = 2675;
 },
 {
-glyphname = EkOnkar.gm;
+glyphname = EkOnkar;
 lastChange = "2022-06-08 23:09:07 +0000";
 layers = (
 {
@@ -212739,7 +212672,7 @@ width = 1088;
 unicode = 2676;
 },
 {
-glyphname = Yakash.gm;
+glyphname = Yakash;
 layers = (
 {
 layerId = master01;
@@ -212954,7 +212887,7 @@ width = 0;
 unicode = 2677;
 },
 {
-glyphname = PairinHa.gm;
+glyphname = PairinHa;
 layers = (
 {
 layerId = master01;
@@ -213210,7 +213143,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinRa.gm;
+glyphname = PairinRa;
 layers = (
 {
 layerId = master01;
@@ -213410,7 +213343,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinVa.gm;
+glyphname = PairinVa;
 layers = (
 {
 layerId = master01;
@@ -213771,7 +213704,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinGa.gm;
+glyphname = PairinGa;
 layers = (
 {
 layerId = master01;
@@ -214125,7 +214058,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinCa.gm;
+glyphname = PairinCa;
 lastChange = "2022-06-08 23:26:58 +0000";
 layers = (
 {
@@ -214480,7 +214413,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTta.gm;
+glyphname = PairinTta;
 lastChange = "2022-06-08 23:28:47 +0000";
 layers = (
 {
@@ -214730,7 +214663,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTtha.gm;
+glyphname = PairinTtha;
 layers = (
 {
 layerId = master01;
@@ -215042,7 +214975,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTa.gm;
+glyphname = PairinTa;
 layers = (
 {
 layerId = master01;
@@ -215389,7 +215322,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinDa.gm;
+glyphname = PairinDa;
 layers = (
 {
 layerId = master01;
@@ -215673,7 +215606,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinNa.gm;
+glyphname = PairinNa;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -215965,7 +215898,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTha.gm;
+glyphname = PairinTha;
 layers = (
 {
 layerId = master01;
@@ -216319,7 +216252,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinYa.gm;
+glyphname = PairinYa;
 lastChange = "2022-06-08 23:11:41 +0000";
 layers = (
 {
@@ -216625,7 +216558,7 @@ width = 0;
 );
 },
 {
-glyphname = AddhaYa.gm;
+glyphname = AddhaYa;
 lastChange = "2022-06-08 23:11:23 +0000";
 layers = (
 {
@@ -216875,7 +216808,7 @@ width = 616;
 );
 },
 {
-glyphname = AddhaMa.gm;
+glyphname = AddhaMa;
 layers = (
 {
 layerId = master01;
@@ -217033,7 +216966,7 @@ width = 463;
 );
 },
 {
-glyphname = AddhaTha.gm;
+glyphname = AddhaTha;
 layers = (
 {
 layerId = master01;
@@ -217275,7 +217208,7 @@ width = 487;
 );
 },
 {
-glyphname = Rha.gm;
+glyphname = Rha;
 lastChange = "2022-06-08 23:17:52 +0000";
 layers = (
 {
@@ -217910,7 +217843,7 @@ width = 545;
 );
 },
 {
-glyphname = KaViramaRa.gm;
+glyphname = KaViramaRa;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -218426,7 +218359,7 @@ width = 590;
 );
 },
 {
-glyphname = KaVirama.gm;
+glyphname = KaVirama;
 layers = (
 {
 layerId = master01;
@@ -218906,7 +218839,7 @@ width = 590;
 );
 },
 {
-glyphname = KhaVirama.gm;
+glyphname = KhaVirama;
 lastChange = "2022-06-08 23:15:29 +0000";
 layers = (
 {
@@ -219352,7 +219285,7 @@ width = 594;
 );
 },
 {
-glyphname = GaVirama.gm;
+glyphname = GaVirama;
 layers = (
 {
 layerId = master01;
@@ -219762,7 +219695,7 @@ width = 761;
 );
 },
 {
-glyphname = GhaVirama.gm;
+glyphname = GhaVirama;
 layers = (
 {
 layerId = master01;
@@ -220305,7 +220238,7 @@ width = 748;
 );
 },
 {
-glyphname = NgaVirama.gm;
+glyphname = NgaVirama;
 layers = (
 {
 layerId = master01;
@@ -220827,7 +220760,7 @@ width = 555;
 );
 },
 {
-glyphname = CaVirama.gm;
+glyphname = CaVirama;
 layers = (
 {
 layerId = master01;
@@ -221272,7 +221205,7 @@ width = 615;
 );
 },
 {
-glyphname = ChaVirama.gm;
+glyphname = ChaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -221886,7 +221819,7 @@ width = 590;
 );
 },
 {
-glyphname = JaVirama.gm;
+glyphname = JaVirama;
 layers = (
 {
 layerId = master01;
@@ -222205,7 +222138,7 @@ width = 604;
 );
 },
 {
-glyphname = JhaVirama.gm;
+glyphname = JhaVirama;
 lastChange = "2022-06-08 23:36:10 +0000";
 layers = (
 {
@@ -222763,7 +222696,7 @@ width = 555;
 );
 },
 {
-glyphname = NyaVirama.gm;
+glyphname = NyaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -223300,7 +223233,7 @@ width = 572;
 );
 },
 {
-glyphname = TtaVirama.gm;
+glyphname = TtaVirama;
 lastChange = "2022-06-08 23:29:14 +0000";
 layers = (
 {
@@ -223641,7 +223574,7 @@ width = 540;
 );
 },
 {
-glyphname = TthaVirama.gm;
+glyphname = TthaVirama;
 layers = (
 {
 layerId = master01;
@@ -224044,7 +223977,7 @@ width = 596;
 );
 },
 {
-glyphname = DdaVirama.gm;
+glyphname = DdaVirama;
 layers = (
 {
 layerId = master01;
@@ -224608,7 +224541,7 @@ width = 553;
 );
 },
 {
-glyphname = DdhaVirama.gm;
+glyphname = DdhaVirama;
 layers = (
 {
 layerId = master01;
@@ -225116,7 +225049,7 @@ width = 605;
 );
 },
 {
-glyphname = NnaVirama.gm;
+glyphname = NnaVirama;
 layers = (
 {
 layerId = master01;
@@ -225568,7 +225501,7 @@ width = 572;
 );
 },
 {
-glyphname = TaVirama.gm;
+glyphname = TaVirama;
 layers = (
 {
 layerId = master01;
@@ -225999,7 +225932,7 @@ width = 522;
 );
 },
 {
-glyphname = ThaVirama.gm;
+glyphname = ThaVirama;
 lastChange = "2022-06-08 23:37:12 +0000";
 layers = (
 {
@@ -226480,7 +226413,7 @@ width = 599;
 );
 },
 {
-glyphname = DaVirama.gm;
+glyphname = DaVirama;
 layers = (
 {
 layerId = master01;
@@ -226855,7 +226788,7 @@ width = 587;
 );
 },
 {
-glyphname = DhaVirama.gm;
+glyphname = DhaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -227280,7 +227213,7 @@ width = 583;
 );
 },
 {
-glyphname = NaVirama.gm;
+glyphname = NaVirama;
 layers = (
 {
 layerId = master01;
@@ -227662,7 +227595,7 @@ width = 597;
 );
 },
 {
-glyphname = PaVirama.gm;
+glyphname = PaVirama;
 layers = (
 {
 layerId = master01;
@@ -228051,7 +227984,7 @@ width = 579;
 );
 },
 {
-glyphname = PhaVirama.gm;
+glyphname = PhaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -228532,7 +228465,7 @@ width = 561;
 );
 },
 {
-glyphname = BaVirama.gm;
+glyphname = BaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -229013,7 +228946,7 @@ width = 601;
 );
 },
 {
-glyphname = BhaVirama.gm;
+glyphname = BhaVirama;
 layers = (
 {
 layerId = master01;
@@ -229577,7 +229510,7 @@ width = 557;
 );
 },
 {
-glyphname = MaVirama.gm;
+glyphname = MaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -229925,7 +229858,7 @@ width = 581;
 );
 },
 {
-glyphname = YaVirama.gm;
+glyphname = YaVirama;
 lastChange = "2022-06-08 23:12:06 +0000";
 layers = (
 {
@@ -230357,7 +230290,7 @@ width = 724;
 );
 },
 {
-glyphname = RaVirama.gm;
+glyphname = RaVirama;
 layers = (
 {
 layerId = master01;
@@ -230739,7 +230672,7 @@ width = 553;
 );
 },
 {
-glyphname = LaVirama.gm;
+glyphname = LaVirama;
 layers = (
 {
 layerId = master01;
@@ -231275,7 +231208,7 @@ width = 685;
 );
 },
 {
-glyphname = LlaVirama.gm;
+glyphname = LlaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -231931,7 +231864,7 @@ width = 673;
 );
 },
 {
-glyphname = VaVirama.gm;
+glyphname = VaVirama;
 layers = (
 {
 layerId = master01;
@@ -232383,7 +232316,7 @@ width = 557;
 );
 },
 {
-glyphname = ShaVirama.gm;
+glyphname = ShaVirama;
 layers = (
 {
 layerId = master01;
@@ -232884,7 +232817,7 @@ width = 586;
 );
 },
 {
-glyphname = SaVirama.gm;
+glyphname = SaVirama;
 layers = (
 {
 layerId = master01;
@@ -233266,7 +233199,7 @@ width = 581;
 );
 },
 {
-glyphname = HaVirama.gm;
+glyphname = HaVirama;
 layers = (
 {
 layerId = master01;
@@ -233613,7 +233546,7 @@ width = 554;
 );
 },
 {
-glyphname = KhhaVirama.gm;
+glyphname = KhhaVirama;
 lastChange = "2022-06-08 23:15:56 +0000";
 layers = (
 {
@@ -234178,7 +234111,7 @@ width = 594;
 );
 },
 {
-glyphname = GhhaVirama.gm;
+glyphname = GhhaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -234708,7 +234641,7 @@ width = 761;
 );
 },
 {
-glyphname = ZaVirama.gm;
+glyphname = ZaVirama;
 layers = (
 {
 layerId = master01;
@@ -235146,7 +235079,7 @@ width = 604;
 );
 },
 {
-glyphname = RraVirama.gm;
+glyphname = RraVirama;
 lastChange = "2022-06-08 23:18:17 +0000";
 layers = (
 {
@@ -235662,7 +235595,7 @@ width = 549;
 );
 },
 {
-glyphname = FaVirama.gm;
+glyphname = FaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -236262,7 +236195,7 @@ width = 561;
 );
 },
 {
-glyphname = Danda.gm;
+glyphname = Danda;
 layers = (
 {
 layerId = master01;
@@ -236378,7 +236311,7 @@ width = 315;
 );
 },
 {
-glyphname = Doubledanda.gm;
+glyphname = Doubledanda;
 layers = (
 {
 layerId = master01;
@@ -236557,7 +236490,7 @@ width = 545;
 );
 },
 {
-glyphname = Khanda.gm;
+glyphname = Khanda;
 layers = (
 {
 layerId = master01;
@@ -237709,7 +237642,7 @@ width = 795;
 );
 },
 {
-glyphname = MatraEeBindi.gm;
+glyphname = MatraEeBindi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -238029,7 +237962,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAiBindi.gm;
+glyphname = MatraAiBindi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -238454,7 +238387,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraOoBindi.gm;
+glyphname = MatraOoBindi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -238795,7 +238728,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAuBindi.gm;
+glyphname = MatraAuBindi;
 lastChange = "2022-06-08 23:19:57 +0000";
 layers = (
 {
@@ -239283,7 +239216,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraIiBindi.gm;
+glyphname = MatraIiBindi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -239673,7 +239606,7 @@ width = 255;
 );
 },
 {
-glyphname = MatraU.gm.alt;
+glyphname = MatraU.alt;
 layers = (
 {
 layerId = master01;
@@ -239859,7 +239792,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraUu.gm.alt;
+glyphname = MatraUu.alt;
 layers = (
 {
 layerId = master01;
@@ -240178,7 +240111,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraEe.gm.alt;
+glyphname = MatraEe.alt;
 layers = (
 {
 layerId = master01;
@@ -240378,7 +240311,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAi.gm.alt;
+glyphname = MatraAi.alt;
 layers = (
 {
 layerId = master01;
@@ -240683,7 +240616,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraOo.gm.alt;
+glyphname = MatraOo.alt;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -240905,7 +240838,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAu.gm.alt;
+glyphname = MatraAu.alt;
 lastChange = "2022-06-08 23:21:59 +0000";
 layers = (
 {
@@ -241267,7 +241200,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraEeBindi.gm.alt;
+glyphname = MatraEeBindi.alt;
 layers = (
 {
 layerId = master01;
@@ -241586,7 +241519,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAiBindi.gm.alt;
+glyphname = MatraAiBindi.alt;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -242011,7 +241944,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraOoBindi.gm.alt;
+glyphname = MatraOoBindi.alt;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -242352,7 +242285,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAuBindi.gm.alt;
+glyphname = MatraAuBindi.alt;
 lastChange = "2022-06-08 23:22:08 +0000";
 layers = (
 {
@@ -242833,7 +242766,7 @@ width = 0;
 );
 },
 {
-glyphname = Virama.gm.alt;
+glyphname = Virama.alt;
 layers = (
 {
 layerId = master01;
@@ -242949,7 +242882,7 @@ width = 0;
 );
 },
 {
-glyphname = Bindi.gm.alt;
+glyphname = Bindi.alt;
 layers = (
 {
 layerId = master01;
@@ -243121,7 +243054,7 @@ width = 0;
 );
 },
 {
-glyphname = Addak.gm.alt;
+glyphname = Addak.alt;
 layers = (
 {
 layerId = master01;
@@ -243321,7 +243254,7 @@ width = 0;
 );
 },
 {
-glyphname = AddakBindi.gm.alt;
+glyphname = AddakBindi.alt;
 layers = (
 {
 layerId = master01;
@@ -243640,7 +243573,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraEeAddak.gm;
+glyphname = MatraEeAddak;
 layers = (
 {
 layerId = master01;
@@ -243987,7 +243920,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAiAddak.gm;
+glyphname = MatraAiAddak;
 layers = (
 {
 layerId = master01;
@@ -244439,7 +244372,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraOoAddak.gm;
+glyphname = MatraOoAddak;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -244808,7 +244741,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAuAddak.gm;
+glyphname = MatraAuAddak;
 lastChange = "2022-06-08 23:22:37 +0000";
 layers = (
 {
@@ -245324,7 +245257,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraIiAddak.gm;
+glyphname = MatraIiAddak;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -245742,7 +245675,7 @@ width = 255;
 );
 },
 {
-glyphname = MatraEeAddakBindi.gm;
+glyphname = MatraEeAddakBindi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -246209,7 +246142,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAiAddakBindi.gm;
+glyphname = MatraAiAddakBindi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -246781,7 +246714,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraOoAddakBindi.gm;
+glyphname = MatraOoAddakBindi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -247269,7 +247202,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAuAddakBindi.gm;
+glyphname = MatraAuAddakBindi;
 lastChange = "2022-06-08 23:20:19 +0000";
 layers = (
 {
@@ -247904,7 +247837,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraIiAddakBindi.gm;
+glyphname = MatraIiAddakBindi;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -248441,7 +248374,7 @@ width = 255;
 );
 },
 {
-glyphname = MatraEeAddak.gm.alt;
+glyphname = MatraEeAddak.alt;
 lastChange = "2022-06-08 13:20:21 +0000";
 layers = (
 {
@@ -248790,7 +248723,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAiAddak.gm.alt;
+glyphname = MatraAiAddak.alt;
 layers = (
 {
 layerId = master01;
@@ -249242,7 +249175,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraOoAddak.gm.alt;
+glyphname = MatraOoAddak.alt;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -249611,7 +249544,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAuAddak.gm.alt;
+glyphname = MatraAuAddak.alt;
 lastChange = "2022-06-08 23:22:43 +0000";
 layers = (
 {
@@ -250120,7 +250053,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraEeAddakBindi.gm.alt;
+glyphname = MatraEeAddakBindi.alt;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -250587,7 +250520,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAiAddakBindi.gm.alt;
+glyphname = MatraAiAddakBindi.alt;
 layers = (
 {
 layerId = master01;
@@ -251158,7 +251091,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraOoAddakBindi.gm.alt;
+glyphname = MatraOoAddakBindi.alt;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -251646,7 +251579,7 @@ width = 0;
 );
 },
 {
-glyphname = MatraAuAddakBindi.gm.alt;
+glyphname = MatraAuAddakBindi.alt;
 lastChange = "2022-06-08 23:22:48 +0000";
 layers = (
 {
@@ -252274,7 +252207,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinRaVirama.gm;
+glyphname = PairinRaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -252538,7 +252471,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinHaVirama.gm;
+glyphname = PairinHaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -252858,7 +252791,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinVaVirama.gm;
+glyphname = PairinVaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -253283,7 +253216,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinGaVirama.gm;
+glyphname = PairinGaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -253701,7 +253634,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinCaVirama.gm;
+glyphname = PairinCaVirama;
 lastChange = "2022-06-08 23:27:13 +0000";
 layers = (
 {
@@ -254119,7 +254052,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTtaVirama.gm;
+glyphname = PairinTtaVirama;
 lastChange = "2022-06-08 23:29:31 +0000";
 layers = (
 {
@@ -254432,7 +254365,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTthaVirama.gm;
+glyphname = PairinTthaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -254808,7 +254741,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTaVirama.gm;
+glyphname = PairinTaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -255219,7 +255152,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinDaVirama.gm;
+glyphname = PairinDaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -255567,7 +255500,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinNaVirama.gm;
+glyphname = PairinNaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -255922,7 +255855,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinThaVirama.gm;
+glyphname = PairinThaVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -256340,7 +256273,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinYaVirama.gm;
+glyphname = PairinYaVirama;
 lastChange = "2022-06-08 23:12:20 +0000";
 layers = (
 {
@@ -256709,7 +256642,7 @@ width = 0;
 );
 },
 {
-glyphname = YakashVirama.gm;
+glyphname = YakashVirama;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -256987,7 +256920,7 @@ width = 0;
 );
 },
 {
-glyphname = UdaatVirama.gm;
+glyphname = UdaatVirama;
 layers = (
 {
 layerId = master01;
@@ -257194,7 +257127,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinRaMatraU.gm;
+glyphname = PairinRaMatraU;
 layers = (
 {
 layerId = master01;
@@ -257527,7 +257460,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinHaMatraU.gm;
+glyphname = PairinHaMatraU;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -257917,7 +257850,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinVaMatraU.gm;
+glyphname = PairinVaMatraU;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -258412,7 +258345,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinGaMatraU.gm;
+glyphname = PairinGaMatraU;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -258900,7 +258833,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinCaMatraU.gm;
+glyphname = PairinCaMatraU;
 lastChange = "2022-06-08 23:27:29 +0000";
 layers = (
 {
@@ -259388,7 +259321,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTtaMatraU.gm;
+glyphname = PairinTtaMatraU;
 lastChange = "2022-06-08 23:32:37 +0000";
 layers = (
 {
@@ -259771,7 +259704,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTthaMatraU.gm;
+glyphname = PairinTthaMatraU;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -260217,7 +260150,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTaMatraU.gm;
+glyphname = PairinTaMatraU;
 layers = (
 {
 layerId = master01;
@@ -260697,7 +260630,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinDaMatraU.gm;
+glyphname = PairinDaMatraU;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -261115,7 +261048,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinNaMatraU.gm;
+glyphname = PairinNaMatraU;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -261540,7 +261473,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinThaMatraU.gm;
+glyphname = PairinThaMatraU;
 layers = (
 {
 layerId = master01;
@@ -262027,7 +261960,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinYaMatraU.gm;
+glyphname = PairinYaMatraU;
 lastChange = "2022-06-08 23:12:41 +0000";
 layers = (
 {
@@ -262466,7 +262399,7 @@ width = 0;
 );
 },
 {
-glyphname = YakashMatraU.gm;
+glyphname = YakashMatraU;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -262814,7 +262747,7 @@ width = 0;
 );
 },
 {
-glyphname = UdaatMatraU.gm;
+glyphname = UdaatMatraU;
 layers = (
 {
 layerId = master01;
@@ -263091,7 +263024,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinRaMatraUu.gm;
+glyphname = PairinRaMatraUu;
 layers = (
 {
 layerId = master01;
@@ -263557,7 +263490,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinHaMatraUu.gm;
+glyphname = PairinHaMatraUu;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -264080,7 +264013,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinVaMatraUu.gm;
+glyphname = PairinVaMatraUu;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -264708,7 +264641,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinGaMatraUu.gm;
+glyphname = PairinGaMatraUu;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -265329,7 +265262,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinCaMatraUu.gm;
+glyphname = PairinCaMatraUu;
 lastChange = "2022-06-08 23:27:45 +0000";
 layers = (
 {
@@ -265950,7 +265883,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTtaMatraUu.gm;
+glyphname = PairinTtaMatraUu;
 lastChange = "2022-06-08 23:32:59 +0000";
 layers = (
 {
@@ -266466,7 +266399,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTthaMatraUu.gm;
+glyphname = PairinTthaMatraUu;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -267045,7 +266978,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinTaMatraUu.gm;
+glyphname = PairinTaMatraUu;
 layers = (
 {
 layerId = master01;
@@ -267658,7 +267591,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinDaMatraUu.gm;
+glyphname = PairinDaMatraUu;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -268209,7 +268142,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinNaMatraUu.gm;
+glyphname = PairinNaMatraUu;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -268767,7 +268700,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinThaMatraUu.gm;
+glyphname = PairinThaMatraUu;
 layers = (
 {
 layerId = master01;
@@ -269387,7 +269320,7 @@ width = 0;
 );
 },
 {
-glyphname = PairinYaMatraUu.gm;
+glyphname = PairinYaMatraUu;
 lastChange = "2022-06-08 23:12:55 +0000";
 layers = (
 {
@@ -269959,7 +269892,7 @@ width = 0;
 );
 },
 {
-glyphname = YakashMatraUu.gm;
+glyphname = YakashMatraUu;
 lastChange = "2022-06-07 15:02:57 +0000";
 layers = (
 {
@@ -270440,7 +270373,7 @@ width = 0;
 );
 },
 {
-glyphname = UdaatMatraUu.gm;
+glyphname = UdaatMatraUu;
 layers = (
 {
 layerId = master01;
@@ -270850,7 +270783,7 @@ width = 0;
 );
 },
 {
-glyphname = OneQuarter.gm;
+glyphname = OneQuarter;
 layers = (
 {
 layerId = master01;
@@ -270966,7 +270899,7 @@ width = 251;
 );
 },
 {
-glyphname = OneHalf.gm;
+glyphname = OneHalf;
 layers = (
 {
 layerId = master01;
@@ -271145,7 +271078,7 @@ width = 457;
 );
 },
 {
-glyphname = ThreeQuarters.gm;
+glyphname = ThreeQuarters;
 layers = (
 {
 layerId = master01;
@@ -271387,7 +271320,7 @@ width = 630;
 );
 },
 {
-glyphname = OneSixteenth.gm;
+glyphname = OneSixteenth;
 layers = (
 {
 layerId = master01;
@@ -271503,7 +271436,7 @@ width = 597;
 );
 },
 {
-glyphname = OneEigth.gm;
+glyphname = OneEigth;
 layers = (
 {
 layerId = master01;
@@ -271682,7 +271615,7 @@ width = 597;
 );
 },
 {
-glyphname = ThreeSixteenths.gm;
+glyphname = ThreeSixteenths;
 layers = (
 {
 layerId = master01;
@@ -271924,7 +271857,7 @@ width = 593;
 );
 },
 {
-glyphname = QuarterMark.gm;
+glyphname = QuarterMark;
 layers = (
 {
 layerId = master01;
@@ -272215,7 +272148,7 @@ width = 429;
 );
 },
 {
-glyphname = PlaceholderMark.gm;
+glyphname = PlaceholderMark;
 layers = (
 {
 layerId = master01;
@@ -272534,7 +272467,7 @@ width = 478;
 );
 },
 {
-glyphname = NorthIndicRupeeMark.gm;
+glyphname = NorthIndicRupeeMark;
 layers = (
 {
 layerId = master01;
@@ -272734,7 +272667,7 @@ width = 260;
 );
 },
 {
-glyphname = QuantityMark.gm;
+glyphname = QuantityMark;
 layers = (
 {
 layerId = master01;
@@ -274131,6 +274064,1304 @@ width = 0;
 }
 );
 unicode = 8204;
+},
+{
+glyphname = uniEEEC;
+lastChange = "2022-06-30 21:26:52 +0000";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(566,0,l),
+(566,499,l),
+(656,499,l),
+(656,593,l),
+(-30,593,l),
+(-30,499,l),
+(446,499,l),
+(446,377,l),
+(210,377,l),
+(210,166,l),
+(157,166,o),
+(103,180,o),
+(56,216,c),
+(-3,137,l),
+(50,91,o),
+(136,70,o),
+(213,70,cs),
+(266,70,o),
+(303,78,o),
+(330,86,c),
+(330,281,l),
+(446,281,l),
+(446,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 636;
+},
+{
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(588,0,l),
+(588,494,l),
+(673,494,l),
+(673,597,l),
+(-30,597,l),
+(-30,494,l),
+(455,494,l),
+(455,379,l),
+(214,379,l),
+(214,172,l),
+(166,173,o),
+(112,185,o),
+(62,221,c),
+(0,134,l),
+(54,89,o),
+(143,67,o),
+(222,67,cs),
+(281,67,o),
+(319,76,o),
+(347,84,c),
+(347,275,l),
+(455,275,l),
+(455,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 653;
+},
+{
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(452,0,l),
+(452,539,l),
+(570,539,l),
+(570,577,l),
+(-30,577,l),
+(-30,539,l),
+(405,539,l),
+(405,358,l),
+(192,358,l),
+(192,133,l),
+(94,131,o),
+(47,156,o),
+(13,188,c),
+(-15,156,l),
+(35,108,o),
+(92,90,o),
+(159,90,cs),
+(195,90,o),
+(224,97,o),
+(240,105,c),
+(240,318,l),
+(405,318,l),
+(405,0,l)
+);
+}
+);
+vertWidth = 814;
+width = 550;
+},
+{
+layerId = master04;
+shapes = (
+{
+closed = 1;
+nodes = (
+(469,0,l),
+(469,527,l),
+(582,527,l),
+(582,577,l),
+(-30,577,l),
+(-30,527,l),
+(409,527,l),
+(409,363,l),
+(194,363,l),
+(194,138,l),
+(104,137,o),
+(57,162,o),
+(23,194,c),
+(-14,151,l),
+(36,103,o),
+(102,85,o),
+(169,85,cs),
+(205,85,o),
+(234,92,o),
+(254,100,c),
+(254,311,l),
+(409,311,l),
+(409,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 562;
+},
+{
+layerId = master05;
+shapes = (
+{
+closed = 1;
+nodes = (
+(513,0,l),
+(513,510,l),
+(614,510,l),
+(614,582,l),
+(-30,582,l),
+(-30,510,l),
+(424,510,l),
+(424,371,l),
+(200,371,l),
+(200,150,l),
+(128,150,o),
+(79,172,o),
+(40,205,c),
+(-9,143,l),
+(42,96,o),
+(120,77,o),
+(190,77,cs),
+(231,77,o),
+(263,83,o),
+(289,92,c),
+(289,297,l),
+(424,297,l),
+(424,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 594;
+},
+{
+layerId = master06;
+shapes = (
+{
+closed = 1;
+nodes = (
+(488,0,l),
+(488,515,l),
+(594,515,l),
+(594,577,l),
+(-30,577,l),
+(-30,515,l),
+(414,515,l),
+(414,368,l),
+(196,368,l),
+(196,143,l),
+(114,143,o),
+(67,168,o),
+(33,200,c),
+(-12,146,l),
+(38,98,o),
+(112,80,o),
+(179,80,cs),
+(215,80,o),
+(245,86,o),
+(270,95,c),
+(270,304,l),
+(414,304,l),
+(414,0,l)
+);
+}
+);
+width = 574;
+},
+{
+layerId = master07;
+shapes = (
+{
+closed = 1;
+nodes = (
+(541,0,l),
+(541,504,l),
+(636,504,l),
+(636,588,l),
+(-30,588,l),
+(-30,504,l),
+(436,504,l),
+(436,374,l),
+(206,374,l),
+(206,158,l),
+(145,158,o),
+(92,176,o),
+(48,211,c),
+(-6,140,l),
+(46,93,o),
+(128,73,o),
+(202,73,cs),
+(250,73,o),
+(284,81,o),
+(311,89,c),
+(311,289,l),
+(436,289,l),
+(436,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 616;
+}
+);
+unicode = 61164;
+},
+{
+glyphname = uniEEEE;
+lastChange = "2022-06-30 21:26:55 +0000";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(566,0,l),
+(566,499,l),
+(656,499,l),
+(656,593,l),
+(446,593,l),
+(446,377,l),
+(210,377,l),
+(210,166,l),
+(157,166,o),
+(103,180,o),
+(56,216,c),
+(-3,137,l),
+(50,91,o),
+(136,70,o),
+(213,70,cs),
+(266,70,o),
+(303,78,o),
+(330,86,c),
+(330,281,l),
+(446,281,l),
+(446,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 636;
+},
+{
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(588,0,l),
+(588,494,l),
+(673,494,l),
+(673,597,l),
+(455,597,l),
+(455,379,l),
+(214,379,l),
+(214,172,l),
+(166,173,o),
+(112,185,o),
+(62,221,c),
+(0,134,l),
+(54,89,o),
+(143,67,o),
+(222,67,cs),
+(281,67,o),
+(319,76,o),
+(347,84,c),
+(347,275,l),
+(455,275,l),
+(455,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 653;
+},
+{
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(452,0,l),
+(452,539,l),
+(570,539,l),
+(570,577,l),
+(405,577,l),
+(405,358,l),
+(192,358,l),
+(192,133,l),
+(94,131,o),
+(47,156,o),
+(13,188,c),
+(-15,156,l),
+(35,108,o),
+(92,90,o),
+(159,90,cs),
+(195,90,o),
+(224,97,o),
+(240,105,c),
+(240,318,l),
+(405,318,l),
+(405,0,l)
+);
+}
+);
+vertWidth = 814;
+width = 550;
+},
+{
+layerId = master04;
+shapes = (
+{
+closed = 1;
+nodes = (
+(469,0,l),
+(469,527,l),
+(582,527,l),
+(582,577,l),
+(409,577,l),
+(409,363,l),
+(194,363,l),
+(194,138,l),
+(104,137,o),
+(57,162,o),
+(23,194,c),
+(-14,151,l),
+(36,103,o),
+(102,85,o),
+(169,85,cs),
+(205,85,o),
+(234,92,o),
+(254,100,c),
+(254,311,l),
+(409,311,l),
+(409,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 562;
+},
+{
+layerId = master05;
+shapes = (
+{
+closed = 1;
+nodes = (
+(513,0,l),
+(513,510,l),
+(614,510,l),
+(614,582,l),
+(424,582,l),
+(424,371,l),
+(200,371,l),
+(200,150,l),
+(128,150,o),
+(79,172,o),
+(40,205,c),
+(-9,143,l),
+(42,96,o),
+(120,77,o),
+(190,77,cs),
+(231,77,o),
+(263,83,o),
+(289,92,c),
+(289,297,l),
+(424,297,l),
+(424,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 594;
+},
+{
+layerId = master06;
+shapes = (
+{
+closed = 1;
+nodes = (
+(488,0,l),
+(488,515,l),
+(594,515,l),
+(594,577,l),
+(414,577,l),
+(414,368,l),
+(196,368,l),
+(196,143,l),
+(114,143,o),
+(67,168,o),
+(33,200,c),
+(-12,146,l),
+(38,98,o),
+(112,80,o),
+(179,80,cs),
+(215,80,o),
+(245,86,o),
+(270,95,c),
+(270,304,l),
+(414,304,l),
+(414,0,l)
+);
+}
+);
+width = 574;
+},
+{
+layerId = master07;
+shapes = (
+{
+closed = 1;
+nodes = (
+(541,0,l),
+(541,504,l),
+(636,504,l),
+(636,588,l),
+(436,588,l),
+(436,374,l),
+(206,374,l),
+(206,158,l),
+(145,158,o),
+(92,176,o),
+(48,211,c),
+(-6,140,l),
+(46,93,o),
+(128,73,o),
+(202,73,cs),
+(250,73,o),
+(284,81,o),
+(311,89,c),
+(311,289,l),
+(436,289,l),
+(436,0,l)
+);
+}
+);
+vertWidth = 1130;
+width = 616;
+}
+);
+unicode = 61166;
+},
+{
+glyphname = uniEEEF;
+lastChange = "2022-06-30 21:26:59 +0000";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(674,0,l),
+(674,499,l),
+(763,499,l),
+(763,593,l),
+(-30,593,l),
+(-30,499,l),
+(82,499,l),
+(88,476,o),
+(92,449,o),
+(92,417,cs),
+(92,353,o),
+(76,291,o),
+(38,230,c),
+(91,111,o),
+(202,68,o),
+(320,68,cs),
+(369,68,o),
+(408,77,o),
+(438,87,c),
+(438,281,l),
+(554,281,l),
+(554,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(245,166,o),
+(194,192,o),
+(167,231,c),
+(195,277,o),
+(212,333,o),
+(212,416,cs),
+(212,442,o),
+(193,565,o),
+(187,593,c),
+(554,593,l),
+(554,377,l),
+(318,377,l),
+(318,166,l)
+);
+}
+);
+vertWidth = 1130;
+width = 743;
+},
+{
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(695,0,l),
+(695,494,l),
+(780,494,l),
+(780,597,l),
+(-30,597,l),
+(-30,494,l),
+(81,494,l),
+(86,472,o),
+(90,446,o),
+(90,415,cs),
+(90,353,o),
+(76,293,o),
+(36,228,c),
+(93,106,o),
+(209,65,o),
+(329,65,cs),
+(381,65,o),
+(423,75,o),
+(454,85,c),
+(454,275,l),
+(562,275,l),
+(562,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(255,172,o),
+(205,196,o),
+(179,230,c),
+(206,276,o),
+(223,332,o),
+(223,414,cs),
+(223,438,o),
+(201,570,o),
+(196,597,c),
+(562,597,l),
+(562,379,l),
+(321,379,l),
+(321,172,l)
+);
+}
+);
+vertWidth = 1130;
+width = 760;
+},
+{
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(596,0,l),
+(596,539,l),
+(714,539,l),
+(714,577,l),
+(-30,577,l),
+(-30,539,l),
+(104,539,l),
+(114,510,o),
+(120,472,o),
+(120,431,cs),
+(120,353,o),
+(95,289,o),
+(55,240,c),
+(100,141,o),
+(189,93,o),
+(296,93,cs),
+(328,93,o),
+(359,97,o),
+(377,103,c),
+(377,324,l),
+(549,324,l),
+(549,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(214,134,o),
+(146,171,o),
+(108,238,c),
+(143,289,o),
+(169,339,o),
+(169,431,cs),
+(169,467,o),
+(154,545,o),
+(143,577,c),
+(549,577,l),
+(549,364,l),
+(330,364,l),
+(330,135,l)
+);
+}
+);
+vertWidth = 814;
+width = 694;
+},
+{
+layerId = master04;
+shapes = (
+{
+closed = 1;
+nodes = (
+(597,0,l),
+(597,527,l),
+(709,527,l),
+(709,577,l),
+(-30,577,l),
+(-30,527,l),
+(95,527,l),
+(104,501,o),
+(111,466,o),
+(111,427,cs),
+(111,353,o),
+(86,287,o),
+(49,238,c),
+(91,135,o),
+(184,87,o),
+(293,87,cs),
+(327,87,o),
+(357,92,o),
+(378,99,c),
+(378,314,l),
+(537,314,l),
+(537,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,138,o),
+(149,175,o),
+(116,236,c),
+(148,285,o),
+(172,338,o),
+(172,427,cs),
+(172,461,o),
+(154,547,o),
+(143,577,c),
+(537,577,l),
+(537,366,l),
+(318,366,l),
+(318,139,l)
+);
+}
+);
+vertWidth = 1130;
+width = 689;
+},
+{
+layerId = master05;
+shapes = (
+{
+closed = 1;
+nodes = (
+(622,0,l),
+(622,510,l),
+(723,510,l),
+(723,582,l),
+(-30,582,l),
+(-30,510,l),
+(85,510,l),
+(92,488,o),
+(98,457,o),
+(98,421,cs),
+(98,352,o),
+(77,287,o),
+(41,234,c),
+(85,123,o),
+(186,76,o),
+(299,76,cs),
+(339,76,o),
+(372,83,o),
+(398,92,c),
+(398,297,l),
+(533,297,l),
+(533,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(220,150,o),
+(166,183,o),
+(138,232,c),
+(167,280,o),
+(187,335,o),
+(187,421,cs),
+(187,451,o),
+(167,554,o),
+(159,582,c),
+(533,582,l),
+(533,371,l),
+(310,371,l),
+(310,150,l)
+);
+}
+);
+vertWidth = 1130;
+width = 703;
+},
+{
+layerId = master06;
+shapes = (
+{
+closed = 1;
+nodes = (
+(598,0,l),
+(598,515,l),
+(704,515,l),
+(704,577,l),
+(-30,577,l),
+(-30,515,l),
+(86,515,l),
+(94,493,o),
+(101,460,o),
+(101,423,cs),
+(101,352,o),
+(77,285,o),
+(43,236,c),
+(82,129,o),
+(178,80,o),
+(289,80,cs),
+(325,80,o),
+(355,86,o),
+(380,95,c),
+(380,304,l),
+(524,304,l),
+(524,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(209,143,o),
+(153,179,o),
+(125,233,c),
+(154,281,o),
+(175,336,o),
+(175,423,cs),
+(175,455,o),
+(155,549,o),
+(145,577,c),
+(524,577,l),
+(524,368,l),
+(306,368,l),
+(306,143,l)
+);
+}
+);
+width = 684;
+},
+{
+layerId = master07;
+shapes = (
+{
+closed = 1;
+nodes = (
+(649,0,l),
+(649,504,l),
+(744,504,l),
+(744,588,l),
+(-30,588,l),
+(-30,504,l),
+(84,504,l),
+(90,481,o),
+(95,452,o),
+(95,419,cs),
+(95,353,o),
+(76,289,o),
+(39,232,c),
+(88,117,o),
+(194,72,o),
+(310,72,cs),
+(355,72,o),
+(391,80,o),
+(419,90,c),
+(419,289,l),
+(544,289,l),
+(544,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(233,158,o),
+(181,188,o),
+(154,231,c),
+(182,278,o),
+(200,334,o),
+(200,418,cs),
+(200,446,o),
+(179,560,o),
+(172,588,c),
+(544,588,l),
+(544,374,l),
+(314,374,l),
+(314,158,l)
+);
+}
+);
+vertWidth = 1130;
+width = 724;
+}
+);
+unicode = 61167;
+},
+{
+glyphname = MatraIi_Tippi.hlig;
+lastChange = "2022-06-30 17:59:56 +0000";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(190,0,l),
+(190,499,l),
+(279,499,l),
+(279,593,l),
+(190,593,l),
+(190,687,ls),
+(190,804,o),
+(99,861,o),
+(-1,861,cs),
+(-110,861,o),
+(-191,801,o),
+(-191,680,cs),
+(-191,652,l),
+(-71,652,l),
+(-71,686,ls),
+(-71,738,o),
+(-42,764,o),
+(0,764,cs),
+(40,764,o),
+(69,736,o),
+(69,687,cs),
+(69,593,l),
+(-20,593,l),
+(-20,499,l),
+(70,499,l),
+(70,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(389,784,o),
+(442,835,o),
+(442,911,cs),
+(442,923,l),
+(363,927,l),
+(363,880,o),
+(340,854,o),
+(300,854,cs),
+(263,854,o),
+(239,878,o),
+(239,927,c),
+(159,923,l),
+(159,913,ls),
+(159,834,o),
+(213,784,o),
+(300,784,cs)
+);
+}
+);
+vertWidth = 1130;
+width = 259;
+},
+{
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,0,l),
+(198,494,l),
+(283,494,l),
+(283,597,l),
+(198,597,l),
+(198,689,ls),
+(198,810,o),
+(102,868,o),
+(0,868,cs),
+(-116,868,o),
+(-199,804,o),
+(-199,680,cs),
+(-199,651,l),
+(-66,651,l),
+(-66,689,ls),
+(-66,734,o),
+(-40,760,o),
+(0,760,cs),
+(38,760,o),
+(64,734,o),
+(64,689,cs),
+(64,597,l),
+(-20,597,l),
+(-20,494,l),
+(65,494,l),
+(65,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(409,789,o),
+(461,845,o),
+(461,923,cs),
+(461,936,l),
+(375,940,l),
+(375,893,o),
+(355,865,o),
+(313,865,cs),
+(274,865,o),
+(252,891,o),
+(252,940,c),
+(165,936,l),
+(165,925,ls),
+(165,844,o),
+(219,789,o),
+(314,789,cs)
+);
+}
+);
+vertWidth = 1130;
+width = 263;
+},
+{
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(145,0,l),
+(145,539,l),
+(263,539,l),
+(263,577,l),
+(145,577,l),
+(145,678,ls),
+(145,779,o),
+(76,828,o),
+(-1,828,cs),
+(-81,828,o),
+(-147,779,o),
+(-147,683,cs),
+(-147,645,l),
+(-100,645,l),
+(-100,679,ls),
+(-100,760,o),
+(-53,787,o),
+(-1,787,cs),
+(51,787,o),
+(98,754,o),
+(98,679,cs),
+(98,577,l),
+(-20,577,l),
+(-20,539,l),
+(98,539,l),
+(98,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-230,760,o),
+(-190,795,o),
+(-190,853,cs),
+(-190,861,l),
+(-229,864,l),
+(-230,820,o),
+(-255,795,o),
+(-295,795,cs),
+(-331,795,o),
+(-357,816,o),
+(-359,864,c),
+(-398,861,l),
+(-398,853,ls),
+(-398,797,o),
+(-359,760,o),
+(-298,760,cs)
+);
+}
+);
+vertWidth = 814;
+width = 243;
+},
+{
+layerId = master04;
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,0,l),
+(152,527,l),
+(264,527,l),
+(264,577,l),
+(152,577,l),
+(152,678,ls),
+(152,780,o),
+(82,833,o),
+(-2,833,cs),
+(-84,833,o),
+(-155,785,o),
+(-155,683,cs),
+(-155,650,l),
+(-95,650,l),
+(-95,678,ls),
+(-95,755,o),
+(-51,782,o),
+(-1,782,cs),
+(50,782,o),
+(92,748,o),
+(92,679,cs),
+(92,577,l),
+(-20,577,l),
+(-20,527,l),
+(92,527,l),
+(92,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-245,763,o),
+(-198,797,o),
+(-198,861,cs),
+(-198,869,l),
+(-244,872,l),
+(-245,827,o),
+(-273,805,o),
+(-310,805,cs),
+(-344,805,o),
+(-372,823,o),
+(-374,872,c),
+(-421,869,l),
+(-421,861,ls),
+(-421,799,o),
+(-374,763,o),
+(-313,763,cs)
+);
+}
+);
+vertWidth = 1130;
+width = 244;
+},
+{
+layerId = master05;
+shapes = (
+{
+closed = 1;
+nodes = (
+(169,0,l),
+(169,510,l),
+(270,510,l),
+(270,582,l),
+(169,582,l),
+(169,681,ls),
+(169,789,o),
+(91,845,o),
+(-2,845,cs),
+(-94,845,o),
+(-172,794,o),
+(-172,681,cs),
+(-172,654,l),
+(-83,654,l),
+(-83,680,ls),
+(-83,746,o),
+(-46,772,o),
+(-2,772,cs),
+(45,772,o),
+(80,739,o),
+(80,681,cs),
+(80,582,l),
+(-20,582,l),
+(-20,510,l),
+(81,510,l),
+(81,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(343,772,o),
+(397,811,o),
+(397,883,cs),
+(397,893,l),
+(335,896,l),
+(334,850,o),
+(306,828,o),
+(270,828,cs),
+(237,828,o),
+(209,846,o),
+(208,896,c),
+(144,893,l),
+(144,884,ls),
+(144,812,o),
+(199,772,o),
+(268,772,cs)
+);
+}
+);
+vertWidth = 1130;
+width = 250;
+},
+{
+layerId = master06;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(160,515,l),
+(266,515,l),
+(266,577,l),
+(160,577,l),
+(160,678,ls),
+(160,782,o),
+(88,838,o),
+(-3,838,cs),
+(-87,838,o),
+(-163,791,o),
+(-163,682,cs),
+(-163,655,l),
+(-89,655,l),
+(-89,677,ls),
+(-89,750,o),
+(-48,776,o),
+(-2,776,cs),
+(48,776,o),
+(86,741,o),
+(86,679,cs),
+(86,577,l),
+(-20,577,l),
+(-20,515,l),
+(86,515,l),
+(86,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-349,881,o),
+(-404,848,o),
+(-404,777,cs),
+(-404,769,l),
+(-349,766,l),
+(-348,812,o),
+(-317,831,o),
+(-284,831,cs),
+(-253,831,o),
+(-223,816,o),
+(-221,766,c),
+(-165,769,l),
+(-165,777,ls),
+(-165,846,o),
+(-220,881,o),
+(-281,881,cs)
+);
+}
+);
+width = 246;
+},
+{
+layerId = master07;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,0,l),
+(180,504,l),
+(275,504,l),
+(275,588,l),
+(180,588,l),
+(180,684,ls),
+(180,797,o),
+(95,854,o),
+(-1,854,cs),
+(-102,854,o),
+(-182,798,o),
+(-182,681,cs),
+(-182,653,l),
+(-77,653,l),
+(-77,683,ls),
+(-77,742,o),
+(-44,768,o),
+(-1,768,cs),
+(43,768,o),
+(74,737,o),
+(74,684,cs),
+(74,588,l),
+(-20,588,l),
+(-20,504,l),
+(75,504,l),
+(75,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(368,778,o),
+(422,823,o),
+(422,898,cs),
+(422,908,l),
+(350,912,l),
+(350,865,o),
+(325,841,o),
+(287,841,cs),
+(252,841,o),
+(226,862,o),
+(225,912,c),
+(152,908,l),
+(152,899,ls),
+(152,823,o),
+(207,778,o),
+(286,778,cs)
+);
+}
+);
+vertWidth = 1130;
+width = 255;
+}
+);
+}
+);
+instances = (
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+master03 = 1;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+master04 = 1;
+};
+name = Light;
+weightClass = 300;
 }
 );
 properties = (
