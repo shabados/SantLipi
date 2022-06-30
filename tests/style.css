@@ -1,0 +1,156 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  line-height: 4rem;
+  text-align: center;
+}
+
+p {
+  font-size: 8rem;
+  line-height: 12rem;
+}
+
+.pad {
+  margin-top: 8rem;
+}
+
+.exit,
+.header {
+  backdrop-filter: blur(0.5rem);
+  position: fixed;
+
+  width: 100%;
+  z-index: 100;
+}
+
+.exit {
+  top: 0;
+}
+
+.header {
+  top: 48px;
+}
+
+.header p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.exit a {
+  text-align: center;
+  display: block;
+  padding: 1rem;
+}
+
+.content,
+.exit > div,
+.grid {
+  margin: 0 auto;
+  max-width: 30rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.grid > div:nth-child(2) {
+  font-family: 'Sant Lipi', monospace;
+}
+
+.grid > div:nth-child(3) {
+  font-family: 'Mukta Mahee', monospace;
+}
+
+.grid > div > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 3rem;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.hlig {
+  font-feature-settings: 'hlig';
+}
+
+@media (any-pointer: coarse) {
+  a {
+    line-height: 4;
+    padding: 1rem 0;
+  }
+  .exit a {
+    line-height: 1;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: rgb(94.2% 93.11% 90.97%);
+    color: rgb(20.1% 29.41% 30.15%);
+  }
+
+  a {
+    color: rgb(0% 38.73% 65.62%);
+  }
+
+  a:hover {
+    color: rgb(27.69% 58.77% 91.21%);
+  }
+
+  .exit {
+    background-color: rgba(94.35% 94.35% 94.35% / 95%);
+  }
+
+  .header {
+    background-color: rgba(71.55% 79.4% 79.97% / 92.5%);
+  }
+
+  h1,
+  .soft {
+    color: rgb(38.98% 54.48% 55.71%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(14.2% 13.01% 10.45%);
+    color: rgb(73.79% 71.84% 73.67%);
+  }
+
+  a {
+    color: rgb(44.17% 57.86% 77.28%);
+  }
+
+  a:hover {
+    color: rgb(65.49% 79% 99.57%);
+  }
+
+  .exit {
+    background-color: rgba(14.77% 14.77% 14.77% / 95%);
+  }
+
+  .header {
+    background-color: rgba(20.75% 18.18% 20.63%/ 95%);
+  }
+
+  h1,
+  .soft {
+    color: rgb(46.25% 39.82% 45.98%);
+  }
+}
