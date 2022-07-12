@@ -1,3 +1,8 @@
+@font-face {
+  font-family: notRealFontJustForTesting;
+  src: url(./SantLipi-Light.otf) format('opentype');
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -12,13 +17,17 @@ h2,
 h3,
 p {
   margin: 0;
-  line-height: 4rem;
   text-align: center;
 }
 
+h1,
+h2,
+h3 {
+  line-height: 4rem;
+}
+
 p {
-  font-size: 8rem;
-  line-height: 12rem;
+  line-height: 2rem;
 }
 
 .pad {
@@ -29,22 +38,12 @@ p {
 .header {
   backdrop-filter: blur(0.5rem);
   position: fixed;
-
   width: 100%;
   z-index: 100;
 }
 
 .exit {
   top: 0;
-}
-
-.header {
-  top: 48px;
-}
-
-.header p {
-  font-size: 1rem;
-  line-height: 2rem;
 }
 
 .exit a {
@@ -65,8 +64,14 @@ p {
   grid-template-columns: 33% 33% 33%;
 }
 
+.grid p {
+  font-size: 3rem;
+  line-height: 6rem;
+}
+
+.sl,
 .grid > div:nth-child(2) {
-  font-family: 'Sant Lipi', monospace;
+  font-family: 'notRealFontJustForTesting', monospace;
 }
 
 .grid > div:nth-child(3) {
@@ -80,13 +85,13 @@ p {
   min-height: 3rem;
 }
 
-.content p {
-  font-size: 1rem;
-  line-height: 2rem;
+.header {
+  top: 48px;
 }
 
-.hlig {
-  font-feature-settings: 'hlig';
+.header p {
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 @media (any-pointer: coarse) {
