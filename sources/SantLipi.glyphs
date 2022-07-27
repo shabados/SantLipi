@@ -1,10 +1,6 @@
 {
 .appVersion = "3133";
 .formatVersion = 3;
-DisplayStrings = (
-"ਕ",
-"/PairinKa"
-);
 axes = (
 {
 default = 400;
@@ -530,6 +526,7 @@ lookup lookup3 {
     sub MatraAi Addak by MatraAiAddak;
     sub MatraOo Addak by MatraOoAddak;
     sub MatraAu Addak by MatraAuAddak;
+    sub MatraIi AddakBindi by MatraIiAddakBindi;
     sub MatraEe AddakBindi by MatraEeAddakBindi;
     sub MatraAi AddakBindi by MatraAiAddakBindi;
     sub MatraOo AddakBindi by MatraOoAddakBindi;
@@ -64905,7 +64902,7 @@ width = 255;
 },
 {
 glyphname = MatraIiAddakBindi;
-lastChange = "2022-06-07 15:02:57 +0000";
+lastChange = "2022-07-27 16:36:49 +0000";
 layers = (
 {
 layerId = master01;
@@ -65094,42 +65091,8 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(309,760,o),
-(351,794,o),
-(351,853,cs),
-(351,861,l),
-(312,864,l),
-(311,818,o),
-(284,795,o),
-(246,795,cs),
-(211,795,o),
-(184,814,o),
-(182,864,c),
-(143,861,l),
-(143,853,ls),
-(143,794,o),
-(186,760,o),
-(243,760,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(266,835,o),
-(278,850,o),
-(278,868,cs),
-(278,886,o),
-(264,900,o),
-(246,900,cs),
-(229,900,o),
-(216,886,o),
-(216,868,cs),
-(216,850,o),
-(228,835,o),
-(247,835,cs)
-);
+pos = (-105,82);
+ref = Bindi;
 }
 );
 vertWidth = 814;
@@ -65170,42 +65133,8 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(316,763,o),
-(364,796,o),
-(364,861,cs),
-(364,869,l),
-(319,872,l),
-(318,826,o),
-(290,803,o),
-(252,803,cs),
-(217,803,o),
-(189,822,o),
-(187,872,c),
-(141,869,l),
-(141,861,ls),
-(141,797,o),
-(190,763,o),
-(249,763,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(274,840,o),
-(287,856,o),
-(287,876,cs),
-(287,896,o),
-(272,911,o),
-(252,911,cs),
-(233,911,o),
-(219,896,o),
-(219,876,cs),
-(219,856,o),
-(232,840,o),
-(253,840,cs)
-);
+pos = (-115,79);
+ref = Bindi;
 }
 );
 vertWidth = 1130;
