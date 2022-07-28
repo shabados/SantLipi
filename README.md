@@ -22,20 +22,17 @@ UFOs are generated with [glyphsLib](https://github.com/googlefonts/glyphsLib) fo
 
 ## Todo
 
-1. Set up exports / interpolations
-2. Custom exports for VS Code
-3. Potentially custom export for romanization (latin transliteration)
-4. Set up GitHub Actions to automatically create releases based on glyphs file version
-5. Create tests with html files
-6. Convert from quadratic to beziers
-7. Convert to variable font
-8.  Minimize nodes for maintenance (use overlapping shapes)
-9.  Switch to anchors in glyphs
-10. Modify characters to "open" their forms for legibility
-11. Get to parity with Noto Sans Gurmukhi (e.g. nukta options)
-12. Add gurmukhi subscript numerals
-13. ???
-14. Profit
+- Custom exports for VS Code
+- Potentially custom export for romanization (latin transliteration)
+- Set up GitHub Actions to automatically create releases based on glyphs file version
+- Convert from quadratic to beziers
+-  Minimize nodes for maintenance (use overlapping shapes)
+-  Switch to anchors in glyphs
+-  Modify characters to "open" their forms for legibility
+- Get to parity with Noto Sans Gurmukhi (e.g. nukta options)
+- Add gurmukhi subscript numerals
+- ???
+- Profit
 
 -->
 
@@ -49,11 +46,12 @@ Sant Lipi can render Gurmukhi in [VS Code](https://code.visualstudio.com/) witho
 
 Note that in Sant Lipi a Sihari (ਿ) can be added to the typical full Yayya (ਯ), but the Yayya variants cannot render Sihari (ਿ) properly.
 
-- Tippi before Bihari = ੀ + ੰ
-- Half Yayya = ੍ + ਯ or ꠳ + ਯ
-- Open-Top Yayya = ੦ + ਯ or ꠴ + ਯ
-- Half Open-Top Yayya = ੍ + ੦ + ਯ or ꠵ + ਯ
-- Subscript Gurmukhi Numerals = ₀ ₁ ₂ ...
+- Tippi before Bihari, ੀ + ੰ
+- Bindi before Bihari, ੀ + ਁ (`U+0A01`: Adak Bindi)
+- Half Yayya, ੍ + ਯ or ꠳ + ਯ (`U+A833`: North Indic Fraction One Sixteenth)
+- Open-Top Yayya, ꠴ + ਯ (`U+A834`: North Indic Fraction One Eighth)
+- Half Open-Top Yayya, ꠵ + ਯ (`U+A835`: North Indic Fraction Three Sixteenths)
+- Subscript Gurmukhi Numerals, ₀ ₁ ₂ ...
 
 ## Blame
 
