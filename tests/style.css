@@ -1,6 +1,6 @@
 @font-face {
   font-family: notRealFontJustForTesting;
-  src: url(./SantLipi-Light.otf) format('opentype');
+  src: url(./SantLipiVF.ttf) format('truetype');
 }
 
 body {
@@ -72,6 +72,7 @@ p {
 .sl,
 .grid > div:nth-child(2) {
   font-family: 'notRealFontJustForTesting', monospace;
+  font-variation-settings: 'wght' 500;
 }
 
 .grid > div:nth-child(3) {
