@@ -1,5 +1,5 @@
 @font-face {
-  font-family: notRealFontJustForTesting;
+  font-family: SLVFTTFXYZ;
   src: url(./SantLipiVF.ttf) format('truetype');
 }
 
@@ -71,8 +71,8 @@ p {
 
 .sl,
 .grid > div:nth-child(2) {
-  font-family: 'notRealFontJustForTesting', monospace;
-  font-variation-settings: 'wght' 500;
+  font-family: 'SLVFTTFXYZ', monospace;
+  font-variation-settings: 'wght' 400;
 }
 
 .grid > div:nth-child(3) {
