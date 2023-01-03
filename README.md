@@ -16,33 +16,30 @@ The reason Shabad OS is committing to switch from ASCII to Unicode is simple. Ov
 
 Sant Lipi is created using [Glyphs 3](https://glyphsapp.com/).
 
-<!--
+## Installation
 
-UFOs are generated with [glyphsLib](https://github.com/googlefonts/glyphsLib) for tracking changes. If contributing, please modify the glyphs file, and avoid changing the UFO files by hand.
-
-## Todo
-
-- Custom exports for VS Code
-- Potentially custom export for romanization (latin transliteration)
-- Set up GitHub Actions to automatically create releases based on glyphs file version
-- Convert from quadratic to beziers
--  Minimize nodes for maintenance (use overlapping shapes)
--  Switch to anchors in glyphs
--  Modify characters to "open" their forms for legibility
-- Get to parity with Noto Sans Gurmukhi (e.g. nukta options)
-- Add gurmukhi subscript numerals
-- ???
-- Profit
-
--->
-
-<!-- ## Installation
-
-You can download the latest version of Sant Lipi from the [releases page](https://github.com/shabados/SantLipi/releases).
-
-Sant Lipi can render Gurmukhi in [VS Code](https://code.visualstudio.com/) without affecting the source code. -->
+Currently a WIP, so no automatic releases. For now, either export the font using the Glyphs app or download whatever version is bundled in the tests folder (which most likely will be a variable font).
 
 ## Usage
+
+**CSS**
+
+When used in web apps, change the font's weight from 1 to 1000 using the [font-variation-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) CSS property. This can be used to override the `font-weight` property. Either should work fine on its own. When working with a variable font such as Sant Lipi, use numerals for defining the font's weight and avoid using non-numeric values (e.g. lighter, normal, or bold).
+
+```css
+font-weight: 400;
+font-variation-settings: 'wght' 400;
+```
+
+**VS Code**
+
+Sant Lipi can render Gurmukhi in [VS Code](https://code.visualstudio.com/) without affecting the source code. See the below example of user preferences/settings in VS Code.
+
+```json
+"editor.fontFamily": "Consolas, 'Sant Lipi', monospace",
+```
+
+## Ligature Combos / Markup Language
 
 Note that in Sant Lipi a Sihari (ਿ) can be added to the typical full Yayya (ਯ), but the Yayya variants cannot render Sihari (ਿ) properly.
 
