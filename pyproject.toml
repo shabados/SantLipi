@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "santlipi"
+version = "1.0.0"
+description = "A unicode font for extraordinary Gurmukhi"
+authors = ["Bhajneet S.K. <bhajneet@gmail.com>"]
+license = "OFL-1.1-RFN"
+readme = "README.md"
+packages = [{include = "scripts"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fontmake="^3.5.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+flake8 = "^6.0.0"
+isort = "^5.11.4"
+mypy = "^0.991"
+pre-commit = "^2.21.0"
+
+[tool.poetry.scripts]
+build = "scripts.build:fontmake"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

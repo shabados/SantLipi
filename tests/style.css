@@ -1,6 +1,6 @@
 @font-face {
-  font-family: SLVFTTFXYZ;
-  src: url(./SantLipiVF.ttf) format('truetype');
+  font-family: SLVFTTF;
+  src: url(../variable_ttf/SantLipi-VF.ttf) format('truetype');
 }
 
 body {
@@ -71,7 +71,7 @@ p {
 
 .sl,
 .grid > div:nth-child(2) {
-  font-family: 'SLVFTTFXYZ', monospace;
+  font-family: 'SLVFTTF', monospace;
   font-variation-settings: 'wght' 400;
 }
 
