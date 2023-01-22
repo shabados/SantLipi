@@ -1,0 +1,29 @@
+<html notranslate>
+  <head>
+    <title>{{title}} - Sant Lipi Test Suite</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <table>
+        <tbody>
+          <td><a href="./index.html">&#x2190; Back</a></td>
+          <td class="main">{{title}}</td>
+          <td></td>
+        </tbody>
+      </table>
+    </nav>
+    <main>
+      <div class="icons">
+        {{#items}}
+        <div class="card">
+          <p class="large font-sl">{{item}}</p>
+          <p>{{description}}</p>
+        </div>
+        {{/items}}
+      </div>
+    </main>
+  </body>
+</html>

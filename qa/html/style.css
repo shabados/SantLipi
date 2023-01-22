@@ -1,0 +1,173 @@
+@font-face {
+  font-family: SLVFTTF;
+  src: url(../../variable_ttf/SantLipi-VF.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: AND;
+  src: url(./AND-Regular.ttf) format('truetype');
+}
+
+.font-sl {
+  font-family: 'SLVFTTF', 'AND';
+  font-variation-settings: 'wght' 400;
+}
+
+.font-mm {
+  font-family: 'Mukta Mahee', 'AND';
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+article > * + * {
+  padding-top: 1.5rem;
+}
+
+.large {
+  font-size: 4rem;
+}
+
+main,
+table {
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav > table {
+  height: 3rem;
+  width: 800px;
+}
+
+nav td {
+  background: none;
+}
+
+nav .main {
+  font-weight: 500;
+  font-size: 1.25rem;
+  width: 500px;
+}
+
+nav > a {
+  width: 150px;
+  height: 3rem;
+}
+
+main {
+  width: 800px;
+  padding: 6rem 0;
+}
+
+article + article {
+  margin-top: 3rem;
+}
+
+table {
+  border-spacing: 1rem;
+}
+
+th,
+td {
+  text-align: center;
+  min-width: 6rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.icons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.icons > * {
+  display: inline-block;
+}
+
+.list > * {
+  display: block;
+  width: 100%;
+}
+
+.list > * + * {
+  margin-top: 1rem;
+}
+
+@media (any-pointer: coarse) {
+  a {
+    line-height: 4;
+    padding: 1rem 0;
+  }
+  .exit a {
+    line-height: 1;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: rgb(94.2% 93.11% 90.97%);
+    color: rgb(20.1% 29.41% 30.15%);
+  }
+
+  a {
+    color: rgb(0% 38.73% 65.62%);
+  }
+
+  a:hover {
+    color: rgb(27.69% 58.77% 91.21%);
+  }
+
+  nav {
+    background-color: rgba(71.55% 79.4% 79.97% / 92.5%);
+  }
+
+  td,
+  .card {
+    background-color: white;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(14.2% 13.01% 10.45%);
+    color: rgb(73.79% 71.84% 73.67%);
+  }
+
+  a {
+    color: rgb(44.17% 57.86% 77.28%);
+  }
+
+  a:hover {
+    color: rgb(65.49% 79% 99.57%);
+  }
+
+  nav {
+    background-color: rgba(20.75% 18.18% 20.63%/ 95%);
+  }
+
+  td,
+  .card {
+    background-color: rgba(0% 0% 0% / 10%);
+  }
+}

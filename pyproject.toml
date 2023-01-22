@@ -9,6 +9,7 @@ packages = [{include = "scripts"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+chevron = "^0.14.0"
 fontmake="^3.5.1"
 
 [tool.poetry.group.dev.dependencies]
@@ -20,6 +21,7 @@ pre-commit = "^2.21.0"
 
 [tool.poetry.scripts]
 build = "scripts.build:fontmake"
+qa = "scripts.qa:generate"
 
 [build-system]
 requires = ["poetry-core"]

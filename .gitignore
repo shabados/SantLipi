@@ -2,3 +2,4 @@
 master_*
 variable_ttf*
 *__pycache__*
+qa/html/*.html

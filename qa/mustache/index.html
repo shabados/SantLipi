@@ -1,0 +1,51 @@
+<html notranslate>
+  <head>
+    <title>{{title}}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <table>
+        <tbody>
+          <td></td>
+          <td class="main">{{title}}</td>
+          <td></td>
+        </tbody>
+      </table>
+    </nav>
+    <main>
+      <article>
+        <h1>Side By Side Comparisons</h1>
+        <div class="list">
+          {{#side_by_side_items}}
+          <a href="{{url}}.html"><div class="card">{{name}}</div></a>
+          {{/side_by_side_items}}
+        </div>
+      </article>
+      <article>
+        <h1>Proof Sheets</h1>
+        <div class="list">
+          {{#proof_sheet_items}}
+          <a href="{{url}}.html"><div class="card">{{name}}</div></a>
+          {{/proof_sheet_items}}
+        </div>
+      </article>
+      <article>
+        <h1>Links</h1>
+        <div class="icons">
+          <a href="https://github.com/shabados/SantLipi">
+            <div class="card">GitHub</div>
+          </a>
+          <a href="https://github.com/shabados/SantLipi/issues/new/choose">
+            <div class="card">New Issue</div>
+          </a>
+          <a href="https://chat.shabados.com/">
+            <div class="card">Slack</div>
+          </a>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

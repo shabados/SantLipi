@@ -16,9 +16,27 @@ The reason Shabad OS is committing to switch from ASCII to Unicode is simple. Ov
 
 Sant Lipi is created using [Glyphs 3](https://glyphsapp.com/).
 
+## Scripts
+
+**Requirements:**
+
+- [Python](https://www.python.org/) (see version in `pyproject.toml`)
+- [Poetry](https://python-poetry.org/)
+
+**Development:**
+
+- Install project dependencies with `poetry install`.
+- Build font files with `poetry run build`.
+- Generate QA html with `poetry run qa`.
+
+Note: QA relies on the variable font being built by poetry. If you want to change the font being used, edit `SantLipi/qa/html/styles.css`. Missing glyphs in Sant Lipi fallback to [Adobe NotDef](https://github.com/adobe-fonts/adobe-notdef). It is recommended to keep this fallback in the CSS file for `.font-sl`.
+
 ## Installation
 
-Currently a WIP, so no automatic releases. For now, either export the font using the Glyphs app or download whatever version is bundled in the tests folder (which most likely will be a variable font).
+Currently a WIP, so no automatic releases. Manual options:
+
+- Export the font using the Glyphs app
+- Use poetry to run a build with `poetry run build`
 
 ## Usage
 
@@ -50,13 +68,13 @@ Note that in Sant Lipi a Sihari (ਿ) can be added to the typical full Yayya (�
 - Half Open-Top Yayya, ꠵ + ਯ (`U+A835`: North Indic Fraction Three Sixteenths)
 - Subscript Gurmukhi Numerals, ₀ ₁ ₂ ...
 
-## Blame
+## QA / Blame
 
 Sant Lipi has been tested using React Native's text component on Android and iOS, Chrome and Firefox on Windows and macOS, Edge on Windows, and Safari on macOS. Sant Lipi renders correctly via multiple text shaping engines including Uniscribe, CoreText, and HarfBuzz.
 
 Unicode standards and text shaping engines will continue to improve. Yet, there have been key points in time during the past decade which have shaken Gurmukhi rendering.
 
-In an effort to combat that, there is an `index.html` file in the `tests` folder, which can be used to confirm the rendering on various platforms.
+In an effort to combat that, there is a script for `qa`, which can be used to confirm the rendering on various platforms. See **Scripts** above.
 
 ## Community
 
@@ -102,7 +120,7 @@ Ultimately, this means that the half-yayya is intrinsically tied to the precedin
 
 There are many workarounds Sant Lipi could have used, but ultimately everything is being done with OpenType Features, namely ligatures.
 
-**Bad Workarounds**
+**Attempted Workarounds**
 
 One idea was to use PUA code points. However these are ignored by text shaping engines. If there is a half-Y with a Bihari ੀ or Kanna ਾ attached to it, line-breaks will mess up and send the vowel to the next line while leaving the half-Y on the preceding line. So then unique code points for all vowel variations would be required for the PUA approach. Not a good idea for maintainability.
 
@@ -110,12 +128,11 @@ Another idea was to use discretionary font features, such as historical ligature
 
 **Current Workaround**
 
-Currently, the approach taken by Sant Lipi is to use markup to indicate Yayya variations. It is similar to how a Half Yayya is constructed in today's practice (੍+ਯ). So to show an open-top Yayya, one can type ੦+ਯ (gurmukhi digit zero U+0A66 and yayya U+0A2F). Let's walk through really quickly what is happening in the background:
+Currently, the approach taken by Sant Lipi is to use markup to indicate Yayya variations. It is similar to how a Half Yayya is constructed in today's practice (੍+ਯ). So to show an open-top Yayya, one can type ꠴ + ਯ (`U+A834`: North Indic Fraction One Eighth + `U+0A2F`: Yayya). Let's walk through really quickly what is happening in the background:
 
-1. `ltra` - The earliest font features are being applied by replacing codepoints for later font features to act upon.
-2. `rlig` - Render Yayya (ਯ) according to any markup preceding it
-3. Done!
+- `ltra` - First, the earliest font features are being applied by replacing codepoints for later font features to act upon.
+- `rlig` - Then, render Yayya (ਯ) according to any markup preceding it
 
-The `ltra` is for making the earliest substitutions possible. This replaces the Virama ੍ (subjoined letter combiner) before text shaping engines look at it. For example, it allows vowels and marks on both the Half Yayya and the letter preceding it (aside from Sihari on Yayya variants).
+The `ltra` is for making the earliest substitutions possible. This replaces the Virama ੍ (subjoined letter combiner) before text shaping engines look at it. Notably, this is what allows vowels and marks on both the Half Yayya and the letter preceding it (aside from Sihari on Yayya variants).
 
-After this step, ligatures are used to render combos of Yayyas as if they were different variations. For this step, a relatively unique character was needed. The character chosen should not interfere with programming fonts, nor should they be ever seen next to a Yayya. The Gurmukhi digit zero and North Indic fraction characters fit these requirements. See **Usage** for more information.
+After this step, ligatures are used to render combos of Yayyas as if they were different variations. For this step, a relatively unique character was needed. The character chosen should not interfere with programming fonts, nor should they be ever seen next to a Yayya. The North Indic Fraction characters fit these requirements. See **Usage** for more information.
