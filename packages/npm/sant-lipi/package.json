@@ -1,0 +1,36 @@
+{
+  "name": "sant-lipi",
+  "version": "0.1.0",
+  "description": "A unicode font for extraordinary Gurmukhi",
+  "license": "MIT",
+  "author": "Bhajneet S.K. <bhajneet@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shabados/SantLipi",
+    "directory": "packages/npm/sant-lipi"
+  },
+  "homepage": "https://github.com/shabados/SantLipi",
+  "bugs": "https://github.com/shabados/SantLipi/issues/new/choose",
+  "main": "index.css",
+  "keywords": [
+    "akhar",
+    "anmol",
+    "css",
+    "font family",
+    "font",
+    "frontend",
+    "glyphs",
+    "granth",
+    "gurbani",
+    "gurmukhi",
+    "guru",
+    "lipi",
+    "punjabi",
+    "shabad",
+    "shabad os",
+    "shabados",
+    "typeface",
+    "unicode",
+    "web"
+  ]
+}
