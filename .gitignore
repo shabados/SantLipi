@@ -1,4 +1,5 @@
 *.DS_Store
+instance_*
 master_*
 variable_ttf*
 *__pycache__*
