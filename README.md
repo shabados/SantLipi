@@ -42,7 +42,7 @@ Currently a WIP, so no automatic releases. Manual options:
 
 **CSS**
 
-When used in web apps, change the font's weight from 1 to 1000 using the [font-variation-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) CSS property. This can be used to override the `font-weight` property. Either should work fine on its own. When working with a variable font such as Sant Lipi, use numerals for defining the font's weight and avoid using non-numeric values (e.g. lighter, normal, or bold).
+When used in web apps, change the font's weight from 100 to 900 using the [font-variation-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) CSS property. This can be used to override the `font-weight` property. Either should work fine on its own. When working with a variable font such as Sant Lipi, use numerals for defining the font's weight and avoid using non-numeric values (e.g. lighter, normal, or bold).
 
 ```css
 font-weight: 400;

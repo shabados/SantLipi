@@ -1386,7 +1386,7 @@ tag = sinf;
 fontMaster = (
 {
 axesValues = (
-1
+100
 );
 guides = (
 {
@@ -1441,7 +1441,7 @@ com.fontlab.layer.wireframe = 0;
 },
 {
 axesValues = (
-1000
+900
 );
 guides = (
 {
@@ -34548,33 +34548,6 @@ unicode = 2563;
 instances = (
 {
 axesValues = (
-1
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-1,
-3,
-1,
-5,
-4,
-2,
-2,
-4
-);
-}
-);
-instanceInterpolations = {
-master03 = 1;
-};
-name = ExtraThin;
-weightClass = 1;
-},
-{
-axesValues = (
 100
 );
 customParameters = (
@@ -34595,8 +34568,7 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.0991;
-master03 = 0.9009;
+master03 = 1;
 };
 name = Thin;
 weightClass = 100;
@@ -34623,8 +34595,8 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.1992;
-master03 = 0.8008;
+master02 = 0.125;
+master03 = 0.875;
 };
 name = ExtraLight;
 weightClass = 200;
@@ -34651,8 +34623,8 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.2993;
-master03 = 0.7007;
+master02 = 0.25;
+master03 = 0.75;
 };
 name = Light;
 weightClass = 300;
@@ -34679,8 +34651,8 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.3994;
-master03 = 0.6006;
+master02 = 0.375;
+master03 = 0.625;
 };
 name = Regular;
 },
@@ -34706,8 +34678,8 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.4995;
-master03 = 0.5005;
+master02 = 0.5;
+master03 = 0.5;
 };
 name = Medium;
 weightClass = 500;
@@ -34734,8 +34706,8 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.5996;
-master03 = 0.4004;
+master02 = 0.625;
+master03 = 0.375;
 };
 name = SemiBold;
 weightClass = 600;
@@ -34762,8 +34734,8 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.6997;
-master03 = 0.3003;
+master02 = 0.75;
+master03 = 0.25;
 };
 name = Bold;
 weightClass = 700;
@@ -34790,8 +34762,8 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.7998;
-master03 = 0.2002;
+master02 = 0.875;
+master03 = 0.125;
 };
 name = ExtraBold;
 weightClass = 800;
@@ -34818,38 +34790,10 @@ value = (
 }
 );
 instanceInterpolations = {
-master02 = 0.8999;
-master03 = 0.1001;
+master02 = 1;
 };
 name = Black;
 weightClass = 900;
-},
-{
-axesValues = (
-1000
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-11,
-3,
-1,
-5,
-4,
-2,
-2,
-4
-);
-}
-);
-instanceInterpolations = {
-master02 = 1;
-};
-name = ExtraBlack;
-weightClass = 1000;
 }
 );
 metrics = (
@@ -34912,7 +34856,7 @@ value = "Copyright 2022 Shabad OS. All rights reserved.";
 },
 {
 key = versionString;
-value = "Version 1.000";
+value = "Version 0.001";
 },
 {
 key = licenses;
@@ -34960,6 +34904,6 @@ master02 = {
 };
 };
 };
-versionMajor = 1;
-versionMinor = 0;
+versionMajor = 0;
+versionMinor = 1;
 }
