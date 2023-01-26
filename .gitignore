@@ -3,4 +3,7 @@ instance_*
 master_*
 variable_ttf*
 *__pycache__*
-qa/html/*.html
+scripts/qa/html/*.html
+build/*
+!build/qa
+build/qa/*.html

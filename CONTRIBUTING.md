@@ -2,20 +2,41 @@
 
 Anyone providing assistance to the future of this project is considered a contributor. If you wish to play a part in this project, then thank you! This document outlines some of the ways to help.
 
+## Run QA (Quality Assurance)
+
+**Requirements:**
+
+- [Python](https://www.python.org/)
+- [Poetry](https://python-poetry.org/)
+
+**Testing:**
+
+- Install project dependencies with `poetry install`.
+- Build files with `poetry run build`.
+- Open `build/qa/index.html` to view the Sant Lipi Test Suite.
+
+If you wish to add tests or make changes to QA, please see "Open Pull Requests" below.
+
+## Modify/Change Font
+
+**Requirements:**
+
+- [Glyphs 3](https://glyphsapp.com/)
+
+**Development**:
+
+- Use Glyphs 3 to open `sources/SantLipi.glyphs`.
+
+If you wish to share changes back upstream, please see "Open Pull Requests" below.
+
 ## Open Pull Requests
 
 _Role: contributors wishing to change the project source code_
 
 **Requirements:**
 
-For python related changes (building font files or QA html tests):
-
-- [Python](https://www.python.org/) (see version in `pyproject.toml`)
-- [Poetry](https://python-poetry.org/)
-
-For editing `sources/SantLipi.glyphs`:
-
-- [Glyphs 3](https://glyphsapp.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
 
 **Workflow:**
 
@@ -26,22 +47,13 @@ For editing `sources/SantLipi.glyphs`:
 
 Note: Before creating new branches, ensuring that the forked `main` is up to date with the upstream/original `main` will ease workflow.
 
-**Development:**
-
-For python related:
-
-- Install project dependencies with `poetry install`.
-- Build font files with `poetry run build`.
-- Generate QA html with `poetry run qa`.
-
-Note: Select the Python Interpreter in VS Code to access dev dependencies from there. Otherwise run commands with `poetry run python`.
-
 ## Merge PRs
 
 _Role: project authors/maintainers_
 
 - Pull requests should be squashed or rebased.
 - Commit messages on `main` branch should generally conform to [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/).
+- No commit's type should be `fix`.
 
 **Note**
 
@@ -54,7 +66,7 @@ Some _types_ correlate with incrementing major, minor, and patch versions in [Se
 - `BREAK` increments major. To be used when making incompatible changes to the API. E.g. deleting glyphs from the font.
 - `feat` increments minor. To be used when adding backwards-compatible functionality to the API. E.g. changing metrics, shapes, features, etc.
 
-Project authors/maintainers should never merge a PR beginning with `fix`, as there are no patch bumps for this project. See note above.
+Project authors/maintainers should never merge a PR whose commit(s) begin with `fix`, as there are no patch bumps for this project. See **Note** above.
 
 All other _types_ are ignored by the version bump workflow. These types are typically used outside the API folder, but may change API source code without actually affecting anything for the end user. Valid non-versioning (non-API related) _types_ include: `build`, `ci`, `docs`, `perf`, `refactor`, `revert`, `style`, and `test`.
 
@@ -76,4 +88,5 @@ Note: If overriding the version bump, remember to use 0 for the patch version nu
 
 **Publish**
 
+- This workflow should immediately follow a version increment/bump PR merge.
 - This workflow will publish package(s) and create a GitHub release.

@@ -20,8 +20,9 @@ mypy = "^0.991"
 pre-commit = "^2.21.0"
 
 [tool.poetry.scripts]
-build = "scripts.build:fontmake"
-qa = "scripts.qa:generate"
+build = "scripts.build:main"
+make = "scripts.makefonts:makefonts"
+qa = "scripts.qa:qa"
 
 [build-system]
 requires = ["poetry-core"]

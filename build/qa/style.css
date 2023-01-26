@@ -1,7 +1,7 @@
 @font-face {
   font-family: SLVFTTF;
-  src: url(../../variable_ttf/SantLipi-VF.woff2) format('woff2-variations'),
-    url(../../variable_ttf/SantLipi-VF.woff2) format('woff2');
+  src: url(../variable/SantLipi-VF.woff2) format('woff2-variations'),
+    url(../variable/SantLipi-VF.woff2) format('woff2');
   font-weight: 100 900;
 }
 
