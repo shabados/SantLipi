@@ -1,20 +1,26 @@
 import chevron
 from scripts.tests import TESTS
+import importlib.metadata
 
-site_root = "qa/html"
-template_root = "qa/mustache"
+site_dir = "build/qa"
+template_dir = "scripts/mustache"
+
+VERSION = importlib.metadata.version("santlipi").split(".")
+VERSION_STRING = VERSION[0] + "." + VERSION[1].zfill(3)
 
 
 def create(page, template, hash):
-    file = open(f"{site_root}/{page}.html", "w")
+    hash["version"] = VERSION_STRING
 
-    with open(f"{template_root}/{template}.html", "r") as f:
+    file = open(f"{site_dir}/{page}.html", "w")
+
+    with open(f"{template_dir}/{template}.html", "r") as f:
         file.write(chevron.render(f, hash))
 
     file.close()
 
 
-def generate():
+def qa():
     # Instantiate a list of pages for each test in tests.py
     side_by_sides = []
     proof_sheets = []
@@ -38,3 +44,16 @@ def generate():
             "proof_sheet_items": proof_sheets,
         },
     )
+
+    # Create a README for the build folder
+    file = open(f"./build/README.html", "w")
+
+    with open(f"{template_dir}/readme.html", "r") as f:
+        file.write(
+            chevron.render(
+                f,
+                {"title": "Readme", "version": VERSION_STRING},
+            )
+        )
+
+    file.close()

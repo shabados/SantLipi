@@ -4,6 +4,8 @@ A [unicode](<https://en.wikipedia.org/wiki/Gurmukhi_(Unicode_block)>) font for e
 
 Sant Lipi is associated with the phrase Sant Bhasha and the word _lipi_. [Sant Bhasha](https://en.wikipedia.org/wiki/Sant_Bhasha) refers to the vocabulary and languages contained within [Sri Guru Granth Sahib Ji](https://en.wikipedia.org/wiki/Guru_Granth_Sahib). The word [_lipi_](https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A5%80) means script or writing.
 
+The font is available on [GitHub](https://github.com/shabados/SantLipi/releases) and [npm](https://www.npmjs.com/package/sant-lipi).
+
 ## About
 
 The [Shabad OS Database](https://github.com/shabados/database) aims to faithfully represent the historicity of Gurbani and other Sikh Bani. Some portions contain atypical usage of modern-day Gurmukhi (e.g. tippi in place of bindi, unused yayya variations). In the past, ASCII fonts were used to render custom Gurmukhi (e.g. [Open Gurbani Akhar](https://github.com/GurbaniNow/gurmukhi-fonts)). As far as I knew, no such Unicode font existed to replace these ASCII fonts, so Sant Lipi was created.
@@ -16,33 +18,15 @@ The reason Shabad OS is committing to switch from ASCII to Unicode is simple. Ov
 
 Sant Lipi is created using [Glyphs 3](https://glyphsapp.com/).
 
-## Scripts
-
-**Requirements:**
-
-- [Python](https://www.python.org/) (see version in `pyproject.toml`)
-- [Poetry](https://python-poetry.org/)
-
-**Development:**
-
-- Install project dependencies with `poetry install`.
-- Build font files with `poetry run build`.
-- Generate QA html with `poetry run qa`.
-
-Note: QA relies on the variable font being built by poetry. If you want to change the font being used, edit `SantLipi/qa/html/styles.css`. Missing glyphs in Sant Lipi fallback to [Adobe NotDef](https://github.com/adobe-fonts/adobe-notdef). It is recommended to keep this fallback in the CSS file for `.font-sl`.
-
-## Installation
-
-Currently a WIP, so no automatic releases. Manual options:
-
-- Export the font using the Glyphs app
-- Use poetry to run a build with `poetry run build`
-
 ## Usage
+
+**Desktop**
+
+Download and extract the zip file from the [latest release](https://github.com/shabados/SantLipi/releases/latest). Select all files in the ttf folder, right-click, and either "Install for all users" (Windows) or "Open with Font Book/Viewer" (macOS/Linux). It is recommended to uninstall any previous versions of Sant Lipi before installing a new version.
 
 **CSS**
 
-When used in web apps, change the font's weight from 100 to 900 using the [font-variation-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) CSS property. This can be used to override the `font-weight` property. Either should work fine on its own. When working with a variable font such as Sant Lipi, use numerals for defining the font's weight and avoid using non-numeric values (e.g. lighter, normal, or bold).
+When using the variable font in web apps, change the font's weight from 100 to 900 using the [font-variation-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) CSS property. This can be used to override the `font-weight` property. Either should work fine on its own. When working with a variable font, use numerals for defining the font's weight and avoid using non-numeric values (e.g. lighter, normal, or bold).
 
 ```css
 font-weight: 400;
@@ -68,13 +52,13 @@ Note that in Sant Lipi a Sihari (ਿ) can be added to the typical full Yayya (�
 - Half Open-Top Yayya, ꠵ + ਯ (`U+A835`: North Indic Fraction Three Sixteenths)
 - Subscript Gurmukhi Numerals, ₀ ₁ ₂ ...
 
-## QA / Blame
+## Quality Assurance
 
 Sant Lipi has been tested using React Native's text component on Android and iOS, Chrome and Firefox on Windows and macOS, Edge on Windows, and Safari on macOS. Sant Lipi renders correctly via multiple text shaping engines including Uniscribe, CoreText, and HarfBuzz.
 
 Unicode standards and text shaping engines will continue to improve. Yet, there have been key points in time during the past decade which have shaken Gurmukhi rendering.
 
-In an effort to combat that, there is a script for `qa`, which can be used to confirm the rendering on various platforms. See **Scripts** above.
+In an effort to combat that, there is a python script for QA, which can be used to confirm the rendering on various platforms. See [CONTRIBUTING.md](./CONTRIBUTING.md) to learn more.
 
 ## Community
 
