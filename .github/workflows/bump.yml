@@ -102,19 +102,20 @@ jobs:
             rm temp.txt
 
             # Bump version in pyproject.toml, glyphs file, and pacakges.
-            sed -i "s/version = \"$VERSION\"/version = \"$NEXT\"/g" pyproject.toml
-            sed -i "s/\"version\": \"$VERSION\"/\"version\": \"$NEXT\"/g" packages/npm/sant-lipi/package.json
+            sed -i "s/version = \"$VERSION\"/version = \"$NEXT\"/" pyproject.toml
+            sed -i "s/\"version\": \"$VERSION\"/\"version\": \"$NEXT\"/" packages/npm/sant-lipi/package.json
+
+            IFS='.' read -r NEXT_MAJOR NEXT_MINOR NEXT_PATCH <<< "$NEXT"
 
             GLYPHS_MINOR_VERSION=$(printf "%03d" $MINOR)
             GLYPHS_VERSION_STRING="$MAJOR.$GLYPHS_MINOR_VERSION"
 
-            IFS='.' read -r NEXT_MAJOR NEXT_MINOR NEXT_PATCH <<< "$NEXT"
             GLYPHS_MINOR_NEXT=$(printf "%03d" $NEXT_MINOR)
             GLYPHS_NEXT_STRING="$NEXT_MAJOR.$GLYPHS_MINOR_NEXT"
 
-            sed -i "s/value = \"Version $VERSION\";/value = \"Version $GLYPHS_NEXT_STRING\";/g" sources/SantLipi.glyphs
-            sed -i "s/value = \versionMajor = $MAJOR;/versionMajor = $NEXT_MAJOR;/g" sources/SantLipi.glyphs
-            sed -i "s/value = \versionMinor = $MINOR;/versionMinor = $NEXT_MINOR;/g" sources/SantLipi.glyphs
+            sed -i "s/value = \"Version $GLYPHS_VERSION_STRING/value = \"Version $GLYPHS_NEXT_STRING/" sources/SantLipi.glyphs
+            sed -i "s/versionMajor = $MAJOR/versionMajor = $NEXT_MAJOR/" sources/SantLipi.glyphs
+            sed -i "s/versionMinor = $MINOR/versionMinor = $NEXT_MINOR/" sources/SantLipi.glyphs
 
             # Set up git config for github-actions bot
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
