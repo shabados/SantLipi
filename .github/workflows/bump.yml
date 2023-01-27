@@ -43,6 +43,7 @@ jobs:
 
           # Save current release's version
           VERSION=$(cat pyproject.toml | grep -m 1 "version" | grep -o '[0-9]\+\.[0-9]\+\.[0-9]\+')
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
 
           # Decide if programmatically finding next version or if manually provided one by user
           METHOD="manual"
@@ -66,8 +67,6 @@ jobs:
               fi
             done < types.txt
 
-            # Instantiate version numbers
-            IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
 
             # Get version number for next release
             if [ "$BUMP_TYPE" == "major" ]; then
