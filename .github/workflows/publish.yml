@@ -1,9 +1,6 @@
 name: Publish
 
-on:
-  workflow_dispatch:
-    branches:
-      - main
+on: workflow_dispatch
 
 env:
   NODE_AUTH_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
@@ -41,11 +38,8 @@ jobs:
 
       - run: cp build/variable/SantLipi-VF.woff2 packages/npm/sant-lipi/SantLipi-VF.woff2
 
-      - run: cd packages/npm/sant-lipi
-
       - run: npm publish
-
-      - run: cd ../../../
+        working-directory: packages/npm/sant-lipi
 
       - run: cp LICENSE build/LICENSE.txt
 
