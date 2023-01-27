@@ -5,6 +5,10 @@ on: workflow_dispatch
 env:
   NODE_AUTH_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+permissions:
+  pages: write
+  id-token: write
 
 jobs:
   publish:
