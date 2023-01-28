@@ -1,18 +1,25 @@
-import chevron
-from scripts.tests import TESTS
 import importlib.metadata
+import os
 
-site_dir = "build/qa"
+import chevron
+
+from scripts.tests import TESTS
+
+# Ensure site dir exists
+site_dir = "build/qa/test"
+if not os.path.exists(site_dir):
+    os.mkdir(site_dir)
+
 template_dir = "scripts/mustache"
 
 VERSION = importlib.metadata.version("santlipi").split(".")
 VERSION_STRING = VERSION[0] + "." + VERSION[1].zfill(3)
 
 
-def create(page, template, hash):
+def create(url, template, hash):
     hash["version"] = VERSION_STRING
 
-    file = open(f"{site_dir}/{page}.html", "w")
+    file = open(f"{url}.html", "w")
 
     with open(f"{template_dir}/{template}.html", "r") as f:
         file.write(chevron.render(f, hash))
@@ -32,11 +39,12 @@ def qa():
         if test["template"] == "proof":
             proof_sheets.append({"name": test["hash"]["title"], "url": test["url"]})
         # Create page for test
-        create(test["url"], test["template"], test["hash"])
+        url = "".join([site_dir, "/", test["url"]])
+        create(url, test["template"], test["hash"])
 
     # Create an index for all tests
     create(
-        "index",
+        "build/index",
         "index",
         {
             "title": "Sant Lipi Test Suite",
@@ -46,14 +54,8 @@ def qa():
     )
 
     # Create a README for the build folder
-    file = open(f"./build/README.html", "w")
-
-    with open(f"{template_dir}/readme.html", "r") as f:
-        file.write(
-            chevron.render(
-                f,
-                {"title": "Readme", "version": VERSION_STRING},
-            )
-        )
-
-    file.close()
+    create(
+        "build/README",
+        "readme",
+        {"title": "Readme", "version": VERSION_STRING},
+    )

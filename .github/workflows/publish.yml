@@ -5,7 +5,7 @@ on: workflow_dispatch
 env:
   NODE_AUTH_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
+
 permissions:
   contents: write
   pages: write
@@ -15,7 +15,7 @@ jobs:
   publish:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}  
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
 
     steps:
@@ -58,10 +58,8 @@ jobs:
       - run: zip -r -1 "dist/$NAME.zip" "$NAME"
 
       - run: gh release create "v$GLYPH_VERSION" dist/* --title "v$GLYPH_VERSION" --notes "Also published as version $VERSION on [npm](https://www.npmjs.com/package/sant-lipi)."
-      
+
       - run: mv "$NAME" build
-      
-      - run: mv build/README.html build/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v3

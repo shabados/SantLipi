@@ -3,24 +3,31 @@
     <title>{{title}} - Sant Lipi Test Suite</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="../style.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
       <table>
         <tbody>
-          <td><a href="./index.html">&#x2190; Back</a></td>
+          <td>
+            <a href="../../index.html" class="back-button">&#x2190; Back</a>
+          </td>
           <td class="main">{{title}}</td>
           <td>Version {{version}}</td>
         </tbody>
       </table>
     </nav>
-    <main>
+    <main class="sbs">
       <table>
         <thead>
           <th>Browser</th>
           <th>Sant Lipi</th>
-          <th>Mukta Mahee</th>
+          <th>Anek</th>
+          <th>Baloo</th>
+          <th>Mukta</th>
+          <th>Noto Sans</th>
+          <th>Noto Serif</th>
+          <th>Tiro</th>
         </thead>
         <tbody>
           {{#items}}
@@ -30,11 +37,31 @@
               <p>{{description}}</p>
             </td>
             <td class="card">
-              <p class="large font-sl">{{item}}</p>
+              <p class="large font-santlipi">{{item}}</p>
               <p>{{description}}</p>
             </td>
             <td class="card">
-              <p class="large font-mm">{{item}}</p>
+              <p class="large font-anek">{{item}}</p>
+              <p>{{description}}</p>
+            </td>
+            <td class="card">
+              <p class="large font-baloo">{{item}}</p>
+              <p>{{description}}</p>
+            </td>
+            <td class="card">
+              <p class="large font-mukta">{{item}}</p>
+              <p>{{description}}</p>
+            </td>
+            <td class="card">
+              <p class="large font-notosans">{{item}}</p>
+              <p>{{description}}</p>
+            </td>
+            <td class="card">
+              <p class="large font-notoserif">{{item}}</p>
+              <p>{{description}}</p>
+            </td>
+            <td class="card">
+              <p class="large font-tiro">{{item}}</p>
               <p>{{description}}</p>
             </td>
           </tr>

@@ -3,7 +3,7 @@
     <title>{{title}}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="qa/style.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
@@ -20,7 +20,7 @@
         <h1>Side By Side Comparisons</h1>
         <div class="list">
           {{#side_by_side_items}}
-          <a href="{{url}}.html"><div class="card">{{name}}</div></a>
+          <a href="qa/test/{{url}}.html"><div class="card">{{name}}</div></a>
           {{/side_by_side_items}}
         </div>
       </article>
@@ -28,14 +28,14 @@
         <h1>Proof Sheets</h1>
         <div class="list">
           {{#proof_sheet_items}}
-          <a href="{{url}}.html"><div class="card">{{name}}</div></a>
+          <a href="qa/test/{{url}}.html"><div class="card">{{name}}</div></a>
           {{/proof_sheet_items}}
         </div>
       </article>
       <article>
         <h1>Links</h1>
         <div class="icons">
-          <a href="../README.html">
+          <a href="README.html">
             <div class="card">README</div>
           </a>
           <a href="https://github.com/shabados/SantLipi">

@@ -7,16 +7,83 @@
 
 @font-face {
   font-family: AND;
-  src: url(./AND-Regular.ttf) format('truetype');
+  src: url(./extra-fonts/AND-Regular.ttf) format('truetype');
 }
 
-.font-sl {
+@font-face {
+  font-family: AnekGurmukhi;
+  src: url('./extra-fonts/AnekGurmukhi-VariableFont_wdth,wght.ttf')
+      format('truetype-variations'),
+    url('./extra-fonts/AnekGurmukhi-VariableFont_wdth,wght.ttf')
+      format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: BalooPaaji;
+  src: url(./extra-fonts/BalooPaaji2-VariableFont_wght.ttf)
+      format('truetype-variations'),
+    url(./extra-fonts/BalooPaaji2-VariableFont_wght.ttf) format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: MuktaMahee;
+  src: url(./extra-fonts/MuktaMahee-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: NotoSansGurmukhi;
+  src: url('./extra-fonts/NotoSansGurmukhi-VariableFont_wdth,wght.ttf')
+      format('truetype-variations'),
+    url('./extra-fonts/NotoSansGurmukhi-VariableFont_wdth,wght.ttf')
+      format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: NotoSerifGurmukhi;
+  src: url(./extra-fonts/NotoSerifGurmukhi-VariableFont_wght.ttf)
+      format('truetype-variations'),
+    url(./extra-fonts/NotoSerifGurmukhi-VariableFont_wght.ttf)
+      format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: TiroGurmukhi;
+  src: url(./extra-fonts/TiroGurmukhi-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+.font-santlipi {
   font-family: 'SLVFTTF', 'AND';
   font-variation-settings: 'wght' 400;
 }
 
-.font-mm {
-  font-family: 'Mukta Mahee', 'AND';
+.font-anek {
+  font-family: 'AnekGurmukhi', 'AND';
+}
+
+.font-baloo {
+  font-family: 'BalooPaaji', 'AND';
+}
+
+.font-mukta {
+  font-family: 'MuktaMahee', 'AND';
+}
+
+.font-notosans {
+  font-family: 'NotoSansGurmukhi', 'AND';
+}
+
+.font-notoserif {
+  font-family: 'NotoSerifGurmukhi', 'AND';
+}
+
+.font-tiro {
+  font-family: 'TiroGurmukhi', 'AND';
 }
 
 body {
@@ -51,15 +118,24 @@ table {
 nav {
   position: fixed;
   width: 100%;
+  height: 3.5rem;
 }
 
 nav > table {
-  height: 3rem;
   width: 800px;
+  border-spacing: 0;
 }
 
 nav td {
   background: none;
+}
+
+nav td:first-child {
+  text-align: left;
+}
+
+nav td:last-child {
+  text-align: right;
 }
 
 nav .main {
@@ -68,14 +144,23 @@ nav .main {
   width: 500px;
 }
 
-nav > a {
-  width: 150px;
-  height: 3rem;
+.back-button {
+  display: block;
+}
+
+.back-button,
+nav td.main,
+nav td:last-child {
+  padding: 1rem 0;
 }
 
 main {
   width: 800px;
   padding: 6rem 0;
+}
+
+main.sbs {
+  width: min-content;
 }
 
 article + article {
@@ -84,6 +169,16 @@ article + article {
 
 table {
   border-spacing: 1rem;
+}
+
+thead {
+  position: sticky;
+  top: 3.5rem;
+  background: #f0ece8ad;
+}
+
+th {
+  padding: 0.5rem 0;
 }
 
 th,
@@ -114,16 +209,6 @@ td {
 
 .list > * + * {
   margin-top: 1rem;
-}
-
-@media (any-pointer: coarse) {
-  a {
-    line-height: 4;
-    padding: 1rem 0;
-  }
-  .exit a {
-    line-height: 1;
-  }
 }
 
 @media (prefers-color-scheme: light) {

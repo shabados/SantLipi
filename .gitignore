@@ -6,4 +6,5 @@ variable_ttf*
 scripts/qa/html/*.html
 build/*
 !build/qa
-build/qa/*.html
+build/qa/test*
+dist/*
