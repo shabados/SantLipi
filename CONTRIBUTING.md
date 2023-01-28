@@ -1,44 +1,40 @@
 # Contributing
 
-Anyone providing assistance to the future of this project is considered a contributor. If you wish to play a part in this project, then thank you! This document outlines some of the ways to help.
+Anyone providing assistance to the future of this project is considered a contributor. Our intention is to signal a safe open-source community. Please help us foster an atmosphere of kindness, cooperation, and understanding. By participating, you agree to abide by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
 
-## Run QA (Quality Assurance)
+The easiest way to communicate is via [GitHub issues](https://github.com/shabados/SantLipi/issues). Please search for similar issues regarding your concerns before opening a new issue. For everything else we ask to chat about it on [GitHub Discussions](https://github.com/orgs/shabados/discussions) or [Slack](https://chat.shabados.com/).
 
-**Requirements:**
+If you wish to share changes back upstream, please see "[Open Pull Requests](#open-pull-requests)" below.
+
+**Requirements**
 
 - [Python](https://www.python.org/)
 - [Poetry](https://python-poetry.org/)
 
-**Testing:**
+## Run QA (Quality Assurance)
+
+If you simply want to run QA against the latest release of Sant Lipi, then please use the online [Sant Lipi Test Suite](https://shabados.github.io/SantLipi). If you wish to run QA locally:
 
 - Install project dependencies with `poetry install`.
 - Build files with `poetry run build`.
-- Open `build/qa/index.html` to view the Sant Lipi Test Suite.
+- Open `build/index.html` to view the Sant Lipi Test Suite.
 
-If you wish to add tests or make changes to QA, please see "Open Pull Requests" below.
+## Add QA Tests
+
+- Install project dependencies with `poetry install`.
+- Build fonts and QA files with `poetry run build`.
+- Edit `scripts/tests.py`.
+- Regenerate QA files with `poetry run qa`.
+- Open `build/index.html` to confirm.
 
 ## Modify/Change Font
 
-**Requirements:**
-
-- [Glyphs 3](https://glyphsapp.com/)
-
-**Development**:
-
-- Use Glyphs 3 to open `sources/SantLipi.glyphs`.
-
-If you wish to share changes back upstream, please see "Open Pull Requests" below.
+- Use [Glyphs 3](https://glyphsapp.com/) to open `sources/SantLipi.glyphs`.
+- Run QA locally to confirm changes (see above).
 
 ## Open Pull Requests
 
 _Role: contributors wishing to change the project source code_
-
-**Requirements:**
-
-- [Git](https://git-scm.com/)
-- [GitHub](https://github.com/)
-
-**Workflow:**
 
 - Fork this repository
 - Create a branch from `main`

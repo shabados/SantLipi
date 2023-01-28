@@ -4,7 +4,7 @@ A [unicode](<https://en.wikipedia.org/wiki/Gurmukhi_(Unicode_block)>) font for e
 
 Sant Lipi is associated with the phrase Sant Bhasha and the word _lipi_. [Sant Bhasha](https://en.wikipedia.org/wiki/Sant_Bhasha) refers to the vocabulary and languages contained within [Sri Guru Granth Sahib Ji](https://en.wikipedia.org/wiki/Guru_Granth_Sahib). The word [_lipi_](https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A5%80) means script or writing.
 
-The font is available on [GitHub](https://github.com/shabados/SantLipi/releases) and [npm](https://www.npmjs.com/package/sant-lipi).
+The font is packaged for [GitHub](https://github.com/shabados/SantLipi/releases) and [npm](https://www.npmjs.com/package/sant-lipi). QA for the latest font version is available on [GitHub Pages](https://shabados.github.io/SantLipi).
 
 ## About
 
@@ -18,24 +18,19 @@ The reason Shabad OS is committing to switch from ASCII to Unicode is simple. Ov
 
 Sant Lipi is created using [Glyphs 3](https://glyphsapp.com/).
 
-## Usage
+## Using Packages
 
-**Desktop**
+**npm** - See [`packages/npm/README.md`](packages/npm/sant-lipi/README.md) or view the package on [npmjs.com](https://www.npmjs.com/package/sant-lipi). This has been used successfully on various frameworks including Next.js, Preact, React, Svelte, and Vue.
 
-Download and extract the zip file from the [latest release](https://github.com/shabados/SantLipi/releases/latest). Select all files in the ttf folder, right-click, and either "Install for all users" (Windows) or "Open with Font Book/Viewer" (macOS/Linux). It is recommended to uninstall any previous versions of Sant Lipi before installing a new version.
+## Manual Usage
 
-**CSS**
+Work with the font files by downloading and extracting the zip file from the [latest release](https://github.com/shabados/SantLipi/releases/latest) on GitHub.
 
-When using the variable font in web apps, change the font's weight from 100 to 900 using the [font-variation-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) CSS property. This can be used to override the `font-weight` property. Either should work fine on its own. When working with a variable font, use numerals for defining the font's weight and avoid using non-numeric values (e.g. lighter, normal, or bold).
+**Desktop** - Select all files in the `ttf` folder, right-click, and either "Install for all users" (Windows) or "Open with Font Book/Viewer" (macOS/Linux). It is recommended to uninstall any previous versions of Sant Lipi before installing a new version.
 
-```css
-font-weight: 400;
-font-variation-settings: 'wght' 400;
-```
+**CSS** - WOFF2 is the same as TTF but compressed for lower bandwidth usage. A variable font is a new font specification that significantly reduces font file sizes. All modern browsers support WOFF2 and variable fonts. See how the Test Suite defines the variable font in [`build/qa/style.css`](build/qa/style.css). Learn more about WOFF2 [here](https://web.dev/font-best-practices/#use-woff2). Learn more about variable fonts [here](https://web.dev/variable-fonts). Sant Lipi's font weight varies from 100 to 900.
 
-**VS Code**
-
-Sant Lipi can render Gurmukhi in [VS Code](https://code.visualstudio.com/) without affecting the source code. See the below example of user preferences/settings in VS Code.
+**VS Code** - Sant Lipi can render Gurmukhi in [VS Code](https://code.visualstudio.com/) without affecting the source code. See the below example of user preferences/settings in VS Code.
 
 ```json
 "editor.fontFamily": "Consolas, 'Sant Lipi', monospace",
@@ -56,19 +51,15 @@ Note that in Sant Lipi a Sihari (ри┐) can be added to the typical full Yayya (ри
 
 Sant Lipi has been tested using React Native's text component on Android and iOS, Chrome and Firefox on Windows and macOS, Edge on Windows, and Safari on macOS. Sant Lipi renders correctly via multiple text shaping engines including Uniscribe, CoreText, and HarfBuzz.
 
-Unicode standards and text shaping engines will continue to improve. Yet, there have been key points in time during the past decade which have shaken Gurmukhi rendering.
+Unicode standards and text shaping engines will continue to improve. Yet, there have been key points in time during the past decade which have shaken Gurmukhi rendering. In an effort to combat that, the latest release can be tested online with our [Sant Lipi Test Suite](https://shabados.github.io/SantLipi).
 
-In an effort to combat that, there is a python script for QA, which can be used to confirm the rendering on various platforms. See [CONTRIBUTING.md](./CONTRIBUTING.md) to learn more.
+If you wish to work offline and run QA locally, please see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Community
 
-The easiest way to communicate is via [GitHub issues](https://github.com/shabados/SantLipi/issues). Please search for similar issues regarding your concerns before opening a new issue.
+If you wish to provide assistance or contribute to the future of this project, please see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-Get organization updates for Shabad OS by following us on [Instagram](https://www.instagram.com/shabad_os/) and [Twitter](https://twitter.com/shabad_os/). We also invite you to join us on our public chat server hosted on [Slack](https://chat.shabados.com/).
-
-Our intention is to signal a safe open-source community. Please help us foster an atmosphere of kindness, cooperation, and understanding. By participating, you agree to abide by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
-
-If you have a concern that doesn't warrant opening a GitHub issue, please reach out to Bhajneet S.K. ([@bhajneet](https://github.com/bhajneet/)). Bhajneet is the author and lead maintainer of Sant Lipi.
+Bhajneet S.K. ([@bhajneet](https://github.com/bhajneet/)) is the author and lead maintainer of Sant Lipi.
 
 _Special thanks_ to:
 
