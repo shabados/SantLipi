@@ -1,9 +1,12 @@
+from scripts.tests.mark_attachments import ma_items
+from scripts.tests.multi_vowel_attachments import mva_items
+
 # Instantiate Tests
-TESTS = []
+tests = []
 
 
 def add_test(url, template, hash):
-    TESTS.append({"url": url, "template": template, "hash": hash})
+    tests.append({"url": url, "template": template, "hash": hash})
 
 
 def add_side_by_side_test(url, title, items):
@@ -155,3 +158,9 @@ items = [
     {"item": "\u0a32\u0a75\u0a3f\u0a4b", "description": ""},
 ]
 add_proof_sheet_test("diacritics", "Diacritics", items)
+
+items = ma_items
+add_proof_sheet_test("mark-attachments", "Mark Attachments", items)
+
+items = mva_items
+add_proof_sheet_test("multi-vowel-attachments", "Multiple Vowel Attachments", items)

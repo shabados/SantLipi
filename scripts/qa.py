@@ -3,7 +3,7 @@ import os
 
 import chevron
 
-from scripts.tests import TESTS
+from scripts.tests.tests import tests
 
 # Ensure site dir exists
 site_dir = "build/qa/test"
@@ -33,7 +33,7 @@ def qa():
     proof_sheets = []
 
     # Save each test to the sitemap and create a page for it
-    for test in TESTS:
+    for test in tests:
         if test["template"] == "side_by_side":
             side_by_sides.append({"name": test["hash"]["title"], "url": test["url"]})
         if test["template"] == "proof":
