@@ -46,3 +46,16 @@ for letter in BASE_LETTERS:
         str += f"{letter}{modifier} "
 
     ma_items.append({"item": str, "description": f"Mark attachments on {letter}"})
+
+for letter in VOWEL_LETTERS:
+    str = f"{letter} "
+
+    for vowel in VOWEL_ATTACHMENTS:
+        str += f"{letter}{vowel} "
+
+    for akhand in BELOW_LETTERS + BELOW_LETTERS_EXTENDED:
+        str += f"{letter}{VIRAMA}{akhand} "
+
+    for modifier in BASE_LETTER_MODIFIERS + FINAL_MODIFIERS + [VISARGA]:
+        str += f"{letter}{modifier} "
+    ma_items.append({"item": str, "description": f"Mark attachments on {letter}"})
