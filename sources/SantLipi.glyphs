@@ -1545,9 +1545,15 @@ unicode = 2622;
 },
 {
 glyphname = "iMatra-gurmukhi";
-lastChange = "2022-07-28 14:58:06 +0000";
+lastChange = "2023-01-29 16:25:51 +0000";
 layers = (
 {
+anchors = (
+{
+name = _pre;
+pos = (460,597);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -1586,6 +1592,12 @@ vertWidth = 1130;
 width = 263;
 },
 {
+anchors = (
+{
+name = _pre;
+pos = (390,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -2131,9 +2143,27 @@ width = 243;
 },
 {
 glyphname = "a-gurmukhi";
-lastChange = "2022-07-28 14:58:15 +0000";
+lastChange = "2023-01-29 18:03:57 +0000";
 layers = (
 {
+anchors = (
+{
+name = above;
+pos = (609,597);
+},
+{
+name = akhn;
+pos = (609,0);
+},
+{
+name = below;
+pos = (357,0);
+},
+{
+name = nukta;
+pos = (169,39);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -2195,6 +2225,24 @@ vertWidth = 1130;
 width = 807;
 },
 {
+anchors = (
+{
+name = above;
+pos = (556,577);
+},
+{
+name = akhn;
+pos = (556,0);
+},
+{
+name = below;
+pos = (321,0);
+},
+{
+name = nukta;
+pos = (160,55);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -2260,9 +2308,35 @@ unicode = 2565;
 },
 {
 glyphname = "aa-gurmukhi";
-lastChange = "2022-07-28 14:58:15 +0000";
+lastChange = "2023-01-29 16:22:02 +0000";
 layers = (
 {
+anchors = (
+{
+name = above;
+pos = (609,597);
+},
+{
+name = akhn;
+pos = (609,0);
+},
+{
+name = below;
+pos = (358,0);
+},
+{
+name = nukta;
+pos = (183,39);
+},
+{
+name = post;
+pos = (609,597);
+},
+{
+name = pre;
+pos = (183,597);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -2328,6 +2402,32 @@ vertWidth = 1130;
 width = 1062;
 },
 {
+anchors = (
+{
+name = above;
+pos = (556,577);
+},
+{
+name = akhn;
+pos = (556,0);
+},
+{
+name = below;
+pos = (323,0);
+},
+{
+name = nukta;
+pos = (178,70);
+},
+{
+name = post;
+pos = (556,577);
+},
+{
+name = pre;
+pos = (123,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -2397,9 +2497,35 @@ unicode = 2566;
 },
 {
 glyphname = "i-gurmukhi";
-lastChange = "2022-07-28 14:58:15 +0000";
+lastChange = "2023-01-29 16:22:29 +0000";
 layers = (
 {
+anchors = (
+{
+name = above;
+pos = (654,597);
+},
+{
+name = akhn;
+pos = (548,9);
+},
+{
+name = below;
+pos = (615,-12);
+},
+{
+name = nukta;
+pos = (617,174);
+},
+{
+name = post;
+pos = (654,597);
+},
+{
+name = pre;
+pos = (320,597);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -2474,6 +2600,32 @@ vertWidth = 1130;
 width = 849;
 },
 {
+anchors = (
+{
+name = above;
+pos = (658,577);
+},
+{
+name = akhn;
+pos = (543,4);
+},
+{
+name = below;
+pos = (567,0);
+},
+{
+name = nukta;
+pos = (556,174);
+},
+{
+name = post;
+pos = (658,577);
+},
+{
+name = pre;
+pos = (318,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -2552,9 +2704,35 @@ unicode = 2567;
 },
 {
 glyphname = "ii-gurmukhi";
-lastChange = "2022-07-28 14:58:15 +0000";
+lastChange = "2023-01-29 16:29:27 +0000";
 layers = (
 {
+anchors = (
+{
+name = above;
+pos = (391,597);
+},
+{
+name = akhn;
+pos = (286,9);
+},
+{
+name = below;
+pos = (352,-12);
+},
+{
+name = nukta;
+pos = (352,174);
+},
+{
+name = post;
+pos = (391,597);
+},
+{
+name = pre;
+pos = (189,597);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -2629,6 +2807,32 @@ vertWidth = 1130;
 width = 849;
 },
 {
+anchors = (
+{
+name = above;
+pos = (415,577);
+},
+{
+name = akhn;
+pos = (299,4);
+},
+{
+name = below;
+pos = (324,0);
+},
+{
+name = nukta;
+pos = (324,183);
+},
+{
+name = post;
+pos = (415,577);
+},
+{
+name = pre;
+pos = (124,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -3859,13 +4063,29 @@ unicode = 2580;
 },
 {
 glyphname = "ka-gurmukhi";
-lastChange = "2023-01-04 01:50:02 +0000";
+lastChange = "2023-01-29 16:34:45 +0000";
 layers = (
 {
 anchors = (
 {
-name = below;
+name = above;
+pos = (434,597);
+},
+{
+name = akhn;
 pos = (439,0);
+},
+{
+name = below;
+pos = (241,0);
+},
+{
+name = nukta;
+pos = (26,48);
+},
+{
+name = post;
+pos = (434,597);
 }
 );
 layerId = master02;
@@ -3929,8 +4149,24 @@ width = 610;
 {
 anchors = (
 {
-name = below;
+name = above;
+pos = (449,577);
+},
+{
+name = akhn;
 pos = (453,0);
+},
+{
+name = below;
+pos = (213,0);
+},
+{
+name = nukta;
+pos = (40,76);
+},
+{
+name = post;
+pos = (449,577);
 }
 );
 layerId = master03;
@@ -4927,9 +5163,15 @@ width = 708;
 },
 {
 glyphname = "nga-gurmukhi";
-lastChange = "2022-07-28 14:58:15 +0000";
+lastChange = "2023-01-29 21:22:26 +0000";
 layers = (
 {
+anchors = (
+{
+name = above;
+pos = (64,597);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -4995,6 +5237,12 @@ vertWidth = 1130;
 width = 575;
 },
 {
+anchors = (
+{
+name = above;
+pos = (82,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -6780,9 +7028,15 @@ width = 543;
 },
 {
 glyphname = "ttha-gurmukhi";
-lastChange = "2022-07-28 14:58:15 +0000";
+lastChange = "2023-01-29 21:21:34 +0000";
 layers = (
 {
+anchors = (
+{
+name = above;
+pos = (245,597);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -6831,6 +7085,12 @@ vertWidth = 1130;
 width = 615;
 },
 {
+anchors = (
+{
+name = above;
+pos = (259,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -7601,9 +7861,15 @@ width = 595;
 },
 {
 glyphname = "nna-gurmukhi";
-lastChange = "2022-07-28 14:58:15 +0000";
+lastChange = "2023-01-29 21:16:01 +0000";
 layers = (
 {
+anchors = (
+{
+name = above;
+pos = (165,597);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -7659,6 +7925,12 @@ vertWidth = 1130;
 width = 587;
 },
 {
+anchors = (
+{
+name = above;
+pos = (258,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -7686,16 +7958,16 @@ nodes = (
 (483,328,o),
 (520,323,c),
 (527,363,l),
-(395,389,o),
-(297,452,o),
-(240,539,c),
+(367,389,o),
+(344,477,o),
+(318,539,c),
 (589,539,l),
 (589,577,l),
 (-20,577,l),
 (-20,539,l),
-(184,539,l),
-(225,462,o),
-(293,407,o),
+(262,539,l),
+(291,463,o),
+(319,410,o),
 (375,368,c),
 (350,244,l),
 (326,279,o),
@@ -8892,17 +9164,17 @@ width = 569;
 },
 {
 glyphname = "na-gurmukhi";
-lastChange = "2023-01-04 01:33:01 +0000";
+lastChange = "2023-01-29 21:20:34 +0000";
 layers = (
 {
 anchors = (
 {
-name = below;
-pos = (368,89);
+name = above;
+pos = (245,597);
 },
 {
-name = top;
-pos = (245,597);
+name = below;
+pos = (368,89);
 }
 );
 layerId = master02;
@@ -8952,12 +9224,12 @@ width = 619;
 {
 anchors = (
 {
-name = below;
-pos = (363,34);
+name = above;
+pos = (258,577);
 },
 {
-name = top;
-pos = (258,577);
+name = below;
+pos = (363,34);
 }
 );
 layerId = master03;
@@ -13365,9 +13637,15 @@ width = 585;
 },
 {
 glyphname = "rra-gurmukhi";
-lastChange = "2022-07-28 14:58:15 +0000";
+lastChange = "2023-01-29 21:09:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = akhn;
+pos = (403,-33);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -13432,6 +13710,12 @@ vertWidth = 1130;
 width = 576;
 },
 {
+anchors = (
+{
+name = akhn;
+pos = (405,-46);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -14954,7 +15238,7 @@ width = 550;
 },
 {
 glyphname = "oneeighth-northindic_ya-gurmukhi.rlig";
-lastChange = "2022-07-28 15:28:43 +0000";
+lastChange = "2023-01-29 21:07:10 +0000";
 layers = (
 {
 layerId = master02;
@@ -22393,9 +22677,19 @@ unicode = 9676;
 {
 category = Mark;
 glyphname = "caBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 21:03:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-371,-359);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -22446,6 +22740,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-272);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -22502,9 +22806,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "caBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:46:12 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -22564,6 +22874,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -22629,9 +22945,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "caBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:46:43 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -22701,6 +23023,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -22776,9 +23104,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "caBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:46:57 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -22867,6 +23201,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -22961,9 +23301,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "daBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 21:03:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-359);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -23004,6 +23354,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-273);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -23050,9 +23410,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "daBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:48:47 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -23102,6 +23468,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -23157,9 +23529,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "daBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:48:59 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -23219,6 +23597,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -23284,9 +23668,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "daBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:49:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -23365,6 +23755,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -23449,9 +23845,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "gaBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 21:03:39 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-355);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -23502,6 +23908,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-273);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -23558,9 +23974,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "gaBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 21:00:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -23620,6 +24042,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -23685,9 +24113,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "gaBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 21:00:19 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -23757,6 +24191,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -23832,9 +24272,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "gaBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 21:00:31 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -23923,6 +24369,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24016,9 +24468,15 @@ subCategory = Nonspacing;
 },
 {
 glyphname = "addakBindi-gurmukhi";
-lastChange = "2022-07-28 15:11:26 +0000";
+lastChange = "2023-01-29 18:27:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-201,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -24064,6 +24522,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-140,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24113,9 +24577,15 @@ unicode = 2561;
 },
 {
 glyphname = "addakBindi-gurmukhi.alt";
-lastChange = "2022-07-28 15:18:09 +0000";
+lastChange = "2023-01-29 18:27:54 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-355,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -24161,6 +24631,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-304,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24209,9 +24685,15 @@ width = 0;
 },
 {
 glyphname = "bindi-gurmukhi";
-lastChange = "2022-07-28 15:11:31 +0000";
+lastChange = "2023-01-29 18:28:05 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-198,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -24236,6 +24718,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-140,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24264,9 +24752,15 @@ unicode = 2562;
 },
 {
 glyphname = "bindi-gurmukhi.alt";
-lastChange = "2022-07-28 15:17:50 +0000";
+lastChange = "2023-01-29 18:28:19 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-223,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -24291,6 +24785,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-142,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24318,9 +24818,15 @@ width = 0;
 },
 {
 glyphname = "nukta-gurmukhi";
-lastChange = "2022-07-28 15:11:31 +0000";
+lastChange = "2023-01-29 16:09:33 +0000";
 layers = (
 {
+anchors = (
+{
+name = _nukta;
+pos = (3,-26);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -24345,6 +24851,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _nukta;
+pos = (-107,-13);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24373,13 +24885,13 @@ unicode = 2620;
 },
 {
 glyphname = "uMatra-gurmukhi";
-lastChange = "2023-01-04 01:48:42 +0000";
+lastChange = "2023-01-29 19:54:05 +0000";
 layers = (
 {
 anchors = (
 {
 name = _below;
-pos = (-296,-15);
+pos = (-296,0);
 }
 );
 layerId = master02;
@@ -24411,7 +24923,7 @@ width = 0;
 anchors = (
 {
 name = _below;
-pos = (-284,-36);
+pos = (-289,0);
 }
 );
 layerId = master03;
@@ -24444,9 +24956,15 @@ unicode = 2625;
 },
 {
 glyphname = "uMatra-gurmukhi.alt";
-lastChange = "2023-01-09 19:02:46 +0000";
+lastChange = "2023-01-29 19:54:48 +0000";
 layers = (
 {
+anchors = (
+{
+name = _below;
+pos = (-283,0);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -24473,6 +24991,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _below;
+pos = (-265,0);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24502,9 +25026,15 @@ width = 0;
 },
 {
 glyphname = "uuMatra-gurmukhi";
-lastChange = "2022-07-31 14:01:31 +0000";
+lastChange = "2023-01-29 19:55:18 +0000";
 layers = (
 {
+anchors = (
+{
+name = _below;
+pos = (-289,0);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -24550,6 +25080,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _below;
+pos = (-285,0);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24599,9 +25135,15 @@ unicode = 2626;
 },
 {
 glyphname = "uuMatra-gurmukhi.alt";
-lastChange = "2022-07-31 14:01:47 +0000";
+lastChange = "2023-01-29 19:55:51 +0000";
 layers = (
 {
+anchors = (
+{
+name = _below;
+pos = (-313,0);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -24647,6 +25189,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _below;
+pos = (-305,0);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -24695,13 +25243,17 @@ width = 0;
 },
 {
 glyphname = "eeMatra-gurmukhi";
-lastChange = "2023-01-04 01:03:36 +0000";
+lastChange = "2023-01-29 19:56:38 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-195,578);
+},
+{
+name = above;
+pos = (-65,669);
 }
 );
 layerId = master02;
@@ -24734,8 +25286,12 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-145,571);
+},
+{
+name = above;
+pos = (-99,683);
 }
 );
 layerId = master03;
@@ -24770,13 +25326,17 @@ unicode = 2631;
 },
 {
 glyphname = "eeMatra-gurmukhi.alt";
-lastChange = "2023-01-04 01:03:20 +0000";
+lastChange = "2023-01-29 19:57:15 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-365,560);
+},
+{
+name = above;
+pos = (-235,687);
 }
 );
 layerId = master02;
@@ -24809,8 +25369,12 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-306,571);
+},
+{
+name = above;
+pos = (-261,643);
 }
 );
 layerId = master03;
@@ -24844,12 +25408,12 @@ width = 0;
 },
 {
 glyphname = "eeMatra_addakBindi-gurmukhi";
-lastChange = "2023-01-04 01:03:02 +0000";
+lastChange = "2023-01-29 18:31:06 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-195,578);
 }
 );
@@ -24921,7 +25485,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-145,571);
 }
 );
@@ -24994,12 +25558,12 @@ width = 0;
 },
 {
 glyphname = "eeMatra_addakBindi-gurmukhi.alt";
-lastChange = "2023-01-04 01:02:46 +0000";
+lastChange = "2023-01-29 18:31:14 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-365,560);
 }
 );
@@ -25071,7 +25635,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-306,571);
 }
 );
@@ -25144,12 +25708,12 @@ width = 0;
 },
 {
 glyphname = "eeMatra_bindi-gurmukhi";
-lastChange = "2023-01-04 01:02:16 +0000";
+lastChange = "2023-01-29 18:31:22 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-195,578);
 }
 );
@@ -25200,7 +25764,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-145,571);
 }
 );
@@ -25252,12 +25816,12 @@ width = 0;
 },
 {
 glyphname = "eeMatra_bindi-gurmukhi.alt";
-lastChange = "2023-01-04 01:01:54 +0000";
+lastChange = "2023-01-29 18:31:32 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-365,560);
 }
 );
@@ -25308,7 +25872,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-306,571);
 }
 );
@@ -25360,12 +25924,12 @@ width = 0;
 },
 {
 glyphname = "eeMatra_addak-gurmukhi";
-lastChange = "2023-01-04 01:01:37 +0000";
+lastChange = "2023-01-29 18:31:39 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-195,578);
 }
 );
@@ -25420,7 +25984,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-145,571);
 }
 );
@@ -25476,12 +26040,12 @@ width = 0;
 },
 {
 glyphname = "eeMatra_addak-gurmukhi.alt";
-lastChange = "2023-01-04 01:01:19 +0000";
+lastChange = "2023-01-29 18:31:47 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-365,560);
 }
 );
@@ -25536,7 +26100,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-306,571);
 }
 );
@@ -25592,13 +26156,17 @@ width = 0;
 },
 {
 glyphname = "aiMatra-gurmukhi";
-lastChange = "2023-01-04 01:01:03 +0000";
+lastChange = "2023-01-29 19:57:51 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-169,552);
+},
+{
+name = above;
+pos = (-59,703);
 }
 );
 layerId = master02;
@@ -25646,8 +26214,12 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-129,557);
+},
+{
+name = above;
+pos = (-90,686);
 }
 );
 layerId = master03;
@@ -25697,12 +26269,12 @@ unicode = 2632;
 },
 {
 glyphname = "aiMatra-gurmukhi.alt";
-lastChange = "2023-01-04 01:00:46 +0000";
+lastChange = "2023-01-29 16:06:40 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-343,552);
 }
 );
@@ -25751,7 +26323,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-296,557);
 }
 );
@@ -25801,12 +26373,12 @@ width = 0;
 },
 {
 glyphname = "aiMatra_addakBindi-gurmukhi";
-lastChange = "2023-01-04 01:00:26 +0000";
+lastChange = "2023-01-29 18:32:05 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-169,552);
 }
 );
@@ -25893,7 +26465,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-129,557);
 }
 );
@@ -25981,12 +26553,12 @@ width = 0;
 },
 {
 glyphname = "aiMatra_addakBindi-gurmukhi.alt";
-lastChange = "2023-01-04 01:00:05 +0000";
+lastChange = "2023-01-29 18:32:18 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-343,552);
 }
 );
@@ -26073,7 +26645,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-296,557);
 }
 );
@@ -26161,12 +26733,12 @@ width = 0;
 },
 {
 glyphname = "aiMatra_bindi-gurmukhi";
-lastChange = "2023-01-04 00:59:51 +0000";
+lastChange = "2023-01-29 18:32:24 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-169,552);
 }
 );
@@ -26232,7 +26804,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-129,557);
 }
 );
@@ -26299,12 +26871,12 @@ width = 0;
 },
 {
 glyphname = "aiMatra_bindi-gurmukhi.alt";
-lastChange = "2023-01-04 00:59:37 +0000";
+lastChange = "2023-01-29 18:32:33 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-343,552);
 }
 );
@@ -26370,7 +26942,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-296,557);
 }
 );
@@ -26437,12 +27009,12 @@ width = 0;
 },
 {
 glyphname = "aiMatra_addak-gurmukhi";
-lastChange = "2023-01-04 00:59:19 +0000";
+lastChange = "2023-01-29 18:33:03 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-169,552);
 }
 );
@@ -26512,7 +27084,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top;
+name = _above;
 pos = (-129,557);
 }
 );
@@ -26583,9 +27155,15 @@ width = 0;
 },
 {
 glyphname = "aiMatra_addak-gurmukhi.alt";
-lastChange = "2022-07-28 17:53:20 +0000";
+lastChange = "2023-01-29 18:33:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-343,552);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -26650,6 +27228,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-296,557);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -26717,9 +27301,19 @@ width = 0;
 },
 {
 glyphname = "ooMatra-gurmukhi";
-lastChange = "2022-07-28 15:11:31 +0000";
+lastChange = "2023-01-29 19:59:10 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-181,575);
+},
+{
+name = above;
+pos = (-181,759);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -26751,6 +27345,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-138,567);
+},
+{
+name = above;
+pos = (-138,668);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -26773,7 +27377,7 @@ nodes = (
 (-252,668,ls),
 (-173,660,o),
 (-152,636,o),
-(-140,577,cs),
+(-140,577,c),
 (-138,567,l)
 );
 }
@@ -26786,9 +27390,19 @@ unicode = 2635;
 },
 {
 glyphname = "ooMatra-gurmukhi.alt";
-lastChange = "2022-07-28 15:18:30 +0000";
+lastChange = "2023-01-29 19:59:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-355,575);
+},
+{
+name = above;
+pos = (-355,761);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -26820,6 +27434,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-301,567);
+},
+{
+name = above;
+pos = (-301,675);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -26854,9 +27478,15 @@ width = 0;
 },
 {
 glyphname = "ooMatra_addakBindi-gurmukhi";
-lastChange = "2022-07-28 18:04:34 +0000";
+lastChange = "2023-01-29 18:34:15 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-181,575);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -26926,6 +27556,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-138,567);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -26998,9 +27634,15 @@ width = 0;
 },
 {
 glyphname = "ooMatra_addakBindi-gurmukhi.alt";
-lastChange = "2022-07-28 18:04:40 +0000";
+lastChange = "2023-01-29 18:34:28 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-355,575);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -27070,6 +27712,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-301,567);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -27142,9 +27790,15 @@ width = 0;
 },
 {
 glyphname = "ooMatra_bindi-gurmukhi";
-lastChange = "2022-07-28 18:04:50 +0000";
+lastChange = "2023-01-29 18:34:41 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-181,575);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -27193,6 +27847,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-138,567);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -27244,9 +27904,15 @@ width = 0;
 },
 {
 glyphname = "ooMatra_bindi-gurmukhi.alt";
-lastChange = "2022-07-28 18:04:54 +0000";
+lastChange = "2023-01-29 18:34:53 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-355,575);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -27295,6 +27961,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-301,567);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -27346,9 +28018,15 @@ width = 0;
 },
 {
 glyphname = "ooMatra_addak-gurmukhi";
-lastChange = "2022-07-28 18:04:22 +0000";
+lastChange = "2023-01-29 18:35:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-181,575);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -27401,6 +28079,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-138,567);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -27456,9 +28140,15 @@ width = 0;
 },
 {
 glyphname = "ooMatra_addak-gurmukhi.alt";
-lastChange = "2022-07-28 18:04:28 +0000";
+lastChange = "2023-01-29 18:35:19 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-355,575);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -27511,6 +28201,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-301,567);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -27566,9 +28262,19 @@ width = 0;
 },
 {
 glyphname = "auMatra-gurmukhi";
-lastChange = "2022-07-28 15:11:31 +0000";
+lastChange = "2023-01-29 20:00:48 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-198,577);
+},
+{
+name = above;
+pos = (-37,746);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -27621,6 +28327,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-140,576);
+},
+{
+name = above;
+pos = (-58,734);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -27677,9 +28393,19 @@ unicode = 2636;
 },
 {
 glyphname = "auMatra-gurmukhi.alt";
-lastChange = "2022-07-28 15:20:19 +0000";
+lastChange = "2023-01-29 20:01:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-372,577);
+},
+{
+name = above;
+pos = (-216,746);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -27731,6 +28457,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-302,577);
+},
+{
+name = above;
+pos = (-222,734);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -27785,9 +28521,15 @@ width = 0;
 },
 {
 glyphname = "auMatra_addakBindi-gurmukhi";
-lastChange = "2022-07-28 18:02:31 +0000";
+lastChange = "2023-01-29 19:51:57 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-198,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -27878,6 +28620,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-140,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -27971,9 +28719,15 @@ width = 0;
 },
 {
 glyphname = "auMatra_addakBindi-gurmukhi.alt";
-lastChange = "2022-07-28 18:02:42 +0000";
+lastChange = "2023-01-29 19:51:59 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-372,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28063,6 +28817,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-284,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28155,9 +28915,15 @@ width = 0;
 },
 {
 glyphname = "auMatra_bindi-gurmukhi";
-lastChange = "2022-07-28 18:02:57 +0000";
+lastChange = "2023-01-29 19:52:02 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-198,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28227,6 +28993,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-140,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28299,9 +29071,15 @@ width = 0;
 },
 {
 glyphname = "auMatra_bindi-gurmukhi.alt";
-lastChange = "2022-07-28 18:03:02 +0000";
+lastChange = "2023-01-29 19:52:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-372,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28370,6 +29148,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-301,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28441,9 +29225,15 @@ width = 0;
 },
 {
 glyphname = "auMatra_addak-gurmukhi";
-lastChange = "2022-07-28 18:02:17 +0000";
+lastChange = "2023-01-29 19:52:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-198,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28517,6 +29307,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-140,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28593,9 +29389,15 @@ width = 0;
 },
 {
 glyphname = "auMatra_addak-gurmukhi.alt";
-lastChange = "2022-07-28 18:02:24 +0000";
+lastChange = "2023-01-29 19:52:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-372,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28668,6 +29470,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-284,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28743,9 +29551,19 @@ width = 0;
 },
 {
 glyphname = "halant-gurmukhi";
-lastChange = "2022-07-28 15:11:31 +0000";
+lastChange = "2023-01-29 20:41:01 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-203,-153);
+},
+{
+name = below;
+pos = (-377,-256);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28762,6 +29580,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-150,-101);
+},
+{
+name = below;
+pos = (-316,-172);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28782,9 +29610,19 @@ unicode = 2637;
 },
 {
 glyphname = "halant-gurmukhi.alt";
-lastChange = "2022-07-28 15:19:54 +0000";
+lastChange = "2023-01-29 20:41:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-269,-504);
+},
+{
+name = below;
+pos = (-443,-590);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28801,6 +29639,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-211,-344);
+},
+{
+name = below;
+pos = (-377,-386);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28820,9 +29668,19 @@ width = 0;
 },
 {
 glyphname = "udaat-gurmukhi";
-lastChange = "2022-07-28 15:11:31 +0000";
+lastChange = "2023-01-29 20:41:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-193,-59);
+},
+{
+name = below;
+pos = (-367,-309);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28843,6 +29701,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-165,-68);
+},
+{
+name = below;
+pos = (-331,-187);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28867,9 +29735,15 @@ unicode = 2641;
 },
 {
 glyphname = "udaat_uMatra-gurmukhi";
-lastChange = "2022-07-28 17:17:59 +0000";
+lastChange = "2023-01-29 20:03:00 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-193,-59);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -28909,6 +29783,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-165,-68);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -28951,9 +29831,15 @@ width = 0;
 },
 {
 glyphname = "udaat_uuMatra-gurmukhi";
-lastChange = "2022-07-28 17:18:08 +0000";
+lastChange = "2023-01-29 20:03:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-193,-59);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29012,6 +29898,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-165,-68);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29073,9 +29965,15 @@ width = 0;
 },
 {
 glyphname = "udaat_halant-gurmukhi";
-lastChange = "2022-07-28 17:21:17 +0000";
+lastChange = "2023-01-29 20:03:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-193,-59);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29105,6 +30003,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-165,-68);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29137,9 +30041,15 @@ width = 0;
 },
 {
 glyphname = "tippi-gurmukhi";
-lastChange = "2022-07-28 15:11:31 +0000";
+lastChange = "2023-01-29 18:28:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-202,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29178,6 +30088,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-137,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29220,9 +30136,15 @@ unicode = 2672;
 },
 {
 glyphname = "addak-gurmukhi";
-lastChange = "2022-07-28 15:11:31 +0000";
+lastChange = "2023-01-29 18:28:53 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-200,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29251,6 +30173,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-140,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29283,9 +30211,15 @@ unicode = 2673;
 },
 {
 glyphname = "addak-gurmukhi.alt";
-lastChange = "2022-07-28 15:17:06 +0000";
+lastChange = "2023-01-29 18:29:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = _above;
+pos = (-356,577);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29314,6 +30248,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _above;
+pos = (-302,577);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29345,13 +30285,17 @@ width = 0;
 },
 {
 glyphname = "yakash-gurmukhi";
-lastChange = "2023-01-09 18:59:44 +0000";
+lastChange = "2023-01-29 20:39:54 +0000";
 layers = (
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-263);
 }
 );
 layerId = master02;
@@ -29386,8 +30330,12 @@ width = 0;
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-239);
 }
 );
 layerId = master03;
@@ -29424,9 +30372,15 @@ unicode = 2677;
 },
 {
 glyphname = "yakash_uMatra-gurmukhi";
-lastChange = "2022-07-28 17:21:29 +0000";
+lastChange = "2023-01-29 15:29:43 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29476,6 +30430,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29528,9 +30488,15 @@ width = 0;
 },
 {
 glyphname = "yakash_uuMatra-gurmukhi";
-lastChange = "2022-07-28 17:21:33 +0000";
+lastChange = "2023-01-29 20:04:37 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29599,6 +30565,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29670,9 +30642,15 @@ width = 0;
 },
 {
 glyphname = "yakash_halant-gurmukhi";
-lastChange = "2022-07-28 17:21:38 +0000";
+lastChange = "2023-01-29 20:05:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29712,6 +30690,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29755,13 +30739,17 @@ width = 0;
 {
 category = Mark;
 glyphname = "haBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:40:09 +0000";
 layers = (
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-365);
 }
 );
 layerId = master02;
@@ -29802,8 +30790,12 @@ width = 0;
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-145,20);
+},
+{
+name = below;
+pos = (-366,-271);
 }
 );
 layerId = master03;
@@ -29848,9 +30840,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "haBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:05:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -29896,6 +30894,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -29947,9 +30951,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "haBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:05:56 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -30005,6 +31015,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -30066,9 +31082,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "haBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:06:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -30143,6 +31165,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -30223,9 +31251,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "kaBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:40:28 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-361);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -30281,6 +31319,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-438,-258);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -30342,9 +31390,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "naBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:40:46 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-371,-366);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -30386,6 +31444,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-287,-272);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -30433,9 +31501,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "naBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:12:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -30486,6 +31560,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -30542,9 +31622,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "naBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:13:14 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -30605,6 +31691,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -30671,9 +31763,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "naBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:13:26 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -30753,6 +31851,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -30838,13 +31942,17 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "raBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:39:38 +0000";
 layers = (
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-198,10);
+},
+{
+name = below;
+pos = (-373,-208);
 }
 );
 layerId = master02;
@@ -30877,8 +31985,12 @@ width = 0;
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-145);
 }
 );
 layerId = master03;
@@ -30915,9 +32027,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "raBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:13:41 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -30955,6 +32073,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -30998,12 +32122,12 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "raBelow_uMatra-gurmukhi";
-lastChange = "2023-01-09 19:01:03 +0000";
+lastChange = "2023-01-29 20:13:50 +0000";
 layers = (
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-198,10);
 }
 );
@@ -31056,7 +32180,7 @@ width = 0;
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-145,20);
 }
 );
@@ -31113,9 +32237,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "raBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:14:05 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -31182,6 +32312,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -31254,9 +32390,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "taBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:41:58 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-359);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -31306,6 +32452,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-310,-270);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -31361,9 +32517,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "taBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:14:30 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -31422,6 +32584,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -31486,9 +32654,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "taBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:14:43 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -31557,6 +32731,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -31631,9 +32811,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "taBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:14:55 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -31721,6 +32907,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -31814,9 +33006,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "thaBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:42:15 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-312);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -31867,6 +33069,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-232);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -31923,9 +33135,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "thaBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:15:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -31985,6 +33203,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -32050,9 +33274,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "thaBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:15:36 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -32122,6 +33352,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -32197,9 +33433,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "thaBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:15:51 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -32288,6 +33530,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -32382,9 +33630,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "ttaBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:42:32 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-360);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -32420,6 +33678,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-270);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -32461,9 +33729,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "ttaBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:16:17 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -32508,6 +33782,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -32558,9 +33838,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "ttaBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:16:33 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -32615,6 +33901,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -32675,9 +33967,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "ttaBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:16:47 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -32751,6 +34049,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -32830,9 +34134,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "tthaBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:42:50 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-359);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -32877,6 +34191,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-270);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -32927,9 +34251,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "tthaBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:17:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -32983,6 +34313,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -33042,9 +34378,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "tthaBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:17:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -33108,6 +34450,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -33177,9 +34525,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "tthaBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:17:36 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -33262,6 +34616,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -33350,17 +34710,17 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "vaBelow-gurmukhi";
-lastChange = "2023-01-04 01:47:11 +0000";
+lastChange = "2023-01-29 20:43:03 +0000";
 layers = (
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-198,10);
 },
 {
 name = below;
-pos = (-152,-412);
+pos = (-372,-369);
 }
 );
 layerId = master02;
@@ -33416,12 +34776,12 @@ width = 0;
 {
 anchors = (
 {
-name = _below;
+name = _akhn;
 pos = (-145,20);
 },
 {
 name = below;
-pos = (-159,-313);
+pos = (-311,-278);
 }
 );
 layerId = master03;
@@ -33481,9 +34841,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "vaBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:17:58 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -33544,6 +34910,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -33610,9 +34982,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "vaBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:12 +0000";
+lastChange = "2023-01-29 20:18:55 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -33683,6 +35061,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -33759,9 +35143,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "vaBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:36 +0000";
+lastChange = "2023-01-29 20:19:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -33851,6 +35241,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -33946,9 +35342,19 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "yaBelow-gurmukhi";
-lastChange = "2023-01-04 01:41:36 +0000";
+lastChange = "2023-01-29 20:43:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+},
+{
+name = below;
+pos = (-372,-336);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -33992,6 +35398,16 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+},
+{
+name = below;
+pos = (-311,-240);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -34041,9 +35457,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "yaBelow_halant-gurmukhi";
-lastChange = "2023-01-04 01:41:36 +0000";
+lastChange = "2023-01-29 20:19:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -34096,6 +35518,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -34154,9 +35582,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "yaBelow_uMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:36 +0000";
+lastChange = "2023-01-29 20:19:52 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -34219,6 +35653,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
@@ -34287,9 +35727,15 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "yaBelow_uuMatra-gurmukhi";
-lastChange = "2023-01-04 01:41:36 +0000";
+lastChange = "2023-01-29 20:20:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = _akhn;
+pos = (-198,10);
+}
+);
 layerId = master02;
 shapes = (
 {
@@ -34371,6 +35817,12 @@ vertWidth = 1130;
 width = 0;
 },
 {
+anchors = (
+{
+name = _akhn;
+pos = (-145,20);
+}
+);
 layerId = master03;
 shapes = (
 {
