@@ -164,3 +164,24 @@ add_proof_sheet_test("mark-attachments", "Mark Attachments", items)
 
 items = mva_items
 add_proof_sheet_test("multi-vowel-attachments", "Multiple Vowel Attachments", items)
+
+
+items = [
+    {"item": "ਦੇਂਹਿ", "description": "Bindi between vowels"},
+    {"item": "ਹੋਂਹਿ", "description": "Bindi between vowels"},
+    {"item": "ਰੋਂਦੇ", "description": "Bindi between vowels"},
+    {"item": "ਲੈਂਦਿਆਂ", "description": "Bindi between vowels"},
+    {"item": "ਸਾਂਤਿ", "description": "Bindi between vowels"},
+    {"item": "ਐਂਠੈ", "description": "Bindi between vowels"},
+    {"item": "ਐਂਠੇ", "description": "Bindi between vowels"},
+    {"item": "ਭੰਨੇ", "description": "Tippi + pre/above attachment"},
+    {"item": "ਅੰਤਿ", "description": "Tippi + pre/above attachment"},
+    {"item": "ਅੰਮ੍ਰਿਤਸਰ", "description": "Tippi + pre/above attachment"},
+    {"item": "ਙੰਙੈ", "description": "Tippi + pre/above attachment"},
+    {"item": "ਅੰਙੈ", "description": "Tippi + pre/above attachment"},
+    {"item": "ਰੰਙੈ", "description": "Tippi + pre/above attachment"},
+    {"item": "ਕਿੰਨੇ", "description": "Tippi + pre/above attachment"},
+    {"item": "ਮੁੰਨੇ", "description": "Tippi + pre/above attachment"},
+    {"item": "ਮੰਨੈ", "description": "Tippi + pre/above attachment"},
+]
+add_proof_sheet_test("db-words", "DB Words", items)
