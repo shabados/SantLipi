@@ -185,3 +185,18 @@ items = [
     {"item": "ਮੰਨੈ", "description": "Tippi + pre/above attachment"},
 ]
 add_proof_sheet_test("db-words", "DB Words", items)
+
+
+items = [
+    {"item": "", "description": "theory that a few numbers come from the same letter as they are described with. notables include 1, 2, 3, 4, 5, 6. see also evolution of numbers: Georges Ifrah, The Universal History of Numbers pp 368-396."},
+    {"item": "੧ੲ੧ੲ", "description": "੧ ਇੱਕ"},
+    {"item": "੨ਦ੨ਦ", "description": "੨ ਦੋ"},
+    {"item": "੩ਤ੩ਤ", "description": "੩ ਤਿੰਨ"},
+    {"item": "੪ਚ੪ਚ", "description": "੪ ਚਾਰ"},
+    {"item": "੫ਪ੫ਪ", "description": "੫ ਪੰਜ"},
+    {"item": "੬ਛ੬ਛ", "description": "੬ ਛੇ"},
+    {"item": "੭ਸ੭ਸ", "description": "੭ ਸੱਤ"},
+    {"item": "੮ਅ੮ਅ", "description": "੮ ਅੱਠ"},
+    {"item": "੯ਨ੯ਨ", "description": "੯ ਨੌਂ"},
+]
+add_proof_sheet_test("letter-numbers", "Letter-Number Comparison", items)
