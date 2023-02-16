@@ -188,7 +188,10 @@ add_proof_sheet_test("db-words", "DB Words", items)
 
 
 items = [
-    {"item": "", "description": "theory that a few numbers come from the same letter as they are described with. notables include 1, 2, 3, 4, 5, 6. see also evolution of numbers: Georges Ifrah, The Universal History of Numbers pp 368-396."},
+    {
+        "item": "",
+        "description": "theory that a few numbers come from the same letter as they are described with. notables include 1, 2, 3, 4, 5, 6. see also evolution of numbers: Georges Ifrah, The Universal History of Numbers pp 368-396.",
+    },
     {"item": "੧ੲ੧ੲ", "description": "੧ ਇੱਕ"},
     {"item": "੨ਦ੨ਦ", "description": "੨ ਦੋ"},
     {"item": "੩ਤ੩ਤ", "description": "੩ ਤਿੰਨ"},
@@ -200,3 +203,6 @@ items = [
     {"item": "੯ਨ੯ਨ", "description": "੯ ਨੌਂ"},
 ]
 add_proof_sheet_test("letter-numbers", "Letter-Number Comparison", items)
+
+items = [{"item": "ਲੰ", "description": ""}]
+add_side_by_side_test("nasal-attachment", "Nasalizations", items)
