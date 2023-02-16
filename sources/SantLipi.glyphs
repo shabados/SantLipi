@@ -1,9 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"/haBelow-gurmukhi"
-);
 axes = (
 {
 default = 400;
@@ -396,7 +393,8 @@ lookup lookup3 {
 } lookup3;
 
 lookup lookup4 {
-  sub [na-gurmukhi nna-gurmukhi nga-gurmukhi ttha-gurmukhi] [eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi]' by [eeMatra-gurmukhi.alt aiMatra-gurmukhi.alt ooMatra-gurmukhi.alt auMatra-gurmukhi.alt];
+  sub [na-gurmukhi nna-gurmukhi ttha-gurmukhi] [eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi]' by [eeMatra-gurmukhi.alt aiMatra-gurmukhi.alt ooMatra-gurmukhi.alt auMatra-gurmukhi.alt];
+  sub nga-gurmukhi [eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi]' by [eeMatra-gurmukhi.alt.001 aiMatra-gurmukhi.alt.001 ooMatra-gurmukhi.alt.001 auMatra-gurmukhi.alt.001];
   #sub [na-gurmukhi ttha-gurmukhi] [eeMatra_bindi-gurmukhi aiMatra_bindi-gurmukhi ooMatra_bindi-gurmukhi auMatra_bindi-gurmukhi eeMatra_addak-gurmukhi aiMatra_addak-gurmukhi ooMatra_addak-gurmukhi auMatra_addak-gurmukhi eeMatra_addakBindi-gurmukhi aiMatra_addakBindi-gurmukhi ooMatra_addakBindi-gurmukhi auMatra_addakBindi-gurmukhi]' by [eeMatra_bindi-gurmukhi.alt aiMatra_bindi-gurmukhi.alt ooMatra_bindi-gurmukhi.alt auMatra_bindi-gurmukhi.alt eeMatra_addak-gurmukhi.alt aiMatra_addak-gurmukhi.alt ooMatra_addak-gurmukhi.alt auMatra_addak-gurmukhi.alt eeMatra_addakBindi-gurmukhi.alt aiMatra_addakBindi-gurmukhi.alt ooMatra_addakBindi-gurmukhi.alt auMatra_addakBindi-gurmukhi.alt];
   sub [ii-gurmukhi u-gurmukhi uu-gurmukhi ee-gurmukhi ai-gurmukhi oo-gurmukhi au-gurmukhi iiMatra-gurmukhi ura-gurmukhi] [bindi-gurmukhi addak-gurmukhi addakBindi-gurmukhi]' by [bindi-gurmukhi.alt addak-gurmukhi.alt addakBindi-gurmukhi.alt];
 } lookup4;
@@ -17945,6 +17943,72 @@ width = 0;
 );
 },
 {
+glyphname = "eeMatra-gurmukhi.alt.001";
+lastChange = "2023-02-07 14:50:36 +0000";
+layers = (
+{
+anchors = (
+{
+name = _above;
+pos = (-365,560);
+},
+{
+name = above;
+pos = (-235,687);
+}
+);
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-235,560,l),
+(-235,795,o),
+(-300,869,o),
+(-300,869,c),
+(-414,825,l),
+(-414,825,o),
+(-365,766,o),
+(-365,560,c)
+);
+}
+);
+vertWidth = 1130;
+width = 0;
+},
+{
+anchors = (
+{
+name = _above;
+pos = (-306,571);
+},
+{
+name = above;
+pos = (-261,643);
+}
+);
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-261,571,l),
+(-261,760,o),
+(-343,849,o),
+(-343,849,c),
+(-385,834,l),
+(-385,834,o),
+(-306,748,o),
+(-306,571,c)
+);
+}
+);
+vertWidth = 814;
+width = 0;
+}
+);
+},
+{
 glyphname = "aiMatra-gurmukhi";
 lastChange = "2023-02-06 22:37:19 +0000";
 layers = (
@@ -18098,6 +18162,78 @@ width = 0;
 );
 },
 {
+glyphname = "aiMatra-gurmukhi.alt.001";
+lastChange = "2023-02-07 15:10:11 +0000";
+layers = (
+{
+anchors = (
+{
+name = _above;
+pos = (-343,552);
+}
+);
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-233,552,l),
+(-225,552,o),
+(-133,711,o),
+(-133,942,c),
+(-231,877,l),
+(-231,799,o),
+(-261,736,o),
+(-261,731,c),
+(-261,745,o),
+(-292,836,o),
+(-302,836,c),
+(-391,784,l),
+(-384,784,o),
+(-343,695,o),
+(-343,552,c)
+);
+}
+);
+vertWidth = 1130;
+width = 0;
+},
+{
+anchors = (
+{
+name = _above;
+pos = (-296,557);
+}
+);
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-257,557,l),
+(-254,557,o),
+(-119,749,o),
+(-119,877,c),
+(-158,856,l),
+(-158,806,o),
+(-253,637,o),
+(-257,637,c),
+(-257,721,o),
+(-266,797,o),
+(-272,797,c),
+(-305,777,l),
+(-303,777,o),
+(-296,698,o),
+(-296,557,c)
+);
+}
+);
+vertWidth = 814;
+width = 0;
+}
+);
+},
+{
 glyphname = "ooMatra-gurmukhi";
 lastChange = "2023-02-06 22:00:35 +0000";
 layers = (
@@ -18221,6 +18357,72 @@ nodes = (
 (-493,817,l),
 (-493,567,o),
 (-301,755,o),
+(-301,567,c)
+);
+}
+);
+vertWidth = 814;
+width = 0;
+}
+);
+},
+{
+glyphname = "ooMatra-gurmukhi.alt.001";
+lastChange = "2023-02-16 15:06:33 +0000";
+layers = (
+{
+anchors = (
+{
+name = _above;
+pos = (-355,575);
+},
+{
+name = above;
+pos = (-304,694);
+}
+);
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-222,575,l),
+(-192,872,o),
+(-370,682,o),
+(-340,892,c),
+(-443,892,l),
+(-473,595,o),
+(-325,784,o),
+(-355,575,c)
+);
+}
+);
+vertWidth = 1130;
+width = 0;
+},
+{
+anchors = (
+{
+name = _above;
+pos = (-301,567);
+},
+{
+name = above;
+pos = (-301,675);
+}
+);
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-254,567,l),
+(-224,817,o),
+(-389,618,o),
+(-359,817,c),
+(-397,817,l),
+(-427,567,o),
+(-271,755,o),
 (-301,567,c)
 );
 }
@@ -18480,6 +18682,116 @@ nodes = (
 (-382,676,cs),
 (-382,651,o),
 (-372,632,o),
+(-362,622,c)
+);
+}
+);
+vertWidth = 814;
+width = 0;
+}
+);
+},
+{
+glyphname = "auMatra-gurmukhi.alt.001";
+lastChange = "2023-02-16 15:04:24 +0000";
+layers = (
+{
+anchors = (
+{
+name = _above;
+pos = (-372,577);
+},
+{
+name = above;
+pos = (-216,746);
+}
+);
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-336,652,l),
+(-344,668,o),
+(-350,682,o),
+(-350,699,cs),
+(-350,727,o),
+(-332,746,o),
+(-306,746,cs),
+(-284,746,o),
+(-266,729,o),
+(-264,698,cs),
+(-264,682,o),
+(-270,665,o),
+(-277,652,c),
+(-197,625,l),
+(-177,639,o),
+(-153,670,o),
+(-153,709,cs),
+(-153,765,o),
+(-203,834,o),
+(-318,834,cs),
+(-387,834,o),
+(-433,852,o),
+(-433,902,c),
+(-523,902,l),
+(-523,815,o),
+(-460,780,o),
+(-435,769,c),
+(-469,734,o),
+(-460,652,o),
+(-416,625,c)
+);
+}
+);
+vertWidth = 1130;
+width = 0;
+},
+{
+anchors = (
+{
+name = _above;
+pos = (-302,577);
+},
+{
+name = above;
+pos = (-222,734);
+}
+);
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-333,637,l),
+(-339,650,o),
+(-343,660,o),
+(-343,674,cs),
+(-343,706,o),
+(-324,735,o),
+(-284,735,cs),
+(-243,735,o),
+(-226,709,o),
+(-225,677,cs),
+(-225,659,o),
+(-230,648,o),
+(-235,637,c),
+(-206,622,l),
+(-196,633,o),
+(-186,653,o),
+(-186,681,cs),
+(-186,733,o),
+(-220,771,o),
+(-297,771,cs),
+(-361,771,o),
+(-375,813,o),
+(-375,847,c),
+(-410,847,l),
+(-410,766,o),
+(-356,748,o),
+(-350,748,c),
+(-385,726,o),
+(-394,654,o),
 (-362,622,c)
 );
 }
