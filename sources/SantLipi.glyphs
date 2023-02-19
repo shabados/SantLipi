@@ -2572,7 +2572,7 @@ unicode = 2579;
 },
 {
 glyphname = "au-gurmukhi";
-lastChange = "2023-02-07 00:28:14 +0000";
+lastChange = "2023-02-19 16:13:42 +0000";
 layers = (
 {
 anchors = (
@@ -5474,7 +5474,7 @@ width = 438;
 },
 {
 glyphname = "da-gurmukhi";
-lastChange = "2023-01-30 19:26:54 +0000";
+lastChange = "2023-02-19 16:17:22 +0000";
 layers = (
 {
 anchors = (
@@ -7191,13 +7191,13 @@ unicode = 2610;
 },
 {
 glyphname = "lla-gurmukhi";
-lastChange = "2023-02-06 18:17:28 +0000";
+lastChange = "2023-02-19 16:10:15 +0000";
 layers = (
 {
 anchors = (
 {
 name = above;
-pos = (444,597);
+pos = (442,597);
 },
 {
 name = akhn;
@@ -7228,7 +7228,7 @@ width = 714;
 anchors = (
 {
 name = above;
-pos = (467,574);
+pos = (449,577);
 },
 {
 name = akhn;
@@ -7413,17 +7413,17 @@ unicode = 2613;
 },
 {
 glyphname = "sha-gurmukhi";
-lastChange = "2023-02-06 18:04:21 +0000";
+lastChange = "2023-02-19 16:09:41 +0000";
 layers = (
 {
 anchors = (
 {
 name = above;
-pos = (412,597);
+pos = (402,597);
 },
 {
 name = akhn;
-pos = (412,0);
+pos = (402,0);
 },
 {
 name = below;
@@ -7450,11 +7450,11 @@ width = 600;
 anchors = (
 {
 name = above;
-pos = (407,577);
+pos = (410,577);
 },
 {
 name = akhn;
-pos = (407,0);
+pos = (410,0);
 },
 {
 name = below;
@@ -7803,7 +7803,7 @@ unicode = 2649;
 },
 {
 glyphname = "ghha-gurmukhi";
-lastChange = "2023-02-06 18:06:21 +0000";
+lastChange = "2023-02-19 16:12:42 +0000";
 layers = (
 {
 anchors = (
@@ -7840,11 +7840,11 @@ width = 792;
 anchors = (
 {
 name = above;
-pos = (553,577);
+pos = (563,577);
 },
 {
 name = akhn;
-pos = (553,0);
+pos = (563,0);
 },
 {
 name = below;
@@ -7872,17 +7872,17 @@ unicode = 2650;
 },
 {
 glyphname = "za-gurmukhi";
-lastChange = "2023-02-06 18:08:22 +0000";
+lastChange = "2023-02-19 16:13:10 +0000";
 layers = (
 {
 anchors = (
 {
 name = above;
-pos = (418,597);
+pos = (428,597);
 },
 {
 name = akhn;
-pos = (418,0);
+pos = (428,0);
 },
 {
 name = below;
@@ -17811,7 +17811,7 @@ unicode = 2626;
 },
 {
 glyphname = "eeMatra-gurmukhi";
-lastChange = "2023-02-07 00:31:03 +0000";
+lastChange = "2023-02-19 16:14:42 +0000";
 layers = (
 {
 anchors = (
