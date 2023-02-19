@@ -2137,13 +2137,13 @@ unicode = 2568;
 },
 {
 glyphname = "u-gurmukhi";
-lastChange = "2023-01-31 16:32:02 +0000";
+lastChange = "2023-02-19 16:27:59 +0000";
 layers = (
 {
 anchors = (
 {
 name = above;
-pos = (473,597);
+pos = (603,741);
 },
 {
 name = nukta;
@@ -2166,7 +2166,7 @@ width = 629;
 anchors = (
 {
 name = above;
-pos = (510,651);
+pos = (543,699);
 },
 {
 name = nukta;
@@ -2190,13 +2190,13 @@ unicode = 2569;
 },
 {
 glyphname = "uu-gurmukhi";
-lastChange = "2023-01-31 16:32:36 +0000";
+lastChange = "2023-02-19 16:28:19 +0000";
 layers = (
 {
 anchors = (
 {
 name = above;
-pos = (473,702);
+pos = (603,735);
 },
 {
 name = nukta;
@@ -2219,7 +2219,7 @@ width = 629;
 anchors = (
 {
 name = above;
-pos = (488,670);
+pos = (543,699);
 },
 {
 name = nukta;
