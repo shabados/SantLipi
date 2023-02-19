@@ -50,9 +50,16 @@ items = [
     {"item": "ਬ੍ਰਹ੍ਮ", "description": "half m"},
     {"item": "ਉਤਬ੍ਰਹਮਨੇਸ਼੍ਠੀਟ", "description": "small ṭ"},
     {"item": "ਧੵਾਨੰ", "description": "yakash"},
-    {"item": "ਸ਼੍ਰੀ", "description": "small rara pixel glitch"},
-    {"item": "ਦੇਹਿ ਬਿਖੈ", "description": "vowel pixel glitch"},
-    {"item": "ਉੱਤਰ", "description": "addhak too close"},
+    {"item": "ਸ਼੍ਰੀ", "description": "compound letter + small rara"},
+    {"item": "ਦੇਹਿ ਬਿਖੈ", "description": "mark attachments"},
+    {"item": "ਉੱਤਰ", "description": "ura + addak"},
+    {"item": "ਯੌਂ", "description": "ō + nasalization"},
+    {"item": "ਪ੍ਰਫੁੱਲਤ", "description": ""},
+    {"item": "ਜ੍ਯੋਂ", "description": ""},
+    {"item": "ਨਿੰਦਾ", "description": "midstem sihari + nasal"},
+    {"item": "ਸੁਨੈਂ", "description": "midstem dulav + nasal"},
+    {"item": "ਸ਼੍ਰੁਤ", "description": ""},
+    {"item": "ਗਹੈਂ", "description": "dulav + nasal"},
 ]
 add_proof_sheet_test("spg", "SPG", items)
 
