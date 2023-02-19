@@ -52,6 +52,7 @@ items = [
     {"item": "ਧੵਾਨੰ", "description": "yakash"},
     {"item": "ਸ਼੍ਰੀ", "description": "small rara pixel glitch"},
     {"item": "ਦੇਹਿ ਬਿਖੈ", "description": "vowel pixel glitch"},
+    {"item": "ਉੱਤਰ", "description": "addhak too close"},
 ]
 add_proof_sheet_test("spg", "SPG", items)
 
