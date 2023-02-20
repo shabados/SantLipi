@@ -20939,7 +20939,7 @@ value = "Copyright 2022 Shabad OS. All rights reserved.";
 },
 {
 key = versionString;
-value = "Version 0.013";
+value = "Version 0.014";
 },
 {
 key = licenses;
@@ -20988,5 +20988,5 @@ master02 = {
 };
 };
 versionMajor = 0;
-versionMinor = 13;
+versionMinor = 14;
 }
