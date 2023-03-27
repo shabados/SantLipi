@@ -217,5 +217,8 @@ add_proof_sheet_test("letter-numbers", "Letter-Number Comparison", items)
 items = [{"item": "ਲੰ", "description": ""}]
 add_side_by_side_test("nasal-attachment", "Nasalizations", items)
 
-items = [{"item": "ਮੰਨੈ", "description": ""}]
+items = [
+    {"item": "ਮੰਨੈ", "description": ""},
+    {"item": "ਤੁਧਨੋ", "description": ""},
+]
 add_proof_sheet_test("words-from-nitnem", "Words From Nitnem", items)
