@@ -220,5 +220,6 @@ add_side_by_side_test("nasal-attachment", "Nasalizations", items)
 items = [
     {"item": "ਮੰਨੈ", "description": ""},
     {"item": "ਤੁਧਨੋ", "description": ""},
+    {"item": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ", "description": ""},
 ]
 add_proof_sheet_test("words-from-nitnem", "Words From Nitnem", items)
