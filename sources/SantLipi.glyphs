@@ -2324,13 +2324,13 @@ unicode = 2568;
 },
 {
 glyphname = "u-gurmukhi";
-lastChange = "2023-02-20 00:54:10 +0000";
+lastChange = "2023-03-27 22:38:33 +0000";
 layers = (
 {
 anchors = (
 {
 name = above;
-pos = (603,741);
+pos = (595,679);
 },
 {
 name = nukta;
@@ -2353,7 +2353,7 @@ width = 629;
 anchors = (
 {
 name = above;
-pos = (543,699);
+pos = (583,656);
 },
 {
 name = nukta;
