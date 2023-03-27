@@ -23,6 +23,7 @@ pre-commit = "^2.21.0"
 [tool.poetry.scripts]
 build = "scripts.build:main"
 make = "scripts.make:make"
+glyphs = "scripts.make:var"
 qa = "scripts.qa:qa"
 
 [build-system]
