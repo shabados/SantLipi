@@ -18024,7 +18024,7 @@ width = 0;
 },
 {
 glyphname = "aiMatra-gurmukhi";
-lastChange = "2023-02-06 22:37:19 +0000";
+lastChange = "2023-03-27 21:18:44 +0000";
 layers = (
 {
 anchors = (
@@ -18034,7 +18034,7 @@ pos = (-175,577);
 },
 {
 name = above;
-pos = (-59,703);
+pos = (1,577);
 }
 );
 layerId = master02;
@@ -18071,7 +18071,7 @@ pos = (-137,577);
 },
 {
 name = above;
-pos = (-90,686);
+pos = (-66,577);
 }
 );
 layerId = master03;
@@ -18105,7 +18105,7 @@ unicode = 2632;
 },
 {
 glyphname = "aiMatra-gurmukhi.alt";
-lastChange = "2023-02-20 00:53:16 +0000";
+lastChange = "2023-03-27 21:19:58 +0000";
 layers = (
 {
 anchors = (
@@ -18115,7 +18115,7 @@ pos = (-343,552);
 },
 {
 name = above;
-pos = (-176,552);
+pos = (-126,552);
 }
 );
 layerId = master02;
@@ -18152,7 +18152,7 @@ pos = (-296,557);
 },
 {
 name = above;
-pos = (-150,557);
+pos = (-213,557);
 }
 );
 layerId = master03;
