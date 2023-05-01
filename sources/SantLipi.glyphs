@@ -50,7 +50,7 @@ code = "bindi-gurmukhi.alt";
 name = top4;
 },
 {
-code = "jha-gurmukhi a-gurmukhi aa-gurmukhi i-gurmukhi ii-gurmukhi u-gurmukhi uu-gurmukhi ee-gurmukhi ai-gurmukhi oo-gurmukhi au-gurmukhi ka-gurmukhi kha-gurmukhi ga-gurmukhi gha-gurmukhi nga-gurmukhi ca-gurmukhi cha-gurmukhi ja-gurmukhi nya-gurmukhi tta-gurmukhi ttha-gurmukhi dda-gurmukhi ddha-gurmukhi nna-gurmukhi ta-gurmukhi tha-gurmukhi da-gurmukhi dha-gurmukhi na-gurmukhi pa-gurmukhi pha-gurmukhi ba-gurmukhi bha-gurmukhi ma-gurmukhi ya-gurmukhi ra-gurmukhi la-gurmukhi lla-gurmukhi va-gurmukhi sha-gurmukhi sa-gurmukhi ha-gurmukhi aaMatra-gurmukhi iMatra-gurmukhi iiMatra-gurmukhi khha-gurmukhi ghha-gurmukhi za-gurmukhi rra-gurmukhi fa-gurmukhi iri-gurmukhi ura-gurmukhi danda-deva dbldanda-deva onesixteenth-northindic_ya-gurmukhi.rlig ma-gurmukhi.post tha-gurmukhi.post iiMatra_bindi-gurmukhi ka_raBelow-gurmukhi rra_haBelow-gurmukhi
+code = "jha-gurmukhi a-gurmukhi aa-gurmukhi i-gurmukhi ii-gurmukhi u-gurmukhi uu-gurmukhi ee-gurmukhi ai-gurmukhi oo-gurmukhi au-gurmukhi ka-gurmukhi kha-gurmukhi ga-gurmukhi gha-gurmukhi nga-gurmukhi ca-gurmukhi cha-gurmukhi ja-gurmukhi nya-gurmukhi tta-gurmukhi ttha-gurmukhi dda-gurmukhi ddha-gurmukhi nna-gurmukhi ta-gurmukhi tha-gurmukhi da-gurmukhi dha-gurmukhi na-gurmukhi pa-gurmukhi pha-gurmukhi ba-gurmukhi bha-gurmukhi ma-gurmukhi ya-gurmukhi ra-gurmukhi la-gurmukhi lla-gurmukhi va-gurmukhi sha-gurmukhi sa-gurmukhi ha-gurmukhi aaMatra-gurmukhi iMatra-gurmukhi iiMatra-gurmukhi khha-gurmukhi ghha-gurmukhi za-gurmukhi rra-gurmukhi fa-gurmukhi iri-gurmukhi ura-gurmukhi danda-deva dbldanda-deva onesixteenth-northindic_ya-gurmukhi.rlig ma-gurmukhi.post tha-gurmukhi.post iiMatra_bindi-gurmukhi rra_haBelow-gurmukhi
 ";
 name = Basic_gm;
 },
@@ -77,7 +77,7 @@ code = "ura-gurmukhi u-gurmukhi uu-gurmukhi oo-gurmukhi ";
 name = _VowelU_Left_Right;
 },
 {
-code = "ka-gurmukhi ka_raBelow-gurmukhi
+code = "ka-gurmukhi
 ";
 name = _Ka_Left_Right;
 },
@@ -289,18 +289,18 @@ code = "a-gurmukhi aa-gurmukhi i-gurmukhi ii-gurmukhi ee-gurmukhi ai-gurmukhi au
 name = Right20;
 },
 {
-code = "addakBindi-gurmukhi bindi-gurmukhi visarga-gurmukhi a-gurmukhi aa-gurmukhi i-gurmukhi ii-gurmukhi u-gurmukhi uu-gurmukhi ee-gurmukhi ai-gurmukhi oo-gurmukhi au-gurmukhi ka-gurmukhi kha-gurmukhi ga-gurmukhi gha-gurmukhi nga-gurmukhi ca-gurmukhi cha-gurmukhi ja-gurmukhi jha-gurmukhi nya-gurmukhi tta-gurmukhi ttha-gurmukhi dda-gurmukhi ddha-gurmukhi nna-gurmukhi ta-gurmukhi tha-gurmukhi da-gurmukhi dha-gurmukhi na-gurmukhi pa-gurmukhi pha-gurmukhi ba-gurmukhi bha-gurmukhi ma-gurmukhi ya-gurmukhi ra-gurmukhi la-gurmukhi lla-gurmukhi va-gurmukhi sha-gurmukhi sa-gurmukhi ha-gurmukhi nukta-gurmukhi aaMatra-gurmukhi iMatra-gurmukhi iiMatra-gurmukhi uMatra-gurmukhi uuMatra-gurmukhi eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi halant-gurmukhi udaat-gurmukhi khha-gurmukhi ghha-gurmukhi za-gurmukhi rra-gurmukhi fa-gurmukhi zero one two three four five six seven eight nine tippi-gurmukhi addak-gurmukhi iri-gurmukhi ura-gurmukhi ekonkar-gurmukhi yakash-gurmukhi haBelow-gurmukhi raBelow-gurmukhi vaBelow-gurmukhi gaBelow-gurmukhi caBelow-gurmukhi ttaBelow-gurmukhi tthaBelow-gurmukhi taBelow-gurmukhi daBelow-gurmukhi naBelow-gurmukhi thaBelow-gurmukhi yaBelow-gurmukhi onesixteenth-northindic_ya-gurmukhi.rlig ma-gurmukhi.post tha-gurmukhi.post rra_haBelow-gurmukhi ka_raBelow-gurmukhi danda-deva dbldanda-deva adiShakti  iiMatra_bindi-gurmukhi  eeMatra-gurmukhi.alt aiMatra-gurmukhi.alt ooMatra-gurmukhi.alt auMatra-gurmukhi.alt  halant-gurmukhi.alt bindi-gurmukhi.alt addak-gurmukhi.alt addakBindi-gurmukhi.alt  iiMatra_addak-gurmukhi  iiMatra_addakBindi-gurmukhi onequarter-northindic onehalf-northindic threequarters-northindic onesixteenth-northindic oneeighth-northindic threesixteenths-northindic quarter-northindic quantity-northindic rupee-northindic
+code = "addakBindi-gurmukhi bindi-gurmukhi visarga-gurmukhi a-gurmukhi aa-gurmukhi i-gurmukhi ii-gurmukhi u-gurmukhi uu-gurmukhi ee-gurmukhi ai-gurmukhi oo-gurmukhi au-gurmukhi ka-gurmukhi kha-gurmukhi ga-gurmukhi gha-gurmukhi nga-gurmukhi ca-gurmukhi cha-gurmukhi ja-gurmukhi jha-gurmukhi nya-gurmukhi tta-gurmukhi ttha-gurmukhi dda-gurmukhi ddha-gurmukhi nna-gurmukhi ta-gurmukhi tha-gurmukhi da-gurmukhi dha-gurmukhi na-gurmukhi pa-gurmukhi pha-gurmukhi ba-gurmukhi bha-gurmukhi ma-gurmukhi ya-gurmukhi ra-gurmukhi la-gurmukhi lla-gurmukhi va-gurmukhi sha-gurmukhi sa-gurmukhi ha-gurmukhi nukta-gurmukhi aaMatra-gurmukhi iMatra-gurmukhi iiMatra-gurmukhi uMatra-gurmukhi uuMatra-gurmukhi eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi halant-gurmukhi udaat-gurmukhi khha-gurmukhi ghha-gurmukhi za-gurmukhi rra-gurmukhi fa-gurmukhi zero one two three four five six seven eight nine tippi-gurmukhi addak-gurmukhi iri-gurmukhi ura-gurmukhi ekonkar-gurmukhi yakash-gurmukhi haBelow-gurmukhi raBelow-gurmukhi vaBelow-gurmukhi gaBelow-gurmukhi caBelow-gurmukhi ttaBelow-gurmukhi tthaBelow-gurmukhi taBelow-gurmukhi daBelow-gurmukhi naBelow-gurmukhi thaBelow-gurmukhi yaBelow-gurmukhi onesixteenth-northindic_ya-gurmukhi.rlig ma-gurmukhi.post tha-gurmukhi.post rra_haBelow-gurmukhi danda-deva dbldanda-deva adiShakti  iiMatra_bindi-gurmukhi  eeMatra-gurmukhi.alt aiMatra-gurmukhi.alt ooMatra-gurmukhi.alt auMatra-gurmukhi.alt  halant-gurmukhi.alt bindi-gurmukhi.alt addak-gurmukhi.alt addakBindi-gurmukhi.alt  iiMatra_addak-gurmukhi  iiMatra_addakBindi-gurmukhi onequarter-northindic onehalf-northindic threequarters-northindic onesixteenth-northindic oneeighth-northindic threesixteenths-northindic quarter-northindic quantity-northindic rupee-northindic
 ";
 name = _allcharacters;
-notes = "ka-gurmukhi.haln kha-gurmukhi.haln ga-gurmukhi.haln gha-gurmukhi.haln nga-gurmukhi.haln ca-gurmukhi.haln cha-gurmukhi.haln ja-gurmukhi.haln jha-gurmukhi.haln nya-gurmukhi.haln tta-gurmukhi.haln ttha-gurmukhi.haln dda-gurmukhi.haln ddha-gurmukhi.haln nna-gurmukhi.haln ta-gurmukhi.haln tha-gurmukhi.haln da-gurmukhi.haln dha-gurmukhi.haln na-gurmukhi.haln pa-gurmukhi.haln pha-gurmukhi.haln ba-gurmukhi.haln bha-gurmukhi.haln ma-gurmukhi.haln ya-gurmukhi.haln ra-gurmukhi.haln la-gurmukhi.haln lla-gurmukhi.haln va-gurmukhi.haln sha-gurmukhi.haln sa-gurmukhi.haln ha-gurmukhi.haln khha-gurmukhi.haln ghha-gurmukhi.haln za-gurmukhi.haln rra-gurmukhi.haln fa-gurmukhi.haln  eeMatra_bindi-gurmukhi aiMatra_bindi-gurmukhi ooMatra_bindi-gurmukhi auMatra_bindi-gurmukhi uMatra-gurmukhi.alt uuMatra-gurmukhi.alt eeMatra_bindi-gurmukhi.alt aiMatra_bindi-gurmukhi.alt ooMatra_bindi-gurmukhi.alt auMatra_bindi-gurmukhi.alt eeMatra_addak-gurmukhi aiMatra_addak-gurmukhi ooMatra_addak-gurmukhi auMatra_addak-gurmukhi eeMatra_addakBindi-gurmukhi aiMatra_addakBindi-gurmukhi ooMatra_addakBindi-gurmukhi auMatra_addakBindi-gurmukhi eeMatra_addak-gurmukhi.alt aiMatra_addak-gurmukhi.alt ooMatra_addak-gurmukhi.alt auMatra_addak-gurmukhi.alt eeMatra_addakBindi-gurmukhi.alt aiMatra_addakBindi-gurmukhi.alt ooMatra_addakBindi-gurmukhi.alt auMatra_addakBindi-gurmukhi.alt raBelow_halant-gurmukhi haBelow_halant-gurmukhi vaBelow_halant-gurmukhi gaBelow_halant-gurmukhi caBelow_halant-gurmukhi ttaBelow_halant-gurmukhi tthaBelow_halant-gurmukhi taBelow_halant-gurmukhi daBelow_halant-gurmukhi naBelow_halant-gurmukhi thaBelow_halant-gurmukhi yaBelow_halant-gurmukhi yakash_halant-gurmukhi udaat_halant-gurmukhi raBelow_uMatra-gurmukhi haBelow_uMatra-gurmukhi vaBelow_uMatra-gurmukhi gaBelow_uMatra-gurmukhi caBelow_uMatra-gurmukhi ttaBelow_uMatra-gurmukhi tthaBelow_uMatra-gurmukhi taBelow_uMatra-gurmukhi daBelow_uMatra-gurmukhi naBelow_uMatra-gurmukhi thaBelow_uMatra-gurmukhi yaBelow_uMatra-gurmukhi yakash_uMatra-gurmukhi udaat_uMatra-gurmukhi raBelow_uuMatra-gurmukhi haBelow_uuMatra-gurmukhi vaBelow_uuMatra-gurmukhi gaBelow_uuMatra-gurmukhi caBelow_uuMatra-gurmukhi ttaBelow_uuMatra-gurmukhi tthaBelow_uuMatra-gurmukhi taBelow_uuMatra-gurmukhi daBelow_uuMatra-gurmukhi naBelow_uuMatra-gurmukhi thaBelow_uuMatra-gurmukhi yaBelow_uuMatra-gurmukhi yakash_uuMatra-gurmukhi udaat_uuMatra-gurmukhi ";
+notes = "ka-gurmukhi.haln kha-gurmukhi.haln ga-gurmukhi.haln gha-gurmukhi.haln nga-gurmukhi.haln ca-gurmukhi.haln cha-gurmukhi.haln ja-gurmukhi.haln jha-gurmukhi.haln nya-gurmukhi.haln tta-gurmukhi.haln ttha-gurmukhi.haln dda-gurmukhi.haln ddha-gurmukhi.haln nna-gurmukhi.haln ta-gurmukhi.haln tha-gurmukhi.haln da-gurmukhi.haln dha-gurmukhi.haln na-gurmukhi.haln pa-gurmukhi.haln pha-gurmukhi.haln ba-gurmukhi.haln bha-gurmukhi.haln ma-gurmukhi.haln ya-gurmukhi.haln ra-gurmukhi.haln la-gurmukhi.haln lla-gurmukhi.haln va-gurmukhi.haln sha-gurmukhi.haln sa-gurmukhi.haln ha-gurmukhi.haln khha-gurmukhi.haln ghha-gurmukhi.haln za-gurmukhi.haln rra-gurmukhi.haln fa-gurmukhi.haln  eeMatra_bindi-gurmukhi aiMatra_bindi-gurmukhi ooMatra_bindi-gurmukhi auMatra_bindi-gurmukhi uMatra-gurmukhi.alt uuMatra-gurmukhi.alt eeMatra_bindi-gurmukhi.alt aiMatra_bindi-gurmukhi.alt ooMatra_bindi-gurmukhi.alt auMatra_bindi-gurmukhi.alt eeMatra_addak-gurmukhi aiMatra_addak-gurmukhi ooMatra_addak-gurmukhi auMatra_addak-gurmukhi eeMatra_addakBindi-gurmukhi aiMatra_addakBindi-gurmukhi ooMatra_addakBindi-gurmukhi auMatra_addakBindi-gurmukhi eeMatra_addak-gurmukhi.alt aiMatra_addak-gurmukhi.alt ooMatra_addak-gurmukhi.alt auMatra_addak-gurmukhi.alt eeMatra_addakBindi-gurmukhi.alt aiMatra_addakBindi-gurmukhi.alt ooMatra_addakBindi-gurmukhi.alt auMatra_addakBindi-gurmukhi.alt raBelow_halant-gurmukhi haBelow_halant-gurmukhi vaBelow_halant-gurmukhi gaBelow_halant-gurmukhi caBelow_halant-gurmukhi ttaBelow_halant-gurmukhi tthaBelow_halant-gurmukhi taBelow_halant-gurmukhi daBelow_halant-gurmukhi naBelow_halant-gurmukhi thaBelow_halant-gurmukhi yaBelow_halant-gurmukhi yakash_halant-gurmukhi udaat_halant-gurmukhi raBelow_uMatra-gurmukhi haBelow_uMatra-gurmukhi vaBelow_uMatra-gurmukhi gaBelow_uMatra-gurmukhi caBelow_uMatra-gurmukhi ttaBelow_uMatra-gurmukhi tthaBelow_uMatra-gurmukhi taBelow_uMatra-gurmukhi daBelow_uMatra-gurmukhi naBelow_uMatra-gurmukhi thaBelow_uMatra-gurmukhi yaBelow_uMatra-gurmukhi yakash_uMatra-gurmukhi udaat_uMatra-gurmukhi raBelow_uuMatra-gurmukhi haBelow_uuMatra-gurmukhi vaBelow_uuMatra-gurmukhi gaBelow_uuMatra-gurmukhi caBelow_uuMatra-gurmukhi ttaBelow_uuMatra-gurmukhi tthaBelow_uuMatra-gurmukhi taBelow_uuMatra-gurmukhi daBelow_uuMatra-gurmukhi naBelow_uuMatra-gurmukhi thaBelow_uuMatra-gurmukhi yaBelow_uuMatra-gurmukhi yakash_uuMatra-gurmukhi udaat_uuMatra-gurmukhi ka_raBelow-gurmukhi";
 },
 {
 code = "space exclam quotedbl numbersign percent quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon less equal greater question bracketleft backslash bracketright asciicircum underscore braceleft braceright asciitilde ellipsis quoteleft quoteright quotedblleft quotedblright endash emdash multiply divide minus
 
-visarga-gurmukhi a-gurmukhi aa-gurmukhi i-gurmukhi ii-gurmukhi u-gurmukhi uu-gurmukhi ee-gurmukhi ai-gurmukhi oo-gurmukhi au-gurmukhi ka-gurmukhi kha-gurmukhi ga-gurmukhi gha-gurmukhi nga-gurmukhi ca-gurmukhi cha-gurmukhi ja-gurmukhi jha-gurmukhi nya-gurmukhi tta-gurmukhi ttha-gurmukhi dda-gurmukhi ddha-gurmukhi nna-gurmukhi ta-gurmukhi tha-gurmukhi da-gurmukhi dha-gurmukhi na-gurmukhi pa-gurmukhi pha-gurmukhi ba-gurmukhi bha-gurmukhi ma-gurmukhi ya-gurmukhi ra-gurmukhi la-gurmukhi lla-gurmukhi va-gurmukhi sha-gurmukhi sa-gurmukhi ha-gurmukhi aaMatra-gurmukhi iMatra-gurmukhi iiMatra-gurmukhi khha-gurmukhi ghha-gurmukhi za-gurmukhi rra-gurmukhi fa-gurmukhi zero one two three four five six seven eight nine iri-gurmukhi ura-gurmukhi ekonkar-gurmukhi danda-deva dbldanda-deva  onesixteenth-northindic_ya-gurmukhi.rlig ma-gurmukhi.post tha-gurmukhi.post iiMatra_bindi-gurmukhi ka_raBelow-gurmukhi rra_haBelow-gurmukhi
+visarga-gurmukhi a-gurmukhi aa-gurmukhi i-gurmukhi ii-gurmukhi u-gurmukhi uu-gurmukhi ee-gurmukhi ai-gurmukhi oo-gurmukhi au-gurmukhi ka-gurmukhi kha-gurmukhi ga-gurmukhi gha-gurmukhi nga-gurmukhi ca-gurmukhi cha-gurmukhi ja-gurmukhi jha-gurmukhi nya-gurmukhi tta-gurmukhi ttha-gurmukhi dda-gurmukhi ddha-gurmukhi nna-gurmukhi ta-gurmukhi tha-gurmukhi da-gurmukhi dha-gurmukhi na-gurmukhi pa-gurmukhi pha-gurmukhi ba-gurmukhi bha-gurmukhi ma-gurmukhi ya-gurmukhi ra-gurmukhi la-gurmukhi lla-gurmukhi va-gurmukhi sha-gurmukhi sa-gurmukhi ha-gurmukhi aaMatra-gurmukhi iMatra-gurmukhi iiMatra-gurmukhi khha-gurmukhi ghha-gurmukhi za-gurmukhi rra-gurmukhi fa-gurmukhi zero one two three four five six seven eight nine iri-gurmukhi ura-gurmukhi ekonkar-gurmukhi danda-deva dbldanda-deva  onesixteenth-northindic_ya-gurmukhi.rlig ma-gurmukhi.post tha-gurmukhi.post iiMatra_bindi-gurmukhi rra_haBelow-gurmukhi
 ";
 name = GDEF_simple;
-notes = "ka-gurmukhi.haln kha-gurmukhi.haln ga-gurmukhi.haln gha-gurmukhi.haln nga-gurmukhi.haln ca-gurmukhi.haln cha-gurmukhi.haln ja-gurmukhi.haln jha-gurmukhi.haln nya-gurmukhi.haln tta-gurmukhi.haln ttha-gurmukhi.haln dda-gurmukhi.haln ddha-gurmukhi.haln nna-gurmukhi.haln ta-gurmukhi.haln tha-gurmukhi.haln da-gurmukhi.haln dha-gurmukhi.haln na-gurmukhi.haln pa-gurmukhi.haln pha-gurmukhi.haln ba-gurmukhi.haln bha-gurmukhi.haln ma-gurmukhi.haln ya-gurmukhi.haln ra-gurmukhi.haln la-gurmukhi.haln lla-gurmukhi.haln va-gurmukhi.haln sha-gurmukhi.haln sa-gurmukhi.haln ha-gurmukhi.haln khha-gurmukhi.haln ghha-gurmukhi.haln za-gurmukhi.haln rra-gurmukhi.haln fa-gurmukhi.haln";
+notes = "ka-gurmukhi.haln kha-gurmukhi.haln ga-gurmukhi.haln gha-gurmukhi.haln nga-gurmukhi.haln ca-gurmukhi.haln cha-gurmukhi.haln ja-gurmukhi.haln jha-gurmukhi.haln nya-gurmukhi.haln tta-gurmukhi.haln ttha-gurmukhi.haln dda-gurmukhi.haln ddha-gurmukhi.haln nna-gurmukhi.haln ta-gurmukhi.haln tha-gurmukhi.haln da-gurmukhi.haln dha-gurmukhi.haln na-gurmukhi.haln pa-gurmukhi.haln pha-gurmukhi.haln ba-gurmukhi.haln bha-gurmukhi.haln ma-gurmukhi.haln ya-gurmukhi.haln ra-gurmukhi.haln la-gurmukhi.haln lla-gurmukhi.haln va-gurmukhi.haln sha-gurmukhi.haln sa-gurmukhi.haln ha-gurmukhi.haln khha-gurmukhi.haln ghha-gurmukhi.haln za-gurmukhi.haln rra-gurmukhi.haln fa-gurmukhi.haln ka_raBelow-gurmukhi";
 },
 {
 code = "addakBindi-gurmukhi bindi-gurmukhi nukta-gurmukhi uMatra-gurmukhi uuMatra-gurmukhi  eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi halant-gurmukhi halant-gurmukhi.alt tippi-gurmukhi addak-gurmukhi raBelow-gurmukhi vaBelow-gurmukhi haBelow-gurmukhi gaBelow-gurmukhi caBelow-gurmukhi ttaBelow-gurmukhi tthaBelow-gurmukhi taBelow-gurmukhi daBelow-gurmukhi naBelow-gurmukhi thaBelow-gurmukhi yaBelow-gurmukhi  eeMatra-gurmukhi.alt aiMatra-gurmukhi.alt ooMatra-gurmukhi.alt auMatra-gurmukhi.alt  udaat-gurmukhi yakash-gurmukhi  bindi-gurmukhi.alt addak-gurmukhi.alt addakBindi-gurmukhi.alt
@@ -342,7 +342,6 @@ code = "feature ltra;
 feature pres;
 feature abvs;
 feature nukt;
-feature akhn;
 feature blwf;
 feature pstf;
 feature subs;
@@ -365,7 +364,8 @@ code = "	sub onesixteenth-northindic ya-gurmukhi by onesixteenth-northindic_ya-g
 	sub threesixteenths-northindic ya-gurmukhi by threesixteenths-northindic_ya-gurmukhi.rlig;
 	sub la-gurmukhi yakash-gurmukhi ooMatra-gurmukhi iMatra-gurmukhi by la_yakash_iMatra_ooMatra-gurmukhi.rlig;
 	sub la-gurmukhi yakash-gurmukhi iMatra-gurmukhi ooMatra-gurmukhi by la_yakash_iMatra_ooMatra-gurmukhi.rlig;
-	sub rra-gurmukhi haBelow-gurmukhi by rra_haBelow-gurmukhi;";
+	sub rra-gurmukhi haBelow-gurmukhi by rra_haBelow-gurmukhi;
+";
 tag = rlig;
 },
 {
@@ -437,15 +437,6 @@ script gur2;
 lookup lookup1;
 ";
 tag = nukt;
-},
-{
-code = "script guru;
-  sub ka-gurmukhi raBelow-gurmukhi by ka_raBelow-gurmukhi;
-  sub rra-gurmukhi haBelow-gurmukhi by rra_haBelow-gurmukhi;
-script gur2;
-  sub ka-gurmukhi raBelow-gurmukhi by ka_raBelow-gurmukhi;
-  sub rra-gurmukhi haBelow-gurmukhi by rra_haBelow-gurmukhi;";
-tag = akhn;
 },
 {
 code = "script gur2;
@@ -8920,158 +8911,6 @@ width = 1049;
 }
 );
 unicode = 2676;
-},
-{
-glyphname = "ka_raBelow-gurmukhi";
-lastChange = "2023-01-30 20:08:24 +0000";
-layers = (
-{
-layerId = master02;
-shapes = (
-{
-closed = 1;
-nodes = (
-(762,-184,l),
-(560,-120,l),
-(560,-43,ls),
-(560,82,o),
-(530,173,o),
-(496,232,c),
-(541,305,o),
-(564,392,o),
-(567,494,c),
-(640,494,l),
-(640,597,l),
-(-30,597,l),
-(-30,494,l),
-(434,494,l),
-(432,430,o),
-(424,384,o),
-(410,345,c),
-(370,388,o),
-(305,423,o),
-(233,423,cs),
-(107,423,o),
-(26,355,o),
-(26,252,cs),
-(26,148,o),
-(107,80,o),
-(231,80,cs),
-(304,80,o),
-(367,106,o),
-(408,145,c),
-(421,103,o),
-(427,49,o),
-(427,-43,cs),
-(427,-80,l),
-(319,-44,l),
-(307,-53,o),
-(286,-73,o),
-(286,-107,cs),
-(286,-163,o),
-(344,-208,o),
-(447,-208,cs),
-(482,-208,o),
-(509,-200,o),
-(530,-190,c),
-(728,-275,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(195,184,o),
-(159,209,o),
-(159,252,cs),
-(159,289,o),
-(183,319,o),
-(239,319,cs),
-(286,319,o),
-(333,293,o),
-(369,251,c),
-(341,213,o),
-(294,184,o),
-(241,184,cs)
-);
-}
-);
-vertWidth = 1130;
-width = 610;
-},
-{
-layerId = master03;
-shapes = (
-{
-closed = 1;
-nodes = (
-(628,-114,l),
-(500,-81,l),
-(500,-23,ls),
-(500,100,o),
-(472,191,o),
-(423,265,c),
-(466,340,o),
-(494,444,o),
-(496,539,c),
-(597,539,l),
-(597,577,l),
-(-30,577,l),
-(-30,539,l),
-(449,539,l),
-(447,437,o),
-(419,356,o),
-(396,305,c),
-(355,367,o),
-(294,416,o),
-(203,416,cs),
-(106,416,o),
-(40,356,o),
-(40,271,cs),
-(40,178,o),
-(117,127,o),
-(208,127,cs),
-(298,127,o),
-(358,172,o),
-(397,227,c),
-(435,163,o),
-(453,74,o),
-(453,-23,cs),
-(453,-68,l),
-(365,-41,l),
-(353,-48,o),
-(344,-61,o),
-(344,-81,cs),
-(344,-107,o),
-(371,-126,o),
-(419,-126,cs),
-(449,-126,o),
-(467,-122,o),
-(487,-114,c),
-(614,-160,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(141,167,o),
-(89,203,o),
-(89,271,cs),
-(89,332,o),
-(134,376,o),
-(209,376,cs),
-(266,376,o),
-(334,340,o),
-(373,264,c),
-(340,207,o),
-(280,167,o),
-(213,167,cs)
-);
-}
-);
-vertWidth = 814;
-width = 567;
-}
-);
 },
 {
 glyphname = "la_yakash_iMatra_ooMatra-gurmukhi.rlig";
