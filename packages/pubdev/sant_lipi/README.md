@@ -23,7 +23,9 @@ flutter:
         - asset: packages/sant_lipi/SantLipi-VF.ttf
 ```
 
-Sant Lipi supports variable font weights in the range `100-900`.
+## Usage
+
+Note: The font weights available are from 100 to 900 (e.g. the `400` below could be `581.321`).
 
 ```dart
 TextStyle(
