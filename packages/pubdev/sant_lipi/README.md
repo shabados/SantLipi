@@ -14,9 +14,7 @@ Import the font
 dart pub get sant_lipi
 ```
 
-## Usage
-
-Add the font in `pubspec.yaml` of your project.
+Declare the font in the pubspec
 ```yaml
 flutter:
   fonts:
