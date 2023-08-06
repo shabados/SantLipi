@@ -15,6 +15,7 @@ dart pub get sant_lipi
 ```
 
 Declare the font in the pubspec
+
 ```yaml
 flutter:
   fonts:
