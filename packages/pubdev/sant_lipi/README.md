@@ -20,7 +20,7 @@ flutter:
   fonts:
     - family: SantLipi
       fonts:
-        - asset: packages/sant_lipi/SantLipi.ttf
+        - asset: packages/sant_lipi/SantLipi-VF.ttf
 ```
 
 Sant Lipi supports variable font weights in the range `100-900`.
