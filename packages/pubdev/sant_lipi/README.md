@@ -8,6 +8,8 @@ Please see Sant Lipi's [GitHub](https://github.com/shabados/SantLipi) repo to le
 
 ## Installation
 
+Import the font
+
 ```shell
 dart pub get sant_lipi
 ```
