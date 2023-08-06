@@ -20,34 +20,14 @@ flutter:
   fonts:
     - family: SantLipi
       fonts:
-        - asset: packages/sant_lipi/SantLipi-Black.ttf
-        - asset: packages/sant_lipi/SantLipi-Bold.ttf
-        - asset: packages/sant_lipi/SantLipi-ExtraBold.ttf
-        - asset: packages/sant_lipi/SantLipi-ExtraLight.ttf
-        - asset: packages/sant_lipi/SantLipi-Light.ttf
-        - asset: packages/sant_lipi/SantLipi-Medium.ttf
-        - asset: packages/sant_lipi/SantLipi-Regular.ttf
-        - asset: packages/sant_lipi/SantLipi-SemiBold.ttf
-        - asset: packages/sant_lipi/SantLipi-Thin.ttf
-    - family: SantLipiVF # Variable Font
-      fonts:
-        - asset: packages/sant_lipi/SantLipi-VF.ttf
+        - asset: packages/sant_lipi/SantLipi.ttf
 ```
 
-Use the static weight font:
+Sant Lipi supports variable font weights in the range `100-900`.
 
 ```dart
 TextStyle(
   fontFamily: 'SantLipi',
-  fontWeight: FontWeight.w400,
-)
-```
-
-Use the variable weight font:
-
-```dart
-TextStyle(
-  fontFamily: 'SantLipiVF',
   fontVariations: [
     FontVariation('wght', 400),
   ],
