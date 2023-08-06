@@ -1,0 +1,1 @@
+Place all the fonts here before publishing the package.
