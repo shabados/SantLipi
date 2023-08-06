@@ -3,8 +3,9 @@ description: A unicode font for extraordinary Gurmukhi.
 version: 1.0.0
 repository: https://github.com/shabados/SantLipi
 topics:
-  - gurmukhi
   - font
+  - gurmukhi
+  - punjabi
 
 environment:
   sdk: ^3.0.0
