@@ -85,21 +85,22 @@ jobs:
 
           if [[ "$VERSION" != "$NEXT" ]]; then
             # Create body of Pull Request
-            echo $(cat subjects.txt) > temp.txt
-            echo "### History" >> temp.txt
-            echo "" >> temp.txt
-            echo "Next: $NEXT ($METHOD)" >> temp.txt
-            echo "Latest: $VERSION" >> temp.txt
-            echo "### Release" >> temp.txt
-            # Reverses all lines in temp.txt
-            BODY=$(tac temp.txt)
-            SUBJECTS=$(tac subjects.txt)
+            cp subjects.txt body.txt
+            echo "### History" >> body.txt
+            echo "" >> body.txt
+            echo "Next: $NEXT ($METHOD)" >> body.txt
+            echo "Latest: $VERSION" >> body.txt
+            echo "### Release" >> body.txt
+
+            # tac reverses lines
+            tac subjects.txt > changelog.txt
+            BODY=$(tac body.txt)
 
             # Clean up files
             rm log.txt
             rm subjects.txt
             rm types.txt
-            rm temp.txt
+            rm body.txt
 
             # Bump version in pyproject.toml, glyphs file, packages, and changelog.
             sed -i "s/version = \"$VERSION\"/version = \"$NEXT\"/" pyproject.toml
@@ -119,7 +120,8 @@ jobs:
             sed -i "s/versionMinor = $MINOR/versionMinor = $NEXT_MINOR/" sources/SantLipi.glyphs
             #
             sed -i "1s/^/## $NEXT\n\n\n/" CHANGELOG.md
-            sed '2r /dev/stdin' CHANGELOG.md <<< "$SUBJECTS"
+            sed '2r changelog.txt' CHANGELOG.md
+            rm changelog.txt
 
             # Set up git config for github-actions bot
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
