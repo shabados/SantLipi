@@ -118,8 +118,8 @@ jobs:
             sed -i "s/versionMajor = $MAJOR/versionMajor = $NEXT_MAJOR/" sources/SantLipi.glyphs
             sed -i "s/versionMinor = $MINOR/versionMinor = $NEXT_MINOR/" sources/SantLipi.glyphs
             #
-            sed -i "1s/^/## $NEXT\n\n/" CHANGELOG.md
-            sed '1r /dev/stdin' CHANGELOG.md <<< "$SUBJECTS"
+            sed -i "1s/^/## $NEXT\n\n\n/" CHANGELOG.md
+            sed '2r /dev/stdin' CHANGELOG.md <<< "$SUBJECTS"
 
             # Set up git config for github-actions bot
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
