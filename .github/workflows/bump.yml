@@ -100,21 +100,24 @@ jobs:
             rm types.txt
             rm temp.txt
 
-            # Bump version in pyproject.toml, glyphs file, and pacakges.
+            # Bump version in pyproject.toml, glyphs file, packages, and changelog.
             sed -i "s/version = \"$VERSION\"/version = \"$NEXT\"/" pyproject.toml
             sed -i "s/\"version\": \"$VERSION\"/\"version\": \"$NEXT\"/" packages/npm/sant-lipi/package.json
-
+            sed -i "s/\"version\": \"$VERSION\"/\"version\": \"$NEXT\"/" packages/pubdev/sant_lipi/pubspec.yaml
+            #
             IFS='.' read -r NEXT_MAJOR NEXT_MINOR NEXT_PATCH <<< "$NEXT"
-
+            #
             GLYPHS_MINOR_VERSION=$(printf "%03d" $MINOR)
             GLYPHS_VERSION_STRING="$MAJOR.$GLYPHS_MINOR_VERSION"
-
+            #
             GLYPHS_MINOR_NEXT=$(printf "%03d" $NEXT_MINOR)
             GLYPHS_NEXT_STRING="$NEXT_MAJOR.$GLYPHS_MINOR_NEXT"
-
+            #
             sed -i "s/value = \"Version $GLYPHS_VERSION_STRING/value = \"Version $GLYPHS_NEXT_STRING/" sources/SantLipi.glyphs
             sed -i "s/versionMajor = $MAJOR/versionMajor = $NEXT_MAJOR/" sources/SantLipi.glyphs
             sed -i "s/versionMinor = $MINOR/versionMinor = $NEXT_MINOR/" sources/SantLipi.glyphs
+            #
+            sed -i "1s/^/## $NEXT\n/" CHANGELOG.md
 
             # Set up git config for github-actions bot
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -129,7 +132,9 @@ jobs:
             # Commit files
             git add pyproject.toml
             git add packages/npm/sant-lipi/package.json
+            git add packages/pubdev/sant_lipi/pubspec.yaml
             git add sources/SantLipi.glyphs
+            git add CHANGELOG.md
             git commit -m "release: increment version from $VERSION to $NEXT" --author="$AUTHOR"
 
             # Push branch

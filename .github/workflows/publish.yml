@@ -13,6 +13,8 @@ permissions:
 
 jobs:
   publish:
+    permissions:
+      id-token: write # Required for authentication using OIDC
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -21,46 +23,49 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - run: pipx install poetry
-
+      - name: Build font
+        run: pipx install poetry
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10.x'
           cache: 'poetry'
-
       - run: poetry install
-
       - run: poetry run build
 
-      - run: echo "VERSION=$(cat pyproject.toml | grep -m 1 "version" | grep -o '[0-9]\+\.[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
-
+      - name: Setup environment variables
+        run: echo "VERSION=$(cat pyproject.toml | grep -m 1 "version" | grep -o '[0-9]\+\.[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
       - run: echo "GLYPH_VERSION=$(cat sources/SantLipi.glyphs | grep 'value = "Version ' | grep -o '[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
-
       - run: echo "NAME=SantLipi-v$GLYPH_VERSION" >> $GITHUB_ENV
 
-      # Setup .npmrc file to publish to npm
+      # Publish to npm
       - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-
       - run: cp build/variable/SantLipi-VF.woff2 packages/npm/sant-lipi/SantLipi-VF.woff2
-
       - run: npm publish
         working-directory: packages/npm/sant-lipi
 
+      # Publish on pub.dev
+      - uses: dart-lang/setup-dart@v1
+      - name: Install dependencies
+        run: dart pub get
+      - name: Copy files
+        run: cp CHANGELOG.md packages/pubdev/sant_lipi/CHANGELOG.md
+      - run: mkdir packages/pubdev/sant_lipi/lib
+      - run: cp build/variable/SantLipi-VF.ttf packages/pubdev/sant_lipi/lib/SantLipi-VF.ttf
+      - name: Publish
+        run: cd packages/pubdev/sant_lipi && dart pub publish --force && cd ../../..
+
+      # Publish on GitHub
       - run: cp LICENSE build/LICENSE.txt
-
       - run: mkdir dist
-
       - run: mv build "$NAME"
-
       - run: zip -r -1 "dist/$NAME.zip" "$NAME"
-
-      - run: gh release create "v$GLYPH_VERSION" dist/* --title "v$GLYPH_VERSION" --notes "Also published as version $VERSION on [npm](https://www.npmjs.com/package/sant-lipi)."
-
+      - run: gh release create "v$GLYPH_VERSION" dist/* --title "v$GLYPH_VERSION" --notes "Also published as version $VERSION on [npm](https://www.npmjs.com/package/sant-lipi) and [pub.dev](https://pub.dev/packages/sant_lipi)."
       - run: mv "$NAME" build
 
+      # Create GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
