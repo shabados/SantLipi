@@ -71,7 +71,7 @@ items = [
 ]
 add_proof_sheet_test("markup", "Markup", items)
 
-# Markup
+# Yayya
 items = [
     {"item": "ਯ", "description": "full yayya"},
     {"item": "ਯੈਂ", "description": "full yayya"},
@@ -85,31 +85,60 @@ items = [
     {"item": "ਹਮਾਯੂੰ", "description": "full yayya"},
     {"item": "ਭਯੋੁ", "description": "full yayya"},
     {"item": "ਯਕੀਨ", "description": "full yayya"},
-    {"item": "꠳ਯ", "description": "half yayya"},
-    {"item": "੍ਯ", "description": "half yayya"},
+    {"item": "︀ਯ", "description": "half yayya"},
+    {"item": "︀ਯ", "description": "VS1 + half yayya"},
     {"item": "ਤ੍ਯ", "description": "half yayya"},
-    {"item": "ਤ੍ਯੰ", "description": "half yayya, attachment on yayya"},
-    {"item": "ਤ੍ਯਾ", "description": "half yayya, attachment on yayya"},
+    {"item": "ਤ︀ਯੰ", "description": "half yayya, attachment on yayya"},
+    {"item": "ਤ︀ਯਾ", "description": "half yayya, attachment on yayya"},
     {"item": "ਹ੍ਯਾਂ", "description": "half yayya, attachment on yayya"},
     {"item": "ਤ੍ਯਾਗਿ", "description": "half yayya, attachment on yayya"},
     {"item": "ਜ੍ਯੋਂ", "description": "half yayya, attachment on yayya"},
     {"item": "ਤ੍ਯੌਂ", "description": "half yayya, attachment on yayya"},
     {"item": "ਲ੍ਯੈਯੈ", "description": "half yayya, attachment on yayya"},
-    {"item": "ਭਿ꠳ਯੋ", "description": "half yayya, attachment on pre"},
+    {"item": "ਭਿ︀ਯੋ", "description": "half yayya, attachment on pre"},
     {"item": "ਭਿ੍ਯੋ", "description": "half yayya, attachment on pre"},
-    {"item": "ਕੀ꠳ਯੋ", "description": "half yayya, attachment on pre"},
+    {"item": "ਕੀ︀ਯੋ", "description": "half yayya, attachment on pre"},
     {"item": "ਕੀ੍ਯੋ", "description": "half yayya, attachment on pre"},
-    {"item": "꠴ਯ", "description": "open-top yayya"},
-    {"item": "ਤ꠴ਯਾ", "description": "open-top yayya"},
-    {"item": "ਆ꠴ਯੋ", "description": "open-top yayya"},
-    {"item": "ਪਾ꠴ਯਾ", "description": "open-top yayya"},
-    {"item": "ਰਾ꠴ਯੰ", "description": "open-top yayya"},
-    {"item": "ਦੇ꠴ਯੰ", "description": "open-top yayya"},
-    {"item": "꠵ਯ", "description": "open-top half yayya"},
-    {"item": "ਤ꠵ਯ", "description": "open-top half yayya"},
-    {"item": "ਤ੍ਰਸ꠵ਯੋ", "description": "open-top half yayya"},
+    {"item": "︁ਯ", "description": "open-top yayya"},
+    {"item": "ਤ︁ਯਾ", "description": "open-top yayya"},
+    {"item": "ਆ︁ਯੋ", "description": "open-top yayya"},
+    {"item": "ਪਾ︁ਯਾ", "description": "open-top yayya"},
+    {"item": "ਰਾ︁ਯੰ", "description": "open-top yayya"},
+    {"item": "ਦੇ︁ਯੰ", "description": "open-top yayya"},
+    {"item": "︀︁ਯ", "description": "open-top half yayya"},
+    {"item": "ਤ︂︀︁ਯ", "description": "open-top half yayya"},
+    {"item": "ਤ੍ਰਸ︂︀︁ਯੋ", "description": "open-top half yayya"},
 ]
 add_proof_sheet_test("yayya", "Yayya", items)
+
+# Mahan Kosh
+items = [
+    {"item": "︃ਸ", "description": "स् (half s) = VS4 + ਸ"},
+    {"item": "︄ਧ", "description": "VS5 + ਧ"},
+    {"item": "︄ਧ਼", "description": "ष (ṣ) = VS5 + ਧ਼"},
+    {"item": "︃︄ਸ", "description": "ष् (half ṣ) and श् (half ś) = VS4 + VS5 + ਸ"},
+    {"item": "︄ਕ", "description": "क्ष (kṣa) = VS5 + ਕ"},
+    {"item": "︁︄ਕ", "description": "क्ष् (half kṣa) = VS2 + VS5 + ਕ"},
+    {"item": "ਜ੍ਞ", "description": "ज्ञ (jña) = ਜ + ੍ (virama) + ਞ"},
+    {"item": "੍ਮ", "description": "म् (half m) =  ੍ (virama) + ਮ"},
+    {"item": "ਰ਼", "description": "ऋ (ṛ)"},
+    {"item": "︅ਸ", "description": "ص (ṣâd) = VS6 + ਸ"},
+    {"item": "︇ਸ", "description": "ث (s̱e) =  VS8 + ਸ"},
+    {"item": "︅ਜ", "description": "ذ (ẕâl) = VS6 + ਜ"},
+    {"item": "︆ਜ", "description": "ژ (že) = VS7 + ਜ"},
+    {"item": "︇ਜ", "description": "ض (zâd) = VS8 + ਜ"},
+    {"item": "︈ਜ", "description": "ظ (ẓâ) = VS9 + ਜ"},
+    {"item": "ਖ਼", "description": "خ (xe)"},
+    {"item": "ਜ਼", "description": "ز (ze)"},
+    {"item": "ਤ਼", "description": "ط (tâ)"},
+    {"item": "ੳ਼", "description": "ع (ʿayn)"},
+    {"item": "ਅ਼", "description": "ع (ʿayn)"},
+    {"item": "ੲ਼", "description": "ع (ʿayn)"},
+    {"item": "ਗ਼", "description": "غ (ġayn)"},
+    {"item": "ਫ਼", "description": "ف (fe)"},
+    {"item": "ਕ਼", "description": "ق (qâf)"},
+]
+add_proof_sheet_test("mahan-kosh", "Mahan Kosh", items)
 
 # Subscript Numerals
 items = [

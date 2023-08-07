@@ -38,14 +38,72 @@ Work with the font files by downloading and extracting the zip file from the [la
 
 ## Ligature Combos / Markup Language
 
-Note that in Sant Lipi a Sihari (ਿ) can be added to the typical full Yayya (ਯ), but the Yayya variants cannot render Sihari (ਿ) properly.
+[Variation Selectors](<https://en.wikipedia.org/wiki/Variation_Selectors_(Unicode_block)>) are used to specify standardized variation sequences according to the Unicode Consortium. The Unicode Consortium dictates VS should only be applied to the immediately preceding character, and a character should have at most one VS following it. However, please note the difference between the Unicode Consortium and Sant Lipi conventions: (1) Sant Lipi uses some VS as preceding markup and (2) Sant Lipi allows for multiple VS to be used in sequence.
+
+Note that in Sant Lipi a Sihari (ਿ) can be added to the typical full Yayya (ਯ), but the Yayya variants cannot render Sihari (ਿ) properly. As of yet, it's unknown if such a sequence is required.
+
+**Open Side**
+
+VS1-4 (`U+FE00` - `U+FE03`) opens the left, top, bottom, and right sides (respectively). For example:
+
+- Half Yayya (੍ + ਯ), VS1 + ਯ
+- Open-Top Yayya, VS2 + ਯ
+- Open-Top Half Yayya, VS1 + VS2 + ਯ
+- Open-Right Sassa, VS4 + ਸ
+
+**Bihari Nasals**
 
 - Tippi before Bihari, ੀ + ੰ
 - Bindi before Bihari, ੀ + ਁ (`U+0A01`: Adak Bindi)
-- Half Yayya, ੍ + ਯ or ꠳ + ਯ (`U+A833`: North Indic Fraction One Sixteenth)
-- Open-Top Yayya, ꠴ + ਯ (`U+A834`: North Indic Fraction One Eighth)
-- Half Open-Top Yayya, ꠵ + ਯ (`U+A835`: North Indic Fraction Three Sixteenths)
+
+**Extra**
+
 - Subscript Gurmukhi Numerals, ₀ ₁ ₂ ...
+
+**Mahan Kosh**
+
+VS5-9 (`U+FE04` - `U+FE08`) are used for special chars in Mahan Kosh. As tracked in [shabados/SantLipi#41](https://github.com/shabados/SantLipi/issues/41) ([PDF](https://user-images.githubusercontent.com/14130567/234413746-8965a06e-6eeb-4a11-9d2d-01c5213f17e2.png) and [Scan](https://user-images.githubusercontent.com/14130567/258670089-edd443ef-b28c-4a03-bc4c-21eca9d0153f.jpeg)).
+
+- VS5 adds a slash/stroke to the following character's [counter](<https://en.wikipedia.org/wiki/Counter_(typography)>)
+- VS6 attaches a dot above the crossbar
+- VS7 attaches a dot below the crossbar
+- VS8 daggers the crossbar
+- VS9 adds a bar to the stem in the counter area
+
+Devanagari:
+
+- स् (half s) = VS4 + ਸ
+- ष (ṣ) = VS5 + ਧ + ਼ (nukta)
+- ष् (half ṣ) and श् (half ś) = VS4 + VS5 + ਸ
+- क्ष (kṣa) = VS5 + ਕ
+- क्ष् (half kṣa) = VS2 + VS5 + ਕ
+- ज्ञ (jña) = ਜ + ੍ (virama) + ਞ
+- म् (half m) = ੍ (virama) + ਮ
+- ऋ (ṛ) = ਰ + ਼ (nukta)
+
+Perso-Arabic:
+
+- (ṣâd) ص = VS6 + ਸ
+- (s̱e) ث = VS8 + ਸ
+- (ẕâl) ذ = VS6 + ਜ
+- (že) ژ = VS7 + ਜ
+- (zâd) ض = VS8 + ਜ
+- (ẓâ) ظ = VS9 + ਜ
+
+Nuktas:
+
+- (xe) خ = ਖ਼
+- (ze) ز = ਜ਼
+- (tâ) ط = ਤ਼
+- (ʿayn) ع = ੳ਼ ਅ਼ ੲ਼
+- (ġayn) غ = ਗ਼
+- (fe) ف = ਫ਼
+- (qâf) ق = ਕ਼
+
+Not yet implemented:
+
+- र् (half r). This is not pairin-rara in punjabi, which comes after the consonant, instead this is a half-r preceding the conjunct, even though it is written at the far top right of the conjunct, it is pronounced initially in the cluster.
+- Addak Bindi. This exists in Gurmukhi unicode block already. However, in Sant Lipi it is specifically being used to produce a bindi before bihari. Probably will have to change that strategy (aside from Mahan Kosh, I have only seen it in obscure and niche old dictionaries).
 
 ## Quality Assurance
 
@@ -91,7 +149,7 @@ The big problem is where half-forms / post-base forms are ordered. The most comm
 
 In Unicode and every font shaping engine (as of writing), this is considered (quite unfortunately) as a post-base form of Yayya (ਯ). It is renderded using a subjoined letter combiner (i.e. using ੍+ਯ). That means it is intrinsically tied to the Base Letter from step 1 as if it were an Akhand like the one in step 3. So the same way you type the pairi rara ੍ਰ is how you get the half yayya base character.
 
-Ultimately, this means that the half-yayya is intrinsically tied to the preceding base letter. So you cannot have separate vowels for the half-yayya and the preceding base letter. If post-base forms fit after Akhands but before Vowels (see above), then vowels will only be applied to the half-yayya. If you place post-base forms after Vowels, you break the shaping engines algorithms. It will assume you're trying to create a new base letter (which a half-yayya pretty much acts as it's own base letter, though never at the start of a word). Thus you'll end up with vowels on the preceding letter, a broken yayya symbol, and no vowels on what was supposed to be the half-yayya. While some words work in Chrome (e.g. ਭ੍ਯਿੋ), others break regardless (ਕੀ੍ਯੋ should be using a half-Y). This is tied to the text shaping engines and how they interpret Indic syllables.
+Ultimately, this means that the half-yayya is intrinsically tied to the preceding base letter. So you cannot have separate vowels for the half-yayya and the preceding base letter. If post-base forms fit after Akhands but before Vowels (see above), then vowels will only be applied to the half-yayya. If you place post-base forms after Vowels, you break the shaping engines algorithms. It will assume you're trying to create a new base letter (which a half-yayya pretty much acts as it's own base letter, though never at the start of a word). Thus you'll end up with vowels on the preceding letter, a broken yayya symbol, and no vowels on what was supposed to be the half-yayya. While some words work in Chrome (e.g. ਭ੍ਯਿੋ), others break regardless ( ਕੀ੍ਯੋ should be using a half-Y). This is tied to the text shaping engines and how they interpret Indic syllables.
 
 There are many workarounds Sant Lipi could have used, but ultimately everything is being done with OpenType Features, namely ligatures.
 
@@ -103,11 +161,11 @@ Another idea was to use discretionary font features, such as historical ligature
 
 **Current Workaround**
 
-Currently, the approach taken by Sant Lipi is to use markup to indicate Yayya variations. It is similar to how a Half Yayya is constructed in today's practice (੍+ਯ). So to show an open-top Yayya, one can type ꠴ + ਯ (`U+A834`: North Indic Fraction One Eighth + `U+0A2F`: Yayya). Let's walk through really quickly what is happening in the background:
+Currently, the approach taken by Sant Lipi is to use markup to indicate Yayya variations. It is similar to how a Half Yayya is constructed in today's practice (੍+ਯ). So to show an open-top Yayya, one can type VS2 + ਯ (`U+FE01`: Variation Selector-1 + `U+0A2F`: Yayya). Let's walk through really quickly what is happening in the background:
 
 - `ltra` - First, the earliest font features are being applied by replacing codepoints for later font features to act upon.
 - `rlig` - Then, render Yayya (ਯ) according to any markup preceding it
 
 The `ltra` is for making the earliest substitutions possible. This replaces the Virama ੍ (subjoined letter combiner) before text shaping engines look at it. Notably, this is what allows vowels and marks on both the Half Yayya and the letter preceding it (aside from Sihari on Yayya variants).
 
-After this step, ligatures are used to render combos of Yayyas as if they were different variations. For this step, a relatively unique character was needed. The character chosen should not interfere with programming fonts, nor should they be ever seen next to a Yayya. The North Indic Fraction characters fit these requirements. See **Usage** for more information.
+After this step, ligatures are used to render combos of Yayyas as if they were different variations.
