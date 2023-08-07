@@ -49,7 +49,7 @@ jobs:
       # Publish on pub.dev
       - uses: dart-lang/setup-dart@v1
       - name: Install dependencies
-        run: dart pub get
+        run: cd packages/pubdev/sant_lipi && dart pub get && cd ../../..
       - name: Copy files
         run: cp CHANGELOG.md packages/pubdev/sant_lipi/CHANGELOG.md
       - run: mkdir packages/pubdev/sant_lipi/lib
