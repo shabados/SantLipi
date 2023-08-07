@@ -120,7 +120,7 @@ jobs:
             sed -i "s/versionMinor = $MINOR/versionMinor = $NEXT_MINOR/" sources/SantLipi.glyphs
             #
             sed -i "1s/^/## $NEXT\n\n\n/" CHANGELOG.md
-            sed '2r changelog.txt' CHANGELOG.md
+            sed -i '2r changelog.txt' CHANGELOG.md
             rm changelog.txt
 
             # Set up git config for github-actions bot
