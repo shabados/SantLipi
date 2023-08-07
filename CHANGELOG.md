@@ -1,6 +1,6 @@
 ## 0.19.0
 
-- build: change directories for dart pub
+- build: testing dart publishing
 
 ## 0.18.0
 
