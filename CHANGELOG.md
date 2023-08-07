@@ -1,3 +1,7 @@
+## 0.19.0
+
+- build: change directories for dart pub
+
 ## 0.18.0
 
 - feat: update ik oankar
