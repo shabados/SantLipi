@@ -103,7 +103,7 @@ jobs:
             # Bump version in pyproject.toml, glyphs file, packages, and changelog.
             sed -i "s/version = \"$VERSION\"/version = \"$NEXT\"/" pyproject.toml
             sed -i "s/\"version\": \"$VERSION\"/\"version\": \"$NEXT\"/" packages/npm/sant-lipi/package.json
-            sed -i "s/\"version\": \"$VERSION\"/\"version\": \"$NEXT\"/" packages/pubdev/sant_lipi/pubspec.yaml
+            sed -i "s/version: $VERSION/version: $NEXT/" packages/pubdev/sant_lipi/pubspec.yaml
             #
             IFS='.' read -r NEXT_MAJOR NEXT_MINOR NEXT_PATCH <<< "$NEXT"
             #
@@ -117,7 +117,7 @@ jobs:
             sed -i "s/versionMajor = $MAJOR/versionMajor = $NEXT_MAJOR/" sources/SantLipi.glyphs
             sed -i "s/versionMinor = $MINOR/versionMinor = $NEXT_MINOR/" sources/SantLipi.glyphs
             #
-            sed -i "1s/^/## $NEXT\n/" CHANGELOG.md
+            sed -i "1s/^/## $NEXT\n$BODY\n\n/" CHANGELOG.md
 
             # Set up git config for github-actions bot
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
