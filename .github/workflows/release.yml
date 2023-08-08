@@ -37,7 +37,7 @@ jobs:
       # Publish on GitHub
       - run: cp LICENSE build/LICENSE.txt
       - run: mkdir dist
-      - run: cp build "$NAME"
+      - run: cp -r build "$NAME"
       - run: zip -r -1 "dist/$NAME.zip" "$NAME"
       - run: cp build/variable/SantLipi-VF.ttf dist/
       - run: cp build/variable/SantLipi-VF.woff2 dist/
