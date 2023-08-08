@@ -1,3 +1,7 @@
+## 0.20.0
+
+- build: release manually but publish automatically
+
 ## 0.19.0
 
 - build: testing dart publishing
