@@ -1,0 +1,55 @@
+name: Release
+
+on: workflow_dispatch
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  release:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build font
+        run: pipx install poetry
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.x'
+          cache: 'poetry'
+      - run: poetry install
+      - run: poetry run build
+
+      - name: Setup environment variables
+        run: echo "VERSION=$(cat pyproject.toml | grep -m 1 "version" | grep -o '[0-9]\+\.[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
+      - run: echo "GLYPH_VERSION=$(cat sources/SantLipi.glyphs | grep 'value = "Version ' | grep -o '[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
+      - run: echo "NAME=SantLipi-v$GLYPH_VERSION" >> $GITHUB_ENV
+
+      # Publish on GitHub
+      - run: cp LICENSE build/LICENSE.txt
+      - run: mkdir dist
+      - run: cp build "$NAME"
+      - run: zip -r -1 "dist/$NAME.zip" "$NAME"
+      - run: cp build/variable/SantLipi-VF.ttf dist/
+      - run: cp build/variable/SantLipi-VF.woff2 dist/
+      - run: gh release create "v$VERSION" dist/* --title "v$VERSION" --notes "See also [npm](https://www.npmjs.com/package/sant-lipi) and [pub.dev](https://pub.dev/packages/sant_lipi)."
+
+      # Create GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'build'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

@@ -1,77 +1,41 @@
 name: Publish
 
-on: workflow_dispatch
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
 
 env:
+  VERSION: ${{ github.ref_name }}
   NODE_AUTH_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  publish:
-    permissions:
-      id-token: write # Required for authentication using OIDC
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  npm:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Build font
-        run: pipx install poetry
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10.x'
-          cache: 'poetry'
-      - run: poetry install
-      - run: poetry run build
-
-      - name: Setup environment variables
-        run: echo "VERSION=$(cat pyproject.toml | grep -m 1 "version" | grep -o '[0-9]\+\.[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
-      - run: echo "GLYPH_VERSION=$(cat sources/SantLipi.glyphs | grep 'value = "Version ' | grep -o '[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
-      - run: echo "NAME=SantLipi-v$GLYPH_VERSION" >> $GITHUB_ENV
-
-      # Publish to npm
       - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: cp build/variable/SantLipi-VF.woff2 packages/npm/sant-lipi/SantLipi-VF.woff2
+      - run: wget "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.woff2" packages/npm/sant-lipi/SantLipi-VF.woff2
       - run: npm publish
         working-directory: packages/npm/sant-lipi
 
-      # Publish on pub.dev
-      - uses: dart-lang/setup-dart@v1
-      - name: Install dependencies
-        run: cd packages/pubdev/sant_lipi && dart pub get && cd ../../..
+  pubdev:
+    permissions:
+      id-token: write # Required for authentication using OIDC
+    runs-on: ubuntu-latest
+    steps:
       - name: Copy files
         run: cp CHANGELOG.md packages/pubdev/sant_lipi/CHANGELOG.md
       - run: mkdir packages/pubdev/sant_lipi/lib
-      - run: cp build/variable/SantLipi-VF.ttf packages/pubdev/sant_lipi/lib/SantLipi-VF.ttf
+      - run: wget "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.ttf"  packages/pubdev/sant_lipi/lib/SantLipi-VF.ttf
+
+      - uses: dart-lang/setup-dart@v1
+      - name: Install dependencies
+        run: dart pub get
+        working-directory: packages/pubdev/sant_lipi
+
       - name: Publish
-        run: cd packages/pubdev/sant_lipi && dart pub publish --force && cd ../../..
-
-      # Publish on GitHub
-      - run: cp LICENSE build/LICENSE.txt
-      - run: mkdir dist
-      - run: mv build "$NAME"
-      - run: zip -r -1 "dist/$NAME.zip" "$NAME"
-      - run: gh release create "v$GLYPH_VERSION" dist/* --title "v$GLYPH_VERSION" --notes "Also published as version $VERSION on [npm](https://www.npmjs.com/package/sant-lipi) and [pub.dev](https://pub.dev/packages/sant_lipi)."
-      - run: mv "$NAME" build
-
-      # Create GitHub Pages
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: 'build'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        run: dart pub publish --force
+        working-directory: packages/pubdev/sant_lipi
