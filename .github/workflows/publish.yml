@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: wget "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.woff2" packages/npm/sant-lipi/SantLipi-VF.woff2
+      - run: wget -P packages/npm/sant-lipi/ "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.woff2"
       - run: npm publish
         working-directory: packages/npm/sant-lipi
 
@@ -29,7 +29,7 @@ jobs:
       - name: Copy files
         run: cp CHANGELOG.md packages/pubdev/sant_lipi/CHANGELOG.md
       - run: mkdir packages/pubdev/sant_lipi/lib
-      - run: wget "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.ttf"  packages/pubdev/sant_lipi/lib/SantLipi-VF.ttf
+      - run: wget -P packages/pubdev/sant_lipi/lib/ "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.ttf"
 
       - uses: dart-lang/setup-dart@v1
       - name: Install dependencies

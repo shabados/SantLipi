@@ -70,19 +70,29 @@ All other _types_ are ignored by the version bump workflow. These types are typi
 
 _Role: project authors/maintainers_
 
-See [actions](https://github.com/shabados/SantLipi/actions) for incrementing the version and publishing.
+See [actions](https://github.com/shabados/SantLipi/actions) for opening a PR to bump the packages, releasing to GH, and publishing packages.
 
 **Version Increment/Bump**
 
 - This workflow bumps/increments the version via a Pull Request.
 - The PR will list all the commit history from after the last release.
+- It is a good idea to modify the `CHANGELOG.md` in the PR.
 - The PR must be merged prior to publishing.
 
 Note: Leave the override field blank for automatic versioning.
 
 Note: If overriding the version bump, remember to use 0 for the patch version number.
 
-**Publish**
+**Release**
 
 - This workflow should immediately follow a version increment/bump PR merge.
-- This workflow will publish package(s) and create a GitHub release.
+- This workflow will create a GitHub release.
+- The tag and title of the release will say "prerelease" on purpose.
+
+**Publish**
+
+- This workflow can only be triggered by pushing tags to the repo (not invoked by a GH action)
+- An admin/user with write permissions must push tags to the repo.
+- To do so, edit the latest release:
+  - Create a new tag (by omitting `-prerelease`)
+  - Rename the title (simply omit `-prerelease`)

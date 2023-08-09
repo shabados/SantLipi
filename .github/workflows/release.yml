@@ -41,7 +41,7 @@ jobs:
       - run: zip -r -1 "dist/$NAME.zip" "$NAME"
       - run: cp build/variable/SantLipi-VF.ttf dist/
       - run: cp build/variable/SantLipi-VF.woff2 dist/
-      - run: gh release create "v$VERSION" dist/* --title "v$VERSION" --notes "See also [npm](https://www.npmjs.com/package/sant-lipi) and [pub.dev](https://pub.dev/packages/sant_lipi)."
+      - run: gh release create "v$VERSION-prerelease" dist/* --title "v$VERSION" --notes "See also [npm](https://www.npmjs.com/package/sant-lipi) and [pub.dev](https://pub.dev/packages/sant_lipi)."
 
       # Create GitHub Pages
       - name: Setup Pages
