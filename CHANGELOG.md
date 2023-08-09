@@ -1,3 +1,7 @@
+## 0.22.0
+
+- build: finalize release and publish strategy
+
 ## 0.21.0
 
 - build: set up new publishing strategy
