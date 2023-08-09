@@ -1,6 +1,5 @@
 ## 0.21.0
 
-- build: copy deeply
 - build: set up new publishing strategy
 
 ## 0.20.0
