@@ -1,3 +1,7 @@
+## 0.21.0
+
+- build: set up new publishing strategy
+
 ## 0.20.0
 
 - build: release manually but publish automatically
