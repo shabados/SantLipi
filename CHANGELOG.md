@@ -1,3 +1,8 @@
+## 0.22.0
+
+- build: checkout repo for publishing
+- docs: update release strategy
+
 ## 0.21.0
 
 - build: set up new publishing strategy
