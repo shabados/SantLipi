@@ -70,29 +70,30 @@ All other _types_ are ignored by the version bump workflow. These types are typi
 
 _Role: project authors/maintainers_
 
-See [actions](https://github.com/shabados/SantLipi/actions) for opening a PR to bump the packages, releasing to GH, and publishing packages.
+See [actions](https://github.com/shabados/SantLipi/actions) for workflows related to bumping version numbers, releasing to GitHub, and publishing packages.
 
-**Version Increment/Bump**
+Note: The entire release process can be completed on GitHub in a web browser.
+
+**1. Bump (Version Increment)**
 
 - This workflow bumps/increments the version via a Pull Request.
 - The PR will list all the commit history from after the last release.
 - It is a good idea to modify the `CHANGELOG.md` in the PR.
-- The PR must be merged prior to publishing.
+- The PR needs to be merged prior to publishing.
 
-Note: Leave the override field blank for automatic versioning.
+Note: Leave the override field blank for automatic versioning. If the PR that is opened bumps incorrectly, it is always possible to close the automatic PR and manually bump a new workflow.
 
-Note: If overriding the version bump, remember to use 0 for the patch version number.
+Note: If manually overriding the version bump, remember to use 0 for the patch version number.
 
-**Release**
+**2. Release**
 
 - This workflow should immediately follow a version increment/bump PR merge.
 - This workflow will create a GitHub release.
 - The tag and title of the release will say "prerelease" on purpose.
 
-**Publish**
+**3. Publish**
 
-- This workflow can only be triggered by pushing tags to the repo (not invoked by a GH action)
-- An admin/user with write permissions must push tags to the repo.
-- To do so, edit the latest release:
-  - Create a new tag (by omitting `-prerelease`)
-  - Rename the title (simply omit `-prerelease`)
+- This workflow is automatically triggered when pushing a git tag to the repo. A GH action is not able to trigger these conditions; Git tags must be pushed by an admin/user with write permissions.
+- Edit the latest release. At the top left click the "tag" dropdown. Create a new tag by omitting `-prerelease`.
+- Finish by submitting the form "Update release". This will automatically trigger the publish workflow.
+- Optionally go to [tags](https://github.com/shabados/SantLipi/tags) and delete the prerelease tag, which should only have a zip/tar.gz associated with it.
