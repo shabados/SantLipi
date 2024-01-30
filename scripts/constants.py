@@ -25,12 +25,7 @@ RIGHT_VOWEL_ATTACHMENTS = [
     "ੀ",
 ]
 
-VOWEL_ATTACHMENTS = (
-    LEFT_VOWEL_ATTACHMENTS
-    + TOP_VOWEL_ATTACHMENTS
-    + BOTTOM_VOWEL_ATTACHMENTS
-    + RIGHT_VOWEL_ATTACHMENTS
-)
+VOWEL_ATTACHMENTS = LEFT_VOWEL_ATTACHMENTS + TOP_VOWEL_ATTACHMENTS + BOTTOM_VOWEL_ATTACHMENTS + RIGHT_VOWEL_ATTACHMENTS
 
 VIRAMA = "੍"
 BELOW_LETTERS = "ਹਰਵਟਤਨਚ"
@@ -50,6 +45,95 @@ FINAL_MODIFIERS = [
 ]
 
 VISARGA = "ਃ"
+
+NL = {
+    "s": "ਸ",
+    "h": "ਹ",
+    "k": "ਕ",
+    "kh": "ਖ",
+    "g": "ਗ",
+    "gh": "ਘ",
+    "ng": "ਙ",
+    "c": "ਚ",
+    "ch": "ਛ",
+    "j": "ਜ",
+    "jh": "ਝ",
+    "nj": "ਞ",
+    "tt": "ਟ",
+    "tth": "ਠ",
+    "dd": "ਡ",
+    "ddh": "ਢ",
+    "nn": "ਣ",
+    "t": "ਤ",
+    "th": "ਥ",
+    "d": "ਦ",
+    "dh": "ਧ",
+    "n": "ਨ",
+    "p": "ਪ",
+    "ph": "ਫ",
+    "b": "ਬ",
+    "bh": "ਭ",
+    "m": "ਮ",
+    "y": "ਯ",
+    "r": "ਰ",
+    "l": "ਲ",
+    "v": "ਵ",
+    "rr": "ੜ",
+    "sh": "ਸ਼",
+    "x": "ਖ਼",
+    "gg": "ਗ਼",
+    "z": "ਜ਼",
+    "f": "ਫ਼",
+    "ll": "ਲ਼",
+    "kana": "ਾ",
+    "sihari": "ਿ",
+    "bihari": "ੀ",
+    "aunkar": "ੁ",
+    "dulainkar": "ੂ",
+    "lava": "ੇ",
+    "dulava": "ੈ",
+    "hora": "ੋ",
+    "kanaura": "ੌ",
+    "tippi": "ੰ",
+    "bindi": "ਂ",
+    "addak": "ੱ",
+    "visarga": "ਃ",
+    "halant": "੍",
+    "udaat": "ੑ",
+    "yakash": "ੵ",
+    "nukta": "਼",
+    "0inf": "₀",
+    "1inf": "₁",
+    "2inf": "₂",
+    "3inf": "₃",
+    "4inf": "₄",
+    "5inf": "₅",
+    "6inf": "₆",
+    "7inf": "₇",
+    "8inf": "₈",
+    "9inf": "₉",
+    "vs1": "︀",
+    "vs2": "︁",
+    "vs3": "︂",
+    "vs4": "︃",
+    "vs5": "︄",
+    "vs6": "︅",
+    "vs7": "︆",
+    "vs8": "︇",
+    "vs9": "︈",
+    "aa": "\u0a06",
+    "e": "\u0a10",
+    "ee": "ਐ",
+    "i": "ਇ",
+    "ii": "ਈ",
+    "o": "ਓ",
+    "oo": "ਔ",
+    "u": "ਉ",
+    "uu": "ਊ",
+    "ura": "ੳ",
+    "aira": "ਅ",
+    "iri": "ੲ",
+}
 
 """
 Programmatic constants below
@@ -75,7 +159,5 @@ for left_vowel in LEFT_VOWEL_ATTACHMENTS:
                 ALL_VOWEL_COMBOS.append(f"{left_vowel}{top_vowel}{right_vowel}")
                 ALL_VOWEL_COMBOS.append(f"{left_vowel}{bottom_vowel}{right_vowel}")
                 ALL_VOWEL_COMBOS.append(f"{top_vowel}{bottom_vowel}{right_vowel}")
-                ALL_VOWEL_COMBOS.append(
-                    f"{left_vowel}{top_vowel}{bottom_vowel}{right_vowel}"
-                )
+                ALL_VOWEL_COMBOS.append(f"{left_vowel}{top_vowel}{bottom_vowel}{right_vowel}")
 ALL_VOWEL_COMBOS = sorted([*set(ALL_VOWEL_COMBOS)])
