@@ -1,5 +1,6 @@
 from scripts.tests.mark_attachments import ma_items
 from scripts.tests.multi_vowel_attachments import mva_items
+from scripts.constants import NL
 
 # Instantiate Tests
 tests = []
@@ -247,6 +248,7 @@ items = [{"item": "ਲੰ", "description": ""}]
 add_side_by_side_test("nasal-attachment", "Nasalizations", items)
 
 items = [
+    {"item": f'{NL["ikoankar"]} {NL["s"]}{NL["t"]}{NL["sihari"]}', "description": ""},
     {"item": "ਮੰਨੈ", "description": ""},
     {"item": "ਤੁਧਨੋ", "description": ""},
     {"item": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ", "description": ""},
