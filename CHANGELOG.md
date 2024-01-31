@@ -1,3 +1,10 @@
+## 0.23.0
+
+- feat: add named constants for composing unicode gurmukhi
+- feat: stylize ਹ (ha) glyph
+- feat: stylize ੴ (ik oankar) to better match other fonts
+- docs: add instructions to install within dart and flutter apps
+
 ## 0.22.0
 
 - build: finalize release and publish strategy
