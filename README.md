@@ -20,7 +20,9 @@ Sant Lipi is created using [Glyphs 3](https://glyphsapp.com/).
 
 ## Using Packages
 
-**npm** - See [`packages/npm/README.md`](packages/npm/sant-lipi/README.md) or view the package on [npmjs.com](https://www.npmjs.com/package/sant-lipi). This has been used successfully on various frameworks including Next.js, Preact, React, Svelte, and Vue.
+**npm** - See [`packages/npm`](packages/npm/sant-lipi/README.md) or view the package on [npmjs.com](https://www.npmjs.com/package/sant-lipi). This has been used successfully on various frameworks including Next.js, Preact, React, Svelte, and Vue.
+
+**Dart and Flutter apps** - See [`packages/pubdev`](packages/pubdev/sant_lipi/README.md) or view the package on [pub.dev](https://pub.dev/packages/sant_lipi).
 
 ## Manual Usage
 
