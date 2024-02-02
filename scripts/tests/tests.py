@@ -67,10 +67,11 @@ add_proof_sheet_test("spg", "SPG", items)
 # Markup
 items = [
     {"item": "\u0a28\u0a40\u0a02", "description": "Bindi After (ੀ + ਂ)"},
-    {"item": "\u0a28\u0a40\u0a01", "description": "Bindi Before (ੀ + ਁ)"},
+    {"item": "\u0a28\u0a02\u0a40", "description": "Bindi Before (ਂ + ੀ) Harfbuzz"},
+    {"item": "\u0a28\u0a40\u0a01", "description": "Workaround (ੀ + ਁ) CoreText/Uniscribe"},
     {"item": "\u0a28\u0a40\u0a70", "description": "Tippi (ੀ + ੰ)"},
 ]
-add_proof_sheet_test("markup", "Markup", items)
+add_proof_sheet_test("bindi-tippi", "Bindi & Tippi", items)
 
 # Yayya
 items = [
