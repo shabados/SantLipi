@@ -116,6 +116,10 @@ add_proof_sheet_test("yayya", "Yayya", items)
 # Mahan Kosh
 items = [
     {"item": "︃ਸ", "description": "स् (half s) = VS4 + ਸ"},
+    {
+        "item": f'{NL["sh"]}{NL["kana"]}{NL["s"]}{NL["halant"]}{NL["zwj"]}{NL["t"]}{NL["halant"]}{NL["r"]}',
+        "description": "ਸ + ੍ + ZWJ",
+    },
     {"item": "︄ਧ", "description": "VS5 + ਧ"},
     {"item": "︄ਧ਼", "description": "ष (ṣ) = VS5 + ਧ਼"},
     {"item": "︃︄ਸ", "description": "ष् (half ṣ) and श् (half ś) = VS4 + VS5 + ਸ"},

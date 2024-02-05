@@ -366,6 +366,7 @@ code = "	sub VS1 VS2 ya-gurmukhi by VS12_ya-gurmukhi.rlig;
 	sub VS2 VS5 ka-gurmukhi by VS25_ka-gurmukhi.rlig;
 	sub VS4 VS5 sa-gurmukhi by VS45_sa-gurmukhi.rlig;
 	sub VS4 sa-gurmukhi by VS4_sa-gurmukhi.rlig;
+	sub sa-gurmukhi halant-gurmukhi zerowidthjoiner by VS4_sa-gurmukhi.rlig;
 	sub VS5 ka-gurmukhi by VS5_ka-gurmukhi.rlig;
 	sub VS5 dha-gurmukhi by VS5_dha-gurmukhi.rlig;
 	sub VS6 ja-gurmukhi by VS6_ja-gurmukhi.rlig;
@@ -2321,7 +2322,7 @@ subCategory = "";
 {
 category = Letter;
 glyphname = "VS4_sa-gurmukhi.rlig";
-lastChange = "2023-08-07 18:05:27 +0000";
+lastChange = "2024-02-05 19:55:26 +0000";
 layers = (
 {
 anchors = (
@@ -2347,8 +2348,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(620,494,l),
-(620,597,l),
+(595,494,l),
+(595,597,l),
 (-30,597,l),
 (-30,494,l),
 (79,494,l),
@@ -2365,7 +2366,7 @@ nodes = (
 (155,46,o),
 (226,74,o),
 (231,226,c),
-(535,226,l),
+(495,226,l),
 (535,330,l),
 (230,330,l),
 (229,373,o),
@@ -2375,7 +2376,7 @@ nodes = (
 }
 );
 vertWidth = 1130;
-width = 600;
+width = 560;
 },
 {
 anchors = (
@@ -2401,8 +2402,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(575,539,l),
-(575,577,l),
+(497,539,l),
+(497,577,l),
 (-30,577,l),
 (-30,539,l),
 (94,539,l),
@@ -2419,7 +2420,7 @@ nodes = (
 (133,70,o),
 (166,159,o),
 (169,251,c),
-(457,251,l),
+(437,251,l),
 (457,291,l),
 (170,291,l),
 (166,368,o),
@@ -2429,7 +2430,7 @@ nodes = (
 }
 );
 vertWidth = 814;
-width = 555;
+width = 462;
 }
 );
 subCategory = "";
@@ -3392,7 +3393,7 @@ subCategory = "";
 {
 category = Letter;
 glyphname = "VS45_sa-gurmukhi.rlig";
-lastChange = "2024-01-31 00:53:42 +0000";
+lastChange = "2024-02-05 19:57:17 +0000";
 layers = (
 {
 anchors = (
@@ -3418,8 +3419,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(620,494,l),
-(620,597,l),
+(580,494,l),
+(580,597,l),
 (-30,597,l),
 (-30,494,l),
 (79,494,l),
@@ -3436,7 +3437,7 @@ nodes = (
 (155,46,o),
 (226,74,o),
 (231,226,c),
-(535,226,l),
+(495,226,l),
 (535,330,l),
 (230,330,l),
 (229,373,o),
@@ -3455,7 +3456,7 @@ nodes = (
 }
 );
 vertWidth = 1130;
-width = 600;
+width = 545;
 },
 {
 anchors = (
@@ -3481,8 +3482,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(575,539,l),
-(575,577,l),
+(525,539,l),
+(525,577,l),
 (-30,577,l),
 (-30,539,l),
 (94,539,l),
@@ -3499,7 +3500,7 @@ nodes = (
 (133,70,o),
 (166,159,o),
 (169,251,c),
-(457,251,l),
+(437,251,l),
 (457,291,l),
 (170,291,l),
 (166,368,o),
@@ -3518,7 +3519,7 @@ nodes = (
 }
 );
 vertWidth = 814;
-width = 555;
+width = 490;
 }
 );
 script = gurmukhi;
