@@ -7,48 +7,48 @@
   </head>
   <body>
     <nav>
-      <table>
-        <tbody>
-          <td></td>
-          <td class="main">{{title}}</td>
-          <td>Version {{version}}</td>
-        </tbody>
-      </table>
+      <main>
+        <section>
+          <div></div>
+          <div class="title">{{title}}</div>
+          <div>Version {{version}}</div>
+        </section>
+      </main>
     </nav>
     <main>
-      <article>
-        <h1>Side By Side Comparisons</h1>
+      <section>
+        <h1>Tables</h1>
         <div class="list">
           {{#side_by_side_items}}
-          <a href="qa/test/{{url}}.html"><div class="card">{{name}}</div></a>
+          <a href="qa/test/{{url}}.html"><div class="item">{{name}}</div></a>
           {{/side_by_side_items}}
         </div>
-      </article>
-      <article>
-        <h1>Proof Sheets</h1>
+      </section>
+      <section>
+        <h1>Cards</h1>
         <div class="list">
           {{#proof_sheet_items}}
-          <a href="qa/test/{{url}}.html"><div class="card">{{name}}</div></a>
+          <a href="qa/test/{{url}}.html"><div class="item">{{name}}</div></a>
           {{/proof_sheet_items}}
         </div>
-      </article>
-      <article>
+      </section>
+      <section>
         <h1>Links</h1>
         <div class="icons">
           <a href="README.html">
-            <div class="card">README</div>
+            <div class="item">README</div>
           </a>
           <a href="https://github.com/shabados/SantLipi">
-            <div class="card">GitHub</div>
+            <div class="item">GitHub</div>
           </a>
           <a href="https://github.com/shabados/SantLipi/issues/new/choose">
-            <div class="card">New Issue</div>
+            <div class="item">New Issue</div>
           </a>
           <a href="https://chat.shabados.com/">
-            <div class="card">Slack</div>
+            <div class="item">Slack</div>
           </a>
         </div>
-      </article>
+      </section>
     </main>
   </body>
 </html>

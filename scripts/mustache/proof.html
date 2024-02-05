@@ -7,30 +7,30 @@
   </head>
   <body>
     <nav>
-      <table>
-        <tbody>
-          <td>
+      <main>
+        <section>
+          <div>
             <a href="../../index.html" class="back-button">&#x2190; Back</a>
-          </td>
-          <td class="main">{{title}}</td>
-          <td>Version {{version}}</td>
-        </tbody>
-      </table>
-      <div class="font-weight-slider">
-        <span>Font Weight</span>
-        <input type="range" min="100" max="900" id="fw" value="400" />
-        <span id="fw-value"></span>
-      </div>
+          </div>
+          <div class="title">{{title}}</div>
+          <div>v{{version}}</div>
+        </section>
+        <section class="font-weight-slider">
+          <span>Font Weight</span>
+          <input type="range" min="100" max="900" id="fw" value="400" />
+          <span id="fw-value"></span>
+        </section>
+      </main>
     </nav>
     <main>
-      <div class="icons">
+      <section class="icons">
         {{#items}}
-        <div class="card">
+        <div class="item">
           <p class="large font-santlipi">{{item}}</p>
           <p>{{description}}</p>
         </div>
         {{/items}}
-      </div>
+      </section>
     </main>
   </body>
   <script src="../script.js"></script>

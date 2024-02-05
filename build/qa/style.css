@@ -1,89 +1,93 @@
+:root {
+  --unit: 2rem;
+}
+
 @font-face {
   font-family: SLVFTTF;
-  src: url(../variable/SantLipi-VF.woff2) format('woff2-variations'),
-    url(../variable/SantLipi-VF.woff2) format('woff2');
+  src: url(../variable/SantLipi-VF.woff2) format("woff2-variations"),
+    url(../variable/SantLipi-VF.woff2) format("woff2");
   font-weight: 100 900;
 }
 
 @font-face {
   font-family: AND;
-  src: url(./extra-fonts/AND-Regular.ttf) format('truetype');
+  src: url(./extra-fonts/AND-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: AnekGurmukhi;
-  src: url('./extra-fonts/AnekGurmukhi-VariableFont_wdth,wght.ttf')
-      format('truetype-variations'),
-    url('./extra-fonts/AnekGurmukhi-VariableFont_wdth,wght.ttf')
-      format('truetype');
+  src: url("./extra-fonts/AnekGurmukhi-VariableFont_wdth,wght.ttf")
+      format("truetype-variations"),
+    url("./extra-fonts/AnekGurmukhi-VariableFont_wdth,wght.ttf")
+      format("truetype");
   font-weight: 100 900;
 }
 
 @font-face {
   font-family: BalooPaaji;
   src: url(./extra-fonts/BalooPaaji2-VariableFont_wght.ttf)
-      format('truetype-variations'),
-    url(./extra-fonts/BalooPaaji2-VariableFont_wght.ttf) format('truetype');
+      format("truetype-variations"),
+    url(./extra-fonts/BalooPaaji2-VariableFont_wght.ttf) format("truetype");
   font-weight: 100 900;
 }
 
 @font-face {
   font-family: MuktaMahee;
-  src: url(./extra-fonts/MuktaMahee-Regular.ttf) format('truetype');
+  src: url(./extra-fonts/MuktaMahee-Regular.ttf) format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: NotoSansGurmukhi;
-  src: url('./extra-fonts/NotoSansGurmukhi-VariableFont_wdth,wght.ttf')
-      format('truetype-variations'),
-    url('./extra-fonts/NotoSansGurmukhi-VariableFont_wdth,wght.ttf')
-      format('truetype');
+  src: url("./extra-fonts/NotoSansGurmukhi-VariableFont_wdth,wght.ttf")
+      format("truetype-variations"),
+    url("./extra-fonts/NotoSansGurmukhi-VariableFont_wdth,wght.ttf")
+      format("truetype");
   font-weight: 100 900;
 }
 
 @font-face {
   font-family: NotoSerifGurmukhi;
   src: url(./extra-fonts/NotoSerifGurmukhi-VariableFont_wght.ttf)
-      format('truetype-variations'),
+      format("truetype-variations"),
     url(./extra-fonts/NotoSerifGurmukhi-VariableFont_wght.ttf)
-      format('truetype');
+      format("truetype");
   font-weight: 100 900;
 }
 
 @font-face {
   font-family: TiroGurmukhi;
-  src: url(./extra-fonts/TiroGurmukhi-Regular.ttf) format('truetype');
+  src: url(./extra-fonts/TiroGurmukhi-Regular.ttf) format("truetype");
   font-weight: 400;
 }
 
 .font-santlipi {
-  font-family: 'SLVFTTF', 'AND';
-  font-variation-settings: 'wght' 400;
+  font-family: "SLVFTTF", "AND";
+  font-variation-settings: "wght" 400;
 }
 
 .font-anek {
-  font-family: 'AnekGurmukhi', 'AND';
+  font-family: "AnekGurmukhi", "AND";
 }
 
 .font-baloo {
-  font-family: 'BalooPaaji', 'AND';
+  font-family: "BalooPaaji", "AND";
 }
 
 .font-mukta {
-  font-family: 'MuktaMahee', 'AND';
+  font-family: "MuktaMahee", "AND";
 }
 
 .font-notosans {
-  font-family: 'NotoSansGurmukhi', 'AND';
+  font-family: "NotoSansGurmukhi", "AND";
 }
 
 .font-notoserif {
-  font-family: 'NotoSerifGurmukhi', 'AND';
+  font-family: "NotoSerifGurmukhi", "AND";
 }
 
 .font-tiro {
-  font-family: 'TiroGurmukhi', 'AND';
+  font-family: "TiroGurmukhi", "AND";
 }
 
 body {
@@ -102,18 +106,31 @@ p {
   margin: 0;
 }
 
-article > * + * {
-  padding-top: 1.5rem;
-}
-
 .large {
-  font-size: 4rem;
+  font-size: calc(var(--unit) * 1);
 }
 
-main,
-table,
-.font-weight-slider {
+main {
   margin: 0 auto;
+  width: 100%;
+}
+
+section {
+  padding-left: var(--unit);
+  padding-right: var(--unit);
+}
+
+section + section {
+  padding-top: calc(2 * var(--unit));
+}
+
+section > * + * {
+  padding-top: var(--unit);
+}
+
+nav section,
+nav section > * + * {
+  padding-top: 0;
 }
 
 nav {
@@ -125,28 +142,20 @@ nav {
   justify-content: center;
 }
 
-nav > table,
-.font-weight-slider {
-  width: 800px;
+nav section {
   border-spacing: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav td {
-  background: none;
+nav > section:nth-child(2) {
+  flex-grow: 1;
 }
 
-nav td:first-child {
-  text-align: left;
-}
-
-nav td:last-child {
-  text-align: right;
-}
-
-nav .main {
+nav .title {
   font-weight: 500;
   font-size: 1.25rem;
-  width: 500px;
 }
 
 .back-button {
@@ -171,7 +180,7 @@ nav td:last-child {
 }
 
 main {
-  width: 800px;
+  max-width: 800px;
   padding: 7.5rem 0;
 }
 
@@ -203,7 +212,7 @@ td {
   min-width: 6rem;
 }
 
-.card {
+.item {
   border-radius: 0.5rem;
   padding: 1rem;
 }
@@ -246,7 +255,7 @@ td {
   }
 
   td,
-  .card {
+  .item {
     background-color: white;
   }
 }
@@ -272,5 +281,11 @@ td {
   td,
   .card {
     background-color: rgba(0% 0% 0% / 10%);
+  }
+}
+
+@media (pointer: coarse) {
+  main.sbs {
+    overflow-x: scroll;
   }
 }

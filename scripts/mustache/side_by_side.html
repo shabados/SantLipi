@@ -7,72 +7,74 @@
   </head>
   <body>
     <nav>
-      <table>
-        <tbody>
-          <td>
+      <main>
+        <section>
+          <div>
             <a href="../../index.html" class="back-button">&#x2190; Back</a>
-          </td>
-          <td class="main">{{title}}</td>
-          <td>Version {{version}}</td>
-        </tbody>
-      </table>
-      <div class="font-weight-slider">
-        <span>Font Weight</span>
-        <input type="range" min="100" max="900" id="fw" value="400" />
-        <span id="fw-value"></span>
-      </div>
+          </div>
+          <div class="title">{{title}}</div>
+          <div>v{{version}}</div>
+        </section>
+        <section class="font-weight-slider">
+          <span>Font Weight</span>
+          <input type="range" min="100" max="900" id="fw" value="400" />
+          <span id="fw-value"></span>
+        </section>
+      </main>
     </nav>
     <main class="sbs">
-      <table>
-        <thead>
-          <th>Browser</th>
-          <th>Sant Lipi</th>
-          <th>Anek</th>
-          <th>Baloo</th>
-          <th>Mukta</th>
-          <th>Noto Sans</th>
-          <th>Noto Serif</th>
-          <th>Tiro</th>
-        </thead>
-        <tbody>
-          {{#items}}
-          <tr>
-            <td class="card">
-              <p class="large">{{item}}</p>
-              <p>{{description}}</p>
-            </td>
-            <td class="card">
-              <p class="large font-santlipi">{{item}}</p>
-              <p>{{description}}</p>
-            </td>
-            <td class="card">
-              <p class="large font-anek">{{item}}</p>
-              <p>{{description}}</p>
-            </td>
-            <td class="card">
-              <p class="large font-baloo">{{item}}</p>
-              <p>{{description}}</p>
-            </td>
-            <td class="card">
-              <p class="large font-mukta">{{item}}</p>
-              <p>{{description}}</p>
-            </td>
-            <td class="card">
-              <p class="large font-notosans">{{item}}</p>
-              <p>{{description}}</p>
-            </td>
-            <td class="card">
-              <p class="large font-notoserif">{{item}}</p>
-              <p>{{description}}</p>
-            </td>
-            <td class="card">
-              <p class="large font-tiro">{{item}}</p>
-              <p>{{description}}</p>
-            </td>
-          </tr>
-          {{/items}}
-        </tbody>
-      </table>
+      <section>
+        <table>
+          <thead>
+            <th>Browser</th>
+            <th>Sant Lipi</th>
+            <th>Anek</th>
+            <th>Baloo</th>
+            <th>Mukta</th>
+            <th>Noto Sans</th>
+            <th>Noto Serif</th>
+            <th>Tiro</th>
+          </thead>
+          <tbody>
+            {{#items}}
+            <tr>
+              <td class="item">
+                <p class="large">{{item}}</p>
+                <p>{{description}}</p>
+              </td>
+              <td class="item">
+                <p class="large font-santlipi">{{item}}</p>
+                <p>{{description}}</p>
+              </td>
+              <td class="item">
+                <p class="large font-anek">{{item}}</p>
+                <p>{{description}}</p>
+              </td>
+              <td class="item">
+                <p class="large font-baloo">{{item}}</p>
+                <p>{{description}}</p>
+              </td>
+              <td class="item">
+                <p class="large font-mukta">{{item}}</p>
+                <p>{{description}}</p>
+              </td>
+              <td class="item">
+                <p class="large font-notosans">{{item}}</p>
+                <p>{{description}}</p>
+              </td>
+              <td class="item">
+                <p class="large font-notoserif">{{item}}</p>
+                <p>{{description}}</p>
+              </td>
+              <td class="item">
+                <p class="large font-tiro">{{item}}</p>
+                <p>{{description}}</p>
+              </td>
+            </tr>
+            {{/items}}
+          </tbody>
+        </table>
+      </section>
     </main>
   </body>
   <script src="../script.js"></script>
