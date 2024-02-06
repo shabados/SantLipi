@@ -44,6 +44,8 @@ Work with the font files by downloading and extracting the zip file from the [la
 
 Note that in Sant Lipi a Sihari (ਿ) can be added to the typical full Yayya (ਯ), but the Yayya variants cannot render Sihari (ਿ) properly. As of yet, it's unknown if such a sequence is required.
 
+The Yayya variations can be viewed in the [Sant Lipi Test Suite](https://shabados.github.io/SantLipi/qa/test/yayya.html).
+
 **Open Side**
 
 VS1-4 (`U+FE00` - `U+FE03`) opens the left, top, bottom, and right sides (respectively). For example:
@@ -55,8 +57,10 @@ VS1-4 (`U+FE00` - `U+FE03`) opens the left, top, bottom, and right sides (respec
 
 **Bihari Nasals**
 
+Harfbuzz respects shaping bindi before bihari, however coretext and uniscribe do not. The following workaround using a ZWJ works in all major browsers on macOS and Windows. Possible issues include additional marks/vowels on consonant between the bindi and bihari. If you encounter this problem, please open a new issue in the Sant Lipi repo. These pre-bihari nasals can be viewed in the [Sant Lipi Test Suite](https://shabados.github.io/SantLipi/index.html).
+
 - Tippi before Bihari, ੀ + ੰ
-- Bindi before Bihari, ੀ + ਁ (`U+0A01`: Adak Bindi)
+- Bindi before Bihari, ਂ + ZWJ + ੀ (`U+200D`: Zero Width Joiner)
 
 **Extra**
 
@@ -64,7 +68,7 @@ VS1-4 (`U+FE00` - `U+FE03`) opens the left, top, bottom, and right sides (respec
 
 **Mahan Kosh**
 
-VS5-9 (`U+FE04` - `U+FE08`) are used for special chars in Mahan Kosh. As tracked in [shabados/SantLipi#41](https://github.com/shabados/SantLipi/issues/41) ([PDF](https://user-images.githubusercontent.com/14130567/234413746-8965a06e-6eeb-4a11-9d2d-01c5213f17e2.png) and [Scan](https://user-images.githubusercontent.com/14130567/258670089-edd443ef-b28c-4a03-bc4c-21eca9d0153f.jpeg)).
+VS5-9 (`U+FE04` - `U+FE08`) are used for special chars in Mahan Kosh. As tracked in [shabados/SantLipi#41](https://github.com/shabados/SantLipi/issues/41) ([PDF](https://user-images.githubusercontent.com/14130567/234413746-8965a06e-6eeb-4a11-9d2d-01c5213f17e2.png) and [Scan](https://user-images.githubusercontent.com/14130567/258670089-edd443ef-b28c-4a03-bc4c-21eca9d0153f.jpeg)). They may be viewed in the [Sant Lipi Test Suite](https://shabados.github.io/SantLipi/qa/test/mahan-kosh.html).
 
 - VS5 adds a slash/stroke to the following character's [counter](<https://en.wikipedia.org/wiki/Counter_(typography)>)
 - VS6 attaches a dot above the crossbar
@@ -74,9 +78,9 @@ VS5-9 (`U+FE04` - `U+FE08`) are used for special chars in Mahan Kosh. As tracked
 
 Devanagari:
 
-- स् (half s) = VS4 + ਸ
-- ष (ṣ) = VS5 + ਧ + ਼ (nukta)
-- ष् (half ṣ) and श् (half ś) = VS4 + VS5 + ਸ
+- स् (half s) = VS4 + ਸ (see notes)
+- ष (ṣ) = VS5 + ਧ + ਼ (nukta) (see notes)
+- ष् (half ṣ) and श् (half ś) = VS4 + VS5 + ਸ (see notes)
 - क्ष (kṣa) = VS5 + ਕ
 - क्ष् (half kṣa) = VS2 + VS5 + ਕ
 - ज्ञ (jña) = ਜ + ੍ (virama) + ਞ
@@ -105,7 +109,12 @@ Nuktas:
 Not yet implemented:
 
 - र् (half r). This is not pairin-rara in punjabi, which comes after the consonant, instead this is a half-r preceding the conjunct, even though it is written at the far top right of the conjunct, it is pronounced initially in the cluster.
-- Addak Bindi. This exists in Gurmukhi unicode block already. However, in Sant Lipi it is specifically being used to produce a bindi before bihari. Probably will have to change that strategy (aside from Mahan Kosh, I have only seen it in obscure and niche old dictionaries).
+
+Notes:
+
+- Half-S in Devanagari is formed using a ZWJ, the same can be done in Sant Lipi as ਸ + ੍ virama + ZWJ.
+- VS4 + VS5 + ਸ renders differently than ਕ + ੍ virama + ਸ਼ would, to respect the specific glyph in Mahan Kosh.
+- VS5 + ਧ + ਼ (nukta) was used to render a S sound simply because the glyphs are similar. If this were to be used outside Mahan Kosh, then the logic can be revised.
 
 ## Quality Assurance
 
