@@ -68,7 +68,7 @@ add_proof_sheet_test("spg", "SPG", items)
 items = [
     {"item": "\u0a28\u0a40\u0a02", "description": "Bindi After (ੀ + ਂ)"},
     {"item": "\u0a28\u0a02\u0a40", "description": "Bindi Before (ਂ + ੀ) Harfbuzz"},
-    {"item": "\u0a28\u0a40\u0a01", "description": "Workaround (ੀ + ਁ) CoreText/Uniscribe"},
+    {"item": f"\u0a28\u0a02{NL['zwj']}\u0a40", "description": "Bindi Before (ਂ + ZWJ + ੀ)"},
     {"item": "\u0a28\u0a40\u0a70", "description": "Tippi (ੀ + ੰ)"},
 ]
 add_proof_sheet_test("bindi-tippi", "Bindi & Tippi", items)
