@@ -259,3 +259,8 @@ items = [
     {"item": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ", "description": ""},
 ]
 add_proof_sheet_test("words-from-nitnem", "Words From Nitnem", items)
+
+items = [
+    {"item": "ਆਦਿ ਸਚੁ\ue000", "description": ""},
+]
+add_proof_sheet_test("vishram", "Vishram Symbols", items)
