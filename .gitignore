@@ -7,4 +7,4 @@ scripts/qa/html/*.html
 build/*
 !build/qa
 build/qa/test*
-dist/*
+dist
