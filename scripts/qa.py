@@ -27,7 +27,7 @@ def create(url, template, hash):
     file.close()
 
 
-def qa():
+def main():
     # Instantiate a list of pages for each test in tests.py
     side_by_sides = []
     proof_sheets = []

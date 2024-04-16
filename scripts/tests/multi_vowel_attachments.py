@@ -1,10 +1,10 @@
 from scripts.constants import (
-    BASE_LETTERS,
-    VIRAMA,
-    BELOW_LETTERS,
-    BELOW_LETTERS_EXTENDED,
     ALL_VOWEL_COMBOS,
     BASE_LETTER_MODIFIERS,
+    BASE_LETTERS,
+    BELOW_LETTERS,
+    BELOW_LETTERS_EXTENDED,
+    VIRAMA,
 )
 
 mva_items = []

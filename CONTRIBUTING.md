@@ -1,36 +1,81 @@
 # Contributing
 
-Anyone providing assistance to the future of this project is considered a contributor. Our intention is to signal a safe open-source community. Please help us foster an atmosphere of kindness, cooperation, and understanding. By participating, you agree to abide by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
+Please see our [community docs on contributing](https://shabados.com/docs/community/contributing).
 
-The easiest way to communicate is via [GitHub issues](https://github.com/shabados/SantLipi/issues). Please search for similar issues regarding your concerns before opening a new issue. For everything else we ask to chat about it on [GitHub Discussions](https://github.com/orgs/shabados/discussions) or [Slack](https://chat.shabados.com/).
-
-If you wish to share changes back upstream, please see "[Open Pull Requests](#open-pull-requests)" below.
+This document is for developers/designers contributing to source code. If you're interested in contributing a different way, please see the link above.
 
 **Requirements**
 
 - [Python](https://www.python.org/)
-- [Poetry](https://python-poetry.org/)
+- [Glyphs 3](https://glyphsapp.com/)
+
+## Structure
+
+```txt
+santlipi
+├── build
+│   └── qa
+├── packages
+│   ├── npm
+│   └── pubdev
+├── scripts
+│   ├── mustache
+│   ├── tests
+│   ├── build.py
+│   ├── constants.py
+│   ├── make.py
+│   └── qa.py
+├── sources
+│   └── SantLipi.glyphs
+├── pyproject.toml
+└── README.md
+```
+
+The majority of the `build` folder is generated with the script files in `scripts`. These generating scripts are referenced for python runners in `pyproject.toml` under the `[project.scripts]` section.
+
+Config files for the Sant Lipi distributions are found in the `packages` folder.
+
+The `sources` folder contains the actual font file. A specific font editor [Glyphs 3](https://glyphsapp.com/) is required to open it. However there is a way to convert the Glyphs source file to UFOs using [Google's glyphsLib](https://github.com/googlefonts/glyphsLib).
+
+The `pyproject.toml` file can be used to track dependencies and run scripts. See below for typical uses:
+
+**pip**
+
+Starting with Python 3.4, pip is included by default. The following will create a virtual environment, install the dependencies, and then run a script listed in `pyproject.toml` under the `[project.scripts]` section.
+
+```shell
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install .
+build
+```
+
+**Hatch**
+
+On the other hand, Hatch will automatically do all of the above for you in a single command. [Learn more at hatch.pypa.io](https://hatch.pypa.io/).
+
+```shell
+hatch run build
+```
 
 ## Run QA (Quality Assurance)
 
-If you simply want to run QA against the latest release of Sant Lipi, then please use the online [Sant Lipi Test Suite](https://shabados.github.io/SantLipi). If you wish to run QA locally:
+QA against the latest version is available using the online [Sant Lipi Test Suite](https://shabados.github.io/SantLipi).
 
-- Install project dependencies with `poetry install`.
-- Build files with `poetry run build`.
-- Open `build/index.html` to view the Sant Lipi Test Suite.
+If you wish to run QA locally against your local Sant Lipi:
 
-## Add QA Tests
+- Run the `qa` script.
+- Open `build/index.html` in a web browser.
 
-- Install project dependencies with `poetry install`.
-- Build fonts and QA files with `poetry run build`.
+## Add Tests to QA
+
 - Edit `scripts/tests.py`.
-- Regenerate QA files with `poetry run qa`.
-- Open `build/index.html` to confirm.
+- Run QA to verify tests.
 
 ## Modify/Change Font
 
 - Use [Glyphs 3](https://glyphsapp.com/) to open `sources/SantLipi.glyphs`.
-- Run QA locally to confirm changes (see above).
+- Run QA locally to confirm changes.
 
 ## Open Pull Requests
 

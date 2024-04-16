@@ -1,10 +1,11 @@
 import os
 import shutil
 import subprocess
+
 from fontTools.ttLib import TTFont
 
 
-def make():
+def main():
     # generate instanced and variable ttf fonts
     cmd = [
         "fontmake",
@@ -51,27 +52,31 @@ def make():
 
 
 def var():
-    # generate variable ttf font
+    # generate instanced and variable ttf fonts
     cmd = [
         "fontmake",
         "-g",
         "sources/SantLipi.glyphs",
-        "-o",
-        "variable",
+        "--instance-dir",
+        "{tmp}",
+        "--master-dir",
+        "{tmp}",
+        "--verbose",
+        "WARNING",
     ]
-    subprocess.run(cmd)
+    variable_output = ["-o", "variable"]
+    subprocess.run(cmd + variable_output)
 
     # create woff2 compression of variable ttf font
     variable_font = TTFont("variable_ttf/SantLipi-VF.ttf")
     variable_font.flavor = "woff2"
     variable_font.save("variable_ttf/SantLipi-VF.woff2")
 
-    # clean up generated folder
-    shutil.rmtree(os.path.join("master_ufo"))
-
     # clean any existing files from previous builds
-    if os.path.exists(os.path.join("build", "variable")):
-        shutil.rmtree(os.path.join("build", "variable"))
+    build_paths = ["variable"]
+    for folder in build_paths:
+        if os.path.exists(os.path.join("build", folder)):
+            shutil.rmtree(os.path.join("build", folder))
 
     # organize build folder
     os.rename("variable_ttf", os.path.join("build", "variable"))

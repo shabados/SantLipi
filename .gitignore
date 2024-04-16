@@ -8,3 +8,5 @@ build/*
 !build/qa
 build/qa/test*
 dist
+.venv
+.direnv

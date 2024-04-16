@@ -1,31 +1,63 @@
-[tool.poetry]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dirs.env]
+virtual = ".direnv"
+
+[project]
 name = "santlipi"
 version = "0.25.0"
 description = "A unicode font for extraordinary Gurmukhi"
-authors = ["Bhajneet S.K. <bhajneet@gmail.com>"]
-license = "OFL-1.1-RFN"
 readme = "README.md"
-packages = [{include = "scripts"}]
+requires-python = ">=3.8"
+license = "OFL-1.1-RFN"
+authors = [
+  { name="Bhajneet S.K.", email="bhajneet@gmail.com"},
+]
+dependencies = [
+    "chevron>=0.14.0",
+    "fontmake>=3.5.1",
+    "fonttools[woff]>=4.38.0",
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-chevron = "^0.14.0"
-fontmake = "^3.5.1"
-fonttools = {extras = ["woff"], version = "^4.38.0"}
-
-[tool.poetry.group.dev.dependencies]
-black = "^22.12.0"
-flake8 = "^6.0.0"
-isort = "^5.11.4"
-mypy = "^0.991"
-pre-commit = "^2.21.0"
-
-[tool.poetry.scripts]
+[project.scripts]
+make = "scripts.make:main"
+var = "scripts.make:var"
+qa = "scripts.qa:main"
 build = "scripts.build:main"
-make = "scripts.make:make"
-glyphs = "scripts.make:var"
-qa = "scripts.qa:qa"
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]
+
+[tool.hatch.envs.dev]
+detached = true
+dependencies = [
+  "black",
+  "isort",
+]
+[tool.hatch.envs.dev.scripts]
+fmt = [
+  "isort .",
+  "black scripts",
+]
+
+[tool.isort]
+known_first_party = "scripts"
+profile = "black"
+src_paths = ["scripts"]
+filter_files = true
+
+[tool.black]
+line-length = 88
+
+[tool.mypy]
+disallow_any_decorated = true
+disallow_any_explicit = true
+disallow_any_expr = true
+disallow_any_unimported = true
+no_implicit_reexport = true
+pretty = true
+show_error_codes = true
+strict = true
+warn_unreachable = true

@@ -1,5 +1,5 @@
-from scripts.make import make
-from scripts.qa import qa
+from scripts.make import main as make
+from scripts.qa import main as qa
 
 
 def main():

@@ -1,13 +1,13 @@
 from scripts.constants import (
+    BASE_LETTER_MODIFIERS,
     BASE_LETTERS,
-    VOWEL_LETTERS,
-    VOWEL_ATTACHMENTS,
-    VIRAMA,
     BELOW_LETTERS,
     BELOW_LETTERS_EXTENDED,
-    BASE_LETTER_MODIFIERS,
     FINAL_MODIFIERS,
+    VIRAMA,
     VISARGA,
+    VOWEL_ATTACHMENTS,
+    VOWEL_LETTERS,
 )
 
 ma_items = []
@@ -22,7 +22,7 @@ for vowel in VOWEL_ATTACHMENTS:
 str = ""
 for letter in BASE_LETTERS:
     str += f"{letter}{VIRAMA} "
-ma_items.append({"item": str, "description": f"Virama attachment"})
+ma_items.append({"item": str, "description": "Virama attachment"})
 
 # show the same akhand on every consonant
 for akhand in BELOW_LETTERS + BELOW_LETTERS_EXTENDED:

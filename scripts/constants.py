@@ -25,7 +25,12 @@ RIGHT_VOWEL_ATTACHMENTS = [
     "ੀ",
 ]
 
-VOWEL_ATTACHMENTS = LEFT_VOWEL_ATTACHMENTS + TOP_VOWEL_ATTACHMENTS + BOTTOM_VOWEL_ATTACHMENTS + RIGHT_VOWEL_ATTACHMENTS
+VOWEL_ATTACHMENTS = (
+    LEFT_VOWEL_ATTACHMENTS
+    + TOP_VOWEL_ATTACHMENTS
+    + BOTTOM_VOWEL_ATTACHMENTS
+    + RIGHT_VOWEL_ATTACHMENTS
+)
 
 VIRAMA = "੍"
 BELOW_LETTERS = "ਹਰਵਟਤਨਚ"
@@ -162,5 +167,7 @@ for left_vowel in LEFT_VOWEL_ATTACHMENTS:
                 ALL_VOWEL_COMBOS.append(f"{left_vowel}{top_vowel}{right_vowel}")
                 ALL_VOWEL_COMBOS.append(f"{left_vowel}{bottom_vowel}{right_vowel}")
                 ALL_VOWEL_COMBOS.append(f"{top_vowel}{bottom_vowel}{right_vowel}")
-                ALL_VOWEL_COMBOS.append(f"{left_vowel}{top_vowel}{bottom_vowel}{right_vowel}")
+                ALL_VOWEL_COMBOS.append(
+                    f"{left_vowel}{top_vowel}{bottom_vowel}{right_vowel}"
+                )
 ALL_VOWEL_COMBOS = sorted([*set(ALL_VOWEL_COMBOS)])
