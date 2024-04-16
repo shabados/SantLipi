@@ -1,3 +1,15 @@
+## 0.24.0
+
+- feat: stylize ੴ (ik oankar) to flow better
+- feat: add mobile browser support for qa
+- feat: add support for ਸ + ੍ + ZWJ to create initial half-s and stylize half-s forms
+- feat: replace addakbindi with zwj logic for bindi before sihari
+- docs: update documentation on pre-bihari nasals
+- feat: add heavy vishram to pua for testing
+- docs: update readme for dart package
+- update font's unicode range in npm package
+- refine shape of ik oankar
+
 ## 0.23.0
 
 - feat: add named constants for composing unicode gurmukhi
