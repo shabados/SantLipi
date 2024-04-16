@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3258";
 .formatVersion = 3;
 axes = (
 {
@@ -437,7 +437,16 @@ lookup lookup4;
 #lookup lookup5;
 #lookup lookup6;
 ";
-notes = "lookup lookup5 {\012  sub eeMatra-gurmukhi.alt addak-gurmukhi by eeMatra_addak-gurmukhi.alt;\012  sub aiMatra-gurmukhi.alt addak-gurmukhi by aiMatra_addak-gurmukhi.alt;\012  sub ooMatra-gurmukhi.alt addak-gurmukhi by ooMatra_addak-gurmukhi.alt;\012  sub auMatra-gurmukhi.alt addak-gurmukhi by auMatra_addak-gurmukhi.alt;\012  sub eeMatra-gurmukhi.alt addakBindi-gurmukhi by eeMatra_addakBindi-gurmukhi.alt;\012  sub aiMatra-gurmukhi.alt addakBindi-gurmukhi by aiMatra_addakBindi-gurmukhi.alt;\012  sub ooMatra-gurmukhi.alt addakBindi-gurmukhi by ooMatra_addakBindi-gurmukhi.alt;\012  sub auMatra-gurmukhi.alt addakBindi-gurmukhi by auMatra_addakBindi-gurmukhi.alt;\012} lookup5;";
+notes = "lookup lookup5 {
+  sub eeMatra-gurmukhi.alt addak-gurmukhi by eeMatra_addak-gurmukhi.alt;
+  sub aiMatra-gurmukhi.alt addak-gurmukhi by aiMatra_addak-gurmukhi.alt;
+  sub ooMatra-gurmukhi.alt addak-gurmukhi by ooMatra_addak-gurmukhi.alt;
+  sub auMatra-gurmukhi.alt addak-gurmukhi by auMatra_addak-gurmukhi.alt;
+  sub eeMatra-gurmukhi.alt addakBindi-gurmukhi by eeMatra_addakBindi-gurmukhi.alt;
+  sub aiMatra-gurmukhi.alt addakBindi-gurmukhi by aiMatra_addakBindi-gurmukhi.alt;
+  sub ooMatra-gurmukhi.alt addakBindi-gurmukhi by ooMatra_addakBindi-gurmukhi.alt;
+  sub auMatra-gurmukhi.alt addakBindi-gurmukhi by auMatra_addakBindi-gurmukhi.alt;
+} lookup5;";
 tag = abvs;
 },
 {
@@ -500,7 +509,39 @@ script guru;
   sub na-gurmukhi halant-gurmukhi by naBelow-gurmukhi;
   sub tha-gurmukhi halant-gurmukhi by thaBelow-gurmukhi;
 ";
-notes = "#Below Base Form\012\012#Pairin forms of ga-gurmukhi, ca-gurmukhi, tta-gurmukhi, ttha-gurmukhi, ta-gurmukhi, da-gurmukhi, na-gurmukhi and tha-gurmukhi occur in rare cases in old manuscript texts.\012\012script gur2;\012lookup lookup2 {\012  sub halant-gurmukhi ra-gurmukhi by raBelow;\012  sub halant-gurmukhi ha-gurmukhi by haBelow;\012  sub halant-gurmukhi va-gurmukhi by vaBelow;\012  sub halant-gurmukhi ga-gurmukhi by gaBelow;\012  sub halant-gurmukhi ca-gurmukhi by caBelow;\012  sub halant-gurmukhi ka-gurmukhi by PairinKa;\012  sub halant-gurmukhi tta-gurmukhi by ttaBelow;\012  sub halant-gurmukhi ttha-gurmukhi by tthaBelow;\012  sub halant-gurmukhi ta-gurmukhi by taBelow;\012  sub halant-gurmukhi da-gurmukhi by daBelow;\012  sub halant-gurmukhi na-gurmukhi by naBelow;\012  sub halant-gurmukhi tha-gurmukhi by thaBelow;\012} lookup2;\012\012script guru;\012  sub ra-gurmukhi halant-gurmukhi by raBelow;\012  sub ha-gurmukhi halant-gurmukhi by haBelow;\012  sub va-gurmukhi halant-gurmukhi by vaBelow;\012  sub ga-gurmukhi halant-gurmukhi by gaBelow;\012  sub ca-gurmukhi halant-gurmukhi by caBelow;\012  sub tta-gurmukhi halant-gurmukhi by ttaBelow;\012  sub ttha-gurmukhi halant-gurmukhi by tthaBelow;\012  sub ta-gurmukhi halant-gurmukhi by taBelow;\012  sub da-gurmukhi halant-gurmukhi by daBelow;\012  sub na-gurmukhi halant-gurmukhi by naBelow;\012  sub tha-gurmukhi halant-gurmukhi by thaBelow;\012";
+notes = "#Below Base Form
+
+#Pairin forms of ga-gurmukhi, ca-gurmukhi, tta-gurmukhi, ttha-gurmukhi, ta-gurmukhi, da-gurmukhi, na-gurmukhi and tha-gurmukhi occur in rare cases in old manuscript texts.
+
+script gur2;
+lookup lookup2 {
+  sub halant-gurmukhi ra-gurmukhi by raBelow;
+  sub halant-gurmukhi ha-gurmukhi by haBelow;
+  sub halant-gurmukhi va-gurmukhi by vaBelow;
+  sub halant-gurmukhi ga-gurmukhi by gaBelow;
+  sub halant-gurmukhi ca-gurmukhi by caBelow;
+  sub halant-gurmukhi ka-gurmukhi by PairinKa;
+  sub halant-gurmukhi tta-gurmukhi by ttaBelow;
+  sub halant-gurmukhi ttha-gurmukhi by tthaBelow;
+  sub halant-gurmukhi ta-gurmukhi by taBelow;
+  sub halant-gurmukhi da-gurmukhi by daBelow;
+  sub halant-gurmukhi na-gurmukhi by naBelow;
+  sub halant-gurmukhi tha-gurmukhi by thaBelow;
+} lookup2;
+
+script guru;
+  sub ra-gurmukhi halant-gurmukhi by raBelow;
+  sub ha-gurmukhi halant-gurmukhi by haBelow;
+  sub va-gurmukhi halant-gurmukhi by vaBelow;
+  sub ga-gurmukhi halant-gurmukhi by gaBelow;
+  sub ca-gurmukhi halant-gurmukhi by caBelow;
+  sub tta-gurmukhi halant-gurmukhi by ttaBelow;
+  sub ttha-gurmukhi halant-gurmukhi by tthaBelow;
+  sub ta-gurmukhi halant-gurmukhi by taBelow;
+  sub da-gurmukhi halant-gurmukhi by daBelow;
+  sub na-gurmukhi halant-gurmukhi by naBelow;
+  sub tha-gurmukhi halant-gurmukhi by thaBelow;
+";
 tag = blwf;
 },
 {
@@ -10260,7 +10301,7 @@ unicode = 2675;
 },
 {
 glyphname = "ekonkar-gurmukhi";
-lastChange = "2024-02-02 17:53:22 +0000";
+lastChange = "2024-04-16 14:26:35 +0000";
 layers = (
 {
 layerId = master02;
@@ -10278,20 +10319,26 @@ nodes = (
 (1157,597,o),
 (1025,597,cs),
 (693,597,l),
-(693,690,o),
-(850,890,o),
-(1066,699,cs),
-(1187,592,o),
-(1319,994,o),
-(1536,795,c),
-(1614,869,l),
-(1383,1107,o),
-(1136,781,o),
-(1106,803,cs),
-(838,998,o),
-(541,820,o),
-(541,399,cs),
-(541,86,o),
+(693,719,o),
+(816,985,o),
+(1122,817,cs),
+(1220,763,o),
+(1238,1027,o),
+(1484,1027,cs),
+(1734,1027,o),
+(1734,700,o),
+(1734,700,cs),
+(1867,700,l),
+(1867,700,o),
+(1867,1130,o),
+(1488,1130,cs),
+(1192,1130,o),
+(1169,936,o),
+(1122,954,cs),
+(820,1071,o),
+(555,885,o),
+(543,399,cs),
+(535,86,o),
 (679,-11,o),
 (835,-11,cs)
 );
@@ -10394,16 +10441,22 @@ nodes = (
 (928,577,c),
 (584,577,l),
 (628,818,o),
-(840,831,o),
-(999,722,cs),
-(1040,693,o),
-(1248,987,o),
-(1415,791,c),
-(1447,828,l),
-(1272,1038,o),
-(1016,759,o),
-(999,770,cs),
-(807,892,o),
+(832,925,o),
+(1050,796,c),
+(1149,760,o),
+(1178,1013,o),
+(1416,1013,cs),
+(1670,1013,o),
+(1670,726,o),
+(1670,726,c),
+(1717,726,l),
+(1717,726,o),
+(1717,1053,o),
+(1413,1053,cs),
+(1155,1053,o),
+(1119,815,o),
+(1050,848,c),
+(816,982,o),
 (510,868,o),
 (510,364,cs),
 (510,80,o),
@@ -13331,7 +13384,7 @@ vertWidth = 814;
 width = 454;
 }
 );
-metricWidth = oneinferior/2;
+metricWidth = "oneinferior/2";
 unicode = 8321;
 },
 {
@@ -14231,7 +14284,7 @@ nodes = (
 width = 308;
 }
 );
-metricWidth = nineinferior/2;
+metricWidth = "nineinferior/2";
 unicode = 8329;
 },
 {
@@ -21964,6 +22017,24 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 Shabad OS. All rights reserved.";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "A unicode font for extraordinary Gurmukhi.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -21975,28 +22046,6 @@ value = "Bhajneet S.K.";
 {
 key = designerURL;
 value = "https://github.com/shabados";
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Shabad OS";
-}
-);
-},
-{
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2022 Shabad OS. All rights reserved.";
-}
-);
-},
-{
-key = versionString;
-value = "Version 0.023";
 },
 {
 key = licenses;
@@ -22012,17 +22061,21 @@ key = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Shabad OS";
+}
+);
+},
+{
 key = manufacturerURL;
 value = "https://github.com/shabados/SantLipi";
 },
 {
-key = descriptions;
-values = (
-{
-language = dflt;
-value = "A unicode font for extraordinary Gurmukhi.";
-}
-);
+key = versionString;
+value = "Version 0.023";
 }
 );
 settings = {
