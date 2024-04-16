@@ -1,3 +1,7 @@
+## 0.25.0
+
+- change direction of ਹ (haha) termination to point at vertical stem
+
 ## 0.24.0
 
 - feat: stylize ੴ (ik oankar) to flow better
