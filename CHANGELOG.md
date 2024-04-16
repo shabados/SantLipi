@@ -1,3 +1,7 @@
+## 0.26.0
+
+- refactor: switch from poetry to hatch
+
 ## 0.25.0
 
 - change direction of ਹ (haha) termination to point at vertical stem
