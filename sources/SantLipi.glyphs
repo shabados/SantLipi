@@ -1,6 +1,9 @@
 {
 .appVersion = "3260";
 .formatVersion = 3;
+DisplayStrings = (
+"ਤ"
+);
 axes = (
 {
 default = 400;
@@ -6820,7 +6823,7 @@ unicode = 2595;
 },
 {
 glyphname = "ta-gurmukhi";
-lastChange = "2023-03-27 22:40:38 +0000";
+lastChange = "2024-11-16 22:49:00 +0000";
 layers = (
 {
 anchors = (
@@ -6830,7 +6833,7 @@ pos = (363,596);
 },
 {
 name = akhn;
-pos = (328,78);
+pos = (159,-3);
 },
 {
 name = below;
@@ -6900,7 +6903,7 @@ pos = (398,576);
 },
 {
 name = akhn;
-pos = (314,30);
+pos = (205,0);
 },
 {
 name = below;
