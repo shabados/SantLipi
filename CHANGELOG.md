@@ -1,3 +1,13 @@
+## 0.27.0
+
+- feat: stylize ੴ (ik oankar) with longer, more circular "kar"
+- ws: backup Sant Lipi for potentially breaking changes
+- test: add tests for narrow above vowel chars
+- feat: point all lav terminals, ai and ee, leftwards
+- test: add ik oankar larivar combos
+- feat: angle final terminal of sihari to point more towards stem of base char
+- feat: position bottom akhand of t char to show better
+
 ## 0.26.0
 
 - refactor: switch from poetry to hatch
