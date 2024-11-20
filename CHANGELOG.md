@@ -1,3 +1,11 @@
+## 0.28.0
+
+- fix: match terminal widths/lengths for above vowels
+- feat: distinguish above vowels from each other better
+- test: add thousands of most commonly found words in shabad os database
+- feat: curve bottom of cha to fit with bottom vowels
+- feat: make many minor adjustments to vowels and akhands
+
 ## 0.27.0
 
 - feat: stylize ੴ (ik oankar) with longer, more circular "kar"
