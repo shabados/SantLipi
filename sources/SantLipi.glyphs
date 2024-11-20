@@ -3874,13 +3874,13 @@ unicode = 2567;
 },
 {
 glyphname = "ii-gurmukhi";
-lastChange = "2023-02-20 15:23:57 +0000";
+lastChange = "2024-11-20 04:49:17 +0000";
 layers = (
 {
 anchors = (
 {
 name = above;
-pos = (675,715);
+pos = (807,577);
 },
 {
 name = akhn;
@@ -3911,7 +3911,7 @@ width = 849;
 anchors = (
 {
 name = above;
-pos = (699,713);
+pos = (753,674);
 },
 {
 name = akhn;
@@ -4447,7 +4447,7 @@ unicode = 2580;
 },
 {
 glyphname = "ka-gurmukhi";
-lastChange = "2023-03-27 23:10:18 +0000";
+lastChange = "2024-11-20 04:22:57 +0000";
 layers = (
 {
 anchors = (
@@ -4461,7 +4461,7 @@ pos = (439,1);
 },
 {
 name = below;
-pos = (241,0);
+pos = (282,0);
 },
 {
 name = nukta;
@@ -4538,7 +4538,7 @@ pos = (453,1);
 },
 {
 name = below;
-pos = (213,0);
+pos = (292,0);
 },
 {
 name = nukta;
@@ -4608,7 +4608,7 @@ unicode = 2581;
 },
 {
 glyphname = "kha-gurmukhi";
-lastChange = "2023-02-20 15:24:50 +0000";
+lastChange = "2024-11-20 04:26:06 +0000";
 layers = (
 {
 anchors = (
@@ -4622,7 +4622,7 @@ pos = (417,1);
 },
 {
 name = below;
-pos = (275,0);
+pos = (303,0);
 },
 {
 name = nukta;
@@ -4759,7 +4759,7 @@ unicode = 2582;
 },
 {
 glyphname = "ga-gurmukhi";
-lastChange = "2023-02-20 15:24:59 +0000";
+lastChange = "2024-11-20 04:11:21 +0000";
 layers = (
 {
 anchors = (
@@ -4773,7 +4773,7 @@ pos = (594,1);
 },
 {
 name = below;
-pos = (405,0);
+pos = (411,-2);
 },
 {
 name = nukta;
@@ -4840,7 +4840,7 @@ pos = (563,1);
 },
 {
 name = below;
-pos = (359,0);
+pos = (364,-2);
 },
 {
 name = nukta;
@@ -5238,7 +5238,7 @@ unicode = 2585;
 },
 {
 glyphname = "ca-gurmukhi";
-lastChange = "2023-03-27 21:36:41 +0000";
+lastChange = "2024-11-20 04:47:16 +0000";
 layers = (
 {
 anchors = (
@@ -5319,7 +5319,7 @@ pos = (314,1);
 },
 {
 name = below;
-pos = (338,-5);
+pos = (328,-5);
 },
 {
 name = nukta;
@@ -6808,7 +6808,7 @@ unicode = 2595;
 },
 {
 glyphname = "ta-gurmukhi";
-lastChange = "2024-11-16 22:49:00 +0000";
+lastChange = "2024-11-20 04:27:55 +0000";
 layers = (
 {
 anchors = (
@@ -6818,7 +6818,7 @@ pos = (363,596);
 },
 {
 name = akhn;
-pos = (159,-3);
+pos = (178,-3);
 },
 {
 name = below;
@@ -6888,7 +6888,7 @@ pos = (398,576);
 },
 {
 name = akhn;
-pos = (205,0);
+pos = (220,0);
 },
 {
 name = below;
@@ -7520,7 +7520,7 @@ unicode = 2599;
 },
 {
 glyphname = "na-gurmukhi";
-lastChange = "2024-11-20 02:35:42 +0000";
+lastChange = "2024-11-20 04:32:05 +0000";
 layers = (
 {
 anchors = (
@@ -7534,7 +7534,7 @@ pos = (388,36);
 },
 {
 name = below;
-pos = (312,0);
+pos = (312,-6);
 },
 {
 name = nukta;
@@ -7597,7 +7597,7 @@ pos = (363,34);
 },
 {
 name = below;
-pos = (280,0);
+pos = (280,-4);
 },
 {
 name = nukta;
@@ -8110,7 +8110,7 @@ unicode = 2604;
 },
 {
 glyphname = "bha-gurmukhi";
-lastChange = "2023-02-20 15:29:58 +0000";
+lastChange = "2024-11-20 04:51:28 +0000";
 layers = (
 {
 anchors = (
@@ -8295,7 +8295,7 @@ unicode = 2605;
 },
 {
 glyphname = "ma-gurmukhi";
-lastChange = "2023-02-20 15:30:05 +0000";
+lastChange = "2024-11-20 04:24:58 +0000";
 layers = (
 {
 anchors = (
@@ -8309,7 +8309,7 @@ pos = (402,1);
 },
 {
 name = below;
-pos = (272,0);
+pos = (301,-2);
 },
 {
 name = nukta;
@@ -8367,7 +8367,7 @@ pos = (407,1);
 },
 {
 name = below;
-pos = (234,0);
+pos = (269,-2);
 },
 {
 name = nukta;
@@ -9252,7 +9252,7 @@ unicode = 2614;
 },
 {
 glyphname = "sa-gurmukhi";
-lastChange = "2023-02-20 15:31:14 +0000";
+lastChange = "2024-11-20 04:30:59 +0000";
 layers = (
 {
 anchors = (
@@ -9266,7 +9266,7 @@ pos = (402,1);
 },
 {
 name = below;
-pos = (284,0);
+pos = (300,-2);
 },
 {
 name = nukta;
@@ -9329,7 +9329,7 @@ pos = (410,1);
 },
 {
 name = below;
-pos = (259,0);
+pos = (271,-2);
 },
 {
 name = nukta;
@@ -9385,7 +9385,7 @@ unicode = 2616;
 },
 {
 glyphname = "ha-gurmukhi";
-lastChange = "2024-04-16 15:46:14 +0000";
+lastChange = "2024-11-20 04:33:11 +0000";
 layers = (
 {
 anchors = (
@@ -9395,11 +9395,11 @@ pos = (377,596);
 },
 {
 name = akhn;
-pos = (237,1);
+pos = (262,1);
 },
 {
 name = below;
-pos = (293,0);
+pos = (295,-5);
 },
 {
 name = nukta;
@@ -9453,11 +9453,11 @@ pos = (395,576);
 },
 {
 name = akhn;
-pos = (270,6);
+pos = (288,6);
 },
 {
 name = below;
-pos = (270,-2);
+pos = (277,-2);
 },
 {
 name = nukta;
@@ -18699,7 +18699,7 @@ unicode = 2626;
 },
 {
 glyphname = "eeMatra-gurmukhi";
-lastChange = "2024-11-20 02:13:20 +0000";
+lastChange = "2024-11-20 04:56:17 +0000";
 layers = (
 {
 anchors = (
@@ -18718,7 +18718,7 @@ shapes = (
 closed = 1;
 nodes = (
 (-62,578,l),
-(-62,783,o),
+(-62,773,o),
 (-301,826,o),
 (-396,826,c),
 (-396,713,l),
@@ -20123,7 +20123,7 @@ width = 0;
 },
 {
 glyphname = "yakash-gurmukhi";
-lastChange = "2023-01-29 20:39:54 +0000";
+lastChange = "2024-11-20 04:17:06 +0000";
 layers = (
 {
 anchors = (
@@ -20151,9 +20151,9 @@ nodes = (
 (18,-155,o),
 (-12,-155,cs),
 (-43,-155,o),
-(-65,-134,o),
-(-65,-95,cs),
-(-65,10,l),
+(-73,-134,o),
+(-73,-95,cs),
+(-73,10,l),
 (-198,10,l),
 (-198,-98,ls),
 (-198,-209,o),
@@ -20538,7 +20538,7 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "raBelow-gurmukhi";
-lastChange = "2023-01-29 20:39:38 +0000";
+lastChange = "2024-11-20 04:19:41 +0000";
 layers = (
 {
 anchors = (
@@ -20548,7 +20548,7 @@ pos = (-198,10);
 },
 {
 name = below;
-pos = (-373,-208);
+pos = (-198,-228);
 }
 );
 layerId = master02;
@@ -20586,7 +20586,7 @@ pos = (-145,20);
 },
 {
 name = below;
-pos = (-311,-145);
+pos = (-145,-164);
 }
 );
 layerId = master03;
