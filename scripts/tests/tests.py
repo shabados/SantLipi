@@ -1,6 +1,8 @@
 from scripts.constants import NL
 from scripts.tests.mark_attachments import ma_items
 from scripts.tests.multi_vowel_attachments import mva_items
+from scripts.tests.most_common_words import extra_fields_items
+from scripts.tests.most_common_words import data_items
 
 # Instantiate Tests
 tests = []
@@ -226,6 +228,11 @@ add_proof_sheet_test("mark-attachments", "Mark Attachments", items)
 items = mva_items
 add_proof_sheet_test("multi-vowel-attachments", "Multiple Vowel Attachments", items)
 
+items = data_items
+add_proof_sheet_test("common-words-data", "Common Words in Src", items)
+
+items = extra_fields_items
+add_proof_sheet_test("common-words-extra-fields", "Common Words in Extra Fields", items)
 
 items = [
     {"item": "ਦੇਂਹਿ", "description": "Bindi between vowels"},
