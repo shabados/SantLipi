@@ -287,3 +287,21 @@ items = [
     {"item": "ਆਦਿ ਸਚੁ\ue000", "description": ""},
 ]
 add_proof_sheet_test("vishram", "Vishram Symbols", items)
+
+items = [
+    {"item": "ਭਾਉ॥ਮਸੂ", "description": "without spaces"},
+    {"item": "ਭਾਉ॥ ਮਸੂ", "description": "spaced"},
+    {"item": "ਭਾਉ ॥ ਮਸੂ", "description": "spaced"},
+    {"item": "ਨਾਉ॥੪॥੨॥", "description": "without spaces"},
+    {"item": "ਨਾਉ॥੪॥੨॥", "description": "spaced"},
+    {"item": "ਨਾਉ ॥੪॥੨॥", "description": "spaced"},
+    {"item": "ਨਾਉ ॥ ੪॥੨॥", "description": "spaced"},
+    {"item": "ਨਾਉ ॥ ੪ ॥੨॥", "description": "spaced"},
+    {"item": "ਨਾਉ ॥ ੪ ॥ ੨॥", "description": "spaced"},
+    {"item": "ਨਾਉ ॥ ੪ ॥ ੨ ॥", "description": "spaced"},
+    {"item": "ਨਾਉ॥੪॥੨॥ਸਿਰੀਰਾਗੁਮਹਲਾ੧॥ਲੇਖੈ", "description": "without spaces"},
+    {"item": "ਨਾਉ ॥੪॥੨॥ ਸਿਰੀਰਾਗੁ ਮਹਲਾ ੧ ॥ ਲੇਖੈ", "description": "spaced"},
+    {"item": "ਓਹੁ॥੧॥ਰਹਾਉ॥ਜੀਵਣ", "description": "without spaces"},
+    {"item": "ਓਹੁ ॥੧॥ ਰਹਾਉ ॥ ਜੀਵਣ", "description": "spaced"},
+]
+add_proof_sheet_test("doubledanda", "Double ਡੰਡਾ/ਹੱਦ character (॥)  #53", items)
