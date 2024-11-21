@@ -1,3 +1,7 @@
+## 0.29.0
+
+- feat: add joiners to dbldanda in continuous scripts
+
 ## 0.28.0
 
 - fix: match terminal widths/lengths for above vowels
