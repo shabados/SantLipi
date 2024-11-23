@@ -1,3 +1,9 @@
+## 0.30.0
+
+- ws: rename gh action to prerelease
+- ws: rename gh action to prerelease
+- feat: add narrow ekonkar for continuous scripts
+
 ## 0.29.0
 
 - feat: add joiners to dbldanda in continuous scripts
