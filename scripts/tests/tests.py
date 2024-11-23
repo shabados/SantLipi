@@ -41,7 +41,6 @@ items = [
     {"item": "ਉਠੈ ਡਿਠੈ ਮਜੀਠੈ ਕੈਠੈ ਉਠੈਂ ਬੈਕੁੰਠੈ ਉੱਠੈ ਮੁੱਠੈ ਐਂਠੈ", "description": "ਠੈ (੩੭੨)"},
     {"item": "ਨੇ ਅਪਨੇ ਕਰਨੇ ਅਨੇਕਾਂ ਅਨੇਕ ਨੇੜੇ ਖ਼ਜ਼ਾਨੇ ਤੈਨੇ ਜਿਤਨੇ ਕਿਤਨੇ ਮੈਨੇ ਮੈਂਨੇ ਹਨੇਰਾ ਨੇਤ੍ਰ ਮਹੀਨੇ ਨੇਤ੍ਰੋਂ ਹੋਨੇ ਮੰਨੇ ਤਿੰਨੇ ਜਿੰਨੇ ਤੈਂਨੇ ਓਨੇ ਉਨੇ ਉੱਨੇ", "description": "ਨੇ (67.9k)"},
     {"item": "ਨੈਨ ਜਾਨੈ ਮਾਨੈ ਚੀਨੈ ਮੰਨੈ ਨੈਣੰ ਇਨੈ ਪੰਨੈ ਨੈਂ ਨੈਨੋਂ ਨੈਨੌ ਉਨੈ", "description": "ਨੈ (3.7k)"},
-    {"item": "ੴਸਤਿ ੴ ਸਤਿ ੴਵਾਹਿ ੴ ਵਾਹਿ ੴ", "description": "ੴ"},
 ]
 add_proof_sheet_test("unsorted", "Unsorted", items)
 
@@ -303,5 +302,7 @@ items = [
     {"item": "ਨਾਉ ॥੪॥੨॥ ਸਿਰੀਰਾਗੁ ਮਹਲਾ ੧ ॥ ਲੇਖੈ", "description": "spaced"},
     {"item": "ਓਹੁ॥੧॥ਰਹਾਉ॥ਜੀਵਣ", "description": "without spaces"},
     {"item": "ਓਹੁ ॥੧॥ ਰਹਾਉ ॥ ਜੀਵਣ", "description": "spaced"},
+    {"item": 'ੴਸਤਿ ੴਵਾਹਿ ੴਹੁਕਮ (ੴ) "ੴ" ੴ 13', "description": "ੴ without spaces"},
+    {"item": 'ੴ ਸਤਿ ੴ ਵਾਹਿ ੴ ਹੁਕਮ ( ੴ ) " ੴ " ੴ 13', "description": "ੴ spaced"},
 ]
 add_proof_sheet_test("doubledanda", "Double ਡੰਡਾ/ਹੱਦ character (॥)  #53", items)
