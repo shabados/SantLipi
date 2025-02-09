@@ -303,7 +303,11 @@ items = [
     {"item": "ਨਾਉ ॥੪॥੨॥ ਸਿਰੀਰਾਗੁ ਮਹਲਾ ੧ ॥ ਲੇਖੈ", "description": "spaced"},
     {"item": "ਓਹੁ॥੧॥ਰਹਾਉ॥ਜੀਵਣ", "description": "without spaces"},
     {"item": "ਓਹੁ ॥੧॥ ਰਹਾਉ ॥ ਜੀਵਣ", "description": "spaced"},
-    {"item": 'ੴਸਤਿ ੴਵਾਹਿ ੴਹੁਕਮ (ੴ) "ੴ" ੴ 13', "description": "ੴ without spaces"},
-    {"item": 'ੴ ਸਤਿ ੴ ਵਾਹਿ ੴ ਹੁਕਮ ( ੴ ) " ੴ " ੴ 13', "description": "ੴ spaced"},
+    {"item": "ਭਾਗ॥ਆਦੇਸੁ", "description": "without spaces"},
+    {"item": "ਭਾਗ ॥ ਆਦੇਸੁ", "description": "spaced"},
+    {"item": "ਵਾਰ॥ਚੁਪੈ", "description": "without spaces"},
+    {"item": "ਵਾਰ ॥ ਚੁਪੈ", "description": "spaced"},
+    {"item": 'ੴਸਤਿ ੴਸ੍ਰੀ ੴਵਾਹਿ ੴਹੁਕਮ (ੴ) "ੴ" ੴ 13', "description": "ੴ without spaces"},
+    {"item": 'ੴ ਸਤਿ ੴ ਸ੍ਰੀ ੴ ਵਾਹਿ ੴ ਹੁਕਮ ( ੴ ) " ੴ " ੴ 13', "description": "ੴ spaced"},
 ]
 add_proof_sheet_test("doubledanda", "Double ਡੰਡਾ/ਹੱਦ character (॥)  #53", items)
