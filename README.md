@@ -57,10 +57,10 @@ VS1-4 (`U+FE00` - `U+FE03`) opens the left, top, bottom, and right sides (respec
 
 **Bihari Nasals**
 
-Harfbuzz respects shaping bindi before bihari, however coretext and uniscribe do not. The following workaround using a ZWJ works in all major browsers on macOS and Windows. Possible issues include additional marks/vowels on consonant between the bindi and bihari. If you encounter this problem, please open a new issue in the Sant Lipi repo. These pre-bihari nasals can be viewed in the [Sant Lipi Test Suite](https://shabados.github.io/SantLipi/index.html).
+Harfbuzz respects shaping bindi before bihari, however coretext and uniscribe do not. Coretext supports joining a bihari with ZWJ, however Harfbuzz does not. The following workaround uses VS1 and works in all major browsers on macOS and Windows. Possible issues include additional marks/vowels on consonant between the bindi and bihari. If you encounter this problem, please open a new issue in the Sant Lipi repo. These pre-bihari nasals can be viewed in the [Sant Lipi Test Suite](https://shabados.github.io/SantLipi/index.html).
 
 - Tippi before Bihari, ੀ + ੰ
-- Bindi before Bihari, ਂ + ZWJ + ੀ (`U+200D`: Zero Width Joiner)
+- Bindi before Bihari ੀਂ + VS1
 
 **Extra**
 

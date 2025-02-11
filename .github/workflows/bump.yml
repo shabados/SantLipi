@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       next-version:
-        description: 'override with custom version number'
+        description: "override with custom version number"
         required: false
 
 env:
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 

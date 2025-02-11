@@ -3,7 +3,7 @@ name: Publish
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+*'
+      - "v[0-9]+.[0-9]+.[0-9]+*"
 
 env:
   VERSION: ${{ github.ref_name }}
@@ -14,11 +14,11 @@ jobs:
     env:
       NODE_AUTH_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '16.x'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "22.x"
+          registry-url: "https://registry.npmjs.org"
       - run: wget -P packages/npm/sant-lipi/ "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.woff2"
       - run: npm publish
         working-directory: packages/npm/sant-lipi
@@ -28,7 +28,7 @@ jobs:
       id-token: write # Required for authentication using OIDC
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Copy files
         run: cp CHANGELOG.md packages/pubdev/sant_lipi/CHANGELOG.md
