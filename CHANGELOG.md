@@ -1,3 +1,11 @@
+## 0.31.0
+
+- fix: add space character for ligatures in npm package
+- feat: shape vowel diacritics better
+- feat: lower ascender to give i vowel a smaller counter
+- added tests for double danda and mangals
+- major rehaul of anchors, vowels, marks
+
 ## 0.30.0
 
 - ws: rename gh action to prerelease
