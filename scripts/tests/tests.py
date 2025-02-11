@@ -1,4 +1,4 @@
-from scripts.constants import NL
+import scripts.constants as constants
 from scripts.tests.mark_attachments import ma_items
 from scripts.tests.multi_vowel_attachments import mva_items
 from scripts.tests.most_common_words import extra_fields_items
@@ -6,6 +6,12 @@ from scripts.tests.most_common_words import data_items
 
 # Instantiate Tests
 tests = []
+
+gurmukhi_numerals = {0: "੦", 1: "੧", 2: "੨", 3: "੩", 4: "੪", 5: "੫", 6: "੬", 7: "੭", 8: "੮", 9: "੯"}
+
+
+def number_to_gurmukhi(number):
+    return "".join(gurmukhi_numerals[int(digit)] for digit in str(number))
 
 
 def add_test(url, template, hash):
@@ -45,6 +51,122 @@ items = [
 ]
 add_proof_sheet_test("unsorted", "Unsorted", items)
 
+BASE_CHARACTERS = (
+    list(constants.VOWEL_LETTERS)
+    + list(constants.BASE_LETTERS)
+    + constants.YAYYA_LETTERS
+    + constants.HALF_LETTERS
+    + constants.MAHAN_KOSH_LETTERS
+)
+
+items = []
+for letter in BASE_CHARACTERS:
+    items.append({"item": f"{letter}\u0a02 {letter}\u0a70", "description": ""})
+add_proof_sheet_test("anchor-nasal", "Anchor - Nasal", items)
+
+items = []
+for letter in BASE_CHARACTERS:
+    items.append({"item": f"{letter}\u0a71{letter} {letter}\u0a01{letter}", "description": ""})
+add_proof_sheet_test("anchor-gem", "Anchor - Gem", items)
+
+items = []
+for letter in BASE_CHARACTERS:
+    items.append({"item": f"{letter}\u0a3c", "description": ""})
+add_proof_sheet_test("anchor-nukta", "Anchor - Nukta", items)
+
+items = []
+for letter in BASE_CHARACTERS:
+    appendage = ""
+    for char in constants.BELOW_LETTERS + constants.BELOW_LETTERS_EXTENDED:
+        appendage += f"{letter}{constants.VIRAMA}{char} "
+    for mark in constants.VIRAMA + "ੑ" + "ੵ":
+        appendage += f"{letter}{mark} "
+    items.append({"item": f"{appendage.strip()}", "description": ""})
+add_proof_sheet_test("anchor-joint", "Anchor - Joint", items)
+
+items = []
+for letter in BASE_CHARACTERS:
+    appendage = ""
+    for vowel in constants.TOP_VOWEL_ATTACHMENTS:
+        appendage += f"{letter}{vowel} "
+    items.append({"item": f"{appendage.strip()}", "description": ""})
+add_proof_sheet_test("anchor-above-vowel", "Anchor - Above Vowel", items)
+
+items = []
+for letter in BASE_CHARACTERS:
+    appendage = ""
+    for vowel in constants.BOTTOM_VOWEL_ATTACHMENTS:
+        appendage += f"{letter}{vowel} "
+    items.append({"item": f"{appendage.strip()}", "description": ""})
+add_proof_sheet_test("anchor-below-vowel", "Anchor - Below Vowel", items)
+
+items = [
+    {"item": f"ਨੀਂ{constants.NL['vs1']}ਦ", "description": "6"},
+    {"item": f"ਤੁਹੀਂ{constants.NL['vs1']}", "description": "2"},
+    {"item": f"ਗਲੀਂ{constants.NL['vs1']}", "description": "2"},
+    {"item": f"ਕਰੀਂ{constants.NL['vs1']}", "description": "2"},
+    {"item": f"ਕਿਤੀਂ{constants.NL['vs1']}", "description": "2"},
+    {"item": f"ਨਕੀਂ{constants.NL['vs1']}", "description": "2"},
+    {"item": f"ਵਢੀਂ{constants.NL['vs1']}", "description": "2"},
+    {"item": f"ਅਖੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਕੁਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਮਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਵਡਭਾਗੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਗਣੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸਿਫਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਰੂਪੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਮਾਲੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਹੀਂ{constants.NL['vs1']}ਅ", "description": "1"},
+    {"item": f"ਮਨੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸੀਂ{constants.NL['vs1']}ਗਾਰਾ", "description": "1"},
+    {"item": f"ਕਾਲੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਕਤੇਬੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸੀਂ{constants.NL['vs1']}ਗਾਰੁ", "description": "1"},
+    {"item": f"ਬਡਭਾਗੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਅੰਧੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਹੀਂ{constants.NL['vs1']}ਉ", "description": "1"},
+    {"item": f"ਨੀਂ{constants.NL['vs1']}ਦ੍ਰਾਵਲੇ", "description": "1"},
+    {"item": f"ਥਿਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਲਿਖਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸਗਲੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸਉਦੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਰਾਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਜਾਂਹੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਭਾਵੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਗੁਣੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਭਗਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਮੀਂ{constants.NL['vs1']}ਰਾ", "description": "1"},
+    {"item": f"ਥੁੜੀਂ{constants.NL['vs1']}ਦੋ", "description": "1"},
+    {"item": f"ਕਚੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਨੀਂ{constants.NL['vs1']}ਵਾਂ", "description": "1"},
+    {"item": f"ਚੰਦੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਦੁਨੀਂ{constants.NL['vs1']}ਆ", "description": "1"},
+    {"item": f"ਸੀਂ{constants.NL['vs1']}ਗਾਰ", "description": "1"},
+    {"item": f"ਗੁਰਸਿਖੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਧਰਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸੁਰਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸਲਾਹੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸਖੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਰੂਖੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਬਿਰਖੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਮਖੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਬੁਧੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਪੁਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਗਨੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਬੇਦੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਨਾੜੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਭਤੀਜੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸਨਾਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਰਾਗੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਵੇਦੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਸੀਂ{constants.NL['vs1']}ਗਾਰੋ", "description": "1"},
+    {"item": f"ਦਾਤੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਥੀਂ{constants.NL['vs1']}ਧਾ", "description": "1"},
+    {"item": f"ਨਥੀਂ{constants.NL['vs1']}", "description": "1"},
+    {"item": f"ਧਰੀਂ{constants.NL['vs1']}", "description": "1"},
+]
+add_proof_sheet_test("db-bindi-before-bihari", "DB - Bindi Before Bihari", items)
+
 # ASCII
 items = []
 for number in range(0, 128):
@@ -82,10 +204,14 @@ add_proof_sheet_test("spg", "SPG", items)
 # Markup
 items = [
     {"item": "\u0a28\u0a40\u0a02", "description": "Bindi After (ੀ + ਂ)"},
-    {"item": "\u0a28\u0a02\u0a40", "description": "Bindi Before (ਂ + ੀ) Harfbuzz"},
+    {"item": "\u0a28\u0a02\u0a40 \u0a15\u0a1a\u0a02\u0a40", "description": "Bindi Before (ਂ + ੀ) Harfbuzz"},
     {
-        "item": f"\u0a28\u0a02{NL['zwj']}\u0a40",
-        "description": "Bindi Before (ਂ + ZWJ + ੀ)",
+        "item": f"\u0a28\u0a02{constants.NL['zwj']}\u0a40 \u0a15\u0a1a\u0a02{constants.NL['zwj']}\u0a40",
+        "description": "Bindi Before (ਂ + ZWJ + ੀ) Coretext",
+    },
+    {
+        "item": f"\u0a28\u0a40\u0a02{constants.NL['vs1']} \u0a15\u0a1a\u0a40\u0a02{constants.NL['vs1']}",
+        "description": "VS1 workaround for both",
     },
     {"item": "\u0a28\u0a40\u0a70", "description": "Tippi (ੀ + ੰ)"},
 ]
@@ -135,7 +261,7 @@ add_proof_sheet_test("yayya", "Yayya", items)
 items = [
     {"item": "︃ਸ", "description": "स् (half s) = VS4 + ਸ"},
     {
-        "item": f'{NL["sh"]}{NL["kana"]}{NL["s"]}{NL["halant"]}{NL["zwj"]}{NL["t"]}{NL["halant"]}{NL["r"]}',
+        "item": f'{constants.NL["sh"]}{constants.NL["kana"]}{constants.NL["s"]}{constants.NL["halant"]}{constants.NL["zwj"]}{constants.NL["t"]}{constants.NL["halant"]}{constants.NL["r"]}',
         "description": "ਸ + ੍ + ZWJ",
     },
     {"item": "︄ਧ", "description": "VS5 + ਧ"},
@@ -166,9 +292,9 @@ add_proof_sheet_test("mahan-kosh", "Mahan Kosh", items)
 
 # Subscript Numerals
 items = [
-    {"item": "ਮਾਝ₁", "description": "Subscript 1"},
-    {"item": "ਬੈਰਾਗਣਿ₁", "description": "Subscript 1"},
-    {"item": "ਤਿਪਦੇ₁₅", "description": "Subscript 1 & 5"},
+    {"item": "ਮਾਝ₁ਮਾਝ₁", "description": "Subscript 1"},
+    {"item": "ਬੈਰਾਗਣਿ₁ਬੈਰਾਗਣਿ₁", "description": "Subscript 1"},
+    {"item": "ਤਿਪਦੇ₁₅ਤਿਪਦੇ₁₅", "description": "Subscript 1 & 5"},
     {"item": "ਮਾਲਾ₂", "description": "Subscript 2"},
     {"item": "ਕਾਫੀ₂", "description": "Subscript 2"},
     {"item": "ਚਾਰਤੁਕੇ₂", "description": "Subscript 2"},
@@ -222,6 +348,17 @@ items = [
 ]
 add_proof_sheet_test("diacritics", "Diacritics", items)
 
+items = []
+add_to_loop = ["ਿ", "ਿੰ", "ਿੱ"]
+for adder in add_to_loop:
+    string = ""
+    for letter in constants.BASE_LETTERS:
+        string += f"{letter}{adder} "
+    items.append(
+        {"item": string, "description": adder},
+    )
+add_proof_sheet_test("sihari-combos", "Sihari Combos ਿ", items)
+
 items = ma_items
 add_proof_sheet_test("mark-attachments", "Mark Attachments", items)
 
@@ -272,11 +409,16 @@ items = [
 ]
 add_proof_sheet_test("letter-numbers", "Letter-Number Comparison", items)
 
+items = []
+for number in range(0, 1000):
+    items.append({"item": number_to_gurmukhi(number), "description": ""})
+add_proof_sheet_test("1000numbers", "Numbers 0-1000", items)
+
 items = [{"item": "ਲੰ", "description": ""}]
 add_side_by_side_test("nasal-attachment", "Nasalizations", items)
 
 items = [
-    {"item": f'{NL["ikoankar"]} {NL["s"]}{NL["t"]}{NL["sihari"]}', "description": ""},
+    {"item": f'{constants.NL["ikoankar"]} {constants.NL["s"]}{constants.NL["t"]}{constants.NL["sihari"]}', "description": ""},
     {"item": "ਮੰਨੈ", "description": ""},
     {"item": "ਤੁਧਨੋ", "description": ""},
     {"item": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ", "description": ""},
