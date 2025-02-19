@@ -345,6 +345,7 @@ items = [
     {"item": "ਧੵਿਾ", "description": ""},
     {"item": "ਥੵੰਤ", "description": ""},
     {"item": "\u0a32\u0a75\u0a3f\u0a4b", "description": ""},
+    {"item": "ਮ੍ਰਿਤੵੁ", "description": ""},
 ]
 add_proof_sheet_test("diacritics", "Diacritics", items)
 
