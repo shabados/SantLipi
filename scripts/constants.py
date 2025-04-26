@@ -88,6 +88,12 @@ NL = {
     "ikoankar": "ੴ",
     "zwnj": "‌",
     "zwj": "‍",
+    "combining-vertical-line-above": "\u030d",
+    "combining-macron-below": "\u0331",
+    "combining-dot-above": "\u0307",
+    "combining-diaeresis": "\u0308",
+    "combining-dot-below": "\u0323",
+    "combining-diaeresis-below": "\u0324",
 }
 
 BASE_LETTERS = "ਸਹਕਖਗਘਙਚਛਜਝਞਟਠਡਢਣਤਥਦਧਨਪਫਬਭਮਯਰਲਵੜਸ਼ਖ਼ਗ਼ਜ਼ਫ਼ਲ਼"

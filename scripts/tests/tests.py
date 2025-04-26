@@ -38,6 +38,75 @@ def dec2uni(decimal):
     return f"{format(ord(chr(decimal)), '04x')}"
 
 
+octave_marks = [
+    "",
+    f"{constants.NL['combining-dot-above']}",
+    f"{constants.NL['combining-diaeresis']}",
+    f"{constants.NL['combining-dot-above']}{constants.NL['combining-dot-above']}",
+    f"{constants.NL['combining-diaeresis']}{constants.NL['combining-dot-above']}",
+    f"{constants.NL['combining-dot-above']}{constants.NL['combining-diaeresis']}",
+    f"{constants.NL['combining-diaeresis']}{constants.NL['combining-diaeresis']}",
+    f"{constants.NL['combining-dot-below']}",
+    f"{constants.NL['combining-diaeresis-below']}",
+    f"{constants.NL['combining-dot-below']}{constants.NL['combining-dot-below']}",
+    f"{constants.NL['combining-diaeresis-below']}{constants.NL['combining-dot-below']}",
+    f"{constants.NL['combining-dot-below']}{constants.NL['combining-diaeresis-below']}",
+    f"{constants.NL['combining-diaeresis-below']}{constants.NL['combining-diaeresis-below']}",
+]
+
+items = []
+notes = [
+    f"{constants.NL['s']}",
+    f"{constants.NL['r']}{constants.NL['combining-macron-below']}",
+    f"{constants.NL['r']}",
+    f"{constants.NL['g']}{constants.NL['combining-macron-below']}",
+    f"{constants.NL['g']}",
+    f"{constants.NL['m']}",
+    f"{constants.NL['m']}{constants.NL['combining-vertical-line-above']}",
+    f"{constants.NL['p']}",
+    f"{constants.NL['dh']}{constants.NL['combining-macron-below']}",
+    f"{constants.NL['dh']}",
+    f"{constants.NL['n']}{constants.NL['combining-macron-below']}",
+    f"{constants.NL['n']}",
+]
+for note in notes:
+    for mark in octave_marks:
+        items.append(
+            {
+                "item": f"{note}{mark}",
+                "description": "",
+            }
+        )
+
+add_proof_sheet_test("swar-lipi", "Swar Lipi (North Indian Musical Notation) - Issue #86", items)
+
+items = []
+notes = [
+    f"{constants.NL['s']}{constants.NL['kana']}",
+    f"{constants.NL['r']}{constants.NL['lava']}{constants.NL['combining-macron-below']}",
+    f"{constants.NL['r']}{constants.NL['lava']}",
+    f"{constants.NL['g']}{constants.NL['kana']}{constants.NL['combining-macron-below']}",
+    f"{constants.NL['g']}{constants.NL['kana']}",
+    f"{constants.NL['m']}{constants.NL['kana']}",
+    f"{constants.NL['m']}{constants.NL['kana']}{constants.NL['combining-vertical-line-above']}",
+    f"{constants.NL['p']}{constants.NL['kana']}",
+    f"{constants.NL['dh']}{constants.NL['kana']}{constants.NL['combining-macron-below']}",
+    f"{constants.NL['dh']}{constants.NL['kana']}",
+    f"{constants.NL['n']}{constants.NL['bihari']}{constants.NL['combining-macron-below']}",
+    f"{constants.NL['n']}{constants.NL['bihari']}",
+]
+for note in notes:
+    for mark in octave_marks:
+        items.append(
+            {
+                "item": f"{note}{mark}",
+                "description": "",
+            }
+        )
+
+add_proof_sheet_test("swar-lipi-long", "Swar Lipi Long Forms (NIMN) - Issue #86", items)
+
+
 items = [
     {"item": "ਙੰਙੇ ਘੰਙੇ", "description": "ਙੇ (6)"},
     {"item": "ਙੰਙੈ ਘੰਙੈ ਰੰਙੈ ਅੰਙੈ", "description": "ਙੈ (12)"},
@@ -454,4 +523,4 @@ items = [
     {"item": 'ੴਸਤਿ ੴਸ੍ਰੀ ੴਵਾਹਿ ੴਹੁਕਮ (ੴ) "ੴ" ੴ 13', "description": "ੴ without spaces"},
     {"item": 'ੴ ਸਤਿ ੴ ਸ੍ਰੀ ੴ ਵਾਹਿ ੴ ਹੁਕਮ ( ੴ ) " ੴ " ੴ 13', "description": "ੴ spaced"},
 ]
-add_proof_sheet_test("doubledanda", "Double ਡੰਡਾ/ਹੱਦ character (॥)  #53", items)
+add_proof_sheet_test("doubledanda", "Double ਡੰਡਾ/ਹੱਦ character (॥) - Issue #53", items)

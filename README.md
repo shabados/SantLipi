@@ -116,6 +116,27 @@ Notes:
 - VS4 + VS5 + ਸ renders differently than ਕ + ੍ virama + ਸ਼ would, to respect the specific glyph in Mahan Kosh.
 - VS5 + ਧ + ਼ (nukta) was used to render a S sound simply because the glyphs are similar. If this were to be used outside Mahan Kosh, then the logic can be revised.
 
+**Swar Lipi**
+
+Bhakthande's Swar Notation script is implemented with Combining Diacritical Marks (`U+0300` - `U+036F`). Only the short forms (single char) is officially supported. There are issues with implementing above vocal notes on ਰੇ and ਨੀ, but single char notations ਰ and ਨ work fine. This section provides a solution for some of the issues raised in [L2/13-227](https://www.unicode.org/L2/L2013/13227-gurmukhi-music.pdf), to write musical notation in gurmukhi.
+
+- U+030D (Combining Vertical Line Above) to mark ਤੀਵਰ (sharp note) on ਮ
+- U+0331 (Combining Macron Below) to mark ਕੋਮਲ (flat note) on ਰ, ਗ, ਧ, and ਨ
+- U+0307 (Combining Dot Above) to mark a note as one ਸਪਤਕ (octave) higher
+- U+0308 (Combining Diaeresis) same concept, but two higher
+- U+0323 (Combining Dot Below) same concept, but one lower
+- U+0324 (Combining Diaeresis Below) same concept, but two lower
+
+Musical notes should be marked ਤੀਵਰ/ਕੋਮਲ (sharp/flat) before adding the octave. In many sangeet books, there are just three octaves ਮੰਦ੍ਰ ਸਪਤਕ, ਮੱਧ ਸਪਤਕ, and ਤਾਰ ਸਪਤਕ. These can be shown respectively as a single dot below, omitted, or above.
+
+Sant Lipi allows for 3 and 4 octave changes, even though there is no apparent need for it. The combining dot and diaeresis can be stacked. For example:
+
+- 2x Combining Dot Above will show two octaves higher in a vertical pattern
+- A Combining Diaeresis and a Combining Dot Above will show three octaves higher in a pyramid/triangle pattern
+- 2x Combining Diaeresis will show four octaves higher in a square pattern
+
+This can be done for bottom dots as well. There are no rules on the order. In the above examples 2-1 creates a pyramid pattern, but 1-2 would create an inverted pyramid above. Other options, such as 1-2-1 pattern can be used to create a diamond.
+
 ## Quality Assurance
 
 Sant Lipi has been tested using React Native's text component on Android and iOS, Chrome and Firefox on Windows and macOS, Edge on Windows, and Safari on macOS. Sant Lipi renders correctly via multiple text shaping engines including Uniscribe, CoreText, and HarfBuzz.
