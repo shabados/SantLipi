@@ -1,3 +1,11 @@
+## 0.32.0
+
+- ws: upgrade action versions
+- added ਮ੍ਰਿਤੵੁ to diacritic list
+- feat: match bihari on center stroke with sihari style
+- feat: center nna-gurmukhi stem and reduce mid width
+- feat: add swar lipi musical notation
+
 ## 0.31.0
 
 - fix: add space character for ligatures in npm package
