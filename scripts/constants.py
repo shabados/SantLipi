@@ -94,6 +94,8 @@ NL = {
     "combining-diaeresis": "\u0308",
     "combining-dot-below": "\u0323",
     "combining-diaeresis-below": "\u0324",
+    "devanagari-stress-sign-udatta": "\u0951",
+    "devanagari-stress-sign-anudatta": "\u0952",
 }
 
 BASE_LETTERS = "ਸਹਕਖਗਘਙਚਛਜਝਞਟਠਡਢਣਤਥਦਧਨਪਫਬਭਮਯਰਲਵੜਸ਼ਖ਼ਗ਼ਜ਼ਫ਼ਲ਼"

@@ -81,7 +81,7 @@ for note in notes:
 add_proof_sheet_test("swar-lipi", "Swar Lipi (North Indian Musical Notation) - Issue #86", items)
 
 items = []
-notes = [
+notes_long = [
     f"{constants.NL['s']}{constants.NL['kana']}",
     f"{constants.NL['r']}{constants.NL['lava']}{constants.NL['combining-macron-below']}",
     f"{constants.NL['r']}{constants.NL['lava']}",
@@ -95,7 +95,7 @@ notes = [
     f"{constants.NL['n']}{constants.NL['bihari']}{constants.NL['combining-macron-below']}",
     f"{constants.NL['n']}{constants.NL['bihari']}",
 ]
-for note in notes:
+for note in notes_long:
     for mark in octave_marks:
         items.append(
             {
@@ -105,6 +105,70 @@ for note in notes:
         )
 
 add_proof_sheet_test("swar-lipi-long", "Swar Lipi Long Forms (NIMN) - Issue #86", items)
+
+items = []
+octave_marks_simple = [
+    "",
+    f"{constants.NL['combining-dot-above']}",
+    f"{constants.NL['combining-diaeresis']}",
+    f"{constants.NL['combining-dot-below']}",
+    f"{constants.NL['combining-diaeresis-below']}",
+]
+for note in notes:
+    for mark in octave_marks_simple:
+        items.append(
+            {
+                "item": f"{note}{mark}",
+                "description": "",
+            }
+        )
+add_proof_sheet_test("swar-lipi-positioning", "Line up symbols (NIMN) - Issue #88", items)
+
+items = []
+notes_deva = [
+    f"{constants.NL['s']}",
+    f"{constants.NL['r']}{constants.NL['devanagari-stress-sign-anudatta']}",
+    f"{constants.NL['r']}",
+    f"{constants.NL['g']}{constants.NL['devanagari-stress-sign-anudatta']}",
+    f"{constants.NL['g']}",
+    f"{constants.NL['m']}",
+    f"{constants.NL['m']}{constants.NL['devanagari-stress-sign-udatta']}",
+    f"{constants.NL['p']}",
+    f"{constants.NL['dh']}{constants.NL['devanagari-stress-sign-anudatta']}",
+    f"{constants.NL['dh']}",
+    f"{constants.NL['n']}{constants.NL['devanagari-stress-sign-anudatta']}",
+    f"{constants.NL['n']}",
+]
+for note in notes_deva:
+    for mark in octave_marks_simple:
+        items.append(
+            {
+                "item": f"{note}{mark}",
+                "description": "",
+            }
+        )
+add_proof_sheet_test("devanagari-swar-lipi", "Devanagari Code Points (NIMN) - Issue #88", items)
+
+
+BASE_CHARACTERS = (
+    list(constants.VOWEL_LETTERS)
+    + list(constants.BASE_LETTERS)
+    + constants.YAYYA_LETTERS
+    + constants.HALF_LETTERS
+    + constants.MAHAN_KOSH_LETTERS
+)
+
+items = []
+
+for letter in BASE_CHARACTERS:
+    items.append(
+        {
+            "item": f"{letter}{constants.NL['combining-macron-below']} {letter}{constants.NL['combining-vertical-line-above']}",
+            "description": "",
+        }
+    )
+
+add_proof_sheet_test("sanskrit-diacritics", "Sanskrit Diacritics - Issue #88", items)
 
 
 items = [
@@ -121,13 +185,6 @@ items = [
 ]
 add_proof_sheet_test("unsorted", "Unsorted", items)
 
-BASE_CHARACTERS = (
-    list(constants.VOWEL_LETTERS)
-    + list(constants.BASE_LETTERS)
-    + constants.YAYYA_LETTERS
-    + constants.HALF_LETTERS
-    + constants.MAHAN_KOSH_LETTERS
-)
 
 items = []
 for letter in BASE_CHARACTERS:

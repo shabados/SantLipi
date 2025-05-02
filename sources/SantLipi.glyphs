@@ -336,6 +336,9 @@ sub iiMatra-gurmukhi.null' by bindi-gurmukhi.000 iiMatra-gurmukhi;
 sub iiMatra-gurmukhi.000.null' by bindi-gurmukhi.000.alt iiMatra-gurmukhi.001.alt;
 sub iiMatra-gurmukhi.001.null' by bindi-gurmukhi.alt iiMatra-gurmukhi.001.alt;
 
+sub udatta-deva by verticallineabovecomb;
+sub anudatta-deva by macronbelowcomb;
+
 sub ga-gurmukhi macronbelowcomb' by macronbelowcomb.long;
 sub ga-gurmukhi aaMatra-gurmukhi macronbelowcomb' by macronbelowcomb.long;
 sub ma-gurmukhi verticallineabovecomb' dotaccentcomb dotaccentcomb  by verticallineabovecomb.long;
@@ -379,7 +382,9 @@ sub VS1 ma-gurmukhi by ma-gurmukhi.post;
 
 	sub ekonkar-gurmukhi' space by ekonkar-gurmukhi.alt;
 
-sub oneinferior fiveinferior by fifteeninferior;";
+sub oneinferior fiveinferior by fifteeninferior;
+
+";
 tag = rlig;
 },
 {
@@ -18184,6 +18189,34 @@ width = 677;
 }
 );
 unicode = 9676;
+},
+{
+glyphname = "udatta-deva";
+layers = (
+{
+layerId = master03;
+width = 300;
+},
+{
+layerId = master02;
+width = 300;
+}
+);
+unicode = 2385;
+},
+{
+glyphname = "anudatta-deva";
+layers = (
+{
+layerId = master03;
+width = 300;
+},
+{
+layerId = master02;
+width = 300;
+}
+);
+unicode = 2386;
 },
 {
 category = Mark;

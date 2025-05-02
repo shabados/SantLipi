@@ -46,7 +46,7 @@ Note that in Sant Lipi a Sihari (ਿ) can be added to the typical full Yayya (�
 
 The Yayya variations can be viewed in the [Sant Lipi Test Suite](https://shabados.github.io/SantLipi/qa/test/yayya.html).
 
-**Open Side**
+### Yayya Transforms
 
 VS1-4 (`U+FE00` - `U+FE03`) opens the left, top, bottom, and right sides (respectively). For example:
 
@@ -55,18 +55,14 @@ VS1-4 (`U+FE00` - `U+FE03`) opens the left, top, bottom, and right sides (respec
 - Open-Top Half Yayya, VS1 + VS2 + ਯ
 - Open-Right Sassa, VS4 + ਸ
 
-**Bihari Nasals**
+### Bihari Nasals
 
 Harfbuzz respects shaping bindi before bihari, however coretext and uniscribe do not. Coretext supports joining a bihari with ZWJ, however Harfbuzz does not. The following workaround uses VS1 and works in all major browsers on macOS and Windows. Possible issues include additional marks/vowels on consonant between the bindi and bihari. If you encounter this problem, please open a new issue in the Sant Lipi repo. These pre-bihari nasals can be viewed in the [Sant Lipi Test Suite](https://shabados.github.io/SantLipi/index.html).
 
 - Tippi before Bihari, ੀ + ੰ
 - Bindi before Bihari ੀਂ + VS1
 
-**Extra**
-
-- Subscript Gurmukhi Numerals, ₀ ₁ ₂ ...
-
-**Mahan Kosh**
+### Mahan Kosh
 
 VS5-9 (`U+FE04` - `U+FE08`) are used for special chars in Mahan Kosh. As tracked in [shabados/SantLipi#41](https://github.com/shabados/SantLipi/issues/41) ([PDF](https://user-images.githubusercontent.com/14130567/234413746-8965a06e-6eeb-4a11-9d2d-01c5213f17e2.png) and [Scan](https://user-images.githubusercontent.com/14130567/258670089-edd443ef-b28c-4a03-bc4c-21eca9d0153f.jpeg)). They may be viewed in the [Sant Lipi Test Suite](https://shabados.github.io/SantLipi/qa/test/mahan-kosh.html).
 
@@ -116,7 +112,7 @@ Notes:
 - VS4 + VS5 + ਸ renders differently than ਕ + ੍ virama + ਸ਼ would, to respect the specific glyph in Mahan Kosh.
 - VS5 + ਧ + ਼ (nukta) was used to render a S sound simply because the glyphs are similar. If this were to be used outside Mahan Kosh, then the logic can be revised.
 
-**Swar Lipi**
+### Swar Lipi
 
 Bhakthande's Swar Notation script is implemented with Combining Diacritical Marks (`U+0300` - `U+036F`). Only the short forms (single char) is officially supported. There are issues with implementing above vocal notes on ਰੇ and ਨੀ, but single char notations ਰ and ਨ work fine. This section provides a solution for some of the issues raised in [L2/13-227](https://www.unicode.org/L2/L2013/13227-gurmukhi-music.pdf), to write musical notation in gurmukhi.
 
