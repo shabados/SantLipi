@@ -1,3 +1,8 @@
+## 0.33.0
+
+- feat: add support for devanagari code points of musical notation
+- feat: line up musical notation vertically so that all font weights are same height on all chars
+
 ## 0.32.0
 
 - ws: upgrade action versions
