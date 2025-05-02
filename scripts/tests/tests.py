@@ -114,8 +114,8 @@ octave_marks_simple = [
     f"{constants.NL['combining-dot-below']}",
     f"{constants.NL['combining-diaeresis-below']}",
 ]
-for note in notes:
-    for mark in octave_marks_simple:
+for mark in octave_marks_simple:
+    for note in notes:
         items.append(
             {
                 "item": f"{note}{mark}",
