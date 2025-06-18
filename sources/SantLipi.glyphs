@@ -381,6 +381,7 @@ sub VS1 ma-gurmukhi by ma-gurmukhi.post;
 	sub dbldanda-deva' @_allcharacters by dbldanda-deva.alt.rightjoin;
 
 	sub ekonkar-gurmukhi' space by ekonkar-gurmukhi.alt;
+	sub ekonkar-gurmukhi VS1 by ekonkar_VS1-gurmukhi;
 
 sub oneinferior fiveinferior by fifteeninferior;
 ";
@@ -11131,6 +11132,80 @@ nodes = (
 }
 );
 width = 797;
+}
+);
+},
+{
+glyphname = "ekonkar_VS1-gurmukhi";
+lastChange = "2025-06-18 23:31:00 +0000";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (704,1);
+type = Stem;
+}
+);
+layerId = master02;
+shapes = (
+{
+closed = 1;
+nodes = (
+(30,704,l),
+(64,704,l),
+(244,704,o),
+(197,905,o),
+(398,905,cs),
+(509,905,o),
+(599,815,o),
+(599,704,c),
+(732,704,l),
+(732,862,o),
+(608,1012,o),
+(398,1012,cs),
+(121,1012,o),
+(149,814,o),
+(30,814,c)
+);
+}
+);
+vertWidth = 1130;
+width = 762;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (716,1);
+type = Stem;
+}
+);
+layerId = master03;
+shapes = (
+{
+closed = 1;
+nodes = (
+(71,724,l),
+(88,724,l),
+(197,724,o),
+(228,921,o),
+(402,921,cs),
+(515,921,o),
+(607,829,o),
+(607,716,c),
+(654,716,l),
+(654,861,o),
+(532,961,o),
+(402,961,cs),
+(205,961,o),
+(178,766,o),
+(71,765,c)
+);
+}
+);
+vertWidth = 814;
+width = 725;
 }
 );
 },

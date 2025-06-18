@@ -133,6 +133,14 @@ Sant Lipi allows for 3 and 4 octave changes, even though there is no apparent ne
 
 This can be done for bottom dots as well. There are no rules on the order. In the above examples 2-1 creates a pyramid pattern, but 1-2 would create an inverted pyramid above. Other options, such as 1-2-1 pattern can be used to create a diamond.
 
+### Ik Oankar as components
+
+When explaining ੴ it can be helpful to show as the following three:
+
+- ੧ (Gurmukhi Digit One)
+- ਓ (Gurmukhi Letter Oo)
+- ੴ︀ (The "kar" in Ik Oankar) = ੴ + VS1
+
 ## Quality Assurance
 
 Sant Lipi has been tested using React Native's text component on Android and iOS, Chrome and Firefox on Windows and macOS, Edge on Windows, and Safari on macOS. Sant Lipi renders correctly via multiple text shaping engines including Uniscribe, CoreText, and HarfBuzz.

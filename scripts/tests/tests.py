@@ -39,6 +39,15 @@ def dec2uni(decimal):
 
 
 items = [
+    {"item": "ੴ", "description": ""},
+    {"item": "੧", "description": ""},
+    {"item": "ਓ", "description": ""},
+    {"item": "ੴ︀", "description": "ik-oankar with VS1 u+fe00"},
+]
+add_proof_sheet_test("issue-69", "Show ੴ as three individual parts #69", items)
+
+
+items = [
     {"item": "ਘਰੁ੨॥ੴ", "description": ""},
     {"item": "ਗੁਰਪ੍ਰਸਾਦਿ॥॥ਜਪੁ॥", "description": ""},
     {"item": '"॥" "ੴ" "☬"', "description": ""},
