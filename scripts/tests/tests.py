@@ -39,6 +39,14 @@ def dec2uni(decimal):
 
 
 items = [
+    {"item": "ਘਰੁ੨॥ੴ", "description": ""},
+    {"item": "ਗੁਰਪ੍ਰਸਾਦਿ॥॥ਜਪੁ॥", "description": ""},
+    {"item": '"॥" "ੴ" "☬"', "description": ""},
+]
+add_proof_sheet_test("issue-82", "fix danda + ik oankar #82", items)
+
+
+items = [
     {"item": "ਰਿੱਧਿ ਸਿੱਧਿ", "description": ""},
     {"item": "ਸੱਚਿਆਰ", "description": ""},
 ]
@@ -56,7 +64,6 @@ for mark in marks:
             "description": "",
         }
     )
-
 add_proof_sheet_test("issue-85", "Fix addhak + following char's sihari #85", items)
 
 octave_marks = [
