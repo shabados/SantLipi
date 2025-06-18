@@ -48,7 +48,7 @@ NL = {
     "kanaura": "ੌ",
     "tippi": "ੰ",
     "bindi": "ਂ",
-    "addak": "ੱ",
+    "addhak": "ੱ",
     "visarga": "ਃ",
     "halant": "੍",
     "udaat": "ੑ",

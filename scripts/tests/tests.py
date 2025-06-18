@@ -38,6 +38,27 @@ def dec2uni(decimal):
     return f"{format(ord(chr(decimal)), '04x')}"
 
 
+items = [
+    {"item": "ਰਿੱਧਿ ਸਿੱਧਿ", "description": ""},
+    {"item": "ਸੱਚਿਆਰ", "description": ""},
+]
+marks = [
+    f"{constants.NL['sihari']}",
+    f"{constants.NL['lava']}",
+    f"{constants.NL['dulava']}",
+    f"{constants.NL['hora']}",
+    f"{constants.NL['kanaura']}",
+]
+for mark in marks:
+    items.append(
+        {
+            "item": f"{constants.NL['s']}{constants.NL['addhak']}{constants.NL['s']}{mark}",
+            "description": "",
+        }
+    )
+
+add_proof_sheet_test("issue-85", "Fix addhak + following char's sihari #85", items)
+
 octave_marks = [
     "",
     f"{constants.NL['combining-dot-above']}",

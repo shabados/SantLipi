@@ -383,7 +383,6 @@ sub VS1 ma-gurmukhi by ma-gurmukhi.post;
 	sub ekonkar-gurmukhi' space by ekonkar-gurmukhi.alt;
 
 sub oneinferior fiveinferior by fifteeninferior;
-
 ";
 tag = rlig;
 },
@@ -391,6 +390,7 @@ tag = rlig;
 code = "  sub iMatra-gurmukhi' [na-gurmukhi nna-gurmukhi ttha-gurmukhi] by iMatra-gurmukhi.001;
   sub iMatra-gurmukhi' nga-gurmukhi by iMatra-gurmukhi.002;
 
+sub addak-gurmukhi' iMatra-gurmukhi by addak-gurmukhi.alt;
 ";
 tag = pres;
 },
@@ -2280,7 +2280,7 @@ shapes = (
 ref = "iiMatra-gurmukhi";
 },
 {
-pos = (620,-78);
+pos = (392,-78);
 ref = "addak-gurmukhi.alt";
 }
 );
@@ -2293,7 +2293,7 @@ shapes = (
 ref = "iiMatra-gurmukhi";
 },
 {
-pos = (479,17);
+pos = (262,17);
 ref = "addak-gurmukhi.alt";
 }
 );
@@ -18738,13 +18738,13 @@ unicode = 2561;
 },
 {
 glyphname = "addakBindi-gurmukhi.alt";
-lastChange = "2025-02-09 15:52:59 +0000";
+lastChange = "2025-06-18 22:16:51 +0000";
 layers = (
 {
 anchors = (
 {
 name = _gem;
-pos = (-289,675);
+pos = (-61,675);
 }
 );
 layerId = master02;
@@ -18753,7 +18753,7 @@ shapes = (
 ref = "addak-gurmukhi.alt";
 },
 {
-pos = (-195,379);
+pos = (33,379);
 ref = "bindi-gurmukhi.alt";
 scale = (0.6,0.6);
 }
@@ -18765,7 +18765,7 @@ width = 0;
 anchors = (
 {
 name = _gem;
-pos = (-287,662);
+pos = (-70,662);
 }
 );
 layerId = master03;
@@ -18774,7 +18774,7 @@ shapes = (
 ref = "addak-gurmukhi.alt";
 },
 {
-pos = (-159,59);
+pos = (58,59);
 ref = "bindi-gurmukhi.alt";
 }
 );
@@ -20615,13 +20615,13 @@ unicode = 2673;
 },
 {
 glyphname = "addak-gurmukhi.alt";
-lastChange = "2025-02-09 15:53:17 +0000";
+lastChange = "2025-06-18 21:47:28 +0000";
 layers = (
 {
 anchors = (
 {
 name = _gem;
-pos = (-289,675);
+pos = (-61,675);
 }
 );
 layerId = master02;
@@ -20629,22 +20629,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-194,675,o),
-(-142,731,o),
-(-142,809,cs),
-(-142,822,l),
-(-228,826,l),
-(-228,779,o),
-(-248,751,o),
-(-290,751,cs),
-(-329,751,o),
-(-351,777,o),
-(-351,826,c),
-(-438,822,l),
-(-438,811,ls),
-(-438,730,o),
-(-384,675,o),
-(-289,675,cs)
+(34,675,o),
+(86,731,o),
+(86,809,cs),
+(86,822,l),
+(0,826,l),
+(0,779,o),
+(-20,751,o),
+(-62,751,cs),
+(-101,751,o),
+(-123,777,o),
+(-123,826,c),
+(-210,822,l),
+(-210,811,ls),
+(-210,730,o),
+(-156,675,o),
+(-61,675,cs)
 );
 }
 );
@@ -20655,7 +20655,7 @@ width = 0;
 anchors = (
 {
 name = _gem;
-pos = (-287,662);
+pos = (-70,662);
 }
 );
 layerId = master03;
@@ -20663,22 +20663,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-219,662,o),
-(-179,697,o),
-(-179,755,cs),
-(-179,763,l),
-(-218,766,l),
-(-219,722,o),
-(-244,697,o),
-(-284,697,cs),
-(-320,697,o),
-(-346,718,o),
-(-348,766,c),
-(-387,763,l),
-(-387,755,ls),
-(-387,699,o),
-(-348,662,o),
-(-287,662,cs)
+(-2,662,o),
+(38,697,o),
+(38,755,cs),
+(38,763,l),
+(-1,766,l),
+(-2,722,o),
+(-27,697,o),
+(-67,697,cs),
+(-103,697,o),
+(-129,718,o),
+(-131,766,c),
+(-170,763,l),
+(-170,755,ls),
+(-170,699,o),
+(-131,662,o),
+(-70,662,cs)
 );
 }
 );
