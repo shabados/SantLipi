@@ -450,7 +450,7 @@ tag = abvs;
 {
 code = "
 sub iiMatra-gurmukhi tippi-gurmukhi by iiMatra_tippi-gurmukhi;
-
+sub ii-gurmukhi tippi-gurmukhi by ii_tippi-gurmukhi;
 
 sub [na-gurmukhi nna-gurmukhi ttha-gurmukhi] iiMatra-gurmukhi' by iiMatra-gurmukhi.001;
 ";
@@ -11019,6 +11019,120 @@ width = 585;
 }
 );
 subCategory = "";
+},
+{
+glyphname = "ii_tippi-gurmukhi";
+lastChange = "2025-06-18 22:00:13 +0000";
+layers = (
+{
+anchors = (
+{
+name = gem;
+pos = (945,680);
+},
+{
+name = nasal;
+pos = (901,732);
+}
+);
+layerId = master02;
+shapes = (
+{
+ref = "iri-gurmukhi";
+},
+{
+pos = (586,0);
+ref = "iiMatra-gurmukhi";
+},
+{
+closed = 1;
+nodes = (
+(254,672,l),
+(247,687,o),
+(241,704,o),
+(241,720,cs),
+(241,754,o),
+(262,775,o),
+(292,775,cs),
+(323,775,o),
+(343,755,o),
+(343,720,cs),
+(343,704,o),
+(337,687,o),
+(330,672,c),
+(436,672,l),
+(447,688,o),
+(454,708,o),
+(454,731,cs),
+(454,811,o),
+(378,864,o),
+(292,864,cs),
+(209,864,o),
+(131,820,o),
+(131,731,cs),
+(131,689,o),
+(155,660,o),
+(175,645,c)
+);
+}
+);
+width = 849;
+},
+{
+anchors = (
+{
+name = gem;
+pos = (835,680);
+},
+{
+name = nasal;
+pos = (816,728);
+}
+);
+layerId = master03;
+shapes = (
+{
+ref = "iri-gurmukhi";
+},
+{
+pos = (554,0);
+ref = "iiMatra-gurmukhi";
+},
+{
+closed = 1;
+nodes = (
+(236,680,l),
+(229,691,o),
+(222,707,o),
+(222,725,cs),
+(222,768,o),
+(249,790,o),
+(282,790,cs),
+(313,790,o),
+(342,768,o),
+(342,725,cs),
+(342,704,o),
+(335,692,o),
+(328,680,c),
+(368,680,l),
+(375,692,o),
+(381,708,o),
+(381,728,cs),
+(381,786,o),
+(337,825,o),
+(282,825,cs),
+(228,825,o),
+(183,789,o),
+(183,729,cs),
+(183,694,o),
+(200,673,o),
+(207,666,c)
+);
+}
+);
+width = 797;
+}
+);
 },
 {
 glyphname = "la_yakash_iMatra_ooMatra-gurmukhi.rlig";
