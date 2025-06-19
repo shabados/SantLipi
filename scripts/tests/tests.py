@@ -39,6 +39,25 @@ def dec2uni(decimal):
 
 
 items = [
+    {"item": f"{constants.NL['g']}{constants.NL['lava']}", "description": ""},
+    {"item": f"{constants.NL['g']}{constants.NL['dulava']}", "description": ""},
+    {"item": f"{constants.NL['g']}{constants.NL['hora']}", "description": ""},
+    {"item": f"{constants.NL['g']}{constants.NL['kanaura']}", "description": ""},
+    {"item": f"{constants.NL['gh']}{constants.NL['lava']}", "description": ""},
+    {"item": f"{constants.NL['gh']}{constants.NL['dulava']}", "description": ""},
+    {"item": f"{constants.NL['gh']}{constants.NL['hora']}", "description": ""},
+    {"item": f"{constants.NL['gh']}{constants.NL['kanaura']}", "description": ""},
+    {"item": f"{constants.NL['y']}{constants.NL['lava']}", "description": ""},
+    {"item": f"{constants.NL['y']}{constants.NL['dulava']}", "description": ""},
+    {"item": f"{constants.NL['y']}{constants.NL['hora']}", "description": ""},
+    {"item": f"{constants.NL['y']}{constants.NL['kanaura']}", "description": ""},
+    {"item": "ਐ", "description": ""},
+    {"item": "ਔ", "description": ""},
+]
+add_proof_sheet_test("issue-84", "Lengthen double e vowel for letters like g #84", items)
+
+
+items = [
     {"item": "ੴ", "description": ""},
     {"item": "੧", "description": ""},
     {"item": "ਓ", "description": ""},
