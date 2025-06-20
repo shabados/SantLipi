@@ -1,3 +1,13 @@
+## 0.34.0
+
+- feat: differentiate laav and hora better
+- feat: fix addhak before sihari ligature
+- feat: fix tippi not preceding bihari of iri
+- feat: fix danda + ik oankar
+- feat: add kar component for ik oankar
+- feat: lengthen top vowels on wider characters
+- feat: update numeral styles of both digits and inferiors
+
 ## 0.33.0
 
 - feat: add support for devanagari code points of musical notation
