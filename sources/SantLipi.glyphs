@@ -424,7 +424,7 @@ lookup lookup4 {
   sub nga-gurmukhi [eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi]' by [eeMatra-gurmukhi.alt.001 aiMatra-gurmukhi.alt.001 ooMatra-gurmukhi.alt.001 auMatra-gurmukhi.alt.001];
   #sub [na-gurmukhi ttha-gurmukhi] [eeMatra_bindi-gurmukhi aiMatra_bindi-gurmukhi ooMatra_bindi-gurmukhi auMatra_bindi-gurmukhi eeMatra_addak-gurmukhi aiMatra_addak-gurmukhi ooMatra_addak-gurmukhi auMatra_addak-gurmukhi eeMatra_addakBindi-gurmukhi aiMatra_addakBindi-gurmukhi ooMatra_addakBindi-gurmukhi auMatra_addakBindi-gurmukhi]' by [eeMatra_bindi-gurmukhi.alt aiMatra_bindi-gurmukhi.alt ooMatra_bindi-gurmukhi.alt auMatra_bindi-gurmukhi.alt eeMatra_addak-gurmukhi.alt aiMatra_addak-gurmukhi.alt ooMatra_addak-gurmukhi.alt auMatra_addak-gurmukhi.alt eeMatra_addakBindi-gurmukhi.alt aiMatra_addakBindi-gurmukhi.alt ooMatra_addakBindi-gurmukhi.alt auMatra_addakBindi-gurmukhi.alt];
   sub [ii-gurmukhi u-gurmukhi uu-gurmukhi ee-gurmukhi ai-gurmukhi oo-gurmukhi au-gurmukhi iiMatra-gurmukhi ura-gurmukhi auMatra-gurmukhi ooMatra-gurmukhi] [bindi-gurmukhi addak-gurmukhi addakBindi-gurmukhi]' by [bindi-gurmukhi.alt addak-gurmukhi.alt addakBindi-gurmukhi.alt];
-  sub [ga-gurmukhi gha-gurmukhi ya-gurmukhi] [eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi]' by [eeMatra-gurmukhi.002 aiMatra-gurmukhi.002 ooMatra-gurmukhi.002 auMatra-gurmukhi.002];
+  sub [ga-gurmukhi ghha-gurmukhi gha-gurmukhi ya-gurmukhi] [eeMatra-gurmukhi aiMatra-gurmukhi ooMatra-gurmukhi auMatra-gurmukhi]' by [eeMatra-gurmukhi.002 aiMatra-gurmukhi.002 ooMatra-gurmukhi.002 auMatra-gurmukhi.002];
 
 } lookup4;
 
@@ -462,12 +462,12 @@ tag = psts;
 {
 code = "script guru;
 lookup lookup1 {
-    #sub kha-gurmukhi nukta-gurmukhi by khha-gurmukhi;
-    #sub ga-gurmukhi nukta-gurmukhi by ghha-gurmukhi;
-    #sub sa-gurmukhi nukta-gurmukhi by sha-gurmukhi;
-    #sub la-gurmukhi nukta-gurmukhi by lla-gurmukhi;
-    #sub ja-gurmukhi nukta-gurmukhi by za-gurmukhi;
-    #sub pha-gurmukhi nukta-gurmukhi by fa-gurmukhi;
+    sub kha-gurmukhi nukta-gurmukhi by khha-gurmukhi;
+    sub ga-gurmukhi nukta-gurmukhi by ghha-gurmukhi;
+    sub sa-gurmukhi nukta-gurmukhi by sha-gurmukhi;
+    sub la-gurmukhi nukta-gurmukhi by lla-gurmukhi;
+    sub ja-gurmukhi nukta-gurmukhi by za-gurmukhi;
+    sub pha-gurmukhi nukta-gurmukhi by fa-gurmukhi;
     #sub dda-gurmukhi nukta-gurmukhi by rra-gurmukhi;
 } lookup1;
 
@@ -19208,7 +19208,7 @@ unicode = 2626;
 },
 {
 glyphname = "eeMatra-gurmukhi";
-lastChange = "2025-06-16 23:51:35 +0000";
+lastChange = "2025-07-05 23:36:05 +0000";
 layers = (
 {
 anchors = (
@@ -19227,12 +19227,14 @@ shapes = (
 closed = 1;
 nodes = (
 (-62,578,l),
-(-62,718,o),
-(-144,823,o),
-(-393,823,c),
-(-393,710,l),
-(-251,710,o),
-(-195,658,o),
+(-62,692,o),
+(-139,817,o),
+(-338,817,c),
+(-393,817,l),
+(-393,704,l),
+(-338,704,l),
+(-234,704,o),
+(-195,630,o),
 (-195,578,c)
 );
 }
@@ -19257,12 +19259,14 @@ shapes = (
 closed = 1;
 nodes = (
 (-98,571,l),
-(-98,711,o),
-(-187,831,o),
-(-436,831,c),
-(-436,793,l),
-(-232,793,o),
-(-145,686,o),
+(-98,685,o),
+(-170,817,o),
+(-319,816,c),
+(-436,816,l),
+(-436,778,l),
+(-319,778,l),
+(-200,778,o),
+(-145,667,o),
 (-145,571,c)
 );
 }
@@ -19275,7 +19279,7 @@ unicode = 2631;
 },
 {
 glyphname = "eeMatra-gurmukhi.002";
-lastChange = "2025-06-19 00:16:42 +0000";
+lastChange = "2025-07-05 19:29:40 +0000";
 layers = (
 {
 anchors = (
@@ -19294,12 +19298,14 @@ shapes = (
 closed = 1;
 nodes = (
 (-62,578,l),
-(-62,718,o),
-(-144,823,o),
-(-476,823,c),
-(-476,710,l),
-(-251,710,o),
-(-195,658,o),
+(-62,716,o),
+(-142,815,o),
+(-366,817,c),
+(-476,817,l),
+(-476,704,l),
+(-366,704,l),
+(-250,702,o),
+(-195,657,o),
 (-195,578,c)
 );
 }
@@ -19324,12 +19330,14 @@ shapes = (
 closed = 1;
 nodes = (
 (-98,571,l),
-(-98,711,o),
-(-187,830,o),
-(-520,831,c),
-(-520,793,l),
-(-232,792,o),
-(-145,686,o),
+(-98,710,o),
+(-186,813,o),
+(-374,816,c),
+(-520,816,l),
+(-520,778,l),
+(-374,778,l),
+(-224,775,o),
+(-145,685,o),
 (-145,571,c)
 );
 }
@@ -19341,7 +19349,7 @@ width = 0;
 },
 {
 glyphname = "eeMatra-gurmukhi.alt";
-lastChange = "2025-02-11 05:33:37 +0000";
+lastChange = "2025-07-05 23:30:00 +0000";
 layers = (
 {
 anchors = (
@@ -19360,12 +19368,14 @@ shapes = (
 closed = 1;
 nodes = (
 (-232,578,l),
-(-232,757,o),
-(-371,826,o),
-(-511,826,c),
-(-511,713,l),
-(-423,713,o),
-(-365,666,o),
+(-232,716,o),
+(-345,817,o),
+(-465,817,c),
+(-511,817,l),
+(-511,704,l),
+(-465,704,l),
+(-407,704,o),
+(-365,640,o),
 (-365,578,c)
 );
 }
@@ -19390,12 +19400,14 @@ shapes = (
 closed = 1;
 nodes = (
 (-259,571,l),
-(-259,672,o),
-(-352,799,o),
-(-480,799,c),
+(-259,669,o),
+(-313,799,o),
+(-441,799,c),
+(-480,799,l),
 (-480,761,l),
-(-390,761,o),
-(-306,661,o),
+(-441,761,l),
+(-351,761,o),
+(-306,657,o),
 (-306,571,c)
 );
 }
@@ -19465,7 +19477,7 @@ width = 0;
 },
 {
 glyphname = "aiMatra-gurmukhi";
-lastChange = "2025-04-24 12:38:56 +0000";
+lastChange = "2025-07-05 23:20:58 +0000";
 layers = (
 {
 anchors = (
@@ -19484,19 +19496,23 @@ shapes = (
 closed = 1;
 nodes = (
 (-62,577,l),
-(-62,857,o),
-(-244,909,o),
-(-384,909,c),
-(-384,807,l),
-(-245,807,o),
-(-185,728,o),
+(-62,848,o),
+(-204,909,o),
+(-342,909,c),
+(-384,909,l),
+(-384,802,l),
+(-342,802,l),
+(-215,800,o),
+(-185,727,o),
 (-185,700,c),
 (-185,700,o),
-(-244,751,o),
-(-384,751,c),
-(-384,649,l),
-(-307,649,o),
-(-195,628,o),
+(-215,746,o),
+(-342,746,c),
+(-384,746,l),
+(-384,639,l),
+(-342,639,l),
+(-267,639,o),
+(-195,624,o),
 (-195,577,c)
 );
 }
@@ -19521,19 +19537,23 @@ shapes = (
 closed = 1;
 nodes = (
 (-98,577,l),
-(-98,777,o),
-(-271,869,o),
-(-411,869,c),
+(-98,772,o),
+(-225,868,o),
+(-353,869,c),
+(-411,869,l),
 (-411,831,l),
-(-271,831,o),
-(-151,720,o),
+(-353,831,l),
+(-228,829,o),
+(-151,718,o),
 (-151,660,c),
 (-151,660,o),
-(-279,735,o),
-(-411,735,c),
+(-236,734,o),
+(-353,735,c),
+(-411,735,l),
 (-411,697,l),
-(-291,697,o),
-(-145,641,o),
+(-353,697,l),
+(-259,697,o),
+(-145,639,o),
 (-145,577,c)
 );
 }
@@ -19546,7 +19566,7 @@ unicode = 2632;
 },
 {
 glyphname = "aiMatra-gurmukhi.002";
-lastChange = "2025-06-19 00:21:07 +0000";
+lastChange = "2025-07-05 19:25:36 +0000";
 layers = (
 {
 anchors = (
@@ -19565,19 +19585,23 @@ shapes = (
 closed = 1;
 nodes = (
 (-62,577,l),
-(-62,857,o),
-(-244,909,o),
-(-464,909,c),
+(-62,850,o),
+(-242,909,o),
+(-360,909,cs),
+(-464,909,l),
 (-464,807,l),
-(-245,807,o),
-(-185,728,o),
+(-360,807,ls),
+(-251,807,o),
+(-185,727,o),
 (-185,700,c),
 (-185,700,o),
-(-244,751,o),
-(-464,751,c),
+(-251,751,o),
+(-360,751,cs),
+(-464,751,l),
 (-464,649,l),
-(-307,649,o),
-(-195,628,o),
+(-360,649,ls),
+(-309,649,o),
+(-195,626,o),
 (-195,577,c)
 );
 }
@@ -19602,19 +19626,23 @@ shapes = (
 closed = 1;
 nodes = (
 (-98,577,l),
-(-98,777,o),
-(-271,869,o),
-(-489,869,c),
+(-98,773,o),
+(-212,869,o),
+(-365,869,cs),
+(-489,869,l),
 (-489,831,l),
-(-271,831,o),
-(-151,720,o),
-(-151,660,c),
-(-151,660,o),
-(-279,735,o),
-(-489,735,c),
+(-365,831,ls),
+(-204,831,o),
+(-147,697,o),
+(-147,659,c),
+(-147,659,o),
+(-221,735,o),
+(-365,735,cs),
+(-489,735,l),
 (-489,697,l),
-(-291,697,o),
-(-145,641,o),
+(-365,697,ls),
+(-233,697,o),
+(-145,639,o),
 (-145,577,c)
 );
 }
@@ -19845,7 +19873,7 @@ unicode = 2635;
 },
 {
 glyphname = "ooMatra-gurmukhi.002";
-lastChange = "2025-06-19 00:21:49 +0000";
+lastChange = "2025-07-05 23:46:24 +0000";
 layers = (
 {
 anchors = (
