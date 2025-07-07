@@ -23646,7 +23646,7 @@ value = "https://github.com/shabados/SantLipi";
 },
 {
 key = versionString;
-value = "Version 0.034";
+value = "Version 0.035";
 }
 );
 settings = {
@@ -23669,5 +23669,5 @@ master02 = {
 };
 };
 versionMajor = 0;
-versionMinor = 34;
+versionMinor = 35;
 }

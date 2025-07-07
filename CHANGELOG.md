@@ -1,3 +1,10 @@
+## 0.35.0
+
+- feat: fix issues with ee and ai matra above vowels
+- feat: add horizontal bar to hora/kanaura extended versions
+- feat: combine two sides of g with curve
+- feat: finalize k as pure vertical stem
+
 ## 0.34.0
 
 - feat: differentiate laav and hora better
