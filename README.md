@@ -115,7 +115,7 @@ Notes:
 - Half-S in Devanagari is formed using a ZWJ, the same can be done in Sant Lipi as ਸ + ੍ virama + ZWJ.
 - VS4 + VS5 + ਸ renders differently than ਕ + ੍ virama + ਸ਼ would, to respect the specific glyph in Mahan Kosh.
 - VS5 + ਧ + ਼ (nukta) was used to render a S sound simply because the glyphs are similar. If this were to be used outside Mahan Kosh, then the logic can be revised.
-- Unbroken (larivaar) text should be rendered with a ZWNJ (Zero Width Non Joiner, `U+200B`) that procedes all ligature combinations in order to prevent the following characters from being unintentionally formatted.
+- Unbroken (larivaar) text should be rendered with a ZWNJ (Zero Width Non Joiner, `U+200B`) after the ligature combinations in order to prevent the proceeding characters from being unintentionally formatted.
 
 ## Quality Assurance
 
