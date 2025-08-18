@@ -1,0 +1,12 @@
+*.DS_Store
+instance_*
+master_*
+variable_ttf*
+*__pycache__*
+scripts/qa/html/*.html
+build/*
+!build/qa
+build/qa/test*
+dist
+.venv
+.direnv
