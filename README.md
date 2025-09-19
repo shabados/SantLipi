@@ -39,6 +39,11 @@ An experimental font to see how far traditional gurmukhi can be expressed in mod
   - Low-point of double-u matra vs High-point of ik-oankar.
   - Low-point of pair-rara with double-u matra vs High-point of all upper vowel mark attachments with bindi / tippi / addak.
 
+## Experiments
+
+- Smaller-width chars with sihari/bihari attached such that the compound fits closer to non-attached char space, which might make each "segment" of a word more visible. (It also solves a monospace issue, as you cannot have these vowel characters unattached).
+- Remove headline inside the sihari/bihari to make it more of a seamless add-on to the character it's attached to.
+
 ### Categories
 
 **Subjoiner Shape**
@@ -98,12 +103,18 @@ A great number of gurmukhi glyphs can be approximately represented by the latin 
 
 Gurmukhi glyphs based on Latin glyph 3 or B:
 
-- ਤ
+- 3
+- ਤ = Convert upper counter intersecting with headline into a vertical stem.
 - ਡ = Close bottom counter spirally inwards.
 - ਭ = Add an oval counter between two open counters.
-- ਬ
-- ੳ
-- ੲ
+- ਕ = Convert bottom counter into an extended vertical bar on righthand side.
+
+- ਤ
+- ੳ = Add vertical bar on lefthand side. Add a closed counter above headline.
+- ੲ = Flip horizontally, add vertical bar to close upper counter, open bottom counter with a horizontal termination.
+
+- B
+- ਬ = Flip horizontally, change connections at headline into vertical stems.
 
 ---
 
@@ -137,3 +148,13 @@ Unique shapes:
 - ਅ = 3 Vertical Stems of H with a bottom quarter curve of a U joining initial bars and Horizontal Stem of H joining final bars.
 - ਵ = ε = Add headline and connect with vertical stem.
 - ਞ = ਵ = Replace vertical stem with bottom u curve.
+
+## Shared Components / Similar Metrics
+
+- H-Based: ਸ, ਮ, ਜ
+- U-Based: ਪ, ਧ, ਖ, ਥ, ਨ, ਹ, ਚ
+- CO-Based: ਟ, ਠ, ਣ, ਰ, ਢ, ਫ
+- B3-Based: ਤ, ੜ, ਭ, ਵ, ੲ, ੳ, ਕ, ਦ
+- Wide: ਅ
+- Wider: ਗ, ਘ, ਯ, ਲ
+- HU-Vertically-Stacked:
