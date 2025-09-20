@@ -43,6 +43,7 @@ An experimental font to see how far traditional gurmukhi can be expressed in mod
 
 - Smaller-width chars with sihari/bihari attached such that the compound fits closer to non-attached char space, which might make each "segment" of a word more visible. (It also solves a monospace issue, as you cannot have these vowel characters unattached).
 - Remove headline inside the sihari/bihari to make it more of a seamless add-on to the character it's attached to.
+- Narrow above-vowels has generally worked well for mid-stem. However for ਙ,the single left-stem char, try reverse above-vowels.
 
 ### Categories
 
