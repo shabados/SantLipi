@@ -24,7 +24,7 @@ An experimental font to see how far traditional gurmukhi can be expressed in mod
 - Modern take on Gurmukhi glyphs. Historically written serif fonts migrated to straighter lines/simple curves to better render onscreen, so will this font align more with digital fonts today.
   - Strong focus on horizontal/vertical lines. Changing direction should be done with curves terminating/joining in horizontal/vertical directions. Avoid / remove all diagonal lines (often found in other gurmukhi fonts for ਅ, ਕ, ਣ, ੲ).
   - Removing traces of calligraphy from using italic nibs (no finials).
-  - Replacing curved ball joints (such as on ਦ and ਚ, in the middle of ਅ and ਘ, and at the bottom of ੨).
+  - Replacing curved ball joints (such as on ਦ and ਚ, in the middle of ਅ and ਘ, and at the bottom-left of ੨).
   - Replacing left-hand stylistic curves for straight lines (such as left hand side of ਸ and ਪ).
   - Proper half-form glyphs (such as ੍ਯ) that connect with preceding character.
 - Try to make main vertical stem of glyph be vertically connected to headline (no angled joins)
@@ -38,6 +38,7 @@ An experimental font to see how far traditional gurmukhi can be expressed in mod
 - At font-weight 400, should fit the following at a line height of 1.35:
   - Low-point of double-u matra vs High-point of ik-oankar.
   - Low-point of pair-rara with double-u matra vs High-point of all upper vowel mark attachments with bindi / tippi / addak.
+- All nuktas should be placed with their center at "baseline" metric.
 
 ## Experiments
 
@@ -107,7 +108,7 @@ Gurmukhi glyphs based on Latin glyph 3 or B:
 - 3
 - ਤ = Convert upper counter intersecting with headline into a vertical stem.
 - ਡ = Close bottom counter spirally inwards.
-- ਭ = Add an oval counter between two open counters.
+- ਭ = Add an oval counter between two open counters. (Used part of ampersand as example for oval counter).
 - ਕ = Convert bottom counter into an extended vertical bar on righthand side.
 
 - ਤ
@@ -139,16 +140,18 @@ Gurmukhi glyphs based on Latin glyph 3 or B:
 
 ---
 
-- o
-- ਛ = Add headline, vertical
+- s
+- ਛ = Terminate top-right as horizontal and add vertical stem. Close bottom counter and slash with vertical stem.
+
+- s (or ε ?)
+- ਵ = Join two rotated U shapes using the same metrics for the top, middle, and bottom sections of "s".
+- ਞ = ਵ = Replace vertical stem with bottom u curve.
 
 ---
 
 Unique shapes:
 
 - ਅ = 3 Vertical Stems of H with a bottom quarter curve of a U joining initial bars and Horizontal Stem of H joining final bars.
-- ਵ = ε = Add headline and connect with vertical stem.
-- ਞ = ਵ = Replace vertical stem with bottom u curve.
 
 ## Shared Components / Similar Metrics
 
