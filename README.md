@@ -157,8 +157,78 @@ Unique shapes:
 
 - H-Based: ਸ, ਮ, ਜ
 - U-Based: ਪ, ਧ, ਖ, ਥ, ਨ, ਹ, ਚ
+
 - CO-Based: ਟ, ਠ, ਣ, ਰ, ਢ, ਫ
 - B3-Based: ਤ, ੜ, ਭ, ਵ, ੲ, ੳ, ਕ, ਦ
 - Wide: ਅ
-- Wider: ਗ, ਘ, ਯ, ਲ
+- Wider: ਗ, ਘ, ਯ,
 - HU-Vertically-Stacked:
+
+## Version 2 Process
+
+### hun-based (11)
+
+Two main styles ਪ and ਹ are based on lowercase "u" or "n"
+
+- ਪ is metrically and shaped off lowercase "u"
+- ਹ is the left portion of "u" mirrored
+- Now have components to create ਪ, ਧ, ਖ, ਥ and also ਹ, ਚ, ਨ, ਲ
+- These 7 chars all share the same metrics (e.g. 1138 width)
+
+In Roboto Flex, h and n have same metrics width wise
+
+- ਮ is metrically the same width as lowercase "h"
+- Now have components to create ਸ, ਮ, ਜ
+
+### B3-based (7)
+
+An issue with 3 is for characters like ਤ, ੜ, ਭ, and ਦ which need to have an open/free terminal. The vertically ending terminal of the bottom counter creates issues with characters like ਦ, which ends up having very little to differentiate from ਚ. Characters like "e" and "g" often have open/free terminal angles.
+
+Another issue is for differentiating ਦ and ੲ. It is important to use a horizontally-mirrored ਤ for ੲ for clarity. Cannot go too modern and make left-hand of ੲ a simple vertical stroke.
+
+Use these bases for ਢ as well
+
+### co-based (3)
+
+- Use c for ਟ
+- ਟ for ਣ with a curve at the intersection instead (using left-half of lowercase u)
+- ਟ for ਫ and then ਙ as well
+
+- Use o for ਠ
+
+### m-based (1)
+
+- Mirror both vertically and horizontally, then add vertical stems
+- ਘ (e.g. 1764 width)
+
+### special cases
+
+- Use metrics of lowercase w for ਯ, but then use ਹ and horizontal/vertical stems to assemble.
+- Use metrics of uppercase N for ਅ (sometimes looks better to use metrics of ਗ)
+
+### Vowels
+
+- Use À for laav
+- Use metrics of Ã for hora
+- Use ° (degree symbol) for tippi
+- Use height of Ă and size of ă for addhak
+- Use the bottom counter of "g" for aunkar (mirrored for symmetry)
+- Use "engtail" found on Ŋ and ŋ for yakash
+- Use ̛ combining horn U+031B found on Ơ ơ Ư ư for udaat and part of pair-haha
+- Use modified size/angles of combining horn and À for pair-rara
+- Use ˙ for nukta, bindi, period, etc.
+
+### Numerals
+
+Numerals should match metrically in width with each other (for tabular design in spreadsheets)
+
+- Use 0 for ੦
+- Use 9 for ੧
+- Use R for ੨
+- Use 3 for ੩
+- Use 8 (open top counter into two vertical stems) for ੪
+- Modified ਪ for ੫
+- Reverse 3 and add numerical hook (U+031B rotate 180 degrees and left-extended) for ੬
+- Bottom of e/g (used for B3-based characters like ਤ and ਦ) with angled line matching angle (but not terminating position) of 7 for ੭
+- Add a horizontal stem to either bottom path of 3 component or mirrored-J for ੮
+- Add numerical hook to ੮ for ੯
