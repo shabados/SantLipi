@@ -1,3 +1,10 @@
+# Development has moved to [shabados/shabados](https://github.com/shabados/shabados)
+
+This repo has been archived in favor of the above monorepo.
+
+<details>
+<summary>Archived README</summary>
+
 # Sant Lipi
 
 A [unicode](<https://en.wikipedia.org/wiki/Gurmukhi_(Unicode_block)>) font for extraordinary [Gurmukhi](https://en.wikipedia.org/wiki/Gurmukhi).
@@ -206,3 +213,5 @@ Currently, the approach taken by Sant Lipi is to use markup to indicate Yayya va
 The `ltra` is for making the earliest substitutions possible. This replaces the Virama ੍ (subjoined letter combiner) before text shaping engines look at it. Notably, this is what allows vowels and marks on both the Half Yayya and the letter preceding it (aside from Sihari on Yayya variants).
 
 After this step, ligatures are used to render combos of Yayyas as if they were different variations.
+
+</details>
